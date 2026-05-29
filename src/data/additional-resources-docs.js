@@ -64,14 +64,14 @@ const appsSuiteContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN PLATINUM SOLUTION PARTNER")}
   <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">Clovity Apps Suite Overview</h1>
-  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">5 consolidated Atlassian apps that replace 15–25 fragmented plugins — migration-ready, AGC-aligned, and built for regulated environments.</p>
+  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">5 consolidated Atlassian apps that replace 15–25 fragmented plugins - migration-ready, AGC-aligned, and built for regulated environments.</p>
 </div>
 
-${sectionHeader("The Consolidation Opportunity", "Every DC-to-Cloud migration is a chance to stop app sprawl. Replace categories — not just plugins.")}
+${sectionHeader("The Consolidation Opportunity", "Every DC-to-Cloud migration is a chance to stop app sprawl. Replace categories - not just plugins.")}
 
 ${compareTable(
   "Traditional DC Stack (14+ Apps)",
-  ["Time Tracking — 4 apps","Capacity Planning — 2 apps","Roadmapping / Gantt — 3 apps","Reporting — 3–5 apps","Formatting &amp; Navigation — 4 apps"],
+  ["Time Tracking - 4 apps","Capacity Planning - 2 apps","Roadmapping / Gantt - 3 apps","Reporting - 3–5 apps","Formatting &amp; Navigation - 4 apps"],
   "Consolidated Suite (5 Apps)",
   ["Jira Time, Capacity &amp; PPM Suite","Jira Custom Charts &amp; Dashboards","Confluence Formatting &amp; Visibility Suite","Confluence Custom Reporting","LaTeX + UML for Confluence"]
 )}
@@ -163,7 +163,7 @@ const agcBrochureContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN GOVERNMENT CLOUD")}
   <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">AGC Apps Brochure</h1>
-  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">Purpose-built for Atlassian Government Cloud — governance-aligned, compliance-aware, and public-sector proven.</p>
+  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">Purpose-built for Atlassian Government Cloud - governance-aligned, compliance-aware, and public-sector proven.</p>
   <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px;">
     <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">Federal Agencies</span>
     <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">State &amp; Local Gov't</span>
@@ -173,7 +173,7 @@ const agcBrochureContent = `
 </div>
 
 ${sectionHeader("What is Atlassian Government Cloud?")}
-<p style="font-size:13px;color:#4b5563;margin:0 0 20px;line-height:1.75;">Atlassian Government Cloud (AGC) is Atlassian's dedicated offering for US government and regulated-industry customers. It operates on FedRAMP-authorized infrastructure with US-only data residency, FISMA-aligned controls, and IL-4/IL-5 data handling — giving agencies a compliant path to modern tooling without sacrificing security posture.</p>
+<p style="font-size:13px;color:#4b5563;margin:0 0 20px;line-height:1.75;">Atlassian Government Cloud (AGC) is Atlassian's dedicated offering for US government and regulated-industry customers. It operates on FedRAMP-authorized infrastructure with US-only data residency, FISMA-aligned controls, and IL-4/IL-5 data handling - giving agencies a compliant path to modern tooling without sacrificing security posture.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
   <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
@@ -194,35 +194,35 @@ ${sectionHeader("Clovity's AGC-Aligned Apps")}
       <span style="font-size:13px;font-weight:700;color:#111827;">Jira Time, Capacity &amp; PPM Suite</span>
       <span style="background:#eff6ff;color:#1d4ed8;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #dbeafe;">Jira Cloud</span>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Governance-ready time tracking and resource management with audit-trail worklogging, role-based approval workflows, and portfolio visibility — designed to support agency reporting requirements without external data egress.</div>
+    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Governance-ready time tracking and resource management with audit-trail worklogging, role-based approval workflows, and portfolio visibility - designed to support agency reporting requirements without external data egress.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
     <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
       <span style="font-size:13px;font-weight:700;color:#111827;">Jira Custom Charts &amp; Dashboards</span>
       <span style="background:#eff6ff;color:#1d4ed8;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #dbeafe;">Jira Cloud</span>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Stakeholder-ready reporting with no external data processing. Charts and issue lists are built from live Jira data inside your AGC tenant — nothing leaves your boundary. Export to PDF or share within your org.</div>
+    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Stakeholder-ready reporting with no external data processing. Charts and issue lists are built from live Jira data inside your AGC tenant - nothing leaves your boundary. Export to PDF or share within your org.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
     <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
       <span style="font-size:13px;font-weight:700;color:#111827;">Confluence Formatting &amp; Visibility Suite</span>
       <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Audience-based visibility controls let you govern what each user group sees on a Confluence page — critical for agencies managing content sensitivity across clearance levels or role boundaries.</div>
+    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Audience-based visibility controls let you govern what each user group sees on a Confluence page - critical for agencies managing content sensitivity across clearance levels or role boundaries.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
     <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
       <span style="font-size:13px;font-weight:700;color:#111827;">Confluence Custom Reporting</span>
       <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Build CQL-driven reports and export to Excel or PDF for OMB reporting, FISMA reporting cycles, and leadership briefings — all from inside your Confluence Cloud workspace.</div>
+    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Build CQL-driven reports and export to Excel or PDF for OMB reporting, FISMA reporting cycles, and leadership briefings - all from inside your Confluence Cloud workspace.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
     <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
       <span style="font-size:13px;font-weight:700;color:#111827;">LaTeX Math &amp; UML Diagrams for Confluence</span>
       <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Renders LaTeX formulas and UML/system-flow diagrams natively in Confluence — keeping technical architecture documentation inside your secure boundary without third-party rendering services.</div>
+    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Renders LaTeX formulas and UML/system-flow diagrams natively in Confluence - keeping technical architecture documentation inside your secure boundary without third-party rendering services.</div>
   </div>
 </div>
 
@@ -230,7 +230,7 @@ ${sectionHeader("Governance &amp; Compliance Features")}
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
   ${[
-    ["Data Governance", ["Forge-native — no external data egress","All processing inside your Atlassian tenancy","Audit-ready worklog trails","Role-based approval controls"]],
+    ["Data Governance", ["Forge-native - no external data egress","All processing inside your Atlassian tenancy","Audit-ready worklog trails","Role-based approval controls"]],
     ["Content Governance", ["Audience-based page visibility","Structured page-styling standards","Attachment lifecycle management","Consistent documentation governance"]],
     ["Vendor Risk Reduction", ["5 apps replace 15–25 plugins","Single Atlassian Platinum partner","Consolidated contract surface","Fewer ATO review cycles"]],
     ["Operational Continuity", ["Built iteratively with field feedback","Migration-critical functions prioritized","Aligned to regulated cloud environments","Ongoing partner-level support"]],
@@ -259,7 +259,7 @@ const appsDeckContent = `
   <div style="border-top:1px solid #e2e8f0;padding-top:14px;font-size:12px;color:#6b7280;">From Silver to Platinum in Record Breaking 18 Months &nbsp;·&nbsp; Trusted by Federal Agencies, State Govt's, Universities &amp; Fortune 500 Enterprises</div>
 </div>
 
-${sectionHeader("Stop the App Crawl","Cloud transition is an opportunity to rationalize — not replicate.")}
+${sectionHeader("Stop the App Crawl","Cloud transition is an opportunity to rationalize - not replicate.")}
 
 ${compareTable(
   "What We See in DC Environments",
@@ -286,7 +286,7 @@ ${compareTable(
   ["Jira Time, Capacity &amp; PPM Suite","Jira Custom Charts &amp; Dashboards","Confluence Formatting &amp; Visibility Suite","Confluence Custom Reporting","LaTeX + UML for Confluence"]
 )}
 
-${sectionHeader("Our Apps Roadmap","Next up — deeper integrations, smarter automation, stronger execution.")}
+${sectionHeader("Our Apps Roadmap","Next up - deeper integrations, smarter automation, stronger execution.")}
 
 <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;margin-bottom:28px;">
   <div style="display:grid;grid-template-columns:repeat(3,1fr);divide-x:1px solid #e2e8f0;">

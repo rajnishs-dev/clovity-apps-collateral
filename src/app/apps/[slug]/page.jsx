@@ -182,7 +182,7 @@ const CATEGORY_META = {
   },
   "Additional Resources": {
     icon: FileText,
-    summary: "Apps Suite Overview, AGC Apps Brochure, and Clovity Apps Deck — download any as PDF.",
+    summary: "Apps Suite Overview, AGC Apps Brochure, and Clovity Apps Deck - download any as PDF.",
   },
   Dashboard: {
     icon: LayoutDashboard,

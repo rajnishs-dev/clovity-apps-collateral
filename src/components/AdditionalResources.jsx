@@ -22,7 +22,7 @@ const RESOURCES = [
     coverTo: "#1D4ED8",
     title: "Clovity Apps Suite Overview",
     tagline:
-      "A consolidated view of all Clovity Atlassian marketplace apps — built for migration, governance, and scale.",
+      "A consolidated view of all Clovity Atlassian marketplace apps - built for migration, governance, and scale.",
     pdfUrl:
       "https://clovity-website.s3.ap-south-1.amazonaws.com/App_Suite_Overview_0d66892a10.pdf",
     stats: [
@@ -32,7 +32,7 @@ const RESOURCES = [
     ],
     highlights: [
       "5 consolidated apps replacing 15–25 fragmented marketplace plugins",
-      "Covers Jira and Confluence — time tracking, charts, formatting, reports, and LaTeX",
+      "Covers Jira and Confluence - time tracking, charts, formatting, reports, and LaTeX",
       "Migration-ready architecture designed for DC-to-Cloud transitions",
       "AGC-aligned and governance-ready for regulated and public-sector environments",
       "Trusted by Federal Agencies, State Governments, Universities, and Fortune 500 Enterprises",
@@ -47,7 +47,7 @@ const RESOURCES = [
     coverTo: "#3730A3",
     title: "AGC Apps Brochure",
     tagline:
-      "Purpose-built for Atlassian Government Cloud — governance-aligned, compliance-aware, and public-sector proven.",
+      "Purpose-built for Atlassian Government Cloud - governance-aligned, compliance-aware, and public-sector proven.",
     pdfUrl:
       "https://clovity-website.s3.ap-south-1.amazonaws.com/Clovity_AGC_App_Brochure_9cdde198e4.pdf",
     stats: [
@@ -58,7 +58,7 @@ const RESOURCES = [
     highlights: [
       "Atlassian Government Cloud (AGC) compliant apps for regulated environments",
       "Designed for federal agencies, SLED organizations, and compliance-driven teams",
-      "Reduced vendor surface area — fewer apps, fewer contracts, less risk",
+      "Reduced vendor surface area - fewer apps, fewer contracts, less risk",
       "Governance controls built into every product from the ground up",
       "Deployed at IRS, NASA, Coast Guard, HHS, CA Air Resources Board, and more",
     ],
@@ -81,9 +81,9 @@ const RESOURCES = [
       { label: "Gov't Agencies", value: "14+" },
     ],
     highlights: [
-      "Platinum Atlassian Solution Partner — Silver to Platinum in record-breaking 18 months",
-      "\"Stop the App Crawl\" — consolidate 15–25 DC plugins into 5 focused application suites",
-      "Engineered from real migration friction — built iteratively with field feedback across clients",
+      "Platinum Atlassian Solution Partner - Silver to Platinum in record-breaking 18 months",
+      "\"Stop the App Crawl\" - consolidate 15–25 DC plugins into 5 focused application suites",
+      "Engineered from real migration friction - built iteratively with field feedback across clients",
       "Roadmap: Cross-Tool Integrations → Workflow Automation → Work Item Execution Tools",
       "Trusted by IRS, NASA, U.S. Coast Guard, HHS, Metra, and 10+ government agencies worldwide",
     ],
@@ -244,7 +244,7 @@ export default function AdditionalResources() {
                 </ul>
               </div>
 
-              {/* Consolidation table — Apps Deck only */}
+              {/* Consolidation table - Apps Deck only */}
               {resource.consolidation && (
                 <div className="mb-5 rounded-lg border border-gray-100 overflow-hidden text-xs">
                   <div className="grid grid-cols-2 divide-x divide-gray-100">
@@ -284,7 +284,7 @@ export default function AdditionalResources() {
                 </div>
               )}
 
-              {/* Trusted by — Apps Deck only */}
+              {/* Trusted by - Apps Deck only */}
               {resource.trustedBy && (
                 <div className="mb-5">
                   <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-2">
