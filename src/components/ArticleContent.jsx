@@ -207,16 +207,21 @@ export default function ArticleContent({ content }) {
           strong: ({ children }) => (
             <strong className="font-semibold text-gray-800">{children}</strong>
           ),
-          a: ({ href, children }) => (
-            <a
-              href={href}
-              className="text-blue-600 hover:underline"
-              target={href?.startsWith("http") ? "_blank" : undefined}
-              rel={href?.startsWith("http") ? "noopener noreferrer" : undefined}
-            >
-              {children}
-            </a>
-          ),
+          a: ({ href, children, download, style, target, rel }) => {
+            const isExternal = href?.startsWith("http");
+            return (
+              <a
+                href={href}
+                style={style}
+                download={download}
+                target={target ?? (isExternal ? "_blank" : undefined)}
+                rel={rel ?? (isExternal ? "noopener noreferrer" : undefined)}
+                className={!style ? "text-blue-600 hover:underline" : undefined}
+              >
+                {children}
+              </a>
+            );
+          },
           code: ({ children, className }) => {
             const isBlock = className?.includes("language-");
             if (isBlock) {

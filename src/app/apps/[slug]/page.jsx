@@ -9,6 +9,7 @@ import { backlogAuditorDocs } from "@/data/backlog-auditor-docs";
 import { pulseAiJiraDocs } from "@/data/pulse-ai-jira-docs";
 import Sidebar from "@/components/Sidebar";
 import ScrollToTop from "@/components/ScrollToTop";
+import { additionalResourcesDocs } from "@/data/additional-resources-docs";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -37,15 +38,22 @@ import {
   Code,
 } from "lucide-react";
 
+function withResources(docs) {
+  return {
+    ...docs,
+    categories: [...docs.categories, ...additionalResourcesDocs.categories],
+  };
+}
+
 const docsMap = {
-  "time-tracking-jira": timeTrackingDocs,
-  "dashboard-charts-jira": dashboardChartsDocs,
-  "reports-charts-confluence": reportsChartsConfluenceDocs,
-  "latex-diagrams-confluence": latexDiagramsConfluenceDocs,
-  "content-formatting-confluence": contentFormattingConfluenceDocs,
-  "backlog-auditor-jira": backlogAuditorDocs,
-  "jql-ai-jira": jqlaiDocs,
-  "pulse-ai-jira": pulseAiJiraDocs,
+  "time-tracking-jira": withResources(timeTrackingDocs),
+  "dashboard-charts-jira": withResources(dashboardChartsDocs),
+  "reports-charts-confluence": withResources(reportsChartsConfluenceDocs),
+  "latex-diagrams-confluence": withResources(latexDiagramsConfluenceDocs),
+  "content-formatting-confluence": withResources(contentFormattingConfluenceDocs),
+  "backlog-auditor-jira": withResources(backlogAuditorDocs),
+  "jql-ai-jira": withResources(jqlaiDocs),
+  "pulse-ai-jira": withResources(pulseAiJiraDocs),
 };
 
 const CATEGORY_META = {
@@ -174,7 +182,7 @@ const CATEGORY_META = {
   },
   "Additional Resources": {
     icon: FileText,
-    summary: "Privacy policy, EULA, trust center, and API documentation.",
+    summary: "Apps Suite Overview, AGC Apps Brochure, and Clovity Apps Deck — download any as PDF.",
   },
   Dashboard: {
     icon: LayoutDashboard,
