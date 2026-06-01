@@ -64,95 +64,171 @@ const appsSuiteContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN PLATINUM SOLUTION PARTNER")}
   <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">Clovity Apps Suite Overview</h1>
-  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">5 consolidated Atlassian apps that replace 15–25 fragmented plugins - migration-ready, AGC-aligned, and built for regulated environments.</p>
+  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:560px;line-height:1.7;">Confluence for clean knowledge, Jira for clear delivery signals.</p>
 </div>
 
-${sectionHeader("The Consolidation Opportunity", "Every DC-to-Cloud migration is a chance to stop app sprawl. Replace categories - not just plugins.")}
+${sectionHeader("Outcomes")}
 
-${compareTable(
-  "Traditional DC Stack (14+ Apps)",
-  ["Time Tracking - 4 apps","Capacity Planning - 2 apps","Roadmapping / Gantt - 3 apps","Reporting - 3–5 apps","Formatting &amp; Navigation - 4 apps"],
-  "Consolidated Suite (5 Apps)",
-  ["Jira Time, Capacity &amp; PPM Suite","Jira Custom Charts &amp; Dashboards","Confluence Formatting &amp; Visibility Suite","Confluence Custom Reporting","LaTeX + UML for Confluence"]
-)}
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">01</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:8px;">Faster discovery</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Tabbed navigation hubs and structured Confluence pages.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">02</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:8px;">Cleaner documentation</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Targeted sections plus technical diagrams and formulas where work happens.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">03</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:8px;">Reliable reporting</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Reusable reports and dashboards built from CQL/JQL.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">04</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:8px;">Better planning</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Capacity, time tracking, prioritization and portfolio rollups.</div>
+  </div>
+</div>
 
-${sectionHeader("The 5 Apps")}
+${sectionHeader("Who it is For")}
 
-${appCard(
-  "Jira Time, Capacity &amp; PPM Suite",
-  "Time Tracking · Capacity Planning · Backlog Prioritization · Portfolio Management",
-  [
-    ["Time Tracking", ["Timesheets tracking","Billable hours","Calendar visibility"]],
-    ["Capacity Planning", ["Team utilization","Workload forecast"]],
-    ["Backlog Prioritization", ["RICE / WSJF scoring","Priority matrix"]],
-    ["Portfolio Management", ["Gantt timeline","Resource allocation","Resources clarity"]],
-  ],
-  "Agile Teams · Project Managers · Product Owners · Portfolio Managers · Engineering Leaders · Finance Teams"
-)}
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">01</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:6px;">Teams</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Product, Engineering, Delivery, Support Ops.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">02</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:6px;">Leaders</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Program &amp; portfolio owners, PMO/PPM, Heads of Delivery.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
+    <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:6px;">03</div>
+    <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:6px;">Admins</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.7;">Confluence and Jira admins standardizing knowledge and reporting.</div>
+  </div>
+</div>
 
-${appCard(
-  "Jira Custom Charts &amp; Dashboards",
-  "Visual Analytics · Multi-Project Comparison · Export-Ready Reports",
-  [
-    ["Charts &amp; Gadgets", ["Multiple chart types","Quick visual insights"]],
-    ["Filtering &amp; Export", ["Quick filtering","Easy PDF/CSV exports"]],
-    ["Cross-Team View", ["Compare work across teams","Compare across projects or categories"]],
-    ["Stakeholder Ready", ["Live Jira data","No extra setup needed"]],
-  ],
-  "Project Managers · Product Managers · Executives · Scrum Masters"
-)}
+${sectionHeader("Suite Quick Wins (First Week)")}
 
-${appCard(
-  "Confluence Formatting &amp; Visibility Suite",
-  "Smart Navigation · Audience Visibility · Attachment Control · Page Styling",
-  [
-    ["Smart Navigation", ["Find info faster","Cleaner page hubs"]],
-    ["Attachment Control", ["Files stay organized"]],
-    ["Consistent Page Styling", ["Polished pages","Saves team time"]],
-    ["Audience Based Visibility", ["Governed content sections"]],
-  ],
-  "Documentation Owners · Project Teams · Engineering &amp; IT · HR &amp; Operations · Leadership Teams"
-)}
+<div style="display:flex;flex-direction:column;gap:8px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:#f8fafc;display:flex;align-items:flex-start;gap:12px;"><span style="width:22px;height:22px;background:#0052CC;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:11px;flex-shrink:0;">1</span><span style="font-size:13px;color:#374151;line-height:1.65;">Launch a Confluence homepage with tabbed navigation and role-based sections.</span></div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:#f8fafc;display:flex;align-items:flex-start;gap:12px;"><span style="width:22px;height:22px;background:#0052CC;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:11px;flex-shrink:0;">2</span><span style="font-size:13px;color:#374151;line-height:1.65;">Add a live Confluence report for status rollups and content governance.</span></div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:#f8fafc;display:flex;align-items:flex-start;gap:12px;"><span style="width:22px;height:22px;background:#0052CC;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:11px;flex-shrink:0;">3</span><span style="font-size:13px;color:#374151;line-height:1.65;">Create a Jira dashboard from JQL with charts plus a risk/blocked issue list.</span></div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:#f8fafc;display:flex;align-items:flex-start;gap:12px;"><span style="width:22px;height:22px;background:#0052CC;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:11px;flex-shrink:0;">4</span><span style="font-size:13px;color:#374151;line-height:1.65;">Run a lightweight planning pass: capacity vs workload, deadline risk, and a prioritization matrix.</span></div>
+</div>
 
-${appCard(
-  "Confluence Custom Reporting",
-  "CQL Reports · Charts · Templates · Excel &amp; PDF Export",
-  [
-    ["Templates &amp; Reusable Reporting", ["Prebuilt templates included","Reuse reports across teams"]],
-    ["Report Builder &amp; Layouts", ["Spot trends quickly","Standardize reporting easily"]],
-  ],
-  "Knowledge Managers · PMs · Operations · Admins"
-)}
+${sectionHeader("The 5 Apps in the Suite", "Each app is valuable alone. Together they create an end-to-end workflow from documentation to delivery.")}
 
-${appCard(
-  "LaTeX Math &amp; UML Diagrams for Confluence",
-  "LaTeX Equations · UML Diagrams · Gantt Charts · ERDs &amp; Flowcharts",
-  [
-    ["LaTeX Equations", ["In-page equations","Metrics and formulas"]],
-    ["UML Diagrams", ["In-page UML diagrams","Document system flows"]],
-  ],
-  "Engineers · Product Managers · Stakeholders · System Architects"
-)}
+<div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:16px;">
+  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 1 — Confluence Experience &amp; Reporting</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;">
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">Content Formatting Macros: Tabs Navigation Visibility CSS</div>
+      <div style="font-size:12px;color:#6b7280;">Make Confluence pages easier to consume and maintain.</div>
+    </div>
+    <div style="padding:14px 20px;background:white;font-size:12px;color:#6b7280;line-height:1.85;">❖ Tabbed navigation hubs from parent pages or labels (optional CQL).<br>❖ Show/Hide sections for cleaner, targeted reading.<br>❖ Attachment governance with visibility, cleanup and auditing.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">Reports, Charts, Templates, CQL &amp; Export for Confluence</div>
+      <div style="font-size:12px;color:#6b7280;">Turn CQL into living, reusable reports.</div>
+    </div>
+    <div style="padding:14px 20px;background:white;font-size:12px;color:#6b7280;line-height:1.85;">❖ Build reports from CQL with column control and expansions.<br>❖ Reuse templates/recipes for consistent reporting.<br>❖ Export when needed (CSV/JSON) for leadership or audits.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">LaTeX Math Formulas &amp; UML Diagrams (ERD &amp; Flowcharts)</div>
+      <div style="font-size:12px;color:#6b7280;">Embed equations and UML diagrams directly into Confluence.</div>
+    </div>
+    <div style="padding:14px 20px;background:white;font-size:12px;color:#6b7280;line-height:1.85;">❖ Insert high-quality LaTeX formulas for clear technical docs.<br>❖ Add UML diagrams alongside requirements, decisions &amp; runbooks.<br>❖ Keep technical context where collaboration happens.</div>
+  </div>
+</div>
+
+<div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:16px;">
+  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 2 — Jira Reporting &amp; Delivery Planning</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">Dashboard Templates, Charts, Graphs &amp; Reports for Jira</div>
+      <div style="font-size:12px;color:#6b7280;">Dashboards people actually use — from JQL, filters, or projects.</div>
+    </div>
+    <div style="padding:14px 20px;background:white;font-size:12px;color:#6b7280;line-height:1.85;">❖ Charts and issue views for delivery health and operations.<br>❖ Reusable dashboard gadgets for teams and leadership.<br>❖ Export-friendly reporting without fragile spreadsheets.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">Time Tracking, Resource Planning &amp; Project Management</div>
+      <div style="font-size:12px;color:#6b7280;">Plan capacity, track time, prioritize work &amp; roll up portfolio status.</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        ${featureBox("Capacity Planner", ["Workload vs capacity (holidays included)","Planner calendar, deadline risk","Status / workflow aging, trends"])}
+        ${featureBox("Time Tracking", ["Multi-user timesheets and charts","Personal calendar","CSV/XLSX export, dashboard gadget"])}
+        ${featureBox("Backlog Prioritization", ["ICE/RICE/WSJF templates","Formula scoring, priority matrix","Scoring history"])}
+        ${featureBox("Portfolio Overview", ["Hierarchy across initiatives/epics","Filters and exports"])}
+      </div>
+    </div>
+  </div>
+</div>
+
+${sectionHeader("Adoption Playbook", "A simple rollout path that delivers visible impact fast")}
+
+<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Quarterly planning — Capacity + prioritization</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ Compare workload vs capacity with holidays.<br>❖ ICE/RICE/WSJF scorecards and priority matrix.<br>❖ Portfolio rollups with filters and exports.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Project hub — Confluence space homepage</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ Tabbed navigation to specs, decisions and runbooks.<br>❖ Role-based sections to reduce clutter.<br>❖ Live report blocks for rollups.</div>
+  </div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Leadership dashboard — Jira reporting</div>
+    <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ JQL charts for progress, blockers and throughput.<br>❖ Issue list view for risks and aging work.<br>❖ Export-ready weekly ops reporting.</div>
+  </div>
+</div>
 
 ${sectionHeader("Why Clovity")}
 
-<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:28px;">
-  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
-    <div style="font-size:22px;font-weight:800;color:#111827;margin-bottom:4px;">Platinum</div>
-    <div style="font-size:12px;color:#6b7280;">Atlassian Solution Partner</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;font-size:13px;font-weight:600;color:#374151;">Suite consistency across apps.</div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;font-size:13px;font-weight:600;color:#374151;">Admin-friendly standardization.</div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;font-size:13px;font-weight:600;color:#374151;">Adoption-ready quick wins.</div>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;font-size:13px;font-weight:600;color:#374151;">Reporting you can trust.</div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;font-size:13px;font-weight:600;color:#374151;">Planning signals that stay aligned.</div>
+</div>
+
+${sectionHeader("Marketplace Listings")}
+
+<div style="display:flex;flex-direction:column;gap:8px;margin-bottom:28px;">
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+    <div style="font-size:13px;font-weight:600;color:#111827;">Dashboard Templates, Charts, Graphs &amp; Reports for Jira</div>
+    <a href="https://marketplace.atlassian.com/apps/359777765/custom-charts-and-dashboards-for-jira" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:7px 16px;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap;">View on Marketplace</a>
   </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
-    <div style="font-size:22px;font-weight:800;color:#111827;margin-bottom:4px;">18 mo</div>
-    <div style="font-size:12px;color:#6b7280;">Silver to Platinum</div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+    <div style="font-size:13px;font-weight:600;color:#111827;">Content Formatting Macros: Tabs Navigation Visibility CSS</div>
+    <a href="https://marketplace.atlassian.com/apps/3890258352/content-formatting-navigation-and-visibility-for-confluence" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:7px 16px;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap;">View on Marketplace</a>
   </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;background:#f8fafc;">
-    <div style="font-size:22px;font-weight:800;color:#111827;margin-bottom:4px;">14+</div>
-    <div style="font-size:12px;color:#6b7280;">Government Agencies</div>
+  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:14px 18px;background:white;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+    <div style="font-size:13px;font-weight:600;color:#111827;">Reports, Charts, Templates, CQL &amp; Export for Confluence</div>
+    <a href="https://marketplace.atlassian.com/apps/4125307933/custom-reports-for-confluence" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:7px 16px;border-radius:6px;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap;">View on Marketplace</a>
   </div>
 </div>
 
-${sectionHeader("Trusted by Government Agencies Worldwide")}
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px;">${agencyBadges}</div>
+<div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px 20px;background:#f8fafc;text-align:center;margin-bottom:28px;">
+  <div style="font-size:13px;color:#374151;line-height:1.7;">Install from the Marketplace, or schedule a suite walkthrough and let us recommend the best rollout path for your workspace.</div>
+  <div style="font-size:12px;color:#6b7280;margin-top:8px;">For more details, contact us at <a href="mailto:developers@clovity.com" style="color:#0052CC;text-decoration:none;font-weight:600;">developers@clovity.com</a></div>
+</div>
 
 ${downloadCTA("/pdf/App_Suite_Overview_0d66892a10.pdf","Download the Full Apps Suite Overview","PDF")}
 `;
@@ -163,82 +239,115 @@ const agcBrochureContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN GOVERNMENT CLOUD")}
   <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">AGC Apps Brochure</h1>
-  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:540px;line-height:1.7;">Purpose-built for Atlassian Government Cloud - governance-aligned, compliance-aware, and public-sector proven.</p>
-  <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px;">
-    <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">Federal Agencies</span>
-    <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">State &amp; Local Gov't</span>
-    <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">Regulated Industries</span>
-    <span style="background:#f1f5f9;color:#475569;font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;border:1px solid #e2e8f0;">Universities</span>
+  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:560px;line-height:1.7;">Purpose-built apps for Atlassian Government Cloud and Atlassian Cloud — spanning Confluence and Jira.</p>
+</div>
+
+<div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:8px;">
+  <div style="font-size:15px;font-weight:800;color:#111827;">AGC + Cloud Power Apps Suite for Confluence</div>
+  <div style="font-size:12px;color:#6b7280;margin-top:3px;">Format Smarter. Document Better. Report Faster.</div>
+</div>
+<div style="height:1px;background:#e2e8f0;margin-bottom:20px;"></div>
+
+<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:32px;">
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:13px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px;">Formatting Suite for Confluence</div>
+      <div style="font-size:14px;font-weight:700;color:#111827;">Content Formatting, Navigation and Visibility for Confluence</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Value we deliver</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Structure &amp; Navigation</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Consistent Layouts</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Visibility Control &amp; Governance</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Organized Attachments</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:13px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px;">Reporting Suite for Confluence</div>
+      <div style="font-size:14px;font-weight:700;color:#111827;">Custom Reports for Confluence</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Value we deliver</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Clear Insights</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Unified View</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:13px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px;">Equations &amp; Diagrams Suite</div>
+      <div style="font-size:14px;font-weight:700;color:#111827;">LaTeX Math &amp; UML Diagrams for Confluence</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Value we deliver</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ LaTeX Embedding</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Multiple Diagrams</div>
+      </div>
+    </div>
   </div>
 </div>
 
-${sectionHeader("What is Atlassian Government Cloud?")}
-<p style="font-size:13px;color:#4b5563;margin:0 0 20px;line-height:1.75;">Atlassian Government Cloud (AGC) is Atlassian's dedicated offering for US government and regulated-industry customers. It operates on FedRAMP-authorized infrastructure with US-only data residency, FISMA-aligned controls, and IL-4/IL-5 data handling - giving agencies a compliant path to modern tooling without sacrificing security posture.</p>
+<div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:8px;">
+  <div style="font-size:15px;font-weight:800;color:#111827;">AGC + Cloud Productivity Apps Suite for Jira</div>
+  <div style="font-size:12px;color:#6b7280;margin-top:3px;">Plan Smarter. Execute Faster. Report Better.</div>
+</div>
+<div style="height:1px;background:#e2e8f0;margin-bottom:20px;"></div>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
-  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
-    <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:10px;">AGC Key Characteristics</div>
-    <div style="font-size:13px;color:#6b7280;line-height:1.85;">❖ FedRAMP High authorized infrastructure<br>❖ US-only data residency<br>❖ FISMA-aligned security controls<br>❖ IL-4 / IL-5 support<br>❖ GovCloud deployment<br>❖ Dedicated tenant isolation</div>
+<div style="display:flex;flex-direction:column;gap:12px;margin-bottom:32px;">
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:13px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px;">Planning, Capacity &amp; Portfolio Suite</div>
+      <div style="font-size:14px;font-weight:700;color:#111827;">Timesheets, Capacity Planner, Prioritization &amp; PPM Suite</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Value we deliver</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Balanced Workload</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Time Visibility</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Portfolio Management</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Objective Scoring</div>
+      </div>
+    </div>
   </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px;background:#f8fafc;">
-    <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.6px;margin-bottom:10px;">Why It Matters for Agencies</div>
-    <div style="font-size:13px;color:#6b7280;line-height:1.85;">❖ Eliminates on-prem maintenance burden<br>❖ Reduces ATO scope with shared controls<br>❖ Enables modern DevSecOps workflows<br>❖ Aligns with OMB cloud-first mandate<br>❖ Reduces total app vendor footprint<br>❖ Continuous compliance posture</div>
+
+  <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
+    <div style="background:#f8fafc;padding:13px 20px;border-bottom:1px solid #e2e8f0;">
+      <div style="font-size:11px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px;">Reporting &amp; Dashboard Solution</div>
+      <div style="font-size:14px;font-weight:700;color:#111827;">Custom Charts and Dashboards for Jira</div>
+    </div>
+    <div style="padding:16px 20px;background:white;">
+      <div style="font-size:11px;font-weight:700;color:#374151;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Value we deliver</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Advanced Filters</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Custom Dashboards</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Enterprise-Grade Charts</div>
+        <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 13px;font-size:12px;color:#374151;font-weight:500;">❖ Quick Replication</div>
+      </div>
+    </div>
   </div>
 </div>
 
-${sectionHeader("Clovity's AGC-Aligned Apps")}
-
-<div style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
-  <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-    <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:13px;font-weight:700;color:#111827;">Jira Time, Capacity &amp; PPM Suite</span>
-      <span style="background:#eff6ff;color:#1d4ed8;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #dbeafe;">Jira Cloud</span>
+<div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px 20px;background:#f8fafc;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px;">
+  <div style="display:flex;gap:20px;flex-wrap:wrap;">
+    <div style="text-align:center;">
+      <div style="font-size:13px;font-weight:700;color:#111827;">24/7 Support</div>
     </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Governance-ready time tracking and resource management with audit-trail worklogging, role-based approval workflows, and portfolio visibility - designed to support agency reporting requirements without external data egress.</div>
+    <div style="text-align:center;">
+      <div style="font-size:13px;font-weight:700;color:#111827;">Enterprise Security Focus</div>
+    </div>
   </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-    <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:13px;font-weight:700;color:#111827;">Jira Custom Charts &amp; Dashboards</span>
-      <span style="background:#eff6ff;color:#1d4ed8;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #dbeafe;">Jira Cloud</span>
-    </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Stakeholder-ready reporting with no external data processing. Charts and issue lists are built from live Jira data inside your AGC tenant - nothing leaves your boundary. Export to PDF or share within your org.</div>
-  </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-    <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:13px;font-weight:700;color:#111827;">Confluence Formatting &amp; Visibility Suite</span>
-      <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
-    </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Audience-based visibility controls let you govern what each user group sees on a Confluence page - critical for agencies managing content sensitivity across clearance levels or role boundaries.</div>
-  </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-    <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:13px;font-weight:700;color:#111827;">Confluence Custom Reporting</span>
-      <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
-    </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Build CQL-driven reports and export to Excel or PDF for OMB reporting, FISMA reporting cycles, and leadership briefings - all from inside your Confluence Cloud workspace.</div>
-  </div>
-  <div style="border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
-    <div style="background:#f8fafc;padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;">
-      <span style="font-size:13px;font-weight:700;color:#111827;">LaTeX Math &amp; UML Diagrams for Confluence</span>
-      <span style="background:#f0fdf4;color:#15803d;font-size:11px;font-weight:600;padding:2px 8px;border-radius:8px;border:1px solid #bbf7d0;">Confluence Cloud</span>
-    </div>
-    <div style="padding:12px 18px;font-size:13px;color:#4b5563;line-height:1.7;">Renders LaTeX formulas and UML/system-flow diagrams natively in Confluence - keeping technical architecture documentation inside your secure boundary without third-party rendering services.</div>
+  <div style="font-size:12px;color:#6b7280;line-height:1.8;">
+    <div><a href="https://www.clovity.com" target="_blank" rel="noopener noreferrer" style="color:#0052CC;text-decoration:none;font-weight:600;">www.clovity.com</a></div>
+    <div><a href="mailto:sales@clovity.com" style="color:#0052CC;text-decoration:none;font-weight:600;">sales@clovity.com</a></div>
   </div>
 </div>
-
-${sectionHeader("Governance &amp; Compliance Features")}
-
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
-  ${[
-    ["Data Governance", ["Forge-native - no external data egress","All processing inside your Atlassian tenancy","Audit-ready worklog trails","Role-based approval controls"]],
-    ["Content Governance", ["Audience-based page visibility","Structured page-styling standards","Attachment lifecycle management","Consistent documentation governance"]],
-    ["Vendor Risk Reduction", ["5 apps replace 15–25 plugins","Single Atlassian Platinum partner","Consolidated contract surface","Fewer ATO review cycles"]],
-    ["Operational Continuity", ["Built iteratively with field feedback","Migration-critical functions prioritized","Aligned to regulated cloud environments","Ongoing partner-level support"]],
-  ].map(([t, b]) => featureBox(t, b)).join("")}
-</div>
-
-${sectionHeader("Trusted by Government Agencies Worldwide")}
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;">${agencyBadges}</div>
 
 ${downloadCTA("/pdf/Clovity_AGC_App_Brochure_9cdde198e4.pdf","Download the AGC Apps Brochure","PDF")}
 `;
