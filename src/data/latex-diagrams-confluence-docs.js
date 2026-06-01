@@ -2417,54 +2417,5 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
       ],
     },
 
-    // ═══════════════════════════════════════════════════════════════
-    // 4. END USER LICENSE AGREEMENT (EULA)
-    // ═══════════════════════════════════════════════════════════════
-    {
-      id: "eula",
-      title: "End User License Agreement",
-      articles: [
-        {
-          slug: "eula",
-          title: "End User License Agreement (EULA)",
-          content: `This End User License Agreement ("Agreement") is a legal agreement between you ("User" or "You") and Clovity, Inc. ("Company" or "We"), governing your use of the **LaTeX Math and UML Diagrams for Confluence** application ("Software") available on the Atlassian Marketplace.
-
-By installing, accessing, or using this Software, you agree to be bound by the terms of this Agreement. If you do not agree to these terms, do not install or use the Software.
-
-## 1. License Grant
-
-Clovity, Inc. grants you a non-exclusive, non-transferable, revocable, and limited license to use the Software within your Atlassian Confluence environment in accordance with this Agreement.
-
-## 2. Restrictions
-
-You shall not:
-
-* Copy, modify, distribute, or create derivative works of the Software.
-* Reverse engineer, decompile, or attempt to extract the source code.
-* Use the Software for unlawful or unauthorized purposes.
-* Rent, lease, sublicense, or transfer the Software to third parties.
-
-## 3. Data Privacy & Security
-
-The Software may process Confluence-related data but does not store, share, or transmit personal or confidential data outside of your Confluence environment.
-
-Your use of the Software must comply with applicable data protection laws and Atlassian's policies.
-
-## 4. Support & Updates
-
-Clovity, Inc. may provide updates, patches, or improvements to the Software at its discretion.
-
-Support services are available as per the Atlassian Marketplace listing.
-
-## 5. Disclaimer of Warranties
-
-The Software is provided "AS IS" without any express or implied warranties, including but not limited to merchantability, fitness for a particular purpose, or non-infringement. Clovity, Inc. does not warrant that the Software will be error-free or operate without interruptions.
-
-## 6. Limitation of Liability
-
-To the fullest extent permitted by law, Clovity, Inc. shall not be liable for any damages arising out of or related to the use or inability to use the Software, including but not limited to loss of profits, data, or other intangible losses, even if Clovity, Inc. has been advised of the possibility of such damages.`,
-        },
-      ],
-    },
   ],
 };
