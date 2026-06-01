@@ -124,7 +124,7 @@ ${sectionHeader("Suite Quick Wins (First Week)")}
 ${sectionHeader("The 5 Apps in the Suite", "Each app is valuable alone. Together they create an end-to-end workflow from documentation to delivery.")}
 
 <div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:16px;">
-  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 1 — Confluence Experience &amp; Reporting</div>
+  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 1 - Confluence Experience &amp; Reporting</div>
 </div>
 
 <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;">
@@ -152,14 +152,14 @@ ${sectionHeader("The 5 Apps in the Suite", "Each app is valuable alone. Together
 </div>
 
 <div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:16px;">
-  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 2 — Jira Reporting &amp; Delivery Planning</div>
+  <div style="font-size:13px;font-weight:700;color:#0052CC;text-transform:uppercase;letter-spacing:0.5px;">Pillar 2 - Jira Reporting &amp; Delivery Planning</div>
 </div>
 
 <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
   <div style="border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;">
     <div style="background:#f8fafc;padding:14px 20px;border-bottom:1px solid #e2e8f0;">
       <div style="font-size:14px;font-weight:700;color:#111827;margin-bottom:2px;">Dashboard Templates, Charts, Graphs &amp; Reports for Jira</div>
-      <div style="font-size:12px;color:#6b7280;">Dashboards people actually use — from JQL, filters, or projects.</div>
+      <div style="font-size:12px;color:#6b7280;">Dashboards people actually use - from JQL, filters, or projects.</div>
     </div>
     <div style="padding:14px 20px;background:white;font-size:12px;color:#6b7280;line-height:1.85;">❖ Charts and issue views for delivery health and operations.<br>❖ Reusable dashboard gadgets for teams and leadership.<br>❖ Export-friendly reporting without fragile spreadsheets.</div>
   </div>
@@ -183,15 +183,15 @@ ${sectionHeader("Adoption Playbook", "A simple rollout path that delivers visibl
 
 <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:28px;">
   <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
-    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Quarterly planning — Capacity + prioritization</div>
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Quarterly planning - Capacity + prioritization</div>
     <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ Compare workload vs capacity with holidays.<br>❖ ICE/RICE/WSJF scorecards and priority matrix.<br>❖ Portfolio rollups with filters and exports.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
-    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Project hub — Confluence space homepage</div>
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Project hub - Confluence space homepage</div>
     <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ Tabbed navigation to specs, decisions and runbooks.<br>❖ Role-based sections to reduce clutter.<br>❖ Live report blocks for rollups.</div>
   </div>
   <div style="border:1px solid #e2e8f0;border-radius:8px;padding:18px;background:#f8fafc;">
-    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Leadership dashboard — Jira reporting</div>
+    <div style="font-size:13px;font-weight:700;color:#0052CC;margin-bottom:10px;">Leadership dashboard - Jira reporting</div>
     <div style="font-size:12px;color:#6b7280;line-height:1.85;">❖ JQL charts for progress, blockers and throughput.<br>❖ Issue list view for risks and aging work.<br>❖ Export-ready weekly ops reporting.</div>
   </div>
 </div>
@@ -225,11 +225,6 @@ ${sectionHeader("Marketplace Listings")}
   </div>
 </div>
 
-<div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px 20px;background:#f8fafc;text-align:center;margin-bottom:28px;">
-  <div style="font-size:13px;color:#374151;line-height:1.7;">Install from the Marketplace, or schedule a suite walkthrough and let us recommend the best rollout path for your workspace.</div>
-  <div style="font-size:12px;color:#6b7280;margin-top:8px;">For more details, contact us at <a href="mailto:developers@clovity.com" style="color:#0052CC;text-decoration:none;font-weight:600;">developers@clovity.com</a></div>
-</div>
-
 ${downloadCTA("/pdf/App_Suite_Overview_0d66892a10.pdf","Download the Full Apps Suite Overview","PDF")}
 `;
 
@@ -239,7 +234,7 @@ const agcBrochureContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN GOVERNMENT CLOUD")}
   <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">AGC Apps Brochure</h1>
-  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:560px;line-height:1.7;">Purpose-built apps for Atlassian Government Cloud and Atlassian Cloud — spanning Confluence and Jira.</p>
+  <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:560px;line-height:1.7;">Purpose-built apps for Atlassian Government Cloud and Atlassian Cloud - spanning Confluence and Jira.</p>
 </div>
 
 <div style="border-left:3px solid #0052CC;padding-left:14px;margin-bottom:8px;">
@@ -334,20 +329,6 @@ const agcBrochureContent = `
   </div>
 </div>
 
-<div style="border:1px solid #e2e8f0;border-radius:8px;padding:16px 20px;background:#f8fafc;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px;">
-  <div style="display:flex;gap:20px;flex-wrap:wrap;">
-    <div style="text-align:center;">
-      <div style="font-size:13px;font-weight:700;color:#111827;">24/7 Support</div>
-    </div>
-    <div style="text-align:center;">
-      <div style="font-size:13px;font-weight:700;color:#111827;">Enterprise Security Focus</div>
-    </div>
-  </div>
-  <div style="font-size:12px;color:#6b7280;line-height:1.8;">
-    <div><a href="https://www.clovity.com" target="_blank" rel="noopener noreferrer" style="color:#0052CC;text-decoration:none;font-weight:600;">www.clovity.com</a></div>
-    <div><a href="mailto:sales@clovity.com" style="color:#0052CC;text-decoration:none;font-weight:600;">sales@clovity.com</a></div>
-  </div>
-</div>
 
 ${downloadCTA("/pdf/Clovity_AGC_App_Brochure_9cdde198e4.pdf","Download the AGC Apps Brochure","PDF")}
 `;

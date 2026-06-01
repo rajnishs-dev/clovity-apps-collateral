@@ -2286,6 +2286,330 @@ If Reports, Charts, Templates, CQL & Export for Confluence is uninstalled from y
       ],
     },
     // ═══════════════════════════════════════════════════════════════
+    // 8. DEMO DOC
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "demo-doc",
+      title: "Demo Doc",
+      articles: [
+        {
+          slug: "demo-doc",
+          title: "Demo Doc",
+          content: `
+## 1. Overview
+
+When your Confluence spaces get large, it gets hard to see what's happening. Pages pile up, content goes stale, and there's no easy way to get a clear picture of your data.
+
+This app solves that. It lets you build reports, view charts, and export data - all inside Confluence, without writing any code.
+
+**What you can do with this app:**
+
+- Build live reports directly inside Confluence pages.
+- See your data visually with tables, charts, and flexible layouts.
+- Filter content using simple search or advanced query tools.
+- Reuse report setups across teams and pages.
+- Export data to CSV or JSON for use outside Confluence.
+- No technical skills needed - fully visual, point-and-click.
+
+This is designed for teams who want data visibility, reporting, and insights inside Confluence - without coding or external tools.
+
+## 2. What's Included
+
+### Data Sources - Spaces & CQL
+
+Pull Confluence data in two flexible ways depending on your use case.
+
+- **Spaces Mode:** visually pick one or more Confluence spaces.
+- **Page Selection:** narrow down to specific pages.
+- **Custom CQL Mode:** write advanced queries to get exactly the data you need.
+- **Auto-fetch Results:** data loads automatically. No manual refresh.
+- **Real-time Query Validation:** if your query has an error, you see it instantly.
+
+### Report Builder - Columns & Expansions
+
+Turn raw Confluence data into a structured, readable report:
+
+- **Column Builder:** choose what data fields appear as columns.
+- **Explore Fields:** browse all available data to find what you need.
+- **Expansions Panel:** unlock extra details like edit history, contributors, and page properties.
+- **Drag-and-Drop Reordering:** rearrange columns however you like.
+- **Dynamic Field Mapping:** connect live data straight to your report columns.
+
+### Block Types - Data Rendering
+
+Control how each column looks on screen:
+
+| **Block Type** | **Description** |
+| --- | --- |
+| Basic | Plain text. Simple and clean. |
+| Text | Styled text with custom formatting and fallback values. |
+| Link | Turn URLs into clickable links. |
+| Image | Show profile photos, logos, or thumbnails. |
+| Collection | Handle lists of values like labels or contributors. |
+| Regex | Extract or reformat data using custom patterns. |
+
+### Filters & Search
+
+Show only the data that matters:
+
+- **Quick Search:** type to filter results instantly.
+- **Advanced Filters:** combine field, operator, and value rules.
+- **12 Operators:** equals, contains, greater than, regex, and more.
+- **AND Logic Filtering:** stack multiple filters together.
+- **Scope Control:** filter a single column or the full dataset.
+
+### Layouts & Charts
+
+Display your data in the format that works best for your audience:
+
+| **Layouts** | **Charts** |
+| --- | --- |
+| **Table** - structured grid, sortable by column | **Bar Chart** - compare values across categories |
+| **List** - vertical card layout for easy reading | **Line Chart** - track trends over time |
+| **Grid** - visual tile-based view | **Pie Chart** - show how parts add up to a whole |
+| **Paragraph** - narrative style, like a written summary | |
+
+### Templates
+
+Start reporting immediately with ready-made setups:
+
+- **Pre-built templates** for audits, activity tracking, and content analytics.
+- **One-click** to apply - the full configuration loads automatically.
+- **Auto-lock** protects the template structure from accidental changes.
+- **Editable mode** - unlock and customize whenever you need to.
+
+### Raw View - Debugging
+
+Need to check what's actually in your data? Raw View lets you inspect it directly:
+
+- **Full JSON viewer** - see the complete data response.
+- **Field search and highlight** - find specific fields fast.
+- **Record-by-record navigation** - step through results one at a time.
+- **Copy JSON** - grab the data for debugging or reuse elsewhere.
+
+### Import, Export & Sharing
+
+Share reports and collaborate across teams:
+
+- **JSON Import/Export:** share full report configurations between pages or teams.
+- **CSV Export:** download data in a format any spreadsheet app can read.
+- **JSON Data Export:** for developers and API integrations.
+- **Reusable Report Recipes:** standardize how your teams report across the organization.
+
+### Live Reports & Publishing
+
+Embed live, always-current reports directly inside any Confluence page:
+
+- **Live data:** reports refresh automatically. Always up to date.
+- **Permission-aware:** users only see data they are allowed to access.
+- **Pagination:** handles large result sets cleanly.
+- **Configurable limits:** control how many results appear.
+
+## 3. Use Cases
+
+| **Use Case** | **What You Can Do** |
+| --- | --- |
+| **Content Audits** | Find pages not updated in a long time. See who last edited each page and when. Export a list for cleanup campaigns. |
+| **Team Directories** | Show team members with profile photos. Build a visual team grid inside Confluence. Link directly to each person's pages and contributions. |
+| **Activity Dashboards** | Track how much content is being created over time. See which spaces are most active. Visualize team engagement with charts. |
+| **Compliance & Governance** | Monitor who owns which pages and when they were last reviewed. Generate audit-ready reports on demand. Export structured datasets for compliance review. |
+| **Knowledge Insights** | Understand how content is distributed across your spaces. Spot gaps - topics with little or no documentation. Analyze which pages and spaces are actually being used. |
+
+## 4. Quick Start
+
+**Step 1 - Add the Report Macro**
+Open any Confluence page. Click Edit, type \`/\` and search for **Reports**. Insert the app.
+
+**Step 2 - Select a Data Source**
+Choose Spaces to pick visually, or use Custom CQL to write an advanced query. Check the live preview to confirm results.
+
+**Step 3 - Build Your Report**
+Add columns using field labels and paths. Use Explore to discover available fields. Enable expansions for extra data like history and contributors.
+
+**Step 4 - Filter & Customize**
+Add filters to narrow your results. Pick a layout - Table, Grid, List, and so on. Switch to a chart if needed.
+
+**Step 5 - Save & Publish**
+Set your result limit. Click Save. The live report appears on the page immediately.
+
+## 5. Recommended Starter Setup
+
+Not sure where to begin? This setup works for most teams and takes just a few minutes.
+
+| **Setting** | **Value** |
+| --- | --- |
+| Data Source | Spaces mode, or CQL: \`type=page AND lastmodified < now("-40d") ORDER BY lastmodified ASC\` |
+| Layout | Table (or Grid for a visual tile view) |
+| Columns | Title, Space, Created Date, Last Modified |
+| Optional Columns | Created By, Page Link |
+| Expansions to enable | space, history, version |
+| Verify | Make sure all columns load correctly with no blank values |
+| Export | Download as CSV if you need the data in a spreadsheet |
+| Save | Save the configuration - your report is now live |
+
+## 6. Key Benefits
+
+- **Always up to date:** reports pull live data from Confluence every time the page loads. No manual refresh needed.
+- **No coding required:** everything is point-and-click. Build reports without any technical knowledge.
+- **Flexible data access:** use Spaces mode for quick setup, or write CQL queries for advanced control.
+- **Multiple ways to view data:** switch between tables, grids, lists, and charts depending on what you need.
+- **Share configurations easily:** export a report setup and share it with other teams in seconds.
+- **Secure and permission-aware:** users only see content they have access to.
+- **All-in-one place:** reporting, analytics, and export without needing any external tools.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/demo-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20Demo%20Doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/demo-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20Demo%20Doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // 9. SALES DOC
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "sales-doc",
+      title: "Sales Doc",
+      articles: [
+        {
+          slug: "sales-doc",
+          title: "Sales Doc",
+          content: `
+*Know your Confluence. Report with confidence.*
+
+## What This App Delivers
+
+| | |
+| --- | --- |
+| **Deep Content Audits** | Audit your Confluence spaces - stale pages, contributors, attachments, labels, and restrictions in one live report. |
+| **Pre-built Templates** | 35 tabular + 17 chart templates ready to use. Apply in one click, customize as needed. |
+| **Visual Insights** | Bar, line, and pie charts built directly from Confluence metadata - no external BI tools required. |
+| **Seamless Data Exports** | Download any report as CSV or JSON for offline analysis, stakeholder sharing, or integrations. |
+
+## Key Differentiators
+
+### Five Versatile Display Views
+View your Confluence data as a table, chart, grid, list, or paragraph - whatever works best for your team.
+
+### Real-Time Live Preview
+See results instantly as you build. Live Confluence data, no waiting.
+
+### Spaces or Custom CQL Queries
+Pick an entire space in a few clicks or write a precise query to get exactly what you need.
+
+### Intelligent Debugging & Discovery
+Explore your data structure and fix issues on the spot - no technical help needed.
+
+### Deep JSON Inspection
+Look directly at the data behind your reports. Find the fields you need and build with confidence.
+
+## Security You Can Trust
+
+| | |
+| --- | --- |
+| **Runs natively on Atlassian Cloud** | No external servers, no data leaving your Atlassian infrastructure. |
+| **AGC Compatible** | Fully compatible with Atlassian Government Cloud. |
+| **ISO 27001 Certified** | Clovity is an ISO 27001 certified company. |
+
+## Why Enterprise Teams Prefer Clovity
+
+- 24/7 support with direct access to Atlassian experts.
+- Seamless native UX that works like Atlassian tools.
+- Cloud infrastructure ensuring high availability for global teams.
+
+## Try Our Other Apps In The Suite
+
+Extend Jira & Confluence with dashboards, reporting, planning, and technical documentation tools.
+
+| **App** | **Description** |
+| --- | --- |
+| LaTeX Math Formulas & UML Diagrams | ERD & Flowcharts for Confluence |
+| Content Formatting Macros | Tabs, Navigation, Visibility & CSS for Confluence |
+| Dashboard Templates, Charts, Graphs & Reports | For Jira |
+| Time Tracking, Resource Planning & Project Management | For Jira |
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/sales-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence-Sales-Doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/sales-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence-Sales-Doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // 9. COMPETITOR COMPARISON
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "competitor-comparison",
+      title: "Competitor Comparison",
+      articles: [
+        {
+          slug: "competitor-comparison",
+          title: "Competitor Comparison",
+          content: `
+This comparison covers the core reporting capabilities of Reports, Charts, Templates, CQL & Export for Confluence across 19 feature areas - benchmarked against Reporting for Confluence by Appfire.
+
+## Feature Coverage
+
+| **Feature** | **Reports, Charts, Templates, CQL & Export for Confluence** |
+| --- | --- |
+| CQL Query Support (Full Syntax) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Data Sources (Spaces, Filters, Custom CQL) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Templates and Recipes | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Save as a Macro | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Live Auto-Updating Reports | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Confluence API Integration with Expansions | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Raw JSON Debug View | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Explore Fields Inspector | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Structured Pagination & Large Dataset Handling | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| UI Result Limit Controls | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| JMESPath Filtering | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Column Types (Basic, Collections, Image, Link, Regex, Text) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Drag & Drop Column Reordering | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Automatic Column Population | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Layouts (Table, List, Paragraph, Grid) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Lock Mode / Edit Mode | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Charts (Bar, Line, Pie) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Interactive Zoom Controls & Smart Tooltips | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+| Export Options (CSV, JSON) | <div style="display:flex;justify-content:center;align-items:center;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#16a34a;border-radius:50%;flex-shrink:0;"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div> |
+
+## Coverage Summary
+
+**19 / 19 core reporting capabilities supported - 100% coverage.**
+
+Our app delivers complete coverage of enterprise reporting foundations: CQL-based querying, deep metadata access, flexible layouts, interactive visualizations, and robust export & reusability - packaged into a cohesive, user-friendly experience.
+
+| **Category** | **What We Cover** |
+| --- | --- |
+| Reporting Engine | CQL querying, multiple data sources, live updates, Confluence API with expansions |
+| Configuration | Templates & recipes, macro save, lock/edit mode, automatic column population |
+| Data Architecture | Raw JSON debug, Explore fields inspector, pagination, result limit controls, JMESPath filtering |
+| Column & Layout | 6 column types, drag & drop reordering, 4 layout views (Table, List, Paragraph, Grid) |
+| Visualization | Bar, Line, and Pie charts with interactive zoom controls and smart tooltips |
+| Export | CSV and JSON export from any report view |
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/competitor-comparision/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20competitor%20compare.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/competitor-comparision/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20competitor%20compare.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
     // 7. END USER LICENSE AGREEMENT
     // ═══════════════════════════════════════════════════════════════
     {
