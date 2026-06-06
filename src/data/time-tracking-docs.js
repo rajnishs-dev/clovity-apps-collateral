@@ -2707,6 +2707,20 @@ This is useful for part-time staff, contractors, or users in different regions w
 - Use the working hours override for part-time employees to ensure their Capacity Report data is accurate
 - Revisit Manage Staff when onboarding or offboarding team members to keep the user list current`,
         },
+        {
+          slug: "user-guide-pdf",
+          title: "User Guide PDF",
+          content: `
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/user-guide/time-tracking-ppm-user-guide.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/user-guide/time-tracking-ppm-user-guide.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
       ],
     },
 
@@ -3304,6 +3318,420 @@ Worklogs created this way appear in the Time Tracking report builder automatical
 ## Data Retention
 
 App configuration data (report setups, templates, portfolios, scoring) is stored in Forge KVS and is retained as long as the app is installed. Uninstalling the app permanently deletes all app-stored configurations. Jira worklogs are stored in Jira and are unaffected by app installation/uninstallation.`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // DEMO DOC
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "demo-doc",
+      title: "Demo Doc",
+      articles: [
+        {
+          slug: "demo-doc",
+          title: "Demo Doc",
+          content: `
+## 1. Overview
+
+As teams scale on Jira, critical visibility gaps appear - managers can't see who's overloaded, backlogs are prioritized by gut feel, time data is scattered, and portfolio health requires manual reporting across multiple boards.
+
+This app solves those problems by giving teams and managers a complete operations toolkit built natively inside Jira:
+
+- Track and report on time using timesheets, calendars, charts, and custom reports.
+- Analyze team workload, capacity, delivery risk, and status bottlenecks in real time.
+- Score and rank the backlog using configurable, weighted scoring models.
+- Monitor all projects and initiatives from a single portfolio view with six visualization modes.
+- Control access with a clean role model tied directly to Jira's user management.
+
+**Designed for:** Engineering teams, project managers, and delivery leads who need operational visibility inside Jira - without external tools, manual spreadsheets, or duplicate data entry.
+
+## Pre-Demo Briefing
+
+Demo of the Time Tracking, Resource Planning & Project Management on clovity-demos.atlassian.net. Follow sections in order or jump to the module the client cares about most.
+
+**Demo Environment**
+- Site: clovity-demos.atlassian.net
+- Login: Use the Any user account.
+
+**Demo Team Members**
+- Ash Parker · Shawn Page
+- Victor Parker (Full Time 8hrs)
+- Christopher (Part Time) · Ashton Maka (Part Time 4 hrs)
+- All Assigned: USA Holiday Calendar
+
+**Workload Schemes**
+- Default: 8h/day — Ash, Shawn, Victor
+- Part Time: 4h/day — Christopher, Ashton Maka
+
+**Pre-Configured Leaves**
+- Ash Parker: Vacation Jun 3–4
+- Shawn Page: Sick Jun 1
+- Victor Parker: Vacation Jun 9–11
+
+**Opening Hook:**
+> "What you're about to see is a single Jira app - that gives your teams full visibility into Capacity Planning, Time-Tracking, portfolio health, and priorities backlogs, all from inside Jira."
+
+---
+
+## Module 1: Capacity Planner
+
+Show clients how to know - before the sprint starts - whether their team has the bandwidth to deliver. Stop planning in the dark.
+
+**The problem you're solving:**
+> "Every manager we talk to says the same thing - we plan the sprint, people say they're available, and then halfway through we find out two people are on vacation and one is only part-time this week. Capacity Planner gives you that picture upfront, before you commit."
+
+### 1. Settings Tour
+
+- Navigate: **Capacity Planner > Settings**
+- **Show Workload Schemes** — Default (8h/day: Ash, Shawn, Victor) and Part Time (4h/day: Christopher & Ashton Maka).
+- **Show Holiday Calendar** — USA Holiday Calendar assigned to all team members.
+- **Show Team Setup** — Click Teams > Demo Team, show 5 members with workload scheme assignments.
+
+**Value Point:** Configuration is done once by the admin. Every manager who uses the planner after that automatically gets accurate, policy-compliant capacity numbers - no manual inputs, no spreadsheet gymnastics.
+
+### 2. Vacation & Leave Management
+
+- Navigate: **Capacity Planner > Vacation Planning**
+
+| Team Member | Type | Dates | Hours Lost |
+| --- | --- | --- | --- |
+| Ash Parker | Vacation | Jun 3–4, 2026 | 16h (2 full days) |
+| Shawn Page | Sick | Jun 1, 2026 | 8h |
+| Victor Parker | Vacation | Jun 9–11, 2026 | 24h (3 full days) |
+
+**Talk Track:** *"In most teams, this information lives in someone's Slack DMs or a shared calendar that nobody checks before the sprint. Here it feeds directly into the capacity calculation - so when a manager says 'we have capacity for 80 hours this sprint,' that number is real."*
+
+### 3. Planning Calendar — June 2026
+
+- Navigate: **Capacity Planner > Planning Calendar**
+- Select **Demo Team + June 2026**
+- Each team member appears as a row with their daily/weekly capacity. Vacation and sick days show as blocked-out cells. Public holidays appear automatically. Part-time members show 4h max vs. 8h for full-time.
+
+**Talk Track:** *"Demo Team has 312 available hours in June - not the theoretical 400, because we've already subtracted Ash's vacation, Shawn's sick day, Victor's leave, part-time schedules, and the Memorial Day holiday. That's the real number."*
+
+### 4. Reports — Planned & Planned vs. Actual
+
+- Navigate: **Capacity Planner > Reports**
+- Open Planned Report — Select projects 1, 2, and 4. Select team Demo Team. Set date range to cover June 2026.
+- Cycle through Group By options: Group by Project | Group by Assignee | Group by Issue Type | Group by Issue
+- Switch to **Planned vs. Actual** — Show the delta column.
+- **Export to PDF/CSV** — Ready to drop into a status update or client report.
+
+**Value Point:** Planned vs. Actual answers "did we deliver what we said we would?" — in one click, not a half-day data pull from Jira and Excel.
+
+### 5. Analytics — Four Tabs of Insight
+
+- Navigate: **Capacity Planner > Analytics**
+
+| Tab | What It Shows | Who Cares |
+| --- | --- | --- |
+| Capacity Overview | Available vs. allocated hours by member | Team Lead, PMO |
+| Utilization | % utilization per person / per project | Resource Manager |
+| Trend Analysis | Capacity trends over time (weeks/months) | Director, VP Eng |
+| Project Distribution | How hours are split across projects | Portfolio Manager |
+
+**Closing Talk Track:** *"Everything you just saw is configured once and runs automatically. A manager opens this every Monday morning instead of opening a spreadsheet. That's the difference."*
+
+---
+
+## Module 2: Time Tracking
+
+From logging a single hour to a full approval workflow - time tracking doesn't have to be painful.
+
+**The problem you're solving:**
+> "Time tracking tools are either too clunky to use daily or too simple to give meaningful reports. Developers skip it. Managers chase people. Reports are always incomplete. What you're about to see fixes all three - logging is fast, approvals are structured, and reports are accurate."
+
+### 1. My Calendar — The Daily View
+
+- Navigate: **Time Tracking > My Calendar**
+- Show Week View — point out time blocks already logged.
+- Switch to Month View — monthly summary with total hours logged per day.
+
+### 2. Assigned Work Items — Log Work with One Click
+
+- Open Assigned Work Items panel — right side of My Calendar, shows all Jira issues assigned to the user.
+- Drag an issue onto a calendar day — Log Work form opens pre-populated.
+- Fill in: Time Spent (e.g., 2h), Date (auto-filled), Description (optional). Click Save.
+
+**Talk Track:** *"The #1 reason time tracking fails is friction. Drag, drop, two fields, done. And because the issues come from Jira automatically, there's no chance they're logging to the wrong project code."*
+
+### 3. My Timesheet — Configure & Submit
+
+- Navigate: **Time Tracking > My Timesheet**
+- Period set to Monthly. Progress bar shows hours vs. target.
+- Timesheet grid — each row is a Jira issue, each column is a day. Hours editable inline.
+- Submit Timesheet — click Submit for Approval, select approver (Akash Gupta), confirm.
+
+**Value Point:** Timesheet submission creates an auditable trail — timestamped, linked to real Jira worklogs, with approver sign-off. Especially powerful for consulting firms, agencies, and government contractors.
+
+### 4. Approvals
+
+- Navigate: **Time Tracking > Approvals**
+- Approval detail view: submitter name, period, total hours, issue-by-issue breakdown, Approve / Request Changes / Reject buttons.
+
+**Talk Track:** *"Every org I talk to has a different approval workflow living somewhere between email and a shared drive. This puts it in Jira, tied to the actual time data, with a full audit history."*
+
+### 5. Reports — Multi-User Time Reporting
+
+- Navigate: **Time Tracking > Reports**
+- Select all 5 Demo Team members, set date range to last 30 days.
+- Group by Assignee, then switch to Project.
+- Show total hours table — total hours logged per person vs. target hours.
+- Export PDF/CSV.
+
+---
+
+## Module 3: Portfolio Management
+
+Give leadership the cross-project view they've been asking for - without a separate tool, a weekly status meeting, or a 50-tab Confluence page.
+
+### 1. Build the Portfolio View
+
+- Navigate: **Portfolio Management > Portfolio Table**
+- Set filters: Projects 1, 2, 3, 4 | Date Range: Last Quarter | Click Apply.
+
+### 2. Table View — Issues Across All Projects
+
+- Default columns: Issue Key, Summary, Assignee, Status, Priority, Story Points.
+- Add custom columns: Progress | Formula Column | Time in Status
+- Group by hierarchy (Epics > Stories > Sub-tasks).
+- Inline editing — reassign or transition issues directly.
+
+### 3. Gantt View — Timeline & Dependencies
+
+- Switch to Gantt View — color-coded by project, zoom levels: Day/Week/Month/Quarter.
+- Dependency tracking — draw arrows between issues, blocked dependencies visually highlighted.
+- Drag to reschedule — dependent tasks automatically flag as impacted.
+
+**Value Point:** Cross-project Gantt for all 4 projects in a single pane - with live Jira data, no manual entry, and dependency tracking built in.
+
+### 4. Saved Views
+
+- Save current view as "Q2 Portfolio - All Projects".
+- Different stakeholders get their own saved views.
+
+---
+
+## Module 4: Backlog Prioritization
+
+Turn a hundred-item backlog from a gut-feel debate into a data-driven, defensible priority list in under 5 minutes.
+
+### 1. Set Up the Scoring Context
+
+- Navigate: **Backlog Prioritization > Backlog Table**
+- Configure filter: Project 4 — CRM | Date Range: Last Quarter.
+- Select **ICE Scoring Template** (Impact × Confidence × Ease).
+
+### 2. Inline Scoring
+
+- Score an item inline (e.g., Impact: 8, Confidence: 7, Ease: 5 → ICE Score: 280).
+- Sort by ICE Score — backlog re-orders instantly.
+
+### 3. Priority Matrix — The Executive View
+
+- Switch to **Matrix tab** — 2×2 quadrant chart.
+
+| Quadrant | Label | Action |
+| --- | --- | --- |
+| High Impact / High Ease | Quick Wins | Do these first - maximum ROI |
+| High Impact / Low Ease | Major Projects | Plan carefully - high value, high effort |
+| Low Impact / High Ease | Fill-ins | When there's spare capacity |
+| Low Impact / Low Ease | Time Wasters | Deprioritize or remove |
+
+**Value Point:** Backlog Prioritization is the missing link between strategic goals and sprint planning. It creates a shared, data-backed priority framework that teams and leadership can both trust.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/demo-doc/time-tracking-ppm-demo-doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/demo-doc/time-tracking-ppm-demo-doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // SALES DOC
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "sales-doc",
+      title: "Sales Doc",
+      articles: [
+        {
+          slug: "sales-doc",
+          title: "Sales Doc",
+          content: `
+*Stop Guessing. Start Delivering.*
+
+## What This App Delivers
+
+| | |
+| --- | --- |
+| **40%** Less Time Planning | **3x** Faster Sprint Setup |
+| **60%** Fewer Overcommits | **4-in-1** App Suite |
+
+## App Core Capabilities
+
+| **Capability** | **Description** |
+| --- | --- |
+| **Capacity Planner & Insights** | Understand team workload and prevent over-allocation before it impacts delivery. |
+| **Time-Tracking & Reporting** | Log work in Jira with detailed reports for teams & stakeholders. |
+| **Portfolio Management** | Monitor delivery progress across multiple teams, initiatives, and timelines. |
+| **Backlog Prioritization** | Score & rank backlog items using transparent, data-driven frameworks. |
+
+## Security You Can Trust
+
+- **Enterprise Grade** — Built on Atlassian's Forge platform.
+- **AGC Compatible** — Fully compatible with Atlassian Government Cloud.
+- **ISO 27001 Certified** — Clovity is an ISO 27001 certified company.
+
+## Key Differentiators
+
+**One Login. Full Access:**
+Set a person's role once and they're set up across all four modules. No juggling separate permissions for each tool.
+
+**Your Data, Your Control:**
+Your data stays within your own Jira environment. No third-party servers, no surprise storage costs, no data leaving your organization.
+
+**Everything in One Place:**
+Track time, plan your team, and manage your portfolio without ever leaving Jira. No tab-switching, no tool-hopping.
+
+**One App. One Bill:**
+Replace multiple separate tools and subscriptions with a single install. Less to manage, less to pay for.
+
+**See the Full Picture:**
+From individual task hours to company-wide delivery health - everything is visible in one connected view, in real time.
+
+**Grows With Your Team:**
+Whether you have 5 people or 500, the app scales with you. Add teams, projects, and users without reconfiguring anything.
+
+## Build For
+
+- Product Owners.
+- Engineering Leads.
+- Project Managers.
+- Scrum Masters.
+- Delivery Managers.
+- Finance & Operations.
+
+## Why Enterprise Teams Prefer Clovity
+
+- 24/7 support with direct access to Atlassian experts.
+- Seamless native UX that works like Atlassian tools.
+- Cloud infrastructure ensuring high availability for global teams.
+
+## Try Our Other Apps In The Suite
+
+Extend Jira & Confluence with dashboards, reporting, planning, and technical documentation tools.
+
+| **App** |
+| --- |
+| [LaTeX Math Formulas & UML Diagrams (ERD & Flowcharts)](/apps/latex-diagrams-confluence) |
+| [Reports, Charts, Templates, CQL & Export for Confluence](/apps/reports-charts-confluence) |
+| [Dashboard Templates, Charts, Graphs & Reports for Jira](/apps/dashboard-charts-jira) |
+| [Content Formatting Macros: Tabs Navigation Visibility CSS](/apps/content-formatting-confluence) |
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/sales-doc/time-tracking-ppm-sales-doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/sales-doc/time-tracking-ppm-sales-doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // COMPETITOR COMPARISON
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "competitor-comparison",
+      title: "Competitor Comparison",
+      articles: [
+        {
+          slug: "competitor-comparison",
+          title: "Competitor Comparison",
+          content: `
+A consolidated suite that replaces multiple plugin categories with one governed experience across Time, Capacity, Prioritization and Portfolio (PPM).
+
+## Capacity Planner vs Our App
+
+**Purpose:** Plan & visualize workload by team/user across days/weeks/months.
+
+| **Capacity Planner (Tempo)** | **Our App** |
+| --- | --- |
+| Resource planning, date picker, multi-view (day/week/month) | ✓ |
+| Plan project management tasks against Jira projects & issues | ✓ |
+| Filter & save Resource Planning views | ✓ |
+| Configure holidays & workloads to avoid conflicts and burnout | ✓ |
+| Report planned vs actual time | ✓ |
+| Request time from other teams | ✗ |
+
+## Timesheets vs Our App
+
+**Purpose:** Capture worklogs, classify time (billable / non-billable) and report/export.
+
+| **Time Sheets (Tempo)** | **Our App** |
+| --- | --- |
+| Planning your time by log time (date, duration, description), edit entries in My Work | ✓ |
+| Multiple views (timesheet + calendar + My Work) | ✓ |
+| Managing Your Team | ✓ |
+| Timesheet Approvals | ✓ |
+| Generating Timesheet reports | ✓ |
+| Dashboard Gadget to track time | ✓ |
+| Google Calendar integration | ✗ |
+
+## Portfolio Management vs Our App
+
+**Purpose:** Portfolio setup from scope/JQL + multi-view analysis + editing + export.
+
+| **Portfolio/PPM (Structure by Tempo)** | **Our App** |
+| --- | --- |
+| Hierarchy Table View | ✓ |
+| Bulk Selection & Editing | ✓ |
+| Formulas & Bundled Formulas | ✓ |
+| Visualize plans in Gantt Chart & create dependency | ✓ |
+| Multiple Views (Graph, Treemap, Piechart, Board) | ✓ |
+| Drag & Drop Re-parenting | ✓ |
+| Confluence Macro | ✗ |
+
+## Backlog Prioritization vs Our App
+
+**Purpose:** Generate a real-time priority score using templates (WSJF/RICE/ICE) + custom metrics.
+
+| **Backlog Prioritization (Foxly)** | **Our App** |
+| --- | --- |
+| Templates + custom template, metric configuration | ✓ |
+| Priority matrix + customization | ✓ |
+| Priority history + export | ✓ |
+| Planning Poker | ✗ |
+| Priority details inside Issue Context module | ✓ |
+
+## Coverage Summary
+
+| **Category** | **Coverage** | **Benchmarked Against** |
+| --- | --- | --- |
+| Timesheets | ~75% strict / ~85% incl. partial + in-progress | Tempo Timesheets |
+| Capacity Planner | ~85% | Tempo Capacity Planner |
+| Backlog Prioritization | ~80% | Foxly |
+| Portfolio Management | ~85% | Structure by Tempo |
+
+**Overall combined takeaway:** The suite delivers ~80–85% coverage per capability (with Timesheets at ~75% strict / ~85% incl. partial + in-progress), while consolidating these categories into one governed app.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/competitor-comparision/time-tracking-ppm-competitor-comparision.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/competitor-comparision/time-tracking-ppm-competitor-comparision.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
         },
       ],
     },

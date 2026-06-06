@@ -733,6 +733,20 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 - **Use Chart view for large datasets.** A bar chart summarising 5,000 pages by author loads faster and communicates more clearly than a 5,000-row table.
 `,
         },
+        {
+          slug: "user-guide-pdf",
+          title: "User Guide PDF",
+          content: `
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="/pdf/user-guide/reports-charts-templates-for-Confluence-User%20Guide.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="/pdf/user-guide/reports-charts-templates-for-Confluence-User%20Guide.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+  </div>
+</div>
+`,
+        },
       ],
     },
     // ═══════════════════════════════════════════════════════════════
@@ -2528,10 +2542,10 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
 
 | **App** | **Description** |
 | --- | --- |
-| LaTeX Math Formulas & UML Diagrams | ERD & Flowcharts for Confluence |
-| Content Formatting Macros | Tabs, Navigation, Visibility & CSS for Confluence |
-| Dashboard Templates, Charts, Graphs & Reports | For Jira |
-| Time Tracking, Resource Planning & Project Management | For Jira |
+| [LaTeX Math Formulas & UML Diagrams](/apps/latex-diagrams-confluence) | ERD & Flowcharts for Confluence |
+| [Content Formatting Macros](/apps/content-formatting-confluence) | Tabs, Navigation, Visibility & CSS for Confluence |
+| [Dashboard Templates, Charts, Graphs & Reports](/apps/dashboard-charts-jira) | For Jira |
+| [Time Tracking, Resource Planning & Project Management](/apps/time-tracking-jira) | For Jira |
 
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
