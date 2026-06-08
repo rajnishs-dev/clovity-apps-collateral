@@ -262,7 +262,7 @@ Add Alert macros for warnings, Buttons for CTAs, Background for section separati
 
 | Requirement | Details |
 |---|---|
-| **Confluence Edition** | Confluence Cloud only |
+| **Confluence Edition** | Confluence Cloud and AGC |
 | **Confluence Data Center** | Not supported |
 | **Confluence Server** | Not supported |
 | **Atlassian Platform** | Atlassian Connect / Forge |

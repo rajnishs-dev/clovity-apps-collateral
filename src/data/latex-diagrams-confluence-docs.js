@@ -34,11 +34,11 @@ All of this runs natively inside Confluence Cloud using macros - no external ser
 
 ## Three Macros, One App
 
-| Macro | Best For | Rendering Engine |
-|---|---|---|
-| **Clovity Diagrams** | Flowcharts, sequences, ERDs, Gantt, mindmaps | Mermaid |
-| **Clovity LaTeX Block** | Display equations, matrices, multi-line aligned math | KaTeX |
-| **Clovity LaTeX Inline** | Math embedded inside paragraph text | KaTeX |
+| Macro | Best For |
+|---|---|
+| **UML Diagrams** | Flowcharts, sequences, ERDs, Gantt, mindmaps |
+| **LaTeX Block** | Display equations, matrices, multi-line aligned math |
+| **LaTeX Inline** | Math embedded inside paragraph text |
 
 ## Who Is It For?
 
@@ -75,7 +75,7 @@ All of this runs natively inside Confluence Cloud using macros - no external ser
 
 **Editor features**
 
-* Split Source/Preview editor (live KaTeX rendering)
+* Split Source/Preview editor (live rendering)
 * Samples dropdown for quick starting examples
 
 **Viewer features (on the page)**
@@ -87,10 +87,6 @@ All of this runs natively inside Confluence Cloud using macros - no external ser
 * Fullscreen mode
 * Clear error panel for invalid syntax
 
-**Important input rule**
-
-* This macro expects **raw LaTeX** (not wrapped with \`$$...$$\`).
-
 ---
 
 ### LaTeX Inline Equations
@@ -99,7 +95,7 @@ All of this runs natively inside Confluence Cloud using macros - no external ser
 
 **Editor features**
 
-* Split Source/Preview editor (live KaTeX rendering)
+* Split Source/Preview editor (live rendering)
 * Write normal text plus formulas
 
 **Viewer features (on the page)**
@@ -143,7 +139,7 @@ Before installing, confirm:
 | 1 | Log in to your Confluence Cloud site as an administrator |
 | 2 | Click the **gear icon** (Settings) → select **Apps** |
 | 3 | Click **Find new apps** in the left sidebar |
-| 4 | Search for **"Clovity Diagrams Math LaTeX"** |
+| 4 | Search for **"UML Diagrams Math LaTeX"** |
 | 5 | Click the app in the search results |
 | 6 | Click **Try it free** (30-day trial) or **Buy now** |
 | 7 | Review the requested permissions |
@@ -154,9 +150,9 @@ Before installing, confirm:
 After installation, open any Confluence page in edit mode:
 
 1. Click inside the page body and type \`/\`
-2. In the macro search, type **Diagrams** - you should see **Clovity Diagrams**
-3. Search **LaTeX Block** - you should see **Clovity LaTeX Block Equations**
-4. Search **LaTeX Inline** - you should see **Clovity LaTeX Inline Equations**
+2. In the macro search, type **Diagrams** - you should see **UML Diagrams**
+3. Search **LaTeX Block** - you should see **LaTeX Block Equations**
+4. Search **LaTeX Inline** - you should see **LaTeX Inline Equations**
 
 If all three macros appear, installation is complete and working.
 
@@ -211,7 +207,7 @@ Get up and running with your first diagram or equation in under 5 minutes.
 ## Inserting Your First Diagram
 
 1. Edit a Confluence page and type \`/Diagrams\`
-2. Click **Clovity Diagrams** in the macro list
+2. Click **UML Diagrams** in the macro list
 
 ![Easy UML Diagrams macro selection in Confluence](/images/latex-diagram-confluence/Screenshot%202026-03-10%20171651.png)
 
@@ -236,7 +232,7 @@ flowchart TD
 ## Inserting Your First Equation
 
 1. Edit a page and type \`/LaTeX Block\`
-2. Click **Clovity LaTeX Block Equations**
+2. Click **LaTeX Block Equations**
 
 ![LaTeX Block Equations and LaTeX Inline Equations macro options in Confluence](/images/latex-diagram-confluence/Screenshot%202026-03-10%20171523.png)
 
@@ -244,15 +240,13 @@ flowchart TD
 4. Preview renders the equation on the right
 5. Click **Save** - the display equation appears on the page
 
-**Important:** Do not wrap LaTeX with \`$$...$$\`. Enter raw LaTeX only.
-
 ## Inserting Inline Math
 
 1. Edit a page and type \`/LaTeX Inline\`
-2. Click **Clovity LaTeX Inline Equations**
-3. In the Source panel, write normal text and embed math with \`$...$\`, for example:
+2. Click **LaTeX Inline Equations**
+3. In the Source panel, write normal text and LaTeX equations, for example:
 
-\`The area of a circle is $A = \\pi r^2$ where $r$ is the radius.\`
+\`The area of a circle is A = \\pi r^2 where r is the radius.\`
 
 4. Click **Save** - the paragraph renders with embedded math
 
@@ -298,30 +292,12 @@ When making large changes:
 
 | Requirement | Details |
 |---|---|
-| **Confluence Edition** | Confluence Cloud only |
+| **Confluence Edition** | Confluence Cloud and AGC |
 | **Confluence Server** | Not supported |
 | **Confluence Data Center** | Not supported |
 | **Atlassian Platform** | Confluence Cloud Forge / Connect app |
 
 This app is exclusively designed for Confluence Cloud. There is no Server or Data Center version.
-
-## Rendering Engine Versions
-
-| Engine | Purpose | Notes |
-|---|---|---|
-| **KaTeX** | LaTeX Block and Inline math rendering | Supports the majority of standard LaTeX math commands; a small subset of advanced TeX macros may not be supported |
-| **Mermaid** | Diagram rendering for the Diagrams macro | Supports flowcharts, sequence, class, ER, Gantt, pie, mindmap, and more |
-
-### KaTeX Coverage
-
-KaTeX renders LaTeX extremely fast in the browser. Supported environments include:
-
-* Fractions, roots, exponents, subscripts
-* Greek letters and math operators
-* \`aligned\`, \`matrix\`, \`cases\`, \`array\` environments
-* \`\\text{}\`, \`\\frac{}\`, \`\\sum\`, \`\\int\`, \`\\prod\`
-
-Unsupported: some advanced PGF/TikZ commands, custom LaTeX packages, and obscure TeX primitives.
 
 ### Mermaid Coverage
 
@@ -353,14 +329,13 @@ Internet Explorer is not supported.
 
 ## Network & Infrastructure
 
-* **No external servers:** all rendering happens client-side in the browser using KaTeX and Mermaid libraries
+* **No external servers:** all rendering happens client-side in the browser
 * **No data exports:** macro source content stays within your Confluence environment
 * **No special network configuration** beyond standard access to \`*.atlassian.net\` and \`*.atlassian.com\`
 
 ## Known Limitations
 
 - **Cloud only** - no Server or Data Center support
-- **KaTeX subset** - advanced custom LaTeX packages not available
 - **No real-time collaboration** - simultaneous edits use last-save-wins storage
 - **No bulk import** - content must be entered via the macro editor`,
         },
@@ -387,7 +362,7 @@ Only a **Confluence site administrator** (or a user with Confluence administrato
 Steps:
 1. Log in as a site administrator
 2. Go to **Settings → Apps → Find new apps**
-3. Search for and install **Clovity Diagrams Math LaTeX**
+3. Search for and install **UML Diagrams Math LaTeX**
 4. Accept the requested permissions
 
 Once installed, the macros are immediately available to all page editors across the entire Confluence site.
@@ -447,7 +422,7 @@ If you cannot insert macros, the issue is likely a Confluence page permission ra
           slug: "start-here-by-role",
           title: "Start Here - Guide by Role",
           content: `
-LaTeX Formulas & Diagrams adds three macros to the Confluence editor: **Clovity Diagrams** (Mermaid), **Clovity LaTeX Block Equations**, and **Clovity LaTeX Inline Equations**. All three open the same split-view editor. Use this guide to find the right starting point for your role.
+LaTeX Formulas & Diagrams adds three macros to the Confluence editor: **UML Diagrams** (Mermaid), **LaTeX Block Equations**, and **LaTeX Inline Equations**. All three open the same split-view editor. Use this guide to find the right starting point for your role.
 
 ## Technical Writer / Documentation Lead
 
@@ -490,7 +465,7 @@ You install apps and want to understand what this adds to your instance.
 
 **Start with:**
 1. [Installation & Setup](/apps/latex-diagrams-confluence/installation-setup) - install from Atlassian Marketplace
-2. [System Requirements](/apps/latex-diagrams-confluence/system-requirements) - Confluence Cloud only; browser rendering via KaTeX and Mermaid
+2. [System Requirements](/apps/latex-diagrams-confluence/system-requirements) - Confluence Cloud only; browser-side rendering
 3. [Permissions & Access](/apps/latex-diagrams-confluence/permissions-access) - what the app accesses and how content is stored
 `,
         },
@@ -504,9 +479,9 @@ A single-page reference for all three macros, supported diagram types, and commo
 
 | Macro | Language | Best For | Reference |
 |---|---|---|---|
-| **Clovity Diagrams** | Mermaid | Flowcharts, sequence diagrams, ERDs, Gantt charts, mindmaps | [Diagrams Macro](/apps/latex-diagrams-confluence/diagrams-macro) |
-| **Clovity LaTeX Block** | KaTeX (LaTeX) | Standalone centred equations, matrices, multi-line derivations | [LaTeX Block](/apps/latex-diagrams-confluence/latex-block-equations) |
-| **Clovity LaTeX Inline** | KaTeX (LaTeX) | Math embedded inline within paragraph text | [LaTeX Inline](/apps/latex-diagrams-confluence/latex-inline-equations) |
+| **UML Diagrams** | Mermaid | Flowcharts, sequence diagrams, ERDs, Gantt charts, mindmaps | [Diagrams Macro](/apps/latex-diagrams-confluence/diagrams-macro) |
+| **LaTeX Block** | LaTeX | Standalone centred equations, matrices, multi-line derivations | [LaTeX Block](/apps/latex-diagrams-confluence/latex-block-equations) |
+| **LaTeX Inline** | LaTeX | Math embedded inline within paragraph text | [LaTeX Inline](/apps/latex-diagrams-confluence/latex-inline-equations) |
 
 ## Supported Mermaid Diagram Types
 
@@ -535,8 +510,6 @@ A single-page reference for all three macros, supported diagram types, and commo
 | Integral | \`\\int_{a}^{b} f(x)\\,dx\` |
 | Matrix (2×2) | \`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\` |
 | Aligned equations | \`\\begin{aligned} ... \\end{aligned}\` |
-
-> **Do not wrap LaTeX Block content with \`$$...$$\`** - the macro expects raw LaTeX only.
 
 → [Formula Library Reference](/apps/latex-diagrams-confluence/formula-library-reference)
 
@@ -570,7 +543,7 @@ Architecture Page
 
 ## Step 1 - System Overview Flowchart
 
-1. Edit the Confluence page, type \`/\` → **Clovity Diagrams** → insert
+1. Edit the Confluence page, type \`/\` → **UML Diagrams** → insert
 2. In the Source panel, write a top-down flowchart:
 
 \`\`\`
@@ -597,7 +570,7 @@ flowchart TD
 
 ## Step 2 - Request Sequence Diagram
 
-1. Below the flowchart section, insert another **Clovity Diagrams** macro
+1. Below the flowchart section, insert another **UML Diagrams** macro
 2. Write the sequence diagram:
 
 \`\`\`
@@ -621,7 +594,7 @@ sequenceDiagram
 
 ## Step 3 - Data Model ERD
 
-1. Insert another **Clovity Diagrams** macro
+1. Insert another **UML Diagrams** macro
 2. Write the ERD:
 
 \`\`\`
@@ -679,22 +652,20 @@ A workflow for embedding mathematical notation in Confluence pages - both standa
 
 ## Step 1 - Insert a Display Equation (LaTeX Block)
 
-1. Edit the Confluence page, type \`/\` → **Clovity LaTeX Block Equations** → insert
-2. In the Source panel, write raw LaTeX (no \`$$\` wrappers):
+1. Edit the Confluence page, type \`/\` → **LaTeX Block Equations** → insert
+2. In the Source panel, write raw LaTeX:
 \`\`\`
 \\hat{y} = \\sigma\\left(\\sum_{i=1}^{n} w_i x_i + b\\right)
 \`\`\`
 3. Preview shows the rendered equation centred on the page
 4. Click **Save**
 
-> Do not wrap with \`$$...$$\` - the Block macro expects raw LaTeX only.
-
 ## Step 2 - Embed Inline Math in a Paragraph
 
-1. Type \`/\` → **Clovity LaTeX Inline Equations** → insert
-2. In the Source panel, write normal paragraph text with math wrapped in \`$...$\`:
+1. Type \`/\` → **LaTeX Inline Equations** → insert
+2. In the Source panel, write normal paragraph text with math:
 \`\`\`
-The mean squared error is defined as $\\text{MSE} = \\frac{1}{n}\\sum_{i=1}^{n}(y_i - \\hat{y}_i)^2$, where $n$ is the number of observations.
+The mean squared error is defined as \\text{MSE} = \\frac{1}{n}\\sum_{i=1}^{n}(y_i - \\hat{y}_i)^2, where n is the number of observations.
 \`\`\`
 3. Preview shows the paragraph with rendered inline formulas
 4. Click **Save**
@@ -724,8 +695,6 @@ Mix LaTeX macros with standard Confluence elements:
 |---|---|---|
 | Red error panel | Syntax error in LaTeX | Check for unmatched \`{}\`, missing \`\\\\\` in aligned, typos in command names |
 | Blank preview | Empty source panel | Type or paste LaTeX into Source panel |
-| \`$$\` showing literally | Wrapped with \`$$...$$\` in Block macro | Remove the wrappers - Block expects raw LaTeX |
-| Inline formula not rendering | \`$...$\` not present | Wrap the math expression with \`$...$\` in the Inline macro |
 
 → [Formula Library Reference](/apps/latex-diagrams-confluence/formula-library-reference)
 `,
@@ -750,8 +719,6 @@ Non-obvious tips that save time and prevent common rendering issues.
 
 ## LaTeX Equations
 
-- **Never wrap LaTeX Block content with \`$$...$$\`.** The Block macro adds the display math context automatically. Adding \`$$\` wrappers causes the literal characters to appear in the output.
-- **Inline macros require \`$...$\` around each formula.** Unlike Block, Inline mixes plain text and math - only the parts inside \`$...$\` are rendered as math; everything else renders as plain text.
 - **Use \`\\\\\` (double backslash) for line breaks in \`aligned\` environments.** A single \`\\\` is a LaTeX escape character. To break a line in a multi-step derivation, use \`\\\\\`.
 - **Use the Formula Library for standard formulas.** Before writing a complex formula from scratch, check [Formula Library Reference](/apps/latex-diagrams-confluence/formula-library-reference) - most standard statistical, calculus, and linear algebra formulas are already there.
 
@@ -800,9 +767,9 @@ Non-obvious tips that save time and prevent common rendering issues.
 
 | Macro | Use When |
 |---|---|
-| **Clovity Diagrams** | You need a visual diagram - flowchart, sequence, ERD, Gantt, mindmap |
-| **Clovity LaTeX Block** | You need a standalone display equation centered on its own line |
-| **Clovity LaTeX Inline** | You need math embedded inside a paragraph of normal text |
+| **UML Diagrams** | You need a visual diagram - flowchart, sequence, ERD, Gantt, mindmap |
+| **LaTeX Block** | You need a standalone display equation centered on its own line |
+| **LaTeX Inline** | You need math embedded inside a paragraph of normal text |
 
 ## Editor Overview (All Macros)
 
@@ -1080,7 +1047,7 @@ Workaround:
           slug: "latex-block-equations",
           title: "LaTeX Block Equations (Display Math)",
           content: `
-Clovity LaTeX Block renders **display math** (centered equations).
+LaTeX Block renders **display math** (centered equations).
 
 ## Best for
 
@@ -1091,7 +1058,7 @@ Clovity LaTeX Block renders **display math** (centered equations).
 
 ## Key input rule
 
-Enter **raw LaTeX only** - do not wrap with \`$$...$$\`.
+Enter **raw LaTeX only**.
 
 ---
 
@@ -1178,7 +1145,7 @@ Copies raw LaTeX to clipboard (useful for reuse across docs).
           slug: "latex-inline-equations",
           title: "LaTeX Inline Equations",
           content: `
-Clovity LaTeX Inline renders math inside normal text.
+LaTeX Inline renders math inside normal text.
 
 ## Best for
 
@@ -1195,15 +1162,15 @@ Clovity LaTeX Inline renders math inside normal text.
 * **Source (left):** normal paragraph text
 * **Preview (right):** rendered text with math
 
-![Clovity LaTeX Inline Editor - Source and Preview panels with formula category tabs (Basic, Algebra, Calculus, etc.)](/images/latex-diagram-confluence/Screenshot%202026-03-10%20192137.png)
+![LaTeX Inline Editor - Source and Preview panels with formula category tabs (Basic, Algebra, Calculus, etc.)](/images/latex-diagram-confluence/Screenshot%202026-03-10%20192137.png)
 
 ### Writing content
 
 Write like this:
 
 * Normal text: \`The area is ...\`
-* Inline math: \`$A=\\\\pi r^2$\`
-* Block math: \`$$L=\\\\sum (y-\\\\hat{y})^2$$\`
+* Inline math: \`A=\\\\pi r^2\`
+* Block math: \`L=\\\\sum (y-\\\\hat{y})^2\`
 
 ![LaTeX Inline Editor showing Calculus tab with Derivative, Chain Rule, and Product Rule formula templates](/images/latex-diagram-confluence/Screenshot%202026-03-10%20192423.png)
 
@@ -1213,7 +1180,7 @@ Click **Save changes** to render inline content on the page.
 
 ### When to choose Block macro instead
 
-Use **Clovity LaTeX Block** when you need:
+Use **LaTeX Block** when you need:
 
 * multi-line aligned equations
 * matrices or cases environments
@@ -1230,14 +1197,12 @@ Use for short formulas within a sentence.
 Example:
 
 \`\`\`
-We define accuracy as $Acc=\\frac{TP+TN}{TP+TN+FP+FN}$.
+We define accuracy as Acc=\\frac{TP+TN}{TP+TN+FP+FN}.
 \`\`\`
 
 **Best practices**
 
-* Keep inline formulas short
-* Avoid line breaks inside \`$...$\`
-* Ensure every opening \`$\` has a closing \`$\``,
+* Keep inline formulas short`,
         },
         {
           slug: "examples-library",
@@ -1251,7 +1216,7 @@ Ready-to-use code examples for LaTeX formulas and Mermaid diagrams. Copy any exa
 
 ### 1. Quadratic Formula
 
-The solution to $ax^2 + bx + c = 0$:
+The solution to ax^2 + bx + c = 0:
 
 **LaTeX source (paste into LaTeX Block macro):**
 
@@ -1482,7 +1447,7 @@ The Formula Library is a curated collection of ready-to-use LaTeX formulas organ
 
 1. Find the formula category that matches your domain
 2. Copy the LaTeX source code shown
-3. Open a **Clovity LaTeX Block** macro on your Confluence page
+3. Open a **LaTeX Block** macro on your Confluence page
 4. Paste the formula into the Source panel
 5. The Preview panel renders it immediately - adjust as needed and Save
 
@@ -1739,7 +1704,7 @@ f(x) = \\begin{cases}
           content: `
 ## Overview
 
-The Clovity Diagrams macro supports **12 Mermaid diagram types**. This reference covers the syntax header, best use cases, and a minimal working example for each type - so you can choose the right diagram for your documentation and start writing immediately.
+The UML Diagrams macro supports **12 Mermaid diagram types**. This reference covers the syntax header, best use cases, and a minimal working example for each type - so you can choose the right diagram for your documentation and start writing immediately.
 
 ---
 
@@ -2036,7 +2001,7 @@ This page shows real-world documentation scenarios where LaTeX Formulas & Diagra
 
 **Scenario:** Your team documents service-level agreements and needs to show the availability and MTTR formulas alongside target values.
 
-**Macro:** Clovity LaTeX Block
+**Macro:** LaTeX Block
 
 **Example - Three Nines SLA:**
 
@@ -2051,7 +2016,7 @@ This page shows real-world documentation scenarios where LaTeX Formulas & Diagra
 **How to structure the page:**
 1. Use a Confluence table for target vs. actual SLA values
 2. Embed LaTeX Block macros inline to show the mathematical definitions
-3. Use a Clovity Diagrams (Flowchart) macro to show the incident escalation path
+3. Use a UML Diagrams (Flowchart) macro to show the incident escalation path
 
 ---
 
@@ -2059,7 +2024,7 @@ This page shows real-world documentation scenarios where LaTeX Formulas & Diagra
 
 **Scenario:** Your team is documenting the data model for a new microservice and wants an always-current ERD directly on the Confluence spec page.
 
-**Macro:** Clovity Diagrams → erDiagram
+**Macro:** UML Diagrams → erDiagram
 
 **Example - E-commerce Order Service:**
 
@@ -2104,7 +2069,7 @@ erDiagram
 
 **Scenario:** Documenting an OAuth 2.0 authorization code flow for a new integration in an Architecture Decision Record (ADR).
 
-**Macro:** Clovity Diagrams → sequenceDiagram
+**Macro:** UML Diagrams → sequenceDiagram
 
 **Example:**
 
@@ -2132,7 +2097,7 @@ sequenceDiagram
 
 **Scenario:** A data science team documents a model's loss function and accuracy metrics in a model card on Confluence.
 
-**Macro:** Clovity LaTeX Block (for formulas) + Clovity LaTeX Inline (for in-text references)
+**Macro:** LaTeX Block (for formulas) + LaTeX Inline (for in-text references)
 
 **Block formulas:**
 
@@ -2148,7 +2113,7 @@ sequenceDiagram
 
 Write this in a paragraph macro:
 
-> "The model achieves $\\text{Accuracy} = \\frac{TP+TN}{TP+TN+FP+FN} = 94.3\\%$ on the held-out test set."
+> "The model achieves \\text{Accuracy} = \\frac{TP+TN}{TP+TN+FP+FN} = 94.3\\% on the held-out test set."
 
 ---
 
@@ -2156,7 +2121,7 @@ Write this in a paragraph macro:
 
 **Scenario:** Documenting your deployment pipeline in the engineering runbook so new team members can understand the end-to-end flow.
 
-**Macro:** Clovity Diagrams → flowchart LR
+**Macro:** UML Diagrams → flowchart LR
 
 **Example:**
 
@@ -2183,7 +2148,7 @@ flowchart LR
 
 **Scenario:** Embedding a Gantt chart in a sprint planning or retrospective page to visualize task breakdown and timeline.
 
-**Macro:** Clovity Diagrams → gantt
+**Macro:** UML Diagrams → gantt
 
 **Example:**
 
@@ -2261,35 +2226,6 @@ Because macro content is stored in the Confluence page storage format, it is acc
 
 ---
 
-## KaTeX Rendering
-
-The LaTeX Block and LaTeX Inline macros render math using **KaTeX**, a fast, browser-side LaTeX rendering library.
-
-### Supported LaTeX Commands and Environments
-
-| Category | Supported Examples |
-|---|---|
-| **Fractions** | \`\\frac{a}{b}\`, \`\\dfrac{a}{b}\` |
-| **Roots** | \`\\sqrt{x}\`, \`\\sqrt[n]{x}\` |
-| **Exponents & Subscripts** | \`x^2\`, \`x_i\`, \`x_i^2\` |
-| **Greek Letters** | \`\\alpha\`, \`\\beta\`, \`\\gamma\`, \`\\pi\`, \`\\Sigma\` |
-| **Operators** | \`\\sum\`, \`\\prod\`, \`\\int\`, \`\\lim\`, \`\\max\`, \`\\min\` |
-| **Delimiters** | \`\\left(\`, \`\\right)\`, \`\\left[\`, \`\\right]\`, \`\\left\\{\`, \`\\right\\}\` |
-| **Text** | \`\\text{label}\`, \`\\mathrm{text}\` |
-| **Spacing** | \`\\,\`, \`\\;\`, \`\\quad\`, \`\\qquad\` |
-| **Aligned equations** | \`\\begin{aligned} ... \\end{aligned}\` |
-| **Matrices** | \`\\begin{pmatrix}\`, \`\\begin{bmatrix}\`, \`\\begin{vmatrix}\` |
-| **Cases** | \`\\begin{cases} ... \\end{cases}\` |
-| **Arrays** | \`\\begin{array}{cols} ... \\end{array}\` |
-| **Arrows** | \`\\to\`, \`\\Rightarrow\`, \`\\Leftrightarrow\`, \`\\mapsto\` |
-| **Accents** | \`\\hat{x}\`, \`\\bar{x}\`, \`\\vec{x}\`, \`\\tilde{x}\` |
-
-For a complete list, see the [KaTeX supported functions documentation](https://katex.org/docs/supported.html).
-
-**Not supported:** custom LaTeX packages, TikZ/PGF graphics, BibTeX citations, and advanced TeX primitives outside the KaTeX subset.
-
----
-
 ## Mermaid Rendering
 
 The Diagrams macro renders visual diagrams using **Mermaid**, a JavaScript-based diagramming library.
@@ -2318,7 +2254,7 @@ It is important to understand the scope of data access:
 | Data Source | Accessed? | Notes |
 |---|---|---|
 | **Jira issues or projects** | No | The app has no Jira integration and does not read or write Jira data |
-| **External APIs or services** | No | All rendering (KaTeX and Mermaid) runs entirely client-side in the browser |
+| **External APIs or services** | No | All rendering runs entirely client-side in the browser |
 | **Other Confluence spaces** | No | The app only processes content on the page being viewed or edited |
 | **User data beyond page authorship** | No | The app does not read user profiles, email addresses, or account data |
 | **Confluence analytics or audit logs** | No | The app does not access Confluence analytics or site-level logs |
@@ -2417,7 +2353,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
 | Feature | LaTeX Formulas & Diagrams | draw.io for Confluence |
 |---|---|---|
 | **Diagram input method** | Code-based (Mermaid text) | GUI drag-and-drop |
-| **Math/formula support** | Native (KaTeX) | Limited (via text boxes) |
+| **Math/formula support** | Native | Limited (via text boxes) |
 | **Version history** | Via Confluence page history | Via Confluence page history |
 | **Export** | PNG via browser save | PNG, SVG, PDF |
 | **Best for** | Code-defined precise diagrams, math-heavy docs | Visual freeform diagrams |
@@ -2524,7 +2460,7 @@ Render display-style mathematical equations centered and full-width on your Conf
 
 **Step 3: Add Inline Math**
 1. Type / and search for LaTeX Inline Equations → insert the macro.
-2. Write your paragraph text. Use \$formula\$ delimiters to embed formulas inline.
+2. Write your paragraph text and LaTeX formulas inline.
 3. The preview shows the formula rendering inside the sentence in real time.
 4. Click Save - the formula appears inline within the paragraph on the Confluence page.
 
@@ -2554,7 +2490,7 @@ Render display-style mathematical equations centered and full-width on your Conf
 | **Everything in Confluence** | Diagrams, block equations, and inline math all live inside Confluence pages - no external tools, no tab switching, no stale screenshots. |
 | **Live preview as you type** | Every keystroke updates the preview in real time across all three macros - what you see in the editor is exactly what renders on the page. |
 | **12 diagram types in one macro** | Flowcharts, sequence diagrams, ER diagrams, Gantt charts, mindmaps, & seven more - all from the same Easy UML Diagrams macro with one-click samples. |
-| **Professional math notation** | KaTeX renders LaTeX formulas at publication quality - the same engine used by academic publishers and research platforms. |
+| **Professional math notation** | LaTeX formulas rendered at publication quality - the same notation used by academic publishers and research platforms. |
 | **80+ built-in formula templates** | Formula library covers Basic, Algebra, Calculus, Statistics, Physics, Chemistry, and five more categories - each with live rendered previews. |
 | **Inline and block math** | Block equations for display-style standalone formulas; inline equations for math embedded within paragraphs - both on the same page. |
 | **Interactive diagram controls** | Fullscreen controls on every published diagram - no need to open a separate tool to review large or complex diagrams. |
