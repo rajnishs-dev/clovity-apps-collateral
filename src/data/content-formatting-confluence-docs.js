@@ -6,7 +6,7 @@ export const contentFormattingConfluenceDocs = {
     // ═══════════════════════════════════════════════════════════════
     // 1. GETTING STARTED
     // ═══════════════════════════════════════════════════════════════
-    {
+     {
       id: "getting-started",
       title: "Getting Started",
       id: "getting-started",
@@ -25,13 +25,13 @@ Content Formatting Macros is a Confluence Cloud app that gives teams four powerf
 
 <!--VIDEO_BREAK-->
 
-## Four Core Capabilities
+## Five Core Capabilities
 
 **1. Advanced Content Navigation (Tabs)**
 Create multi-tab layouts inside any Confluence page. Organize complex documentation, runbooks, or knowledge bases into clean, clickable tab interfaces without leaving the page editor.
 
-**2. 18 Rich Content Formatting Macros**
-Buttons, Alerts, Backgrounds, Tooltips, Progress Bars, Footnotes, Pop-up Dialogs, Advanced Expand, Advanced Cards, Interactive Banners, Numbered Headings, Dividers, Countdown Timers, User Profiles, Status indicators, JSON Viewer, and more.
+**2. Rich Content Formatting Macros**
+Buttons, Alerts, Background, Tooltip, Progress Bar, Footnotes, Footnote Summary, Pop-up Dialog, Advanced Expand, Advanced Card, Interactive Banner, Numbered Heading, Divider, Countdown Timer, User Profile, Status, JSON Viewer, Custom Fonts, News, Page Tree, Activity Stream, Number List, Form Macro, Markdown Renderer, HTML Renderer, and more.
 
 **3. Conditional Visibility (Show / Hide)**
 Control which content users see based on Confluence groups, space roles, or login status. Show internal notes only to admins; hide drafts from guests.
@@ -39,14 +39,16 @@ Control which content users see based on Confluence groups, space roles, or logi
 **4. Attachment Management & Audit**
 Bulk-view, label, and manage file attachments across your Confluence space from a single panel. Identify orphaned files, filter by type, and keep your space tidy.
 
+**5. Templates**
+It help users get started quickly with a pre-designed structure tailored to their needs. Instead of creating everything from scratch, users can simply choose a template, customize the content, and save valuable time.
+
 ## Supported Macros at a Glance
 
 | Macro | Purpose |
 |---|---|
-| Tab Navigation | Multi-tab page layout |
 | Tab Parent Content Mapper | Tabs pulling from child pages |
-| Tab Label Content Mapper | Tabs filtered by label |
-| Tab Page Mapper | Tabs from specific pages |
+| Tab Label Content Mapper | Each page with your entered label becomes a tab |
+| Tab Confluence Page Mapper | Tabs from specific pages |
 | Custom Tabs | Manual rich-content tabs |
 | Conditional Show | Show content to specific groups |
 | Conditional Hide | Hide content from specific groups |
@@ -54,7 +56,7 @@ Bulk-view, label, and manage file attachments across your Confluence space from 
 | Background | Section background color/image |
 | Alert | Info, Warning, Error, Success banners |
 | Tooltip | Hover-to-reveal definitions |
-| Progress Bar | Visual completion indicator |
+| Progress Bar | Multi-step page workflow tracker |
 | Footnotes | Inline reference notes |
 | Pop-up Dialog | Modal overlays |
 | Advanced Expand | Styled collapsible sections |
@@ -66,6 +68,16 @@ Bulk-view, label, and manage file attachments across your Confluence space from 
 | User Profile | Confluence user info cards |
 | Status Macro | Color-coded status badges |
 | JSON Viewer | Formatted JSON display |
+| Footnotes Summary | Consolidated list of all footnotes used on a page |
+| Custom Fonts | Apply custom typography and font styling |
+| News | Display latest announcements of confluence blogs |
+| Page Tree | Hierarchical navigation of Confluence pages |
+| Activity Stream | Show recent page and user activities |
+| Number List | Styled numbered lists with advanced formatting |
+| Form Macro | Collect structured user input through forms |
+| Markdown Renderer | Render Markdown content inside Confluence |
+| HTML Renderer | Render custom HTML content inside Confluence |
+
 
 ## Platform Compatibility
 
@@ -203,14 +215,14 @@ After installation:
 
 1. Open any Confluence page in edit mode
 2. Click the **+** (Insert) button in the editor toolbar
-3. Search for "Tab Navigation" or "Alert" - the macros should appear in the results
+3. Search for "Alert" or "Tab Parent Content Mapper" - the macros should appear in the results
 4. If macros don't appear, go to **Confluence Settings** → **Manage apps** → Confirm Content Formatting Macros: Tabs Navigation Visibility CSS shows "Active"
 
 ## Admin Checklist
 
-- [ ] App installed from Marketplace
-- [ ] All permissions accepted
-- [ ] Post-install verification passed (macros appear in editor)
+- App installed from Marketplace
+- All permissions accepted
+- Post-install verification passed (macros appear in editor)
 
 ## Uninstalling
 
@@ -243,13 +255,13 @@ To uninstall: **Confluence Settings** → **Manage apps** → find Content Forma
 Decide how many tabs you need and what content belongs in each. The most common pattern: one tab per topic, environment, team, or audience.
 
 ### Step 2 - Choose Your Tab Mapper
-- **Tab Parent Content Mapper**: Use when tabs should mirror child pages (auto-updating)
-- **Tab Label Content Mapper**: Use when you tag pages with labels and want tabs to reflect that grouping
-- **Tab Page Mapper**: Use when you want to hand-pick exactly which pages appear as tabs
-- **Custom Tabs**: Use when content lives directly on the page, not in separate child pages
+- **Tab Parent Content Mapper**: Use when tabs should mirror child pages
+- **Tab Label Content Mapper**: Use when you enter a label and want every page tagged with that label to appear as its own separate tab
+- **Tab Confluence Page Mapper**: Use when you want to hand-pick exactly which pages appear as tabs
+- **Create Custom Tabs**: Use when content lives directly on the page, not in separate child pages
 
 ### Step 3 - Insert and Configure
-Insert the Tab Navigation macro. Configure the mapper settings (parent page, label name, or page list).
+Insert the tab mapper macro directly on the page (type "/" → search the macro name). Configure the mapper settings (parent page, label name, or page list) in the config panel.
 
 ### Step 4 - Enrich with Formatting Macros
 Add Alert macros for warnings, Buttons for CTAs, Background for section separation, and Status badges for current state. Publish when ready.`,
@@ -262,7 +274,7 @@ Add Alert macros for warnings, Buttons for CTAs, Background for section separati
 
 | Requirement | Details |
 |---|---|
-| **Confluence Edition** | Confluence Cloud only |
+| **Confluence Edition** | Confluence Cloud and AGC |
 | **Confluence Data Center** | Not supported |
 | **Confluence Server** | Not supported |
 | **Atlassian Platform** | Atlassian Connect / Forge |
@@ -358,7 +370,7 @@ Users with page-read permission can still access all content via the Confluence 
           slug: "start-here-by-role",
           title: "Start Here - Guide by Role",
           content: `
-Content Formatting Macros adds 20+ macros to the Confluence Cloud editor - no separate dashboard, no separate app to open. Everything happens inside a Confluence page in edit mode. Use this guide to find the fastest path for your role.
+Content Formatting Macros adds 30+ macros to the Confluence Cloud editor - no separate dashboard, no separate app to open. Everything happens inside a Confluence page in edit mode. Use this guide to find the fastest path for your role.
 
 ## Content Author / Technical Writer
 
@@ -370,7 +382,7 @@ You write pages and want richer formatting.
 3. [Alert Macro](/apps/content-formatting-confluence/alert-macro) - highlight important notes, warnings, and tips
 4. [How to: Build a Tabbed Knowledge Base Page](/apps/content-formatting-confluence/how-to-tabbed-knowledge-base) - full page workflow
 
-**Best macros to learn first:** Alert · Background · Tab Navigation · Buttons · Advanced Expand
+**Best macros to learn first:** Alert · Background · Tab Parent Content Mapper · Buttons · Advanced Expand
 
 ---
 
@@ -379,7 +391,7 @@ You write pages and want richer formatting.
 You manage space structure and want consistent, well-organised content.
 
 **Start with:**
-1. [Tab Parent Content Mapper](/apps/content-formatting-confluence/tab-parent-mapper) - auto-generate tabs from child pages (updates automatically as pages are added)
+1. [Tab Parent Content Mapper](/apps/content-formatting-confluence/tab-parent-mapper) - generate tabs from child pages
 2. [Page Templates](/apps/content-formatting-confluence/page-templates) - apply consistent layouts across a space
 3. [Attachment Center Dashboard](/apps/content-formatting-confluence/attachment-center-dashboard) - audit attachments space-wide, find orphans, manage bulk actions
 4. [How to: Build a Tabbed Knowledge Base Page](/apps/content-formatting-confluence/how-to-tabbed-knowledge-base) - reference architecture for space-level hubs
@@ -391,8 +403,8 @@ You manage space structure and want consistent, well-organised content.
 You need to restrict what different audiences can see on the same page.
 
 **Start with:**
-1. [Conditional Show Guide](/apps/content-formatting-confluence/conditional-show) - show content only to a specific Confluence group
-2. [Conditional Hide Guide](/apps/content-formatting-confluence/conditional-hide) - hide content from specific groups or anonymous users
+1. [Conditional Show Guide](/apps/content-formatting-confluence/conditional-show) - show content only to a specific Confluence user or group
+2. [Conditional Hide Guide](/apps/content-formatting-confluence/conditional-hide) - hide content from specific Confluence user or group
 3. [Privacy & Access Notes](/apps/content-formatting-confluence/privacy-access) - how macros interact with Confluence permissions
 4. [How to: Create Role-Based Content Visibility](/apps/content-formatting-confluence/how-to-role-based-content) - full workflow
 
@@ -428,9 +440,8 @@ A single-page reference for all macros, insertion methods, and key rules.
 ### Navigation (Tabs)
 | Macro | What It Does | Full Reference |
 |---|---|---|
-| Tab Navigation | Container for tabbed page layouts | [Tab Navigation](/apps/content-formatting-confluence/tab-navigation) |
 | Tab Parent Content Mapper | Auto-tabs from child pages | [Parent Mapper](/apps/content-formatting-confluence/tab-parent-mapper) |
-| Tab Label Content Mapper | Auto-tabs from pages sharing a label | [Label Mapper](/apps/content-formatting-confluence/tab-label-mapper) |
+| Tab Label Content Mapper | Each page tagged with your entered label becomes a tab | [Label Mapper](/apps/content-formatting-confluence/tab-label-mapper) |
 | Tab Confluence Page Mapper | Manual tab list from selected pages | [Page Mapper](/apps/content-formatting-confluence/tab-page-mapper) |
 | Create Custom Tabs | Manual custom tab content | [Custom Tabs](/apps/content-formatting-confluence/create-custom-tabs) |
 
@@ -450,15 +461,24 @@ A single-page reference for all macros, insertion methods, and key rules.
 | Interactive Banner | Full-width announcement banner | [Interactive Banner](/apps/content-formatting-confluence/interactive-banner-macro) |
 | Advanced Expand | Collapsible content sections | [Advanced Expand](/apps/content-formatting-confluence/advanced-expand-macro) |
 | Pop-up Dialog | Modal overlay content | [Pop-up Dialog](/apps/content-formatting-confluence/popup-dialog-macro) |
-| Progress Bar | Visual completion indicator | [Progress Bar](/apps/content-formatting-confluence/progressbar-macro) |
+| Progress Bar | Multi-step page workflow tracker | [Progress Bar](/apps/content-formatting-confluence/progressbar-macro) |
 | Countdown Timer | Deadline or event countdown | [Countdown](/apps/content-formatting-confluence/countdown-macro) |
 | Status | Inline coloured status badge | [Status](/apps/content-formatting-confluence/status-macro) |
 | Tooltip | Hover-reveal tooltip text | [Tooltip](/apps/content-formatting-confluence/tooltip-macro) |
 | User Profile | Display a user's avatar and name | [User Profile](/apps/content-formatting-confluence/user-profile-macro) |
-| Numbered Headings | Auto-numbered heading hierarchy | [Numbered Headings](/apps/content-formatting-confluence/numbered-headings-macro) |
+| Numbered Heading | Auto-numbered heading hierarchy | [Numbered Headings](/apps/content-formatting-confluence/numbered-headings-macro) |
 | Divider | Styled horizontal divider line | [Divider](/apps/content-formatting-confluence/divider-macro) |
 | Footnotes | Numbered footnote references | [Footnotes](/apps/content-formatting-confluence/footnotes-macro) |
+| Footnotes Summary | Consolidated list of all footnotes on a page | [Footnotes Summary](/apps/content-formatting-confluence/footnotes-summary-macro) |
 | JSON Viewer | Formatted, collapsible JSON display | [JSON Viewer](/apps/content-formatting-confluence/json-viewer-macro) |
+| Custom Fonts | Apply custom typography and font styling | [Custom Fonts](/apps/content-formatting-confluence/custom-fonts-macro) |
+| News | Display latest announcements of confluence blogs | [News](/apps/content-formatting-confluence/news-macro) |
+| Page Tree | Hierarchical navigation of Confluence pages | [Page Tree](/apps/content-formatting-confluence/page-tree-macro) |
+| Activity Stream | Show recent page and user activities | [Activity Stream](/apps/content-formatting-confluence/activity-stream-macro) |
+| Number List | Styled numbered lists with advanced formatting | [Number List](/apps/content-formatting-confluence/number-list-macro) |
+| Form Macro | Collect structured user input through forms | [Form Macro](/apps/content-formatting-confluence/form-macro) |
+| Markdown Renderer | Render Markdown content inside Confluence | [Markdown Renderer](/apps/content-formatting-confluence/markdown-renderer-macro) |
+| HTML Renderer | Render custom HTML content inside Confluence | [HTML Renderer](/apps/content-formatting-confluence/html-renderer-macro) |
 
 ### Attachment Management
 | Feature | What It Does | Full Reference |
@@ -469,9 +489,9 @@ A single-page reference for all macros, insertion methods, and key rules.
 
 ## Key Rules
 
-- **Tab Navigation cannot be nested inside another Tab Navigation** - use Advanced Expand for secondary grouping within a tab
+- **Tab macros cannot be nested inside another tab macro** - use Advanced Expand for secondary grouping within a tab
 - **Conditional macros check group names at render time** - group names are case-sensitive and must match exactly as they appear in Confluence Admin → Groups
-- **Macro settings save when you click outside the panel** - you still need to Publish the page to make changes visible to others
+- **Macro settings save when you click Save on the panel** - you still need to Publish the page to make changes visible to others
 `,
         },
         {
@@ -486,7 +506,7 @@ A well-built tabbed page combines three macro layers:
 
 | Layer | Macro | Purpose |
 |---|---|---|
-| Navigation | Tab Navigation + mapper | Tabs across the top, each tab = one content section |
+| Navigation | Tab Parent Content Mapper | Tabs across the top, each tab = one content section |
 | Visibility | Conditional Show / Hide | Different content per audience within the same tab |
 | Formatting | Alert, Background, Buttons, Cards | Visual richness and callouts within each section |
 
@@ -498,16 +518,13 @@ A well-built tabbed page combines three macro layers:
 
 → [Tab Parent Content Mapper](/apps/content-formatting-confluence/tab-parent-mapper)
 
-## Step 2 - Insert Tab Navigation + Parent Mapper
+## Step 2 - Insert Tab Parent Content Mapper
 
 1. Open the hub page in edit mode
-2. Type \`/\` → search **Tab Navigation** → insert it
-3. Inside the Tab Navigation body, type \`/\` → search **Tab Parent Content Mapper** → insert it
-4. In the config panel, confirm the parent page (defaults to current page)
-5. Set Sort Order to **Manual** (page tree order) or **Alphabetical**
-6. Preview - each child page appears as a tab automatically
-
-> Tabs update automatically when child pages are added, renamed, or reordered in the page tree.
+2. Type \`/\` → search **Tab Parent Content Mapper** → insert it directly on the page
+3. In the config panel, confirm the parent page (defaults to current page)
+4. Set Sort Order to page tree order or **Alphabetical**
+5. Preview - each child page appears as a tab
 
 → [Tab Navigation Overview](/apps/content-formatting-confluence/tab-navigation)
 
@@ -528,8 +545,8 @@ If different teams need to see different content within the same tab:
 
 1. On the child page (in edit mode), select the content meant for a specific group
 2. Type \`/\` → **Conditional Show** → insert it around the selected content
-3. In the config panel: Condition Type = **Group**, Group Name = exact group name from Confluence Admin
-4. Test in View mode with a group member and a non-member
+3. In the config panel, search for and select the specific **users** or **groups** who should see this content
+4. Test in View mode with a matching user and a non-matching user
 
 → [How to: Create Role-Based Content Visibility](/apps/content-formatting-confluence/how-to-role-based-content)
 
@@ -542,7 +559,7 @@ If different teams need to see different content within the same tab:
 
 ## Maintaining the Hub
 
-- **Add a new tab:** Create a new child page under the parent - it appears automatically
+- **Add a new tab:** Create a new child page under the parent
 - **Remove a tab:** Delete or move the child page out of the parent
 - **Reorder tabs:** Drag child pages in the Confluence page tree to reorder them
 `,
@@ -562,7 +579,6 @@ A workflow for showing or hiding specific content sections based on who is viewi
 | Show admin-only notes inside a public runbook | Conditional Show (group = confluence-admins) |
 | Hide internal pricing from external users | Conditional Hide (group = external-users) |
 | Show different onboarding steps per team | Conditional Show (two blocks, different groups) |
-| Hide draft content from anonymous / logged-out users | Conditional Hide (Login Status = Anonymous) |
 
 ## Step 1 - Identify Your Groups
 
@@ -578,8 +594,9 @@ To show content **only** to a specific group:
 2. Select the content block you want to restrict
 3. Type \`/\` → **Conditional Show** → insert it (wraps the selected content)
 4. In the config panel:
-   - **Condition Type:** Group
-   - **Group Name:** Paste the exact group name
+   - Under **Groups**, search and select the Confluence group who should see this content
+   - Optionally add individual users under **Users**
+   - Set **Match using** to **Any** or **All** as needed
 5. Save the macro and Publish the page
 6. Test: log in as a group member (visible) and a non-member (hidden)
 
@@ -589,7 +606,7 @@ To hide content **from** a specific group:
 
 1. Select the content to hide
 2. Type \`/\` → **Conditional Hide** → insert it
-3. Config: Condition Type = **Group**, Group Name = the group to hide from
+3. In the config panel, under **Groups**, search and select the group to hide from
 4. Publish and test
 
 ## Step 4 - Stack Multiple Conditions on the Same Page
@@ -607,14 +624,6 @@ You can place multiple Conditional Show macros side by side to show different co
 
 Each block is independent - users in multiple groups see all content that matches any of their groups.
 
-## Step 5 - Use Login Status for Public Pages
-
-For pages accessible to anonymous (logged-out) users:
-
-- **Condition Type: Login Status**
-  - **Authenticated:** Only logged-in users see this
-  - **Anonymous:** Only logged-out visitors see this (e.g., a "Please log in" message)
-
 ## Verification Checklist
 
 - [ ] Group name matches exactly (copy-paste from Confluence Admin)
@@ -631,9 +640,9 @@ Non-obvious tips that save time and prevent common mistakes.
 
 ## Tab Navigation
 
-- **Use the Parent Mapper for living hubs.** Tabs generated from child pages update automatically - add or rename a child page and the tab appears without editing the hub page. Custom Tabs require manual updates every time.
+- **Use the Parent Mapper for living hubs.** Tabs generated from child pages reflect the current child page list — add or rename a child page and the tab changes without editing the hub page. Custom Tabs require manual updates every time.
 - **Tab Navigation cannot be nested.** If you need collapsible subsections inside a tab, use Advanced Expand - it's designed for secondary grouping within a tab body.
-- **Reorder tabs by reordering child pages** in the Confluence page tree (drag and drop). The tab order follows the page tree order when using Manual sort.
+- **Reorder tabs by reordering child pages** in the Confluence page tree (drag and drop). The tab order follows the page tree by default.
 
 ## Conditional Visibility
 
@@ -656,20 +665,6 @@ Non-obvious tips that save time and prevent common mistakes.
 
 - **Macro settings save when you click outside the panel, but only Publish makes them live.** Draft changes are visible in your edit session but not to other users until you Publish.
 - **Use the Page Templates feature to enforce consistency.** Create a template for each content type (runbook, decision record, meeting notes) with your standard macro layout pre-built - space members apply the template instead of recreating the structure.
-`,
-        },
-        {
-          slug: "user-guide-pdf",
-          title: "User Guide PDF",
-          content: `
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/user-guide/content-formatting-user-guide.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/user-guide/content-formatting-user-guide.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
-  </div>
-</div>
 `,
         },
       ],
@@ -696,19 +691,19 @@ Tab macros let you display multiple sections of content inside a single Confluen
 
 ### Method 1 - Content Mapper Tabs (Recommended for Existing Pages)
 
-Insert **Tab Navigation** and pair it with one of three mapper macros:
+Insert one of the three mapper macros directly on your page — each macro is standalone and renders the full tab interface by itself.
 
-| Mapper | Use When |
+| Macro | Use When |
 |---|---|
-| Tab Parent Content Mapper | Tabs should auto-populate from child pages of a parent |
-| Tab Label Content Mapper | Tabs should auto-populate from pages sharing a label |
-| Tab Page Mapper | You want to hand-pick specific pages as tabs |
+| Tab Parent Content Mapper | Tabs load from child pages of a parent |
+| Tab Label Content Mapper | You enter a label; every page with that label becomes its own tab |
+| Tab Confluence Page Mapper | You want to hand-pick specific pages as tabs |
 
-Mapper tabs are dynamic - they update automatically when child pages, labels, or page lists change.
+Mapper tabs are dynamic - tabs reflect the current state of child pages, labeled pages, or the hand-picked page list.
 
 ### Method 2 - Custom Tabs (Manual Content)
 
-Insert **Tab Navigation** without a mapper, and add **Custom Tab** containers inside it. Write content directly in each tab. Use this when content doesn't already exist as separate pages.
+Insert the **Create Custom Tabs** macro directly on your page. Write content inside each tab in the config panel. Use this when content doesn't already exist as separate pages.
 
 ## Common Controls (All Tab Types)
 
@@ -733,7 +728,7 @@ Insert **Tab Navigation** without a mapper, and add **Custom Tab** containers in
 
 ## What It Does
 
-The Tab Parent Content Mapper automatically creates one tab for each **child page** of a specified Confluence parent page. When child pages are added, renamed, or removed, the tabs update automatically - no manual editing required.
+The Tab Parent Content Mapper creates one tab for each **child page** of a specified Confluence parent page. When child pages are added, renamed, or removed, the tabs reflect those changes — no manual editing of the hub page required.
 
 ## When to Use It
 
@@ -743,11 +738,10 @@ The Tab Parent Content Mapper automatically creates one tab for each **child pag
 
 ## How to Set It Up
 
-1. Insert the **Tab Navigation** macro on your hub page
-2. Inside it, insert the **Tab Parent Content Mapper** macro
-3. In the config panel, set the **Parent Page** - either the current page or another page in the space
-4. Choose sort order and any filtering options
-5. Preview and publish
+1. Insert **Tab Parent Content Mapper** directly on the page
+2. In the config panel, set the **Parent Page** - either the current page or another page in the space
+3. Choose sort order and any filtering options
+4. Preview and publish
 
 ## Settings Reference
 
@@ -771,45 +765,38 @@ The Tab Parent Content Mapper automatically creates one tab for each **child pag
 
 ## What It Does
 
-The Tab Label Content Mapper creates tabs based on **Confluence page labels**. Each unique label value (or a set of label values you configure) becomes a tab, and all pages with that label appear as the tab's content.
+The Tab Label Content Mapper creates tabs based on a **label you enter in the macro configuration**. You type one label name - every Confluence page that has been tagged with that label becomes its own separate tab. If three pages share the same label, three tabs are created, one per page, with each tab's title taken from the page title and its content pulled from that page.
 
 ## When to Use It
 
-- Pages are already organized by label
-- You want a cross-hierarchy tab view that spans multiple parent pages
-- You want to let page authors control which tab their page appears in by adding/removing a label
+- Multiple pages are already tagged with the same label and you want each of them as its own tab on a hub page
+- You want tabs to reflect pages as they are tagged with or un-tagged from the label
+- You want a cross-hierarchy view - pages from different parts of the space grouped by a shared label
 
 ## How to Set It Up
 
-1. Apply consistent labels to the pages you want to group (e.g., \`v1\`, \`v2\`, \`v3\` for release notes)
-2. Insert **Tab Navigation** on your index page
-3. Inside it, insert **Tab Label Content Mapper**
-4. In the config panel, enter the label(s) 
-
-## Two Configuration Modes
-
-### Mode 1 - One Label Per Tab
-Enter each label separately. Pages tagged with that label appear in that tab.
-
-### Mode 2 - CQL Filter
-Enter a CQL query to define which pages are eligible, then group by a specific label.
-
-Example CQL: \`space = "TEAM" AND label in ("release") ORDER BY created DESC\`
+1. Tag each Confluence page you want as a tab with the same label (e.g., add the label \`release-notes\` to every release-notes page)
+2. Insert **Tab Label Content Mapper** directly on the page
+3. In the config panel, type the label name (e.g., \`release-notes\`)
+4. Every page with that label appears as a separate tab - preview and publish
 
 ## Settings Reference
 
 | Setting | Description |
 |---|---|
-| Labels | Comma-separated list of labels; each becomes one tab |
-| Space | Restrict pages to a specific space (default: current space) |
-| Sort | How pages within each tab are sorted |
-| Max Pages Per Tab | Limit pages shown per tab |
+| Label | The label name to match - each page tagged with this label becomes one tab |
+| Space | Restrict matching to a specific space (default: current space) |
+| Sort | How tabs are ordered: Alphabetical, Created Date, Modified Date |
+| Max Pages | Maximum number of pages (tabs) to display |
 
 ## Behaviors
 
-- Pages with multiple matching labels appear in each matching tab
-- Removing a label from a page removes it from that tab automatically
-- Labels are case-insensitive in tab matching`,
+- One label input → one tab per page that carries that label
+- If 3 pages share the label, 3 tabs are created; if 5 pages share it, 5 tabs are created
+- Adding the label to a page adds it to the tab list
+- Removing the label from a page removes it from the tab list
+- Labels are case-insensitive in matching
+- Only published pages the viewer has read permission to access appear as tabs`,
         },
         {
           slug: "tab-page-mapper",
@@ -820,26 +807,25 @@ Example CQL: \`space = "TEAM" AND label in ("release") ORDER BY created DESC\`
 
 ## What It Does
 
-The Tab Page Mapper lets you **hand-pick specific pages** from anywhere in the Confluence space to appear as tabs. Unlike the Parent or Label mappers, this one does not auto-update - you control exactly which pages are included and in what order.
+The Tab Page Mapper lets you **hand-pick specific pages** from anywhere in the Confluence space to appear as tabs. Unlike the Parent or Label mappers, this one requires manual updates — you control exactly which pages are included and in what order.
 
 ## When to Use It
 
 - You want precise control over which pages appear as tabs
 - The pages you're grouping don't share a parent or a label
 - You need tabs that pull from multiple different spaces
-- The auto-updating behavior of other mappers would include pages you don't want
+- The dynamic behavior of other mappers would include pages you don't want
 
 ## How to Set It Up
 
-1. Insert **Tab Navigation** on your page
-2. Inside it, insert **Tab Page Mapper**
-3. In the config panel, add pages one by one - search by title or paste page URLs
-4. Drag to reorder the page list
-5. Preview and publish
+1. Insert **Tab Confluence Page Mapper** directly on the page
+2. In the config panel, add pages one by one - search by title or paste page URLs
+3. Drag to reorder the page list
+4. Preview and publish
 
 ## Known Behavior
 
-If a page in the list is deleted, the tab for that page disappears silently. Check your page list periodically if content is maintained by others.`,
+If a page in the list is deleted, the corresponding tab is removed automatically when the macro is edited or refreshed. Check your page list periodically if content is maintained by others.`,
         },
         {
           slug: "create-custom-tabs",
@@ -860,9 +846,9 @@ Custom Tabs let you write content **directly inside each tab** instead of pullin
 
 ## How to Create Custom Tabs
 
-1. Insert the **Tab Navigation** macro on your page
-2. Inside it, do NOT insert a mapper - instead, write a element name in the macro body
-3. Each element name adds a new tab container
+1. Open your page in edit mode
+2. Type "/" → search **Create Custom Tabs** → insert it directly on the page
+3. In the config panel, add a label for each tab you want
 4. Click on a tab to select it, then type or insert content inside it
 5. Drag tabs up/down to reorder
 6. Publish the page
@@ -909,15 +895,16 @@ Conditional visibility macros let you show or hide sections of content based on 
 
 | Condition | Description |
 |---|---|
+| Confluence User | Show/hide for specific individual Confluence users |
 | Confluence Group | Show/hide based on Confluence group membership (e.g., \`confluence-admins\`) |
-| Space Role | Show/hide based on space role: Space Admin or Space User |
-| Login Status | Show to logged-in users only |
+
+You can select multiple users and/or groups in one macro. Use the **Match using** setting to control whether the viewer must match **Any** (at least one) or **All** of the selected conditions.
 
 ## Common Patterns
 
-**Pattern 1 - Admin-only notes**: Conditional Show, condition: Space Admin.
+**Pattern 1 - Admin-only notes**: Conditional Show, group = \`confluence-admins\`.
 
-**Pattern 2 - Manager-only HR content**: Conditional Show, condition: group = \`hr-managers\`.
+**Pattern 2 - Manager-only HR content**: Conditional Show, group = \`hr-managers\`.
 
 ## Important Warning
 
@@ -943,10 +930,12 @@ The Conditional Hide macro wraps content that should be **visible to most users 
 1. Click on edit button.
 2. Click **+** (Insert) → search for **Conditional Hide**.
 3. Write the content inside the macro body.
-4. In the config panel on the right, configure the condition.
-5. Click on Save button.
+4. In the config panel:
+   - Set **Match using** to **Any** (hide if viewer matches any condition) or **All** (hide only if viewer matches all)
+   - Under **Users**, search and select specific Confluence users to hide from (optional)
+   - Under **Groups**, search and select Confluence groups to hide from (at least one user or group required)
+5. Click Save.
 6. In View mode, log in as a user who matches the condition - the content should be hidden for them
-
 
 ## Multiple Conditions
 
@@ -956,10 +945,10 @@ You can stack multiple Conditional Hide macros to hide content from multiple gro
 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
-| Content still visible when it shouldn't be | Group name typo | Check exact group name in Confluence People & Groups settings |
-| Content hidden from everyone | Condition set to a group all users belong to | Narrow the group condition |
+| Content still visible when it shouldn't be | Wrong user or group selected | Re-open the macro config and verify the correct user/group is selected |
+| Content hidden from everyone | Selected group includes all users | Use a more specific group or switch to individual user selection |
 | Content visible in Confluence API response | Expected - conditional macros are UI-only | Use page restrictions for access control |
-| No effect in edit preview | Preview in edit mode shows all content regardless of conditions | Switch to View mode to test |`,
+| No effect in edit preview | Edit mode shows all content regardless of conditions | Switch to View mode to test |`,
         },
         {
           slug: "conditional-show",
@@ -977,21 +966,23 @@ The Conditional Show macro wraps content that should be **hidden by default and 
 1. Click on Edit button
 2. Click **+** (Insert) → search for **Conditional Show**
 3. Write the content inside the macro body.
-4. In the config panel on the right, configure the condition.
-5. Click on Save button.
-5. Preview in View mode - sign in as a user in the target group to confirm visibility
-
+4. In the config panel:
+   - Set **Match using** to **Any** (show if viewer matches any condition) or **All** (show only if viewer matches all)
+   - Under **Users**, search and select specific Confluence users who should see this content (optional)
+   - Under **Groups**, search and select Confluence groups who should see this content (at least one user or group required)
+5. Click Save.
+6. Preview in View mode - sign in as a user in the target group to confirm visibility
 
 ## Multiple Conditions
 
-You can stack multiple Conditional Hide macros to hide content from multiple groups. Each macro is evaluated independently.
+You can stack multiple Conditional Show macros to show different content to different groups. Each macro is evaluated independently.
 
 ## Troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---|---|---|
-| Content not showing for target group | Group name does not exactly match Confluence group | Verify group name in Confluence Admin → Groups |
-| Content showing to everyone | Condition set to a group everyone belongs to | Use a more specific group |
+| Content not showing for target group | Wrong user or group selected | Re-open the macro config and verify the correct user/group is selected |
+| Content showing to everyone | Selected group includes all users | Use a more specific group or switch to individual user selection |
 | Edit mode always shows content | Expected behavior - edit mode bypasses visibility conditions | Test in View mode |`,
         },
       ],
@@ -1009,7 +1000,7 @@ You can stack multiple Conditional Hide macros to hide content from multiple gro
           content: `
 ## Overview
 
-Content Formatting Macros includes 18 macros for enhancing the visual quality, interactivity, and clarity of Confluence pages. These macros require no custom CSS or developer skills - everything is configured through the macro's settings panel in the Confluence editor.
+Content Formatting Macros includes 25 macros for enhancing the visual quality, interactivity, and clarity of Confluence pages. These macros require no custom CSS or developer skills - everything is configured through the macro's settings panel in the Confluence editor.
 
 ## Full Macro List
 
@@ -1019,7 +1010,7 @@ Content Formatting Macros includes 18 macros for enhancing the visual quality, i
 | Background | Section background color or image |
 | Alert | Info, Warning, Error, Success banners |
 | Tooltip | Hover-to-reveal text |
-| Progress Bar | Visual percentage indicator |
+| Progress Bar | Multi-step page workflow tracker |
 | Footnotes | Inline numbered footnotes |
 | Pop-up Dialog | Modal overlay triggered by a link or button |
 | Advanced Expand | Styled collapsible section |
@@ -1031,6 +1022,15 @@ Content Formatting Macros includes 18 macros for enhancing the visual quality, i
 | User Profile | Confluence user info card |
 | Status Macro | Color-coded status badge |
 | JSON Viewer | Formatted JSON display |
+| Footnotes Summary | Consolidated list of all footnotes used on a page |
+| Custom Fonts | Apply custom typography and font styling |
+| News | Display latest announcements of confluence blogs |
+| Page Tree | Hierarchical navigation of Confluence pages |
+| Activity Stream | Show recent page and user activities |
+| Number List | Styled numbered lists with advanced formatting |
+| Form Macro | Collect structured user input through forms |
+| Markdown Renderer | Render Markdown content inside Confluence |
+| HTML Renderer | Render custom HTML content inside Confluence |
 
 ## General Usage Tips
 
@@ -1051,18 +1051,35 @@ The Buttons macro creates styled call-to-action buttons on any Confluence page. 
 
 ## Configuration Options
 
+Each button in the macro has these settings:
+
 | Setting | Options |
 |---|---|
-| Label | Button text (required) |
-| URL / Link | Internal page, external URL, \`mailto:\` link, or \`#anchor-id\` |
-| Style | Primary (filled), Secondary (outlined), Danger (red), Success (green), Ghost (transparent) |
-| Size | Small, Medium, Large |
-| Icon | Optional icon from the built-in icon set (left or right of label) |
+| Button text | Label shown on the button (max 50 characters, required) |
+| Icon | Optional icon from the built-in Lucide icon library |
+| Icon position | Before, After, or Only (icon-only button) |
+| Style | Filled, Outlined, Subtle, Link |
+| Shape | Square, Rounded, Pill |
+| Size | S, M, L |
+| Font family | Arial, Calibri, Georgia, Verdana, Trebuchet MS, Times New Roman, Palatino, Tahoma, Courier New, Impact |
+| Font weight | Regular, Semi-Bold, Bold |
+| Hover effect | None, Elevated (lifts up), Shrink |
+| Background color | Color picker (Filled style only) |
+| Text color | Color picker |
+| Alignment | Left, Center, Right |
+| Destination | Search Confluence page or Add link (external URL) |
 | Open in new tab | Yes / No |
+
+The macro also includes a **Presets** tab with 30+ pre-designed button styles.
 
 ## Adding Multiple Buttons
 
-Insert multiple Button macros side by side. They will flow inline with automatic spacing.
+All buttons live inside **one macro instance**. Use the **+ Add Button** control to add more buttons. When multiple buttons exist, **Group Settings** appear:
+
+| Group Setting | Options |
+|---|---|
+| Orientation | Horizontal, Vertical |
+| Group Alignment | Left, Center, Right, Space Between, Space Around |
 
 ## Common Use Cases
 
@@ -1074,8 +1091,8 @@ Insert multiple Button macros side by side. They will flow inline with automatic
 ## Best Practices
 
 - Keep button labels short (2–5 words)
-- Use Primary style for the main action, Secondary for alternatives
-- Don't use Danger style for navigation - reserve it for genuinely destructive or critical actions`,
+- Use Filled style for the main action, Outlined for alternatives
+- Use icon-only buttons (Icon position: Only) for compact toolbars or social media links`,
         },
         {
           slug: "background-macro",
@@ -1093,17 +1110,24 @@ The Background macro applies a background color, gradient, or image to any secti
 |---|---|---|
 | Background Type | Color, Gradient, Image | |
 | Color | Color picker or hex value | For Color type |
+| Opacity | Slider | For Color type |
 | Gradient | Start color, end color, direction | For Gradient type |
-| Image URL | Publicly accessible URL | For Image type; Confluence attachment URLs may not work |
-| Border Radius | in Pixel | Rounded corners |
-| Text Color | Color picker or hex value | Ensures text readability on dark backgrounds |
-| Min Height | Pixel value | Optional minimum height |
+| Image | Upload Confluence attachment or stock image | For Image type |
+| Image size | Cover, Contain, Auto | For Image type |
+| Image position | Top, Center, Bottom etc. | For Image type |
+| Image opacity | Slider | For Image type |
+| Overlay color + opacity | Color picker + slider | Semi-transparent overlay over background image |
+| Content padding | Slider | Inner padding around content |
+| Min height | Preset or custom pixel value | Optional minimum height |
+| Border radius | Slider (pixels) | Rounded corners |
+| Alignment (X / Y) | Left/Center/Right, Top/Center/Bottom | Content alignment inside the container |
+| Text color | Color picker or hex value | Ensures text readability on dark backgrounds |
 
 ## Usage Notes
 
-- Content inside the Background macro is fully editable - insert any Confluence content or other macros inside it
-- The Image background type requires a publicly accessible URL - images hosted on Confluence as attachments may not render reliably due to auth requirements
-- On mobile, background images fall back to the configured fallback color
+- Content inside the Background macro is fully editable — insert any Confluence content or other macros inside it
+- Images can be uploaded directly as Confluence attachments from the macro config panel — no external hosting required
+- Use the overlay feature to add a dark or colored semi-transparent layer over background images for better text contrast
 
 ## Common Patterns
 
@@ -1127,31 +1151,35 @@ The Alert macro creates a styled banner for informational messages, warnings, er
 
 | Type | Use For |
 |---|---|
+| Work in progress | Page being actively edited or drafted |
 | Info | General information, notes, tips |
 | Warning | Caution, important considerations |
 | Error | Errors, failures, destructive actions |
 | Success | Confirmations, completed steps |
-| Note | Secondary notes, editorial commentary |
+| Sensitive | Sensitive or restricted information |
+| Outdated | Content that may be stale or superseded |
 
 ## Configuration Options
 
 | Setting | Options |
 |---|---|
-| Type | Info, Warning, Error, Success, Note |
-| Title | Optional bold heading for the alert |
-| Body | Rich text content (supports inline formatting, links, lists) |
-| Dismissible | Yes / No - if Yes, reader can close the alert |
-| Icon | Show or hide the type icon |
+| Alert type | Work in progress, Success, Error, Info, Sensitive, Warning, Outdated |
+| Style | Image Alert (with icon image) or Simple Alert (text only) |
+| Title | Bold heading for the alert (max 50 characters, required) |
+| Body | Alert message text (max 500 characters, required) |
+| Image | Custom image upload — only visible when Style is Image Alert |
+| Permanently dismiss | Checkbox — adds a dismiss option so readers can hide the alert permanently (stored in browser local storage) |
+| Background color | Color picker or custom hex |
+| Text color | Color picker or custom hex |
 
 ## Known Limitations
 
-- The Dismissible option persists the dismissed state in the browser's local storage - it resets if the user clears browser data or switches devices
-- Alerts cannot contain block-level macros (tables, code blocks) in the title field - only the body supports rich content
+- The Permanently Dismiss option stores the dismissed state in the browser's local storage — it resets if the user clears browser data or switches devices
 
 ## Best Practices
 
 - Use Info for routine tips and asides
-- Reserve Error (red) for genuine error states or dangerous actions
+- Reserve Error for genuine error states or dangerous actions
 - Keep alert body text concise - if you need more than 3 sentences, consider an Advanced Expand section instead`,
         },
         {
@@ -1168,10 +1196,9 @@ The Tooltip macro wraps a word or phrase with a hover tooltip that reveals addit
 
 | Setting | Description |
 |---|---|
-| Trigger Text | The word or phrase that is underlined/highlighted as the tooltip trigger |
-| Tooltip Content | The text that appears on hover (plain text only) |
-| Position | Top, Bottom, Left, Right (default: Top) |
-| Style | Default (dotted underline), Bold, or Italic trigger styling |
+| Tooltip text | The text that appears when the user hovers over the macro (max 250 characters, plain text only) |
+
+The tooltip trigger is the content placed inside the macro body in the editor — any text or inline content you type inside the macro becomes the hoverable trigger.
 
 ## When to Use Tooltips
 
@@ -1262,14 +1289,14 @@ The Footnotes macro inserts superscript reference numbers inline with text, and 
 ### Part 1 - Inline Footnote Reference
 Insert **Footnote** macro at the point in the text where the reference number should appear. Type the footnote definition inside the macro.
 
-### Part 2 - Footnote List
-Insert **Footnote List** macro at the bottom of the section or page. This renders the numbered list of all footnote definitions.
+### Part 2 - Footnote Summary
+Insert **Footnote Summary** macro at the bottom of the section or page. This renders the numbered list of all footnote definitions.
 
 ## Scope Rules
 
-- Footnote numbers reset to 1 at each Footnote List macro
+- Footnote numbers reset to 1 at each Footnote Summary macro
 - If you use tabs, footnotes inside a tab share numbering with the current page scope
-- For multi-tab pages, place one Footnote List macro at the bottom of each tab if you want tab-scoped numbering, or one Footnote List at the bottom of the page for page-wide numbering
+- For multi-tab pages, place one Footnote Summary macro at the bottom of each tab if you want tab-scoped numbering, or one Footnote List at the bottom of the page for page-wide numbering
 
 ## Limitations
 
@@ -1291,32 +1318,30 @@ Insert **Footnote List** macro at the bottom of the section or page. This render
 <img src="/images/content-formatting-assets/popup-dialog-macro.png" alt="Pop-up Dialog Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The Pop-up Dialog macro creates a modal overlay that opens when a reader clicks a trigger (a link, button, or image on the page). The dialog can contain any rich content - text, images, tables, other macros.
+The Pop-up Dialog macro creates a modal overlay that opens when a reader clicks a trigger (button).
 
 ## Setup
 
-1. Insert the **Pop-up Dialog** macro
-2. The macro has two zones:
-   - **Trigger zone**: What the reader sees and clicks (a text link, an image, or a Button macro)
-   - **Dialog content zone**: What appears inside the modal when triggered
-3. Place your trigger element in the Trigger zone
-4. Write or insert your dialog content in the Dialog Content zone
-5. Configure dialog size and heading in the settings panel
+1. Insert the **Pop-up Dialog** macro on your page
+2. In the settings panel, enter a **Title** and **Body** for the dialog content
+3. A trigger button is automatically added — click the edit icon next to "Pop-up Trigger Added" to customise the button label and alignment
+4. Readers click the trigger button to open the dialog
 
 ## Configuration Options
 
 | Setting | Options |
 |---|---|
-| Dialog Title | Text that appears in the modal header |
-| Size | Small, Medium, Large, Full-screen |
-| Close on backdrop click | Yes / No |
-| Show close button | Yes / No |
+| Title | Text shown as the dialog heading (max 50 characters, required) |
+| Body | Message content shown inside the dialog (max 500 characters, required) |
+| Text Alignment | Left, Center, Right |
+| Text color | Color picker or custom hex |
+| Trigger button text | Label on the trigger button (default: "Open Pop-up") |
+| Trigger alignment | Left, Center, Right |
 
 ## Common Use Cases
 
 - **Definitions**: A "What is this?" link beside a complex term opens a definition modal
 - **Quick reference**: A "Show accepted values" link opens a reference table without leaving the page
-- **Image preview**: Click a thumbnail to open a full-size image in a modal
 - **Step detail**: "Learn more" link beside a summary opens a detailed step breakdown
 
 ## Limitation
@@ -1336,29 +1361,27 @@ The Advanced Expand macro creates a collapsible content section with a styled he
 
 | Setting | Options |
 |---|---|
-| Header Text | The clickable title of the expand section |
-| Header Style | Default, Bold, H2, H3, H4 |
-| Header Color | Color picker or hex value |
-| Left Icon | Optional icon before the header text |
-| Right Icon | Expand/collapse arrow style |
-| Default State | Collapsed or Expanded |
-| Body Background | Optional background color for the expanded body |
-| Border | None, Subtle, Visible |
+| Style | Style A (minimal with arrow), Style B (card with expand button), Style C (bordered/accented) |
+| Icon | Optional icon shown beside the header — choose from the built-in icon library or upload an emoji |
+| Header size | Normal text, H1, H2, H3, H4, H5, H6 |
+| Accent color | Color picker — controls header text and icon color |
+| Header background color | Color picker (Style A only) |
 
 ## Expand Styles
 
-**Default**: Plain text header with standard expand arrow.
+**Style A**: Minimal header with a left-side arrow indicator. Supports a custom header background color.
 
-**Styled Header (Bold, H2–H4)**: Use when the expand section should look like a heading in the page hierarchy.
+**Style B**: Card-style panel with an expand/collapse button on the right. No background color option.
 
-**Colored Header**: Use to color-code expand sections by category (e.g., blue for setup steps, green for verification, red for rollback steps).
+**Style C**: Bordered style with a top and bottom accent line. No background color option.
+
+Use the **Accent color** picker to color-code expand sections by category (e.g., blue for setup steps, green for verification, red for rollback steps).
 
 ## Common Use Cases
 
 - **FAQ pages**: Each question is an expand header; answers collapse until clicked
 - **Long runbooks**: Collapse less-common paths by default
-- **Step-by-step guides**: Show one step at a time to reduce cognitive load
-- **Reference tables**: Collapse large reference tables that most readers don't need on every visit`,
+- **Step-by-step guides**: Show one step at a time to reduce cognitive load`,
         },
         {
           slug: "advanced-card-macro",
@@ -1372,27 +1395,38 @@ The Advanced Cards macro creates structured content cards - rectangular panels w
 
 ## Card Layout Options
 
-| Layout | Description |
+| Columns | Description |
 |---|---|
-| Single column | Full-width card |
-| 2-column grid | Two cards side by side |
-| 3-column grid | Three cards per row |
-| Auto-flow | Cards wrap automatically based on container width |
+| 1 | Full-width single card per row |
+| 2 | Two cards per row |
+| 3 | Three cards per row |
+| 4 | Four cards per row |
+| 5 | Five cards per row |
 
-## Card Configuration Options
+## Per-Card Configuration
 
 | Setting | Description |
 |---|---|
-| Title | Card header text |
-| Body | Rich text body content |
-| Image | URL or Confluence attachment for a card image (top, left, or background) |
-| Image Position | Top, Left, Right |
-| Link | Optional URL - makes the entire card clickable |
-| Footer Text | Optional small text at the card bottom |
-| Background Color | Card background |
-| Border | None, Subtle, Visible, Accent (colored left border) |
-| Shadow | None, Small, Medium, Large |
-| Badge | Optional badge label in the card corner |
+| Title | Card header text (required) |
+| Content | Body text content |
+| Image | Upload a Confluence attachment image |
+| Destination | Link to a Confluence page (search) or external URL |
+| Open in new tab | Yes / No |
+| Background color | Color picker |
+| Text color | Color picker |
+
+## Layout and Design Options
+
+| Setting | Options |
+|---|---|
+| Image position | Left, Top, Bottom, Right, None |
+| Image fit | Cover, Contain, Fill |
+| Custom card height | Toggle + height input (100–800px) |
+| Text alignment | Left, Center, Right |
+| Hide card border | Toggle |
+| Title size | 8–72px |
+| Content size | 8–48px |
+| Card spacing | Slider |
 
 ## Common Use Cases
 
@@ -1413,18 +1447,22 @@ The Interactive Banner macro creates a full-width announcement or hero banner at
 
 ## Configuration Options
 
-| Setting | Options / Description |
+The banner supports multiple slides, each configured independently:
+
+| Setting | Description |
 |---|---|
-| Headline | Main bold text |
-| Subtitle | Secondary text below headline |
-| Background Type | Color, Gradient, or Image URL |
-| Background Color | Color picker / hex |
-| Text Color | Light or Dark (ensure contrast) |
-| Height | Small (80px), Medium (160px), Large (240px), Hero (360px) |
-| Alignment | Left, Center, Right |
-| CTA Button 1 | Label + URL + style |
-| CTA Button 2 | Label + URL + style (optional second button) |
-| Overlay Opacity | 0–80% dark overlay on image backgrounds for text readability |
+| Slide components | Toggle which elements appear: Title, Body, Button |
+| Title | Main heading text for this slide (max 50 characters) |
+| Title text color | Color picker for the title text |
+| Body | Secondary text below the title (max 250 characters) |
+| Body text color | Color picker for the body text |
+| Background image | Upload a Confluence attachment or use a stock image |
+| Overlay mode / opacity | Dark overlay on the background image for text readability |
+| Button text | Label for the call-to-action button |
+| Button destination | Link to a Confluence page (search) or external URL |
+| Open in new tab | Yes / No |
+| Button background color | Color picker for the button |
+| Button text color | Color picker for the button label |
 
 ## Common Use Cases
 
@@ -1458,24 +1496,26 @@ The Numbered Headings macro automatically adds hierarchical numbers to all headi
 
 ## How to Use
 
-1. Insert the **Numbered Headings** macro anywhere on the page (typically at the top of the content area)
-2. The macro applies numbering to all headings on the page from that point forward
-3. No other configuration is required - heading levels (H1, H2, H3) map to 1, 1.1, 1.1.1
+Numbered Headings is a **page-level byline button**, not an inline macro. It appears in the page byline area (the metadata strip below the page title).
+
+1. Open the page in **view mode**
+2. Click the **Numbered Heading | Clovity** button in the page byline
+3. A settings panel opens — enable numbering and configure the format
+4. Click Save — the page headings update immediately
 
 ## Configuration Options
 
-| Setting | Description |
+| Setting | Options |
 |---|---|
-| Start Level | Which heading level to begin numbering (default: H2) |
-| Max Depth | How many heading levels deep to number (default: all) |
-| Separator | Character between number segments (default: .) |
-| Prefix | Optional text before the first number (e.g., "Section ") |
+| Enable / Disable | Toggle numbered headings on or off for this page |
+| Number format | Decimal (1, 1.1, 1.1.1), Latin lower (a,b,c), Latin upper (A,B,C), Roman lower (i,ii,iii), Roman upper (I,II,III) |
+| Skip headings | Multi-select — choose which heading levels (H1–H6) to exclude from numbering |
 
 ## Behavior Notes
 
-- Numbering is applied at view time - the heading text in the editor is unchanged
-- The macro affects headings across the entire page, including content inside tabs and expand sections
-- If multiple Numbered Headings macros are inserted on one page, only the first takes effect`,
+- Numbering is applied to the live page HTML — heading text in the editor is not modified
+- Settings are stored per-page — each page has its own enable/format configuration
+- It is not inserted via "/" in the editor — it is a separate byline action button`,
         },
         {
           slug: "divider-macro",
@@ -1489,26 +1529,44 @@ The Divider macro inserts a styled horizontal separator between page sections. I
 
 ## Three Divider Types
 
-### Type 1 - Line
-A simple horizontal line. Configurable color, thickness (1–8px), and width (25%, 50%, 75%, 100%).
+### Line
+A styled horizontal rule. Choose a line style (Solid, Dashed, Dotted, Double, or Gradient), set the color, thickness, and width.
 
-### Type 2 - Dots
-A row of evenly spaced dots. Configurable dot size, color, and spacing.
+### Text
+A divider with a centered or aligned text label. Configure the label text (max 30 characters), label style (Plain, Badge, Uppercase), text color, font size, and font weight. A line appears on either side of the label.
 
-### Type 3 - Gradient
-A line that fades from a color to transparent at both ends. Configurable color and width.
+### Icon
+A divider with an icon from the built-in icon library. Choose the icon, size (S/M/L), and the accompanying line style and width.
 
 ## Configuration Options
 
+All three types share these base settings:
+
 | Setting | Options |
 |---|---|
-| Type | Line, Dots, Gradient |
-| Color | Color picker or hex |
-| Thickness | 1–8px (Line type only) |
-| Width | 25%, 50%, 75%, 100% |
+| Type | Line, Text, Icon |
+| Line style | Solid, Dashed, Dotted, Double, Gradient |
+| Color | Color picker or custom hex |
+| Thickness | Slider |
+| Width | Full width toggle; or percentage slider when not full width |
 | Alignment | Left, Center, Right |
-| Top Spacing | None, Small, Medium, Large |
-| Bottom Spacing | None, Small, Medium, Large |
+
+Additional settings for **Text** type:
+
+| Setting | Options |
+|---|---|
+| Label text | Free text (max 30 characters, required) |
+| Label style | Plain, Badge, Uppercase |
+| Text color | Color picker |
+| Font size | Slider |
+| Font weight | Light, Regular, Bold |
+
+Additional settings for **Icon** type:
+
+| Setting | Options |
+|---|---|
+| Icon | From built-in Lucide icon library |
+| Icon size | S, M, L |
 
 ## When to Use
 
@@ -1526,30 +1584,28 @@ A line that fades from a color to transparent at both ends. Configurable color a
 ## What It Does
 The Countdown Timer macro displays a live countdown to a specific date and time. The timer updates in real time as the page is viewed.
 
-## Three Display Styles
-
-### Style 1 - Compact
-Shows "X days, X hours, X minutes, X seconds" in a single line. Suitable for embedding in banners or cards.
-
-### Style 2 - Block (Flip Clock)
-Large block-style display with separate panels for days, hours, minutes, seconds. Best as a hero element.
-
-### Style 3 - Text Only
-Renders as inline text: "3 days remaining" or "Event starts in 2 hours 15 minutes". Integrates naturally into paragraph text.
-
 ## Configuration Options
 
 | Setting | Description |
 |---|---|
-| Target Date & Time | The date and time to count down to |
-| Timezone | Target event timezone (important for global teams) |
-| Display Style | Compact, Block, or Text Only |
-| Label | Optional text above the timer ("Registration closes in:") |
-| Expired Message | Text to show after the countdown reaches zero |
-| Show seconds | Yes / No |
+| Date | Target expiry date (required, must be today or future) |
+| Time | Target expiry time (optional) |
+| Style | Boxes, Circles, or Gauges |
+| Color | Color picker for the timer elements |
+| Font size | Slider from 25–60px |
+| Show labels | Toggle to show or hide "Days", "Hours", "Minutes", "Seconds" labels |
+| Label text | Customizable label text for each unit (when Show labels is on) |
 
-## Timezone Note
-The timer displays the countdown based on the **viewer's local timezone** relative to the target event time. Set the target timezone to the event's local timezone - the macro handles the conversion for each viewer.
+## Display Styles
+
+### Boxes
+Countdown units displayed in individual rectangular boxes for days, hours, minutes, and seconds.
+
+### Circles
+Countdown units displayed with circular progress rings for each time unit.
+
+### Gauges
+Countdown units shown as arc gauge indicators for each time unit.
 
 ## Common Use Cases
 
@@ -1566,41 +1622,51 @@ The timer displays the countdown based on the **viewer's local timezone** relati
 <img src="/images/content-formatting-assets/user-profile-macro.png" alt="User Profile Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The User Profile macro displays a Confluence user's profile information - name, avatar, title, department, and contact links - as a styled card. Use it to display team members, point-of-contact information, or page owners.
+The User Profile macro lets you add up to 30 profile cards on a single Macro. Each card displays a user's name and a custom details field (such as job title), along with an optional image and background color. Card Style controls only the visual appearance of the cards — it does not add or remove information fields.
 
-## Five Card Styles
+## How to Set It Up
 
-| Style | What It Shows |
-|---|---|
-| Compact | Avatar + Name + Job Title inline |
-| Standard | Avatar + Name + Title + Department + Email |
-| Detailed | All standard fields + Location + Phone + Confluence profile link |
-| Avatar Only | Just the profile picture with hover tooltip of name |
-| Card | Full card layout with background, all fields, and contact buttons |
+1. Insert the **User Profile** macro on your page
+2. In the **General** tab, use the **Add Users** field to search for and add Confluence users (up to 30)
+3. Choose a **Card Style**, **Card Size**, and set your preferred colors
+4. Select a **Hover Effect** if desired
+5. Switch to the **Content** tab to fill in details for each individual card
+6. Publish the page
 
-## Configuration Options
+## General Tab Settings
 
 | Setting | Description |
 |---|---|
-| User | Confluence username or email to display |
-| Card Style | Compact, Standard, Detailed, Avatar Only, Card |
-| Show Email | Yes / No |
-| Show Location | Yes / No |
-| Show Department | Yes / No |
-| Custom Label | Override the job title displayed |
-| Link to Profile | Make the card clickable to the user's Confluence profile |
+| Add Users | Search and add Confluence users to display — up to 30 users per macro |
+| Card Style | 5 visual layout options that change the card's appearance only — no extra fields are added or removed by changing style |
+| Card Size | Small, Medium, or Large |
+| Name Color | Color of the user's display name on the card |
+| User Details Color | Color of the details text (e.g. job title) on the card |
+| Shape Color | Color of the avatar shape/background |
+| Hover Effect | Visual effect applied when a viewer hovers over a card (e.g. No effect, shadow, lift) |
 
-## Requirements
+## Content Tab Settings (Per Card)
 
-- The displayed user must have a Confluence Cloud account in the same site
-- Profile fields (title, department, location) must be filled in by the user in their Confluence profile settings
+Each user card has its own Content tab with individual settings:
+
+| Setting | Description |
+|---|---|
+| User Details | Free-text field (up to 50 characters) — enter the information to show on the card, such as job title, team, or role |
+| Background Color | Optional background color for that individual card |
+| Image | Optional custom image to display on the card |
+| Move backwards / Move forwards | Reorder the card's position within the macro |
+| Remove Profile Card | Delete this card from the macro |
+
+## Card Style Note
+
+Card Style selects between 5 visual appearances for how the card is laid out. It only affects how the card looks — it does not pull in additional data from Confluence profiles or show/hide extra fields. The information displayed on each card is only what you enter in the User Details field and the user's name.
 
 ## Common Use Cases
 
-- **Page owner block**: "Questions about this page? Contact:" + User Profile macro
-- **Team directory**: Grid of Card-style User Profile macros for each team member
-- **On-call roster**: Weekly rotation page showing the current on-call person
-- **Escalation path**: Runbook section showing L1, L2, L3 escalation contacts`,
+- **Team directory**: Add all team members, enter each person's role in the User Details field
+- **Point-of-contact block**: Add the relevant person, enter their role or responsibility in User Details
+- **On-call roster**: Add the current on-call person and update the User Details field each rotation
+- **Escalation path**: Add L1, L2, L3 contacts with their escalation level in User Details`,
         },
         {
           slug: "status-macro",
@@ -1610,42 +1676,45 @@ The User Profile macro displays a Confluence user's profile information - name, 
 <img src="/images/content-formatting-assets/status-macro.png" alt="Status Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The Status macro creates a color-coded badge that communicates a state, phase, or classification at a glance. Unlike the standard Confluence Status lozenge, this macro offers 13 preset status sets covering common workflows, plus a custom color mode.
+The Status macro creates color-coded status badges from 13 preset sets covering workflows, estimations, and other classifications. Select a preset set to display a badge group on your page.
 
 ## 13 Preset Status Sets
 
-| Set Name | Example Values |
+### Status Sets
+| Set | Values |
 |---|---|
-| General | To Do, In Progress, Done, Blocked |
-| Approval | Pending, Approved, Rejected |
-| Priority | Low, Medium, High, Critical |
-| Health | Healthy, At Risk, Critical |
-| Release | Planning, Development, Testing, Released |
-| Environment | Development, Staging, Production |
-| Ticket | Open, In Review, Closed, Reopened |
-| Risk | Low, Medium, High, Very High |
-| Compliance | Compliant, Non-Compliant, Under Review |
-| Verification | Verified, Unverified, Failed |
-| Access | Public, Internal, Restricted, Confidential |
-| Budget | On Track, Over Budget, Under Budget |
-| Custom | Any text + any color |
+| Workflow | TO DO, IN PROGRESS, REVIEW, BLOCKED, DONE |
+| Approval | DRAFT, REVIEW, REJECTED, APPROVED |
+| Quality | EXCELLENT, AVERAGE, POOR |
+| Priority | VERY LOW, LOW, MEDIUM, HIGH, VERY HIGH |
+| MoSCoW | MUST HAVE, SHOULD HAVE, COULD HAVE |
+
+### Values & Estimations
+| Set | Values |
+|---|---|
+| Linear scale | ?, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 |
+| Fibonacci | ?, 1, 2, 3, 5, 8, 13, 20, 40, 100 |
+| T-shirt sizes | ?, XS, S, M, L, XL |
+| Completion | 0%, 25%, 50%, 75%, 100% |
+
+### Miscellaneous
+| Set | Values |
+|---|---|
+| Tier | PLATINUM, GOLD, SILVER, BRONZE |
+| Rarity | Common, Magical, Set, Rare, Legendary, Mythic |
+| Star rating | ★, ★★, ★★★, ★★★★, ★★★★★ |
+| Color dots | green, yellow, orange, gray |
 
 ## Configuration
 
-| Setting | Description |
-|---|---|
-| Status Set | Choose from 13 presets or Custom |
-| Status Value | Select from the preset values or enter custom text |
-| Color (Custom mode) | Color picker for badge background |
-| Size | Small, Medium, Large |
-| Style | Filled, Outlined, Subtle |
+Select a preset set from the visual card picker in the settings panel. Each card previews the status badges in that set. The selected set is then displayed on the page.
 
 ## Use Cases
 
-- Project status table with a Status badge per row
-- Runbook steps with a status column showing which steps are complete
-- Risk register with a Risk level badge per item
-- Release notes with Environment badges showing where each feature is deployed`,
+- Project status table with a workflow status badge per row
+- Backlog items with story point estimates (Fibonacci)
+- Risk register with a priority badge per item
+- Release notes with completion percentage badges`,
         },
         {
           slug: "json-viewer-macro",
@@ -1672,16 +1741,6 @@ The JSON Viewer macro renders a block of JSON data in a formatted, syntax-highli
 - **Line numbers**: Optional line number display
 - **Copy button**: Copies the raw JSON to clipboard
 
-## Configuration Options
-
-| Setting | Description |
-|---|---|
-| Theme | Light or Dark |
-| Default collapsed depth | How many levels are expanded on load (0 = all collapsed, default: 2) |
-| Show line numbers | Yes / No |
-| Show copy button | Yes / No |
-| Max height | Scroll container height (default: 400px) |
-
 ## Limitations
 
 - JSON must be valid - the macro displays an error if the JSON is malformed
@@ -1694,6 +1753,363 @@ The JSON Viewer macro renders a block of JSON data in a formatted, syntax-highli
 - Configuration file documentation
 - Data schema examples for developer documentation
 - Webhook payload examples`,
+        },
+        {
+          slug: "custom-fonts-macro",
+          title: "Custom Fonts Macro",
+          content: `# Custom Fonts Macro
+
+<img src="/images/content-formatting-assets/custom-fonts-macro.png" alt="Custom Fonts Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Custom Fonts macro lets you add a styled text block to any Confluence page. You type the text directly into the macro and control its font family, weight, size, color, alignment, and line height — all from the config panel. Use it to create visually distinct headings, section titles, or callout text that goes beyond Confluence's standard heading styles.
+
+## How to Set It Up
+
+1. Insert the **Custom Fonts** macro on your page
+2. In the **Text** field, type the text you want to display (required)
+3. Set the **Alignment** — Left, Center, or Right
+4. Under **Typography**, choose the **Font Family**, **Font Weight**, and drag the **Font Size** slider to the size you need
+5. Pick a **Text Color** from the preset swatches or use the custom color picker
+6. Optionally enable **Set line height manually** to control vertical spacing
+7. Publish the page
+
+## Configuration Options
+
+| Setting | Options | Notes |
+|---|---|---|
+| Text | Free text input | Required — this is the text that will be displayed |
+| Alignment | Left, Center, Right | Controls horizontal alignment of the text block |
+| Font Family | Dropdown (e.g. Arial, and other available fonts) | Selects the typeface for the text |
+| Font Weight | Regular, Bold, and other available weights | Controls how thick or thin the text strokes appear |
+| Font Size | Slider (px) | Drag to set the exact size; displays the current value in px |
+| Text Color | Preset color swatches + custom color picker | Sets the text color |
+| Set Line Height Manually | Toggle on / off | When on, lets you enter a specific line height value |
+
+## Common Use Cases
+
+- **Custom page title**: Add a large, styled heading at the top of a space home page or landing page
+- **Section labels**: Use a distinct font and color to mark major sections within a long page
+- **Announcement text**: Display a bold, center-aligned message at the top of an announcement page
+- **Visual emphasis**: Highlight a key statistic, quote, or call-to-action with a larger font size and a brand color`,
+        },
+        {
+          slug: "news-macro",
+          title: "News Macro",
+          content: `# News Macro
+
+<img src="/images/content-formatting-assets/news-macro.png" alt="News Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The News macro displays Confluence blog posts from your space as a styled feed on any Confluence page. You give the feed a title, set how many posts to show, and choose the feed type — the macro then renders the matching blog posts in that layout.
+
+## How to Set It Up
+
+1. Insert the **News** macro on your page
+2. Enter a **Title** for the feed (required)
+3. Enter a **Limit** — the number of blog posts to display
+4. Select a **Feed Type** from the dropdown (e.g. Image Feed)
+5. Publish the page
+
+## Configuration Options
+
+| Setting | Description |
+|---|---|
+| Title | Required — the heading displayed above the blog post feed |
+| Limit | Number of blog posts to show in the feed |
+| Feed Type | Controls the layout of the feed (e.g. Image Feed displays posts with their associated images) |
+
+## Common Use Cases
+
+- **Space home page**: Show the latest blog posts from your space so visitors always see recent updates
+- **Team hub**: Surface team announcements written as Confluence blog posts
+- **Project space**: Display project updates and news posts in a visual feed layout
+- **Knowledge base**: Highlight recently published blog articles for readers
+
+## Behavior Notes
+
+- The macro pulls blog posts from the current Confluence space
+- Only published blog posts are shown — drafts are not included
+- Posts the viewer does not have read permission to access are not displayed`,
+        },
+        {
+          slug: "page-tree-macro",
+          title: "Page Tree Macro",
+          content: `# Page Tree Macro
+
+<img src="/images/content-formatting-assets/page-tree-macro.png" alt="Page Tree Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Page Tree macro displays all pages of the current Confluence space in a list when inserted on a page. Readers can see every page in the space and click any page title to navigate to it. The currently selected or active page is highlighted in the list.
+
+## How to Set It Up
+
+1. Insert the **Page Tree** macro on your page
+2. The macro immediately renders a list of all pages in the current space — no additional configuration required
+3. Publish the page
+
+## Common Use Cases
+
+- **Space home page**: Give readers a complete overview of all pages in the space from a single location
+- **Navigation panel**: Embed the macro on a hub or landing page so team members can quickly find and jump to any page
+- **Documentation index**: Let readers browse the full list of pages in a documentation space without using the sidebar
+- **Onboarding pages**: Help new team members discover all available pages in the space
+
+## Behavior Notes
+
+- Only pages the viewer has read permission to access are shown
+- Draft pages are not included in the list
+- The active/selected page is visually highlighted in the list`,
+        },
+        {
+          slug: "activity-stream-macro",
+          title: "Activity Stream Macro",
+          content: `# Activity Stream Macro
+
+<img src="/images/content-formatting-assets/activity-stream-macro.png" alt="Activity Stream Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Activity Stream macro shows recent page activity from a selected Confluence space. Each entry displays the page name, the user who last modified it, and how long ago the change was made — grouped by user avatar. You set a title, choose the space, and set a limit on how many items to show.
+
+## How to Set It Up
+
+1. Insert the **Activity Stream** macro on your page
+2. Enter a **Title** — this appears as the heading above the activity list (e.g. "Recent Activity")
+3. Select the **Space** from the dropdown — the macro shows activity from that space
+4. Enter a **Limit** — the number of recent page entries to display
+5. Publish the page
+
+## Configuration Options
+
+| Setting | Description |
+|---|---|
+| Title | Heading displayed above the activity list — leave blank and "Your title will appear here" is shown as a placeholder |
+| Space | The Confluence space to pull recent page activity from (selected from a dropdown of available spaces) |
+| Limit | Number of recent page activity entries to display |
+
+## What It Shows
+
+The macro renders a list of recently modified pages from the selected space. Each entry shows:
+
+- **Page name** — clickable link to the page
+- **User name** — the person who last modified the page
+- **Time ago** — how long ago the page was last changed (e.g. 14 days ago, 58 days ago)
+
+Entries are grouped under the user's avatar, so you can see at a glance which user was responsible for which recent changes.
+
+## Common Use Cases
+
+- **Space home page**: Show the team which pages have been updated recently in the space
+- **Team hub**: Display recent page changes from the team's space so members can follow what's being worked on
+- **Project space**: Surface the most recently edited pages in a project space
+- **Manager view**: Choose a specific space to monitor recent documentation activity
+
+## Behavior Notes
+
+- Only pages the current viewer has read permission to access are shown
+- The activity is pulled from the space selected in the Space dropdown
+- Draft pages are not included`,
+        },
+        {
+          slug: "number-list-macro",
+          title: "Number List Macro",
+          content: `# Number List Macro
+
+<img src="/images/content-formatting-assets/number-list-macro.png" alt="Number List Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Number List macro creates a styled numbered list on a Confluence page. You add each list item individually using the **Add a List item** button, choose a numbering style, set a color, pick a variation, and toggle rounded corners — all from the config panel.
+
+## How to Set It Up
+
+1. Insert the **Number List** macro on your page
+2. Click **Add a List item** to add your first item — a text input appears for that item
+3. Type the item text, then click **Add a List item** again to add more
+4. Choose a **Numbering** style
+5. Under **Appearance**, select a **Color**, **Variation**, and toggle **Fully rounded corners** if desired
+6. Publish the page
+
+## Configuration Options
+
+### Numbering
+
+| Option | Description |
+|---|---|
+| 1, 2, 3… | Standard decimal numbering |
+| A, B, C… | Alphabetical numbering |
+| I, II, III… | Roman numeral numbering |
+
+### Appearance
+
+| Setting | Options | Description |
+|---|---|---|
+| Color | Preset swatches (dark, white, blue, green, orange, red, purple, black) + custom picker | Sets the color of the number markers |
+| Variation | Filled, Outlined, Plain | Controls the visual style of the number badge — Filled shows a solid colored badge, Outlined shows a border only, Plain shows the number without a badge |
+| Fully rounded corners | Toggle on / off | When on, the number badge uses fully circular/pill-shaped corners |
+
+## Common Use Cases
+
+- **Step-by-step guides**: Add each step as a list item with a color that matches your page theme
+- **Ranked lists**: Use A, B, C… or I, II, III… numbering to show priority or ranking
+- **Procedures**: Use Filled variation with a bold color to make each step number visually stand out
+- **Structured content**: Use Plain variation for a clean, minimal numbered list with custom color`,
+        },
+        {
+          slug: "form-macro",
+          title: "Form Macro",
+          content: `# Form Macro
+
+<img src="/images/content-formatting-assets/form-macro.png" alt="Form Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Form macro embeds a structured input form directly on any Confluence page. You give the form a title, then build it by adding fields from a list of available field types. The form preview updates as you add fields, so you can see how it will look before publishing.
+
+## How to Set It Up
+
+1. Insert the **Form** macro on your page
+2. Enter a **Form Title** — this appears as the dark header bar at the top of the form (e.g. "My Form")
+3. Under **Add a Field**, click any field type to add it to the form
+4. The added field appears under **Form Fields** — you can reorder fields using the up/down arrows and remove them with the delete button
+5. Continue adding fields until the form is complete
+6. Publish the page
+
+## Form Title
+
+| Setting | Description |
+|---|---|
+| Form Title | Required — displayed as a bold header at the top of the rendered form |
+
+## Available Field Types
+
+Click any of the following from the **Add a Field** section to add it to your form:
+
+| Field Type | Description |
+|---|---|
+| Short text | Single-line text input — for names, short answers, IDs |
+| Paragraph | Multi-line text input — for descriptions, comments, or longer responses |
+| Number | Numeric input field |
+| Date field | Calendar date picker |
+| Attachment upload | Lets the form submitter upload a file |
+| Dropdown list | Single-select dropdown from a list of options |
+| Page list | Lets the submitter select from Confluence pages |
+| User list | Lets the submitter select a Confluence user |
+| Label list | Lets the submitter select from Confluence labels |
+| Table field | A table-based input field |
+
+## Managing Form Fields
+
+Once a field is added to the **Form Fields** list:
+
+- **Reorder** — use the up/down arrows on the right of each field to change its position
+- **Remove** — click the delete (×) button to remove a field from the form
+
+## Common Use Cases
+
+- **Request intake**: Build an IT or HR request form with short text, dropdown, and attachment upload fields
+- **Feedback collection**: Use paragraph and dropdown fields to gather structured post-event feedback
+- **Data collection**: Use number, date, and user list fields to capture structured information from team members
+- **File submission**: Use the attachment upload field to let users submit files directly through a Confluence page`,
+        },
+        {
+          slug: "markdown-renderer-macro",
+          title: "Markdown Renderer Macro",
+          content: `# Markdown Renderer Macro
+
+<img src="/images/content-formatting-assets/markdown-renderer-macro.png" alt="Markdown Renderer Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The Markdown Renderer macro takes raw Markdown text and renders it as formatted Confluence content. Paste any standard Markdown - headings, lists, bold/italic, code blocks, tables, links - and it displays as styled, readable output without converting it to Confluence storage format.
+
+## How to Use
+
+1. Insert the **Markdown Renderer** macro
+2. Paste your Markdown source text into the macro body
+3. The macro renders a preview in edit mode
+4. Publish the page - readers see the formatted output, not the raw Markdown
+
+## Supported Markdown Syntax
+
+| Element | Markdown | Rendered As |
+|---|---|---|
+| Headings | \`# H1\`, \`## H2\`, \`### H3\` | Styled headings |
+| Bold | \`**text**\` | Bold text |
+| Italic | \`*text*\` | Italic text |
+| Code (inline) | \`\\\`code\\\`\` | Monospace inline |
+| Code block | \`\\\`\\\`\\\`language\\\`\\\`\\\`\` | Syntax-highlighted code block |
+| Table | \`\| col \| col \|\` | Formatted table |
+| Ordered list | \`1. item\` | Numbered list |
+| Unordered list | \`- item\` | Bulleted list |
+| Link | \`[label](url)\` | Hyperlink |
+| Blockquote | \`> text\` | Indented quote block |
+| Horizontal rule | \`---\` | Divider line |
+
+## Common Use Cases
+
+- **Docs-as-code migration**: Paste README.md or other Markdown files directly into Confluence without reformatting
+- **Developer documentation**: Engineers who write in Markdown can contribute Confluence pages without learning the Confluence editor
+- **Cross-platform content**: Maintain content in Markdown in a Git repo and mirror it to Confluence by pasting into this macro
+- **API reference**: Paste OpenAPI or README-style Markdown descriptions into Confluence pages alongside other content
+
+## Limitations
+
+- Markdown is stored verbatim inside the macro - Confluence search indexes the rendered text, not the raw Markdown source
+- Custom Markdown extensions (GitHub Flavored Markdown task lists, footnotes, definition lists) may not render - standard CommonMark syntax is most reliable
+- Images referenced via relative paths in the Markdown will not render; use absolute URLs`,
+        },
+        {
+          slug: "html-renderer-macro",
+          title: "HTML Renderer Macro",
+          content: `# HTML Renderer Macro
+
+<img src="/images/content-formatting-assets/html-renderer-macro.png" alt="HTML Renderer Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
+
+## What It Does
+The HTML Renderer macro renders custom HTML markup inside a Confluence page. It supports standard HTML elements, inline CSS, and safe embed codes - giving authors who know HTML direct control over layout and styling on specific sections of a page.
+
+## How to Use
+
+1. Insert the **HTML Renderer** macro
+2. Paste or type your HTML into the macro body
+3. The macro sanitizes the HTML and renders a preview in edit mode
+4. Publish the page - readers see the rendered HTML output
+
+## Supported HTML Elements
+
+| Category | Supported Tags |
+|---|---|
+| Structure | \`div\`, \`section\`, \`article\`, \`header\`, \`footer\`, \`p\`, \`span\` |
+| Headings | \`h1\` – \`h6\` |
+| Text formatting | \`strong\`, \`em\`, \`u\`, \`s\`, \`code\`, \`pre\`, \`blockquote\` |
+| Lists | \`ul\`, \`ol\`, \`li\`, \`dl\`, \`dt\`, \`dd\` |
+| Tables | \`table\`, \`thead\`, \`tbody\`, \`tr\`, \`th\`, \`td\` |
+| Media | \`img\` (src must be absolute URL), \`figure\`, \`figcaption\` |
+| Links | \`a\` (href with http/https) |
+| Inline style | \`style\` attribute on any element |
+
+## Sanitization Rules
+
+For security, the following are stripped before rendering:
+
+- \`<script>\` tags and JavaScript event handlers (\`onclick\`, \`onload\`, etc.)
+- \`<iframe>\` tags (use Confluence's native embed for iframes)
+- External stylesheet links (\`<link rel="stylesheet">\`)
+- \`<form>\` and \`<input>\` elements (use the Form Macro for input collection)
+- \`data:\` and \`javascript:\` URIs in \`href\` or \`src\` attributes
+
+## Common Use Cases
+
+- **Custom layouts**: Multi-column HTML layouts using flexbox or grid via inline CSS - useful when Confluence's column macro isn't flexible enough
+- **Styled callouts**: Highly customized callout boxes that go beyond what the Alert macro offers
+- **Embedded badges or shields**: Static SVG badges (e.g., build status, version number) from external badge services
+- **Complex tables**: HTML tables with \`colspan\`, \`rowspan\`, or cell-level background colors not possible in Confluence's native table editor
+- **Third-party widget embeds**: Static HTML embed codes from tools that provide non-iframe embeds (e.g., charts, maps with static HTML output)
+
+## Limitations
+
+- JavaScript is not executed - HTML Renderer is for markup and styling only, not interactive widgets
+- \`<iframe>\` is blocked; use Confluence's built-in Embed macro for video and external content iframes
+- Inline styles apply only within the macro container - they cannot affect elements outside the macro body
+- Very large HTML blocks may affect page load time; keep HTML concise`,
         },
       ],
     },
@@ -1720,8 +2136,7 @@ The Attachment Management Center is a dedicated panel built into Content Formatt
 
 ## How to Access
 
-- **From Space Settings**: Go to **Space Settings** → **Apps** → **Attachment Management Center**
-- **From the Confluence sidebar**: If the admin has pinned the Attachment Center shortcut, it appears in the left sidebar
+- **Globally**: The Attachment Management Center is accessible globally — you do not need to go through Space Settings
 
 ## Admin Configuration
 
@@ -2032,59 +2447,89 @@ Audit log entries are retained for **90 days** by default. Entries older than 90
 
 ## What Templates Are Included?
 
-Content Formatting Macros includes two ready-to-use Confluence page templates that demonstrate the app's capabilities in realistic, production-ready page designs.
+Content Formatting Macros includes three ready-to-use Confluence page templates that demonstrate the app's capabilities in realistic, production-ready page designs.
 
 ---
 
-## Template 1 - Employee Onboarding Hub
+## Template 1 - Team Hub
 
-A structured onboarding experience for new hires, built with tabs, cards, and conditional visibility.
-
-### Page Structure
-
-| Tab | Content |
-|---|---|
-| Week 1 | First-day checklist, system access steps, buddy program info |
-| Week 2 | Team introductions, process docs, first project overview |
-| Week 3 | Role-specific training, first check-in prep |
-| Resources | Buttons linking to HR systems, benefits portal, IT helpdesk |
-| Manager View (Conditional) | Manager-only tab with onboarding completion tracking |
-
-### Macros Used
-- Tab Navigation + Custom Tabs (for the weekly structure)
-- Conditional Show (for the Manager View tab)
-- Buttons (system links in Resources tab)
-- Alert (Info type - welcome message)
-- User Profile (buddy/manager contact cards)
-- Progress Bar (overall onboarding completion percentage)
-- Interactive Banner (welcome header)
-
----
-
-## Template 2 - Team Hub
-
-A team home page with announcements, key links, member directory, and rotating status indicators.
+A team space home page with a welcome header, vision and mission cards, a photo-based member directory, resource cards, and helpful links. Also creates two child pages: Meeting Notes and Ways of Working.
 
 ### Page Structure
 
 | Section | Content |
 |---|---|
-| Announcement Banner | Interactive Banner macro with latest team news |
-| Quick Links | Button macros linking to Jira board, Confluence space, Slack channel |
-| Team Members | Grid of User Profile macros (Card style) |
-| Current Sprint Status | Status Macro badges per active project |
-| Upcoming Events | Countdown Timer macros for key dates |
-| Resources | Advanced Cards linking to key documents |
+| Welcome Header | Styled title with team name and welcome message |
+| Team Culture | Vision and Mission background cards side by side |
+| Get in Touch | Button links to Slack channel, team email, support desk, and product wiki |
+| Meet the Team | Department label cards + person photo cards in a 4-column grid (Engineering, Marketing, Product) |
+| Team Activity | Placeholder section for Jira macros (issues, charts, or timeline) |
+| Recently Updated | Placeholder for Confluence Recently Updated macro |
+| Team Resources | 3 Advanced Cards linking to Onboarding Resources, Ways of Working, and Meeting Notes |
+| Helpful Links | Buttons in 3 columns linking to tools, repos, and dashboards |
+
+### Macros Used
+- Background (Vision and Mission cards)
+- Buttons (Get in Touch links, Helpful Links columns)
+- Advanced Cards (4-column member directory, 3-column resource cards)
+
+### Child Pages Created
+| Child Page | Contents |
+|---|---|
+| Meeting Notes | Sprint planning table, committed tickets table, decisions and action items table |
+| Ways of Working | Team ritual cards (Standup, Sprint Planning, Retro), team norms list, definition of done |
+
+---
+
+## Template 2 - Company Hub
+
+A company-wide intranet landing page with a rotating banner, essentials panel, department directory, HR resources, and other resource links.
+
+### Page Structure
+
+| Section | Content |
+|---|---|
+| Rotating Banner | Interactive Banner with 3 slides (Welcome, Connect & Grow, Knowledge Hub) |
+| Essentials | Quick-access buttons: Single Sign-On, Expenses, HR tool |
+| Who We Are | Company description paragraph |
+| Recent Blogs | Placeholder for a Confluence Blog Posts stream |
+| Team in Action | Image background section with company culture description |
+| Connect on Socials | Buttons for Twitter, LinkedIn, and YouTube |
+| Departments Grid | 10 Advanced Cards in a 5-column grid: Finance, Marketing, People, GTM, Legal, Education, Product, Engineering, Sales, UX/UI |
+| HR Help | Image background with HR team description and HR Hub button |
+| HR FAQ | 3 collapsible expand sections: New Employees, Referral Program, Career Development |
+| Other Resources | 3-column layout: IT Support, Together Resources, Tools & Apps |
+
+### Macros Used
+- Interactive Banner (3-slide rotating carousel)
+- Background (color and image variants for multiple sections)
+- Buttons (vertical and horizontal, for Essentials and social links)
+- Advanced Cards (10-card department grid, 5 columns)
+- Advanced Expand (HR FAQ collapsible items)
+
+---
+
+## Template 3 - Monthly Project Report
+
+A single-page monthly report covering project summary, KPI targets, key initiatives (tabbed), upcoming focus areas, and team kudos.
+
+### Page Structure
+
+| Section | Content |
+|---|---|
+| Report Banner | Interactive Banner with report title and monthly summary |
+| Project Summary | Table with project name, status date, PM, stakeholders, and links — alongside a Table of Contents |
+| Target Check | 3 Background cards, each showing a KPI's current value vs. target and insights |
+| Key Initiatives | Custom Tabs — one tab per initiative, each with a metrics table, insights, and project links |
+| Next Up | 3 Advanced Cards for upcoming focus areas |
+| Kudos | Table recognizing team members with appreciation notes |
 
 ### Macros Used
 - Interactive Banner
-- Buttons
-- User Profile (Card style, 3-column grid)
-- Status Macro
-- Countdown Timer
-- Advanced Cards
-- Background (alternating section backgrounds)
-- Divider (between sections)
+- Background (Target Check KPI cards)
+- Tooltip (inline metric definitions, e.g. MAU)
+- Custom Tabs (one tab per initiative in the Key Initiatives section)
+- Advanced Cards (Next Up section, 3 cards)
 
 ---
 
@@ -2093,7 +2538,7 @@ A team home page with announcements, key links, member directory, and rotating s
 1. In Confluence, navigate to the space where you want to create the page
 2. Click **Create** → **From Template**
 3. Search for **"Content Formatting"** or browse the template gallery
-4. Select **Employee Onboarding Hub** or **Team Hub**
+4. Select **Team Hub**, **Company Hub**, or **Monthly Project Report**
 5. Click **Use Template** - the page opens in edit mode with all macros pre-configured
 6. Replace placeholder text and configure macros with your actual content
 
@@ -2105,8 +2550,8 @@ A team home page with announcements, key links, member directory, and rotating s
 |---|---|
 | Templates not showing in the gallery | Confirm the app is installed and activated for the space |
 | Macros showing placeholder content | Edit each macro and configure it with real data |
-| Conditional Show section always hidden | Confirm the target Confluence group exists and the current user is in it |
-| User Profile cards showing blank | Ensure the referenced users have completed their Confluence profile fields |`,
+| Team Hub child pages missing | Child pages (Meeting Notes, Ways of Working) are created automatically when the template is applied |
+| Banner images not loading | Confirm the template assets are deployed alongside the app |`,
         },
       ],
     },
@@ -2774,25 +3219,25 @@ This comparison shows how our app covers the core features of 5 competing Conflu
 
 | **Mosaic Feature** | **Our App Equivalent** |
 | --- | --- |
-| Tabs \| Mosaic | Covered in Create Custom Tabs |
-| HTML \| Mosaic | Covered in Create Custom Tabs |
-| Alert \| Mosaic | Alert Macro |
-| Latex \| Mosaic | Not covered |
-| Button \| Mosaic | Buttons Macro |
-| Tooltips \| Mosaic | Tooltip Macro |
-| Footnotes \| Mosaic | Footnotes Macro |
-| Background \| Mosaic | Background Macro |
-| ProgressBar \| Mosaic | Progress Bar Macro |
-| Button Group \| Mosaic | Buttons Macro |
-| Pop-up dialogue \| Mosaic | Pop-up Dialog Macro |
-| AdvanceCard \| Mosaic | Advanced Cards Macro |
-| Numbered-Heading \| Mosaic | Numbered Headings Macro |
-| BibTex Summary \| Mosaic | Not covered |
-| Advanced Expand \| Mosaic | Advanced Expand Macro |
-| Footnotes summary \| Mosaic | Footnotes Summary Macro |
-| InteractiveBanner \| Mosaic | Interactive Banner Macro |
-| BibTex Referencing \| Mosaic | Not covered |
-| SmartDesigner \| Mosaic | Not covered |
+| Tabs &#124; Mosaic | Covered in Create Custom Tabs |
+| HTML &#124; Mosaic | Covered in Create Custom Tabs |
+| Alert &#124; Mosaic | Alert Macro |
+| Latex &#124; Mosaic | Not covered |
+| Button &#124; Mosaic | Buttons Macro |
+| Tooltips &#124; Mosaic | Tooltip Macro |
+| Footnotes &#124; Mosaic | Footnotes Macro |
+| Background &#124; Mosaic | Background Macro |
+| ProgressBar &#124; Mosaic | Progress Bar Macro |
+| Button Group &#124; Mosaic | Covered in Buttons |
+| Pop-up dialogue &#124; Mosaic | Pop-up Dialog Macro |
+| AdvancedCard &#124; Mosaic | Advanced Cards Macro |
+| Numbered-Heading &#124; Mosaic | Numbered Headings Macro |
+| BibTex Summary &#124; Mosaic | Not covered |
+| Advanced Expand &#124; Mosaic | Advanced Expand Macro |
+| Footnotes summary &#124; Mosaic | Footnotes Summary Macro |
+| InteractiveBanner &#124; Mosaic | Interactive Banner Macro |
+| BibTex Referencing &#124; Mosaic | Not covered |
+| SmartDesigner &#124; Mosaic | Not covered |
 
 ## Advance Attachment Manager vs Our App
 
