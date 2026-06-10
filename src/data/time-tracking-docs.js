@@ -237,7 +237,7 @@ Click **Settings → My Permissions** to confirm your role:
 
 | Requirement | Details |
 |---|---|
-| **Jira Edition** | Jira Cloud only |
+| **Jira Edition** | Jira Cloud and AGC |
 | **Jira Server** | Not supported |
 | **Jira Data Center** | Not supported |
 | **Atlassian Platform** | Atlassian Forge |

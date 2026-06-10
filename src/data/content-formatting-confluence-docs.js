@@ -78,7 +78,6 @@ It help users get started quickly with a pre-designed structure tailored to thei
 | Markdown Renderer | Render Markdown content inside Confluence |
 | HTML Renderer | Render custom HTML content inside Confluence |
 
-
 ## Platform Compatibility
 
 - **Confluence Cloud**: Fully supported
