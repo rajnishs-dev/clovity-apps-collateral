@@ -666,6 +666,20 @@ Non-obvious tips that save time and prevent common mistakes.
 - **Use the Page Templates feature to enforce consistency.** Create a template for each content type (runbook, decision record, meeting notes) with your standard macro layout pre-built - space members apply the template instead of recreating the structure.
 `,
         },
+          {
+          slug: "user-guide-pdf",
+          title: "User Guide PDF",
+          content: `
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_User_Guide_Final_0d048b0587.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+   
+  </div>
+</div>
+`,
+        },
       ],
     },
     // ═══════════════════════════════════════════════════════════════
@@ -3076,8 +3090,7 @@ Create fully structured Confluence pages with a single click - all macros pre-co
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/demo-doc/content-formatting%20demo-doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/demo-doc/content-formatting%20demo-doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_Demo_Doc_7753ffb23f.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3175,8 +3188,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/sales-doc/content-formatting-Sales-Doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/sales-doc/content-formatting-Sales-Doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_83e39f4d46.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3307,8 +3319,7 @@ We **fully cover Visibility (2/2) and Advance Attachment Manager (1/1)**, match 
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/competitor-comparision/content-formatting-competitor-doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/competitor-comparision/content-formatting-competitor-doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Competitor_Doc_Content_Formatting_032034c63d.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
