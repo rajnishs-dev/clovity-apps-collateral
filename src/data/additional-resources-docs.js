@@ -63,7 +63,7 @@ const appCard = (title, subtitle, featurePairs, perfectFor) =>
 const appsSuiteContent = `
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:28px 24px;margin-bottom:28px;background:#f8fafc;text-align:center;">
   ${badge("ATLASSIAN PLATINUM SOLUTION PARTNER")}
-  <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">Clovity Apps Suite Overview</h1>
+  <h1 style="font-size:26px;font-weight:800;color:#111827;margin:16px 0 10px;line-height:1.3;">Apps Suite Overview</h1>
   <p style="color:#6b7280;font-size:14px;margin:0 auto;max-width:560px;line-height:1.7;">Confluence for clean knowledge, Jira for clear delivery signals.</p>
 </div>
 
