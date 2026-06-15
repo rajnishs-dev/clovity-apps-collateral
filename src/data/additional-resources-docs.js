@@ -15,8 +15,7 @@ const downloadCTA = (url, label, ext, showViewInBrowser = true) =>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
     <a href="${url}" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download ${ext}</a>
-    ${showViewInBrowser ? `<a href="${url}" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>` : ""}
-  </div>
+     </div>
 </div>`;
 
 const badge = (text) =>
@@ -225,7 +224,7 @@ ${sectionHeader("Marketplace Listings")}
   </div>
 </div>
 
-${downloadCTA("/pdf/App_Suite_Overview_0d66892a10.pdf","Download the Full Apps Suite Overview","PDF")}
+${downloadCTA("https://clovity-website.s3.ap-south-1.amazonaws.com/App_Suite_Overview_0d66892a10_9bd0021248.pdf","Download the Full Apps Suite Overview","PDF")}
 `;
 
 // ─── ARTICLE 2: AGC APPS BROCHURE ────────────────────────────────────────────
@@ -330,7 +329,7 @@ const agcBrochureContent = `
 </div>
 
 
-${downloadCTA("/pdf/Clovity_AGC_App_Brochure_9cdde198e4.pdf","Download the AGC Apps Brochure","PDF")}
+${downloadCTA("https://clovity-website.s3.ap-south-1.amazonaws.com/Clovity_AGC_App_Brochure_9cdde198e4_37524b21ac.pdf","Download the AGC Apps Brochure","PDF")}
 `;
 
 // ─── ARTICLE 3: CLOVITY APPS DECK ────────────────────────────────────────────
@@ -466,7 +465,7 @@ ${sectionHeader("Trusted by Government Agencies Worldwide")}
 
 <div style="border:1px solid #e2e8f0;border-radius:10px;padding:18px;background:white;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px;">${agencyBadges}</div>
 
-${downloadCTA("/pdf/Clovity_Apps_Deck_eb23aa9e16.pptx","Download the Clovity Apps Deck","Presentation", false)}
+${downloadCTA("https://clovity-website.s3.ap-south-1.amazonaws.com/Clovity_Apps_Deck_eb23aa9e16_81736f0216.pptx","Download the Clovity Apps Deck","Presentation", false)}
 `;
 
 // ─── EXPORT ──────────────────────────────────────────────────────────────────

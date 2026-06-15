@@ -741,8 +741,7 @@ Non-obvious tips that save time and prevent common configuration mistakes.
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/user-guide/reports-charts-templates-for-Confluence-User%20Guide.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/user-guide/reports-charts-templates-for-Confluence-User%20Guide.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_User_Guide_776974cfef.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2475,8 +2474,7 @@ Not sure where to begin? This setup works for most teams and takes just a few mi
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/demo-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20Demo%20Doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/demo-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20Demo%20Doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Demo_Doc_9100e1a7de.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2551,8 +2549,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/sales-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence-Sales-Doc.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/sales-doc/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence-Sales-Doc.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Sales_Doc_f69acf6f47.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2615,8 +2612,7 @@ Our app delivers complete coverage of enterprise reporting foundations: CQL-base
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="/pdf/competitor-comparision/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20competitor%20compare.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-    <a href="/pdf/competitor-comparision/Reports%2C%20Charts%2C%20Templates%2CCQL%20%26%20Export%20for%20Confluence%20competitor%20compare.pdf" target="_blank" rel="noopener noreferrer" style="background:white;color:#374151;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;border:1px solid #d1d5db;display:inline-block;">View in Browser</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Competitor_Document_4f4d4bf68e.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
