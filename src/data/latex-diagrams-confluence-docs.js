@@ -736,7 +736,7 @@ Non-obvious tips that save time and prevent common rendering issues.
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_User_Guide_0d463f08ef.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_User_Guide_0d463f08ef.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2398,7 +2398,7 @@ Create any diagram type directly inside a Confluence page - write plain-text dia
 
 **Includes:**
 
-- Flowchart, Sequence Diagram, Class Diagram, State Diagram, ER Diagram, Gantt Chart, Pie Chart, Git Graph, User Journey, Mind Map, Timeline, and Quadrant Chart — all powered by Mermaid.
+- Flowchart, Sequence Diagram, Class Diagram, State Diagram, ER Diagram, Gantt Chart, Pie Chart, Git Graph, User Journey, Mind Map, Timeline, and Quadrant Chart - all powered by Mermaid.
 - Code editor on the left, rendered diagram preview on the right - updates in real time as you type.
 - One-click access to ready-made examples for all 12 diagram types - load any sample into the editor instantly.
 - Click and drag to navigate across large diagrams directly on the Confluence page.
@@ -2499,7 +2499,7 @@ Render display-style mathematical equations centered and full-width on your Conf
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_Demo_Doc_966641d833.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_Demo_Doc_966641d833.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2521,10 +2521,10 @@ Render display-style mathematical equations centered and full-width on your Conf
 
 ## What This App Delivers
 
-- **Visual Workflows** — Make complex docs easy with workflows.
-- **Consistent Formatting** — Standardize how teams document specs, architecture and metrics.
-- **Code-Driven Configuration** — Write code and preview UML diagrams.
-- **Single Source of Truth** — Always up-to-date diagrams and equations.
+- **Visual Workflows** - Make complex docs easy with workflows.
+- **Consistent Formatting** - Standardize how teams document specs, architecture and metrics.
+- **Code-Driven Configuration** - Write code and preview UML diagrams.
+- **Single Source of Truth** - Always up-to-date diagrams and equations.
 
 ## App Core Modules
 
@@ -2537,9 +2537,9 @@ Render display-style mathematical equations centered and full-width on your Conf
 
 ## Security You Can Trust
 
-- **Run on Atlassian** — Runs 100% inside Atlassian Cloud. No external servers, no third-party storage.
-- **AGC Compatible** — Fully compatible with Atlassian Government Cloud.
-- **ISO Certified** — Clovity is an ISO 27001 certified company.
+- **Run on Atlassian** - Runs 100% inside Atlassian Cloud. No external servers, no third-party storage.
+- **AGC Compatible** - Fully compatible with Atlassian Government Cloud.
+- **ISO Certified** - Clovity is an ISO 27001 certified company.
 
 ## Key Differentiators
 
@@ -2584,7 +2584,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Sales_Doc_b21e95bf4d.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Sales_Doc_b21e95bf4d.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2604,7 +2604,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
           content: `
 This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matches the competitor apps' key capabilities across LaTeX and UML/Diagrams.
 
-## Narva — LaTeX Math for Confluence vs Our App
+## Narva - LaTeX Math for Confluence vs Our App
 
 | **Narva - LaTeX Math for Confluence** | **Our App** |
 | --- | --- |
@@ -2614,7 +2614,7 @@ This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matche
 | Runs on Atlassian | ✓ |
 | Chemical equation support | ✓ (added feature) |
 
-## Stratus — PlantUML Diagrams for Confluence vs Our App
+## Stratus - PlantUML Diagrams for Confluence vs Our App
 
 | **Stratus - PlantUML Diagrams for Confluence** | **Our App** |
 | --- | --- |
@@ -2648,7 +2648,78 @@ This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matche
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_f02f44b754.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_f02f44b754.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+
+    // ═══════════════════════════════════════════════════════════════
+    // APP PRICING
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "app-pricing",
+      title: "App Pricing",
+      articles: [
+        {
+          slug: "app-pricing",
+          title: "App Pricing",
+          content: `
+## Technical Docs Made Clear in Confluence
+
+**Plan smarter. Deliver faster. All in Confluence.**
+
+LaTeX Formulas & Diagrams (Gantt Charts, ERDs & Flowcharts) is priced annually per Confluence Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## Cloud Annual Pricing
+
+| **Team Size** | **Annual Price (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 15 | $97.50 |
+| 16 – 25 | $162.50 |
+| 26 – 50 | $325.00 |
+| 51 – 100 | $650.00 |
+| 101 – 200 | $1,150.00 |
+| 201 – 300 | $1,625.00 |
+| 301 – 400 | $2,075.00 |
+| 401 – 500 | $2,525.00 |
+| 501 – 600 | $2,975.00 |
+| 601 – 800 | $3,875.00 |
+| 801 – 1,000 | $4,775.00 |
+| 1,001 – 1,200 | $5,275.00 |
+| 1,201 – 1,400 | $5,775.00 |
+| 1,401 – 1,600 | $6,275.00 |
+| 1,601 – 1,800 | $6,775.00 |
+| 1,801 – 2,000 | $7,275.00 |
+| 2,001 – 2,250 | $7,900.00 |
+| 2,251 – 2,500 | $8,525.00 |
+| 2,501 – 2,750 | $9,025.00 |
+| 2,751 – 3,000 | $9,525.00 |
+| 3,001 – 3,250 | $10,025.00 |
+| 3,251 – 3,500 | $10,525.00 |
+| 3,501 – 3,750 | $11,025.00 |
+| 3,751 – 4,000 | $11,525.00 |
+| 4,001 – 4,250 | $12,025.00 |
+| 4,251 – 4,500 | $12,525.00 |
+| 4,501 – 4,750 | $13,025.00 |
+| 4,751 – 5,000 | $13,525.00 |
+
+## Pricing Notes
+
+- **Free for small teams** - Full feature access for up to 10 users at $0.00.
+- **Annual billing** - Prices shown are per year, billed through Atlassian.
+- **Cloud only** - Pricing applies to Confluence Cloud instances.
+- **All features included** - Every pricing tier includes the full macro suite: LaTeX Math Formulas, Mermaid Diagrams, Gantt Charts, ERDs, Flowcharts, and UML support.
+- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_085c9cbc92.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,

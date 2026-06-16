@@ -41,7 +41,7 @@ All of this is done **inside Jira**, using your existing projects, filters, and 
 | **Time in Status** | Analyze exactly how long issues spend in each workflow status using changelog-based calculations |
 | **Pivot Table** | Summarize issues in a cross-tabulation with flexible row/column grouping and 9 display types |
 | **Cumulative Flow Diagram** | Visualize work distribution across workflow stages over time as a stacked area chart |
-| **WIP Aging Charts** | Scatter plot showing how long work-in-progress items have been active — spot stalled work instantly |
+| **WIP Aging Charts** | Scatter plot showing how long work-in-progress items have been active - spot stalled work instantly |
 
 ## Who Is It For?
 
@@ -367,9 +367,9 @@ If export buttons (PNG, PDF, CSV) are missing or disabled:
 You install and manage the app for your organisation.
 
 **Start with:**
-1. [Installation & Setup](/apps/dashboard-charts-jira/installation-setup) — install the app and verify it works
-2. [Permissions & Access](/apps/dashboard-charts-jira/permissions-access) — understand how access is governed
-3. [Admin Settings](/apps/dashboard-charts-jira/admin-settings) — configure global defaults, enable features, restrict data sources
+1. [Installation & Setup](/apps/dashboard-charts-jira/installation-setup) - install the app and verify it works
+2. [Permissions & Access](/apps/dashboard-charts-jira/permissions-access) - understand how access is governed
+3. [Admin Settings](/apps/dashboard-charts-jira/admin-settings) - configure global defaults, enable features, restrict data sources
 
 **Then explore:** Set up a test dashboard using [Quick Start Guide](/apps/dashboard-charts-jira/quick-start) to verify everything works end-to-end before rolling out to your team.
 
@@ -380,10 +380,10 @@ You install and manage the app for your organisation.
 You need dashboards to track work, report progress, and run team meetings.
 
 **Start with:**
-1. [Quick Start Guide](/apps/dashboard-charts-jira/quick-start) — build your first chart in 5 minutes
-2. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) — learn all 10 chart types
-3. [Issue List Gadget](/apps/dashboard-charts-jira/issue-list-gadget-intro) — add a configurable issue table
-4. [Dynamic Filter Controller](/apps/dashboard-charts-jira/dynamic-filter-controller-intro) — make the dashboard interactive
+1. [Quick Start Guide](/apps/dashboard-charts-jira/quick-start) - build your first chart in 5 minutes
+2. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) - learn all 10 chart types
+3. [Issue List Gadget](/apps/dashboard-charts-jira/issue-list-gadget-intro) - add a configurable issue table
+4. [Dynamic Filter Controller](/apps/dashboard-charts-jira/dynamic-filter-controller-intro) - make the dashboard interactive
 
 **Then explore:** [How to: Build Your First Dashboard](/apps/dashboard-charts-jira/how-to-first-dashboard) for a complete walkthrough.
 
@@ -394,10 +394,10 @@ You need dashboards to track work, report progress, and run team meetings.
 You need sprint health charts, velocity tracking, and process metrics.
 
 **Start with:**
-1. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) — status pie, assignee bar, velocity line
-2. [Time in Status Gadget](/apps/dashboard-charts-jira/time-in-status-gadget-intro) — find where work slows down (Cycle Time, Lead Time)
-3. [WIP Aging Charts](/apps/dashboard-charts-jira/wip-aging-charts-gadget-intro) — identify stalled work in standups
-4. [Cumulative Flow Diagram](/apps/dashboard-charts-jira/cumulative-flow-gadget-intro) — monitor sprint and release flow health
+1. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) - status pie, assignee bar, velocity line
+2. [Time in Status Gadget](/apps/dashboard-charts-jira/time-in-status-gadget-intro) - find where work slows down (Cycle Time, Lead Time)
+3. [WIP Aging Charts](/apps/dashboard-charts-jira/wip-aging-charts-gadget-intro) - identify stalled work in standups
+4. [Cumulative Flow Diagram](/apps/dashboard-charts-jira/cumulative-flow-gadget-intro) - monitor sprint and release flow health
 
 **Then explore:** [Tips & Best Practices](/apps/dashboard-charts-jira/tips-best-practices) for process analytics dashboards.
 
@@ -408,21 +408,21 @@ You need sprint health charts, velocity tracking, and process metrics.
 You need high-level KPI dashboards without Jira jargon.
 
 **Start with:**
-1. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) — Tile charts for KPI numbers
-2. [Pivot Table Gadget](/apps/dashboard-charts-jira/pivot-table-gadget-intro) — cross-project aggregation
-3. [How to: Build an Executive Delivery Dashboard](/apps/dashboard-charts-jira/how-to-executive-dashboard) — full walkthrough with all gadgets
+1. [Custom Charts Gadget](/apps/dashboard-charts-jira/custom-charts-gadget-intro) - Tile charts for KPI numbers
+2. [Pivot Table Gadget](/apps/dashboard-charts-jira/pivot-table-gadget-intro) - cross-project aggregation
+3. [How to: Build an Executive Delivery Dashboard](/apps/dashboard-charts-jira/how-to-executive-dashboard) - full walkthrough with all gadgets
 
-**Key tip:** Use the **Description** tab on each gadget to add plain-language context below charts — no Jira jargon required.
+**Key tip:** Use the **Description** tab on each gadget to add plain-language context below charts - no Jira jargon required.
 
 ---
 
-## Any User — First Time
+## Any User - First Time
 
 Never used this app before?
 
-1. Read [What is Dashboard Templates, Charts, Graphs & Reports for Jira?](/apps/dashboard-charts-jira/what-is-dashboard-charts) — 2-minute overview
-2. Follow [Quick Start Guide](/apps/dashboard-charts-jira/quick-start) — build your first chart in under 5 minutes
-3. Use [Quick Reference Card](/apps/dashboard-charts-jira/quick-reference) — bookmark this as a cheat sheet
+1. Read [What is Dashboard Templates, Charts, Graphs & Reports for Jira?](/apps/dashboard-charts-jira/what-is-dashboard-charts) - 2-minute overview
+2. Follow [Quick Start Guide](/apps/dashboard-charts-jira/quick-start) - build your first chart in under 5 minutes
+3. Use [Quick Reference Card](/apps/dashboard-charts-jira/quick-reference) - bookmark this as a cheat sheet
 `,
         },
         {
@@ -470,7 +470,7 @@ Full guide: [Chart Types Guide](/apps/dashboard-charts-jira/chart-types-guide)
 | Projects | Simple project-level reports | [Quick Start →](/apps/dashboard-charts-jira/quick-start) |
 | Saved Filter | Reusable criteria shared across gadgets | [Integrations →](/apps/dashboard-charts-jira/supported-integrations) |
 | Custom JQL | Advanced filtering or custom conditions | [Tips →](/apps/dashboard-charts-jira/tips-best-practices) |
-| Board | Time in Status, CFD, WIP Aging — board column definitions | [TIS Overview →](/apps/dashboard-charts-jira/time-in-status-overview) |
+| Board | Time in Status, CFD, WIP Aging - board column definitions | [TIS Overview →](/apps/dashboard-charts-jira/time-in-status-overview) |
 | Dynamic Filter Controller | End users filter the dashboard interactively | [DFC Setup →](/apps/dashboard-charts-jira/dynamic-filter-controller-guide) |
 
 ---
@@ -495,10 +495,10 @@ Full guide: [Chart Types Guide](/apps/dashboard-charts-jira/chart-types-guide)
 |---|---|---|---|---|
 | Custom Charts | ✓ | ✓ | ✓ | ✓ |
 | Issue List | ✓ | ✓ | ✓ | ✓ |
-| Time in Status | ✓ | ✓ | — | ✓ |
-| Pivot Table | ✓ | ✓ | — | ✓ |
-| WIP Aging Charts | ✓ | ✓ | — | ✓ |
-| CFD | — | — | — | ✓ |
+| Time in Status | ✓ | ✓ | - | ✓ |
+| Pivot Table | ✓ | ✓ | - | ✓ |
+| WIP Aging Charts | ✓ | ✓ | - | ✓ |
+| CFD | - | - | - | ✓ |
 
 > Export must be enabled in [Admin Settings](/apps/dashboard-charts-jira/admin-settings).
 
@@ -602,30 +602,30 @@ Directors, VPs, and senior stakeholders who need a clear, data-driven view of de
 1. Add **Dynamic Filter Controller** → set your project or JQL as base data source
 2. Add filter fields: Sprint, Assignee, Priority, Issue Type, Status
 3. Add tabs: **All Issues** (no filter), **This Sprint**, **My Issues**, **Bugs Only**, **High Priority**
-4. Click **Save gadget** — note the **Reference ID**
+4. Click **Save gadget** - note the **Reference ID**
 
 ---
 
 ## Step 2: Add Custom Charts (connect each to the Reference ID)
 
-**Tile — Total Open Issues**
+**Tile - Total Open Issues**
 - Source: Dynamic Filter Controller
 - Chart By: Custom JQL segment "Open" (\`resolution is EMPTY\`)
 - Display: Count only, large number
 
-**Pie — Issue Distribution**
+**Pie - Issue Distribution**
 - Source: Dynamic Filter Controller
 - Chart By: Issue Type
 
-**Funnel — Delivery Funnel**
+**Funnel - Delivery Funnel**
 - Source: Dynamic Filter Controller
 - Chart By: Status (order: To Do → In Progress → In Review → Done)
 
-**Stacked Bar — Sprint Progress**
+**Stacked Bar - Sprint Progress**
 - Source: same project (last 6 sprints)
 - Chart By: Sprint, Group By: Status
 
-**2D Line — Trend Over Time**
+**2D Line - Trend Over Time**
 - Source: same project
 - Chart By: Created (by Week), Group By: Resolved (by Week)
 - Date range: Last 90 days
@@ -644,12 +644,12 @@ Directors, VPs, and senior stakeholders who need a clear, data-driven view of de
 - Age Method: Time since last entry in current status
 - Enable Threshold Line at 10 days, Percentile Line at 85
 
-**Pivot Table — Team × Status**
+**Pivot Table - Team × Status**
 - Source: Dynamic Filter Controller
 - Row: Assignee, Column: Status
 - Aggregation: Count, Display: Table Row Heatmap
 
-**Time in Status — Cycle Time**
+**Time in Status - Cycle Time**
 - Source: same project
 - Report Type: Average Time
 - Calculate In: Business Decimal Days
@@ -737,7 +737,7 @@ Filter fields are what users interact with in the bar.
 
 1. Click **Save gadget**
 2. The saved gadget shows a **Reference ID** (e.g., "ABC123")
-3. Copy this ID — you need it to connect other gadgets
+3. Copy this ID - you need it to connect other gadgets
 
 ---
 
@@ -756,7 +756,7 @@ Supported gadgets: Custom Charts, Issue List, Time in Status, Pivot Table, CFD, 
 
 ## Step 7: Verify
 
-Click **"Show Connected Charts"** on the controller — all connected gadgets are highlighted on the dashboard.
+Click **"Show Connected Charts"** on the controller - all connected gadgets are highlighted on the dashboard.
 
 ## Common Issues
 
@@ -776,7 +776,7 @@ Click **"Show Connected Charts"** on the controller — all connected gadgets ar
 ## Data Sources
 
 **Use Saved Filters for shared dashboards.**
-If multiple people use the same dashboard, build your Jira filter once (save it in Jira), then reference it as the data source. When the filter changes, all gadgets update automatically — no need to edit each gadget.
+If multiple people use the same dashboard, build your Jira filter once (save it in Jira), then reference it as the data source. When the filter changes, all gadgets update automatically - no need to edit each gadget.
 
 **Use JQL for precision.**
 \`sprint in openSprints() AND project = TEAM\` is more reliable than selecting the project and trusting it always shows the right sprint. Test your JQL in Jira's Issue Navigator before using it in a gadget.
@@ -798,17 +798,17 @@ Charts with more than 10 segments become hard to read. Use **Custom JQL** to gro
 When you want to show "total issues resolved this quarter", use the Cumulative Total calculation instead of week-by-week counts.
 
 **Add a Description tab note.**
-For stakeholder dashboards, use the Description tab to explain what the chart shows in plain language — no Jira jargon.
+For stakeholder dashboards, use the Description tab to explain what the chart shows in plain language - no Jira jargon.
 
 ---
 
 ## Issue List
 
 **Use Smart Labels to surface risk.**
-Add a red "Overdue" label (\`duedate < now() AND resolution is EMPTY\`) and an orange "Due Soon" label (\`duedate <= 7d AND resolution is EMPTY\`). These appear on every row without filtering — leadership sees risk at a glance.
+Add a red "Overdue" label (\`duedate < now() AND resolution is EMPTY\`) and an orange "Due Soon" label (\`duedate <= 7d AND resolution is EMPTY\`). These appear on every row without filtering - leadership sees risk at a glance.
 
 **Export after filtering.**
-The CSV and PDF exports reflect the current filtered state. Apply Quick Filters first to export exactly the subset you need — e.g., only critical unassigned bugs.
+The CSV and PDF exports reflect the current filtered state. Apply Quick Filters first to export exactly the subset you need - e.g., only critical unassigned bugs.
 
 **Use AND logic for focused lists, OR logic for catch-alls.**
 AND: "Show me bugs that are also unassigned" (narrower). OR: "Show me anything that's either overdue or unassigned" (broader catch-all for triage).
@@ -823,7 +823,7 @@ Sort descending. The top row is your slowest stage.
 **Use Business Decimal Days for SLA reporting.**
 Calendar time includes nights and weekends. If your SLA is "resolve P1 within 2 business days", always use a Business format. Set up your Work Schedule first in the gadget settings.
 
-**Cycle Time vs Lead Time — know the difference.**
+**Cycle Time vs Lead Time - know the difference.**
 Cycle Time starts when work actively began. Lead Time starts from creation. Report Lead Time to stakeholders. Use Cycle Time to evaluate your team's actual process speed.
 
 ---
@@ -831,7 +831,7 @@ Cycle Time starts when work actively began. Lead Time starts from creation. Repo
 ## Pivot Table
 
 **Start with Row Heatmap for workload analysis.**
-Assignee × Status with Row Heatmap immediately shows who has the most "In Progress" or "In Review" work — no reading required.
+Assignee × Status with Row Heatmap immediately shows who has the most "In Progress" or "In Review" work - no reading required.
 
 **Make values clickable for drill-through.**
 Enable "Make Values Clickable" so any cell opens the matching Jira issue list. This is the fastest way to go from summary to detail.
@@ -844,7 +844,7 @@ When using Created or Resolved as a column field, set the format to "Month" or "
 ## Cumulative Flow Diagram
 
 **Use "Latest sprint auto" on permanent team dashboards.**
-With Latest Sprint Auto selected, the CFD always shows the current sprint — no one needs to update it after each sprint transition.
+With Latest Sprint Auto selected, the CFD always shows the current sprint - no one needs to update it after each sprint transition.
 
 **Watch for widening bands, not total height.**
 A widening "In Review" band means work is piling up in review faster than it is leaving. The total height rising is normal (scope growing). A single band widening is the bottleneck signal.
@@ -860,7 +860,7 @@ Daily intervals on a 90-day release chart create noise. Switch to weekly for lon
 Open the chart at the start of standup. Any dot past the threshold line gets a discussion: "What's blocking this? Can it be cleared today?" No sorting or filtering needed.
 
 **Set the 85th percentile line as your SLE.**
-"85% of our work completes within X days" — this is a data-driven commitment. Track whether the line moves over time to measure process improvement.
+"85% of our work completes within X days" - this is a data-driven commitment. Track whether the line moves over time to measure process improvement.
 
 **Exclude weekends if your SLA is in business days.**
 Enable "Exclude Weekends" so items sitting over weekends don't falsely trigger your threshold line.
@@ -873,14 +873,14 @@ Enable "Exclude Weekends" so items sitting over weekends don't falsely trigger y
 Add date filters or project scoping to JQL for large Jira instances. \`created >= -90d\` is often enough to keep queries fast without losing useful data.
 
 **Use auto-refresh sparingly.**
-Auto-refresh every 10 minutes is useful on live dashboards shown in team areas. Turn it off for dashboards used in weekly meetings — manual refresh is enough and avoids performance overhead.
+Auto-refresh every 10 minutes is useful on live dashboards shown in team areas. Turn it off for dashboards used in weekly meetings - manual refresh is enough and avoids performance overhead.
 
 ---
 
 ## Import / Export
 
 **Back up configurations before big changes.**
-Use the Import/Export tab on any gadget to export its JSON configuration. Save to a shared document or Confluence page before making major changes — this is your restore point.
+Use the Import/Export tab on any gadget to export its JSON configuration. Save to a shared document or Confluence page before making major changes - this is your restore point.
 
 **Duplicate gadgets instantly.**
 Export a configured gadget → add a new gadget of the same type → import the JSON. A complete configuration is copied in seconds with no manual re-setup.
@@ -894,7 +894,7 @@ Export a configured gadget → add a new gadget of the same type → import the 
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_User_Guide_e74739cc64.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_User_Guide_e74739cc64.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2184,7 +2184,7 @@ Use Templates to add a ready-made set of filter fields and quick filters to the 
         {
           slug: "time-in-status-gadget-intro",
           title: "Time in Status Gadget",
-          content: `The **Time in Status** gadget measures exactly how long issues spend in each workflow status. Unlike charts built from current issue state, this gadget reads the full issue changelog to calculate precise transition times — giving you an accurate picture of where work gets stuck and where it flows smoothly.
+          content: `The **Time in Status** gadget measures exactly how long issues spend in each workflow status. Unlike charts built from current issue state, this gadget reads the full issue changelog to calculate precise transition times - giving you an accurate picture of where work gets stuck and where it flows smoothly.
 
 Use this section to understand report types, configuration options, status grouping, and how to interpret bottleneck data.
 
@@ -2193,9 +2193,9 @@ Use this section to understand report types, configuration options, status group
 | **Page Name** | **Description** |
 | --- | --- |
 | **Overview** | *What Time in Status does, data source options, and when to use it.* |
-| **Report Types** | *All 7 report types explained — Time in Status, Average Time, Status Count, Transition Count, Time in Assignee, Time per Date, Status Entrance Date.* |
+| **Report Types** | *All 7 report types explained - Time in Status, Average Time, Status Count, Transition Count, Time in Assignee, Time per Date, Status Entrance Date.* |
 | **Columns & Date Range** | *Configure which fields and statuses appear in the report and scope the analysis to a time window.* |
-| **Status Groups** | *Combine multiple statuses into named bands — built-in Cycle Time and Lead Time groups, plus how to create your own.* |
+| **Status Groups** | *Combine multiple statuses into named bands - built-in Cycle Time and Lead Time groups, plus how to create your own.* |
 | **Work Schedule & Time Formats** | *Calculate elapsed time in business hours only using configurable work schedules and time format options.* |
 | **Display Settings & Export** | *Display options, export formats, and tips for interpreting the results.* |
 `,
@@ -2203,19 +2203,19 @@ Use this section to understand report types, configuration options, status group
         {
           slug: "time-in-status-overview",
           title: "Overview",
-          content: `The Time in Status gadget reads your Jira issue changelog to calculate exactly how long each issue has spent in every workflow status — not just the current state, but the complete history of every transition.
+          content: `The Time in Status gadget reads your Jira issue changelog to calculate exactly how long each issue has spent in every workflow status - not just the current state, but the complete history of every transition.
 
 ## When to Use It
 
-- **Finding bottlenecks** — which status holds work longest?
+- **Finding bottlenecks** - which status holds work longest?
 - **Measuring Cycle Time and Lead Time** across your workflow
-- **Detecting rework** — issues that visit the same status multiple times
-- **SLA tracking** — when did issues enter each stage?
-- **Assignee analysis** — who holds work the longest?
+- **Detecting rework** - issues that visit the same status multiple times
+- **SLA tracking** - when did issues enter each stage?
+- **Assignee analysis** - who holds work the longest?
 
 ## What Makes It Different from Other Charts
 
-Standard Jira charts show the current state of issues. Time in Status reads the full changelog — every time an issue moved from one status to another, the exact timestamp is recorded. This gadget uses those timestamps to calculate real durations, not snapshots.
+Standard Jira charts show the current state of issues. Time in Status reads the full changelog - every time an issue moved from one status to another, the exact timestamp is recorded. This gadget uses those timestamps to calculate real durations, not snapshots.
 
 ## Data Sources
 
@@ -2224,17 +2224,17 @@ Standard Jira charts show the current state of issues. Time in Status reads the 
 | **Projects** | Select one or more Jira projects and analyze all issues within them |
 | **Saved Filter** | Use a pre-saved Jira filter to scope the issue set |
 | **Custom JQL** | Write a JQL query for precise scoping (e.g., \`sprint in openSprints()\`) |
-| **Board** | Connect to a Jira Software board — issues on that board are used as the analysis scope |
+| **Board** | Connect to a Jira Software board - issues on that board are used as the analysis scope |
 | **Dynamic Filter Controller** | Connect to a shared filter bar so users can slice the data interactively |
 
 ## Feature Highlights
 
 | **Feature** | **Description** |
 | --- | --- |
-| Changelog-Based | Reads actual status transition history — not just current state |
+| Changelog-Based | Reads actual status transition history - not just current state |
 | 7 Report Types | Time in Status, Average Time, Time per Date, Status Count, Transition Count, Time in Assignee, Status Entrance Date |
-| Chart Outputs | Column chart, bar chart, and line chart — each report type has its own visualization |
-| Status Grouping | Combine multiple statuses into named bands — built-in Cycle Time and Lead Time groups included |
+| Chart Outputs | Column chart, bar chart, and line chart - each report type has its own visualization |
+| Status Grouping | Combine multiple statuses into named bands - built-in Cycle Time and Lead Time groups included |
 | Working Hours | Select a "Business" time format + configure a Work Schedule to exclude non-working hours |
 | Date Range Filter | Scope analysis to last 7/30/90 days, this/last week, this/last month, or a custom range |
 | Configurable Columns | Choose which statuses, fields, and issues appear in the report |
@@ -2259,17 +2259,17 @@ Standard Jira charts show the current state of issues. Time in Status reads the 
 
 ## Choosing the Right Report
 
-**"Where is work getting stuck?"** → **Average Time** — sort by time descending. The top row is your biggest bottleneck.
+**"Where is work getting stuck?"** → **Average Time** - sort by time descending. The top row is your biggest bottleneck.
 
-**"Are issues bouncing back through review?"** → **Transition Count** — counts > 2 on "In Review" or "QA" indicate rework.
+**"Are issues bouncing back through review?"** → **Transition Count** - counts > 2 on "In Review" or "QA" indicate rework.
 
-**"Who is holding issues longest?"** → **Time in Assignee** — see each person's average hold time.
+**"Who is holding issues longest?"** → **Time in Assignee** - see each person's average hold time.
 
-**"When did issues enter testing?"** → **Status Entrance Date** — exact date each issue entered each status.
+**"When did issues enter testing?"** → **Status Entrance Date** - exact date each issue entered each status.
 
-**"How much total work passed through each stage?"** → **Status Count** — volume tracking per stage.
+**"How much total work passed through each stage?"** → **Status Count** - volume tracking per stage.
 
-**"How does time in each stage trend over time?"** → **Time in Status per Date** — reveals seasonal patterns and process changes.
+**"How does time in each stage trend over time?"** → **Time in Status per Date** - reveals seasonal patterns and process changes.
 
 ## Chart Output per Report Type
 
@@ -2305,7 +2305,7 @@ Select which workflow statuses appear as time columns in the report:
 
 | **Option** | **What It Does** |
 | --- | --- |
-| **Auto** | Includes all statuses that appear in the data — no manual selection needed |
+| **Auto** | Includes all statuses that appear in the data - no manual selection needed |
 | **All** | Includes every status in your Jira instance |
 | **Custom** | You pick exactly which statuses to show |
 
@@ -2317,11 +2317,11 @@ Drag statuses in the column list to match your workflow order left to right. Thi
 
 ## Date Range
 
-Scope the analysis to a specific time window — only issues matching the date criteria will appear.
+Scope the analysis to a specific time window - only issues matching the date criteria will appear.
 
 | **Option** | **Description** |
 | --- | --- |
-| **All** | No date restriction — analyze the full history of matching issues |
+| **All** | No date restriction - analyze the full history of matching issues |
 | **Past 7 / 30 / 60 / 90 Days** | Rolling time window ending today |
 | **This / Last Week** | Calendar-based weekly windows |
 | **This / Last Month** | Calendar-based monthly windows |
@@ -2337,7 +2337,7 @@ Scope the analysis to a specific time window — only issues matching the date c
 
 ## Why Use Status Groups?
 
-Most teams have more workflow statuses than meaningful phases. Status Groups let you map fine-grained statuses to the business concepts that actually matter — like Cycle Time and Lead Time.
+Most teams have more workflow statuses than meaningful phases. Status Groups let you map fine-grained statuses to the business concepts that actually matter - like Cycle Time and Lead Time.
 
 ## Built-in Groups
 
@@ -2351,7 +2351,7 @@ Measures time from when active work started to when it completed. This is the me
 *Example: An issue spent 2 days In Progress, 1 day In Review, and 1 day in QA. Cycle Time = 4 days.*
 
 ### Lead Time
-Measures total elapsed time from when the issue was created to when it was done — including waiting time before work started.
+Measures total elapsed time from when the issue was created to when it was done - including waiting time before work started.
 
 **Typical statuses:** All statuses from creation ("To Do") through "Done"
 
@@ -2378,11 +2378,11 @@ The report adds a new column showing the combined time the issue spent across al
         {
           slug: "time-in-status-work-schedule",
           title: "Work Schedule & Time Formats",
-          content: `Control how elapsed time is measured — calendar time (every hour) or business hours only (excluding nights, weekends, and non-working hours).
+          content: `Control how elapsed time is measured - calendar time (every hour) or business hours only (excluding nights, weekends, and non-working hours).
 
 ## Why This Matters
 
-By default, Time in Status counts every hour — including nights, weekends, and public holidays. An issue that sat untouched over a 3-day weekend accumulates 72 hours against its age.
+By default, Time in Status counts every hour - including nights, weekends, and public holidays. An issue that sat untouched over a 3-day weekend accumulates 72 hours against its age.
 
 If your SLA commitments are stated in business days (e.g., "resolve P1 issues within 2 business days"), calendar time gives a misleading picture. Business-hours calculation gives the number that actually reflects your team's working capacity.
 
@@ -2412,7 +2412,7 @@ To use business-hours calculation, configure your team's work schedule first.
 ### How to Set Up a Work Schedule
 
 1. Open the **Work Schedule** page from the Time in Status gadget settings
-2. Set the **working hours** for each day — choose a start time and end time
+2. Set the **working hours** for each day - choose a start time and end time
 3. Select which **days of the week** are working days (e.g., Mon–Fri)
 4. Save the schedule
 
@@ -2431,7 +2431,7 @@ Once your Work Schedule is saved, set **Calculate In** to a "Business" format (e
 | **Setting** | **What It Does** |
 | --- | --- |
 | **Number Format** | Controls how time values are displayed (comma separators, decimal places) |
-| **Decimal Places** | Precision for time values — 0 for whole numbers, 2 for two decimal places |
+| **Decimal Places** | Precision for time values - 0 for whole numbers, 2 for two decimal places |
 | **Date Format** | Format for date columns in the Status Entrance Date report |
 | **Chart Type** | For chart-based report types: Bar, Line, or Table view |
 | **Default View** | Set whether the gadget opens in Chart or Table view by default |
@@ -2460,7 +2460,7 @@ Open **Average Time** and sort by time descending. The top row is your biggest b
 
 ### Spotting Rework
 
-Open **Transition Count**. Issues with counts > 2 on "In Review" or "QA" are bouncing back and forth — a sign of incomplete work or unclear acceptance criteria.
+Open **Transition Count**. Issues with counts > 2 on "In Review" or "QA" are bouncing back and forth - a sign of incomplete work or unclear acceptance criteria.
 
 > **Tip:** Export the chart as PNG to include Jira process data in presentations or status emails without requiring stakeholders to log into Jira.
 `,
@@ -2488,7 +2488,7 @@ Use this section to learn how to configure row/column grouping, choose an aggreg
 | --- | --- |
 | **Overview** | *What the Pivot Table does, data sources, and common use cases with examples.* |
 | **Row & Column Fields** | *How to add, order, and nest up to 3 fields per axis for multi-level grouping.* |
-| **Aggregation Methods** | *All 7 aggregation methods — Count, Sum, Average, Min, Max, Count%, Sum% — and when to use each.* |
+| **Aggregation Methods** | *All 7 aggregation methods - Count, Sum, Average, Min, Max, Count%, Sum% - and when to use each.* |
 | **Display Types & Heatmaps** | *All 9 display types including heatmaps and chart options, plus heatmap color selection.* |
 | **Totals, Formatting & Export** | *Summary rows/columns, percentage and average columns, date formatting, drill-through, and export.* |
 `,
@@ -2496,7 +2496,7 @@ Use this section to learn how to configure row/column grouping, choose an aggreg
         {
           slug: "pivot-table-overview",
           title: "Overview",
-          content: `The Pivot Table gadget transforms your Jira issue data into a cross-tabulation matrix — the same format as an Excel PivotTable. Place any combination of Jira fields on rows and columns, choose how to aggregate the values, and display the result as a table, heatmap, or chart.
+          content: `The Pivot Table gadget transforms your Jira issue data into a cross-tabulation matrix - the same format as an Excel PivotTable. Place any combination of Jira fields on rows and columns, choose how to aggregate the values, and display the result as a table, heatmap, or chart.
 
 ## Overview
 
@@ -2549,7 +2549,7 @@ The Pivot Table is built by selecting fields for rows and columns:
 
 | **Method** | **What It Calculates** | **Best For** |
 | --- | --- | --- |
-| **Count** | Number of issues in that cell | Most reports — issue volume |
+| **Count** | Number of issues in that cell | Most reports - issue volume |
 | **Sum** | Total of a numeric field across matching issues | Story Points, estimate, or custom number fields |
 | **Average** | Mean value of a numeric field | Average story points per issue type |
 | **Minimum** | Lowest value of a numeric field | Fastest resolution time per category |
@@ -2601,12 +2601,12 @@ The Pivot Table is built by selecting fields for rows and columns:
 
 You can add **up to 3 fields per axis** to create nested grouping.
 
-**Example — 2 Row Fields:**
+**Example - 2 Row Fields:**
 - Row Field 1: Sprint
 - Row Field 2: Issue Type
 - Result: Each sprint expands into Story/Bug/Task sub-rows
 
-**Example — 2 Column Fields:**
+**Example - 2 Column Fields:**
 - Column Field 1: Status
 - Column Field 2: Priority
 - Result: Each status expands into High/Medium/Low sub-columns
@@ -2645,7 +2645,7 @@ Drag fields up or down in the list to control grouping order:
 
 | **Method** | **What It Calculates** | **Best For** |
 | --- | --- | --- |
-| **Count** | Number of issues in that cell | Most reports — issue volume |
+| **Count** | Number of issues in that cell | Most reports - issue volume |
 | **Sum** | Total of a numeric field across matching issues | Story Points, estimate, or custom number fields |
 | **Average** | Mean value of a numeric field | Average story points per issue type |
 | **Minimum** | Lowest value of a numeric field | Fastest resolution time per category |
@@ -2655,7 +2655,7 @@ Drag fields up or down in the list to control grouping order:
 
 ## Choosing an Aggregation Field
 
-When using **Sum, Average, Minimum, or Maximum**, you must select an **Aggregation Field** — the numeric Jira field whose values will be aggregated.
+When using **Sum, Average, Minimum, or Maximum**, you must select an **Aggregation Field** - the numeric Jira field whose values will be aggregated.
 
 Common aggregation fields:
 - Story Points
@@ -2670,7 +2670,7 @@ Common aggregation fields:
 
 **Percentage of each assignee's work by status:**
 - Row: Assignee, Column: Status, Method: Count as Fraction of Rows (%)
-- Result: Each row sums to 100% — shows what proportion of each person's work is in each status
+- Result: Each row sums to 100% - shows what proportion of each person's work is in each status
 `,
         },
         {
@@ -2701,7 +2701,7 @@ Common aggregation fields:
 | **Green** | Positive metrics where more = better (e.g., resolved issues per sprint) |
 | **Grey** | Neutral comparisons where color should not imply good or bad |
 
-The shade intensity scales automatically — the lowest value in the dataset gets the lightest shade and the highest gets the darkest.
+The shade intensity scales automatically - the lowest value in the dataset gets the lightest shade and the highest gets the darkest.
 `,
         },
         {
@@ -2716,7 +2716,7 @@ The shade intensity scales automatically — the lowest value in the dataset get
 | **Show Totals Row** | Adds a sum row at the bottom of the table |
 | **Show Totals Column** | Adds a sum column on the right |
 | **Show Percentage Column** | Shows each row value as a percentage of the grand total |
-| **Show Average Column** | Adds an average column — choose basis: all values or non-zero values only |
+| **Show Average Column** | Adds an average column - choose basis: all values or non-zero values only |
 
 ## Number Formatting
 
@@ -2776,9 +2776,9 @@ Use this section to understand how to configure band modes, scope data to specif
 | **Page Name** | **Description** |
 | --- | --- |
 | **Overview** | *What the CFD shows, how to read it, and data source options.* |
-| **Band Modes** | *All 6 band modes — from status categories to board columns to custom field values — and how board integration works.* |
+| **Band Modes** | *All 6 band modes - from status categories to board columns to custom field values - and how board integration works.* |
 | **Calculate By** | *Choose what unit of work the bands measure: issue count, story points, time estimate, or a custom numeric field.* |
-| **Date Ranges & Scoping** | *Rolling, fixed, sprint, and release date range modes — including the "latest sprint auto" option.* |
+| **Date Ranges & Scoping** | *Rolling, fixed, sprint, and release date range modes - including the "latest sprint auto" option.* |
 | **Display Options & Patterns** | *Display toggles, band customization, advanced options, and how to interpret common CFD patterns.* |
 `,
         },
@@ -2791,7 +2791,7 @@ Use this section to understand how to configure band modes, scope data to specif
 
 | **Feature** | **Description** |
 | --- | --- |
-| Stacked Area Chart | One colored band per workflow stage — bands stack to show total WIP |
+| Stacked Area Chart | One colored band per workflow stage - bands stack to show total WIP |
 | 6 Band Modes | Status categories, individual statuses, board columns, board column categories, work item types, custom field values |
 | Calculate By | Issue count, Story Points, Story Point Estimate, Original Time Estimate, or any custom numeric field |
 | Board Integration | Connect to a Jira Software board to use its column definitions as bands |
@@ -2841,7 +2841,7 @@ One band (e.g., "In Review") grows consistently wider over time while later band
 The top of the chart keeps rising even as the Done band grows. New work is being added faster than it is being completed.
 
 ### Stalled Sprint
-The chart goes flat across all bands for multiple days. Work is not moving — investigate blockers, dependencies, or team availability.
+The chart goes flat across all bands for multiple days. Work is not moving - investigate blockers, dependencies, or team availability.
 `,
         },
         {
@@ -2853,7 +2853,7 @@ The chart goes flat across all bands for multiple days. Work is not moving — i
 
 | **Band Mode** | **What Defines the Bands** | **Best For** |
 | --- | --- | --- |
-| **Status Categories** | Jira's built-in categories: To Do / In Progress / Done | High-level flow overview — 3 bands, always clean |
+| **Status Categories** | Jira's built-in categories: To Do / In Progress / Done | High-level flow overview - 3 bands, always clean |
 | **Individual Statuses** | Each unique Jira workflow status is its own band | Detailed per-status analysis |
 | **Board Columns** | Columns from a connected Jira Software board | Teams using Kanban or Scrum boards |
 | **Board Column Categories** | Category groupings of board columns | Simplified board-level view |
@@ -2871,7 +2871,7 @@ When you select **Board Columns** or **Board Column Categories**, connect the ga
 
 ## Choosing the Right Band Mode
 
-**New to CFD?** Start with **Status Categories** — just 3 bands, immediately readable.
+**New to CFD?** Start with **Status Categories** - just 3 bands, immediately readable.
 
 **Want more detail?** Switch to **Individual Statuses** to see where exactly within "In Progress" the work sits.
 
@@ -2889,7 +2889,7 @@ When you select **Board Columns** or **Board Column Categories**, connect the ga
 
 | **Option** | **What Is Counted** | **Best When** |
 | --- | --- | --- |
-| **Work Item Count** | Number of issues in each band | Default — works for all teams |
+| **Work Item Count** | Number of issues in each band | Default - works for all teams |
 | **Story Points** | Sum of story points for issues in each band | Your team sizes work with story points |
 | **Story Point Estimate** | Sum of story point estimates (team-managed projects) | Using team-managed Jira projects |
 | **Original Time Estimate (hours)** | Sum of original time estimates | Your team estimates in hours |
@@ -2899,7 +2899,7 @@ When you select **Board Columns** or **Board Column Categories**, connect the ga
 
 If your team has a mix of small and large issues, **counting issues** can be misleading. A sprint with 10 small bugs looks the same as a sprint with 10 large features.
 
-Switching to **Story Points** shows the actual weight of work in each stage — giving a more accurate flow picture.
+Switching to **Story Points** shows the actual weight of work in each stage - giving a more accurate flow picture.
 `,
         },
         {
@@ -2927,7 +2927,7 @@ Choose from: 7 days · 14 days · 30 days · 60 days · 90 days · 180 days
 
 ### Latest Sprint Auto
 
-Instead of selecting a specific sprint, choose **"Latest sprint (auto)"**. The CFD automatically uses whichever sprint is currently active — no manual update needed when a new sprint starts.
+Instead of selecting a specific sprint, choose **"Latest sprint (auto)"**. The CFD automatically uses whichever sprint is currently active - no manual update needed when a new sprint starts.
 
 > **Tip:** Use "Latest sprint auto" on any permanent team dashboard so the CFD always shows the current sprint without anyone needing to reconfigure it.
 
@@ -2962,7 +2962,7 @@ Instead of selecting a specific sprint, choose **"Latest sprint (auto)"**. The C
 | **Show Legend** | Show/hide the band legend | On |
 | **Hide Weekends** | Skip Saturday and Sunday on the X-axis | Off |
 | **Show Horizontal Gridlines** | Add horizontal gridlines for reading values | Off |
-| **Y-Axis Starts at Zero** | Force Y-axis to start at 0 — prevents misleading scale | On |
+| **Y-Axis Starts at Zero** | Force Y-axis to start at 0 - prevents misleading scale | On |
 | **Enable Scroll Zoom** | Allow pinch/scroll zoom on the chart | Off |
 
 ## Advanced Options
@@ -2976,11 +2976,11 @@ Instead of selecting a specific sprint, choose **"Latest sprint (auto)"**. The C
 
 After the chart loads, customize individual bands in the band list:
 
-- **Exclude a band** — uncheck it to remove it from the chart and the count
-- **Reorder bands** — drag bands to match your workflow order (bottom = first stage)
-- **Custom colors** — click the color swatch next to a band name to change its color
+- **Exclude a band** - uncheck it to remove it from the chart and the count
+- **Reorder bands** - drag bands to match your workflow order (bottom = first stage)
+- **Custom colors** - click the color swatch next to a band name to change its color
 
-> **Tip:** Order bands so the earliest stage (e.g., "To Do") is at the bottom and the final stage (e.g., "Done") is at the top. This is the standard CFD convention — completion accumulates upward.
+> **Tip:** Order bands so the earliest stage (e.g., "To Do") is at the bottom and the final stage (e.g., "Done") is at the top. This is the standard CFD convention - completion accumulates upward.
 
 ## Export
 
@@ -3002,7 +3002,7 @@ After the chart loads, customize individual bands in the band list:
         {
           slug: "wip-aging-charts-gadget-intro",
           title: "WIP Aging Charts",
-          content: `The **WIP Aging Charts** gadget visualizes how long your current work-in-progress items have been active. It plots issues on a scatter chart where the X-axis represents age in days — giving you an immediate view of which items are stalled, approaching SLA limits, or far outside normal cycle time.
+          content: `The **WIP Aging Charts** gadget visualizes how long your current work-in-progress items have been active. It plots issues on a scatter chart where the X-axis represents age in days - giving you an immediate view of which items are stalled, approaching SLA limits, or far outside normal cycle time.
 
 Use this section to understand the scatter plot format, age calculation options, and how to configure reference lines for your team's SLA thresholds.
 
@@ -3012,7 +3012,7 @@ Use this section to understand the scatter plot format, age calculation options,
 | --- | --- |
 | **Overview** | *What the WIP Aging Chart shows, how to read the scatter plot, and data source options.* |
 | **Age Calculation Methods** | *All 5 age calculation methods, display units, weekend exclusion, and calendar vs. business time.* |
-| **Reference Lines & Scale** | *Average, threshold, and percentile reference lines — how to configure each and what they mean.* |
+| **Reference Lines & Scale** | *Average, threshold, and percentile reference lines - how to configure each and what they mean.* |
 | **Display Settings & Export** | *Data table view, display toggles, export options, and common use cases.* |
 `,
         },
@@ -3025,7 +3025,7 @@ Use this section to understand the scatter plot format, age calculation options,
 
 | **Feature** | **Description** |
 | --- | --- |
-| Scatter Plot | One dot per issue — X-axis = age, Y-axis = status group |
+| Scatter Plot | One dot per issue - X-axis = age, Y-axis = status group |
 | 5 Age Calculation Methods | Time since last entry, sum of all occurrences, category sum, category first entry, time since creation |
 | Three Reference Lines | Average, Threshold (with configurable value), and Percentile (1–99) lines |
 | Data Table View | Switch from scatter plot to a tabular view of all WIP items with age details |
@@ -3037,7 +3037,7 @@ Use this section to understand the scatter plot format, age calculation options,
 - **Each dot** = one WIP issue
 - **X position** = how many days it has been in its current status
 - **Y position** = which status it is in
-- **Dots to the right of the threshold line** = SLA risk — these need attention
+- **Dots to the right of the threshold line** = SLA risk - these need attention
 - **Clusters on the left** = normal, healthy WIP
 - **Sparse dots far right** = stalled or forgotten work
 
@@ -3057,15 +3057,15 @@ Use this section to understand the scatter plot format, age calculation options,
 | **Method** | **What It Measures** | **Best For** |
 | --- | --- | --- |
 | **Time since last entry in current status** | How long the issue has been in its current status continuously | Standard "how long in this status now" |
-| **Sum of all time in current status** | Total accumulated time ever spent in this status, across all visits | Issues that bounce back — counts re-entry time too |
+| **Sum of all time in current status** | Total accumulated time ever spent in this status, across all visits | Issues that bounce back - counts re-entry time too |
 | **Sum of all time in the category of current status** | Total time across all statuses in the same category | Category-level aging (Cycle Time proxy) |
 | **Time since first entry in current status category** | Clock starts from the first time the issue entered this category | Lead time measurement from category start |
-| **Time since work item creation** | How long since the issue was created — regardless of current status | Total issue age / oldest backlog items |
+| **Time since work item creation** | How long since the issue was created - regardless of current status | Total issue age / oldest backlog items |
 
 ## Common Use Cases
 
 ### Daily Standup WIP Review
-Set threshold to your team's SLA (e.g., 10 days). During standup, the chart immediately shows which items need discussion — no sorting or filtering required.
+Set threshold to your team's SLA (e.g., 10 days). During standup, the chart immediately shows which items need discussion - no sorting or filtering required.
 
 ### Kanban SLE Tracking (85th Percentile)
 Enable the percentile line at 85. The line value tells you: "85% of our in-progress work resolves within X days." Share this number with stakeholders as a data-driven commitment.
@@ -3077,21 +3077,21 @@ Run the WIP Aging report at the end of a sprint. Issues with high age that did n
         {
           slug: "wip-aging-age-methods",
           title: "Age Calculation Methods",
-          content: `The **Age Calculation Method** is the most important configuration decision in WIP Aging. It controls what "age" means for each issue — and different methods give very different numbers.
+          content: `The **Age Calculation Method** is the most important configuration decision in WIP Aging. It controls what "age" means for each issue - and different methods give very different numbers.
 
 ## All 5 Methods
 
 | **Method** | **What It Measures** | **Best For** |
 | --- | --- | --- |
 | **Time since last entry in current status** | How long the issue has been in its current status continuously | Standard "how long in this status right now" |
-| **Sum of all time in current status** | Total accumulated time in this status, including all previous visits | Issues that bounce back — counts every re-entry |
+| **Sum of all time in current status** | Total accumulated time in this status, including all previous visits | Issues that bounce back - counts every re-entry |
 | **Sum of all time in category of current status** | Total time across all statuses in the same category | Category-level aging, Cycle Time proxy |
 | **Time since first entry in current status category** | Clock starts from the very first time the issue entered this category | Lead time from category start |
-| **Time since work item creation** | How long since the issue was created — regardless of current status | Total issue age, oldest backlog items |
+| **Time since work item creation** | How long since the issue was created - regardless of current status | Total issue age, oldest backlog items |
 
 ## Choosing the Right Method
 
-**For daily standup:** Use **Method 1** (time since last entry). It answers "how long has this been sitting here right now?" — the most actionable question for a team discussion.
+**For daily standup:** Use **Method 1** (time since last entry). It answers "how long has this been sitting here right now?" - the most actionable question for a team discussion.
 
 **For rework detection:** Use **Method 2** (sum of all time). If an issue keeps bouncing back to "In Review", this method accumulates all that time and reveals the real cost.
 
@@ -3109,7 +3109,7 @@ Run the WIP Aging report at the end of a sprint. Issues with high age that did n
 
 ## Weekend Exclusion
 
-By default, age is measured in calendar time — every hour counts, including nights and weekends.
+By default, age is measured in calendar time - every hour counts, including nights and weekends.
 
 Enable **Exclude Weekends** to skip Saturday and Sunday. An issue that sat untouched over a 3-day weekend will not accumulate those days against its age.
 
@@ -3119,7 +3119,7 @@ Use this when your SLA commitments are stated in business days.
         {
           slug: "wip-aging-reference-lines",
           title: "Reference Lines & Scale",
-          content: `Reference lines are horizontal markers drawn across all status groups on the chart. They give your team a visual benchmark — immediately showing which dots are within normal range and which need attention.
+          content: `Reference lines are horizontal markers drawn across all status groups on the chart. They give your team a visual benchmark - immediately showing which dots are within normal range and which need attention.
 
 ## Average Line
 
@@ -3131,7 +3131,7 @@ Shows the **mean age** across all currently in-progress issues.
 
 ## Threshold Line
 
-A **fixed value** you set — your team's SLA limit or internal policy.
+A **fixed value** you set - your team's SLA limit or internal policy.
 
 **Example:** Your team commits to resolving P1 bugs within 5 business days. Set the threshold to 5. Any dot to the right of this line is a potential SLA breach.
 
@@ -3146,7 +3146,7 @@ Shows a **statistical percentile** of the current age distribution.
 
 **What 85th percentile means:** 85% of your current in-progress work is younger than this line. Only 15% is older.
 
-This is the standard metric for a Kanban **Service Level Expectation (SLE)** — a data-driven commitment: "85% of our work completes within X days."
+This is the standard metric for a Kanban **Service Level Expectation (SLE)** - a data-driven commitment: "85% of our work completes within X days."
 
 - **Enable:** Toggle **Show Percentile Line** and enter a value from 1 to 99
 - **Common values:** 50 (median), 85 (standard SLE), 95 (stricter commitment)
@@ -3155,9 +3155,9 @@ This is the standard metric for a Kanban **Service Level Expectation (SLE)** —
 
 | **Line** | **Value** | **Purpose** |
 | --- | --- | --- |
-| Average | Calculated automatically | Internal baseline — "what's normal" |
+| Average | Calculated automatically | Internal baseline - "what's normal" |
 | Percentile 85 | Calculated automatically | Your public SLE commitment to stakeholders |
-| Threshold | Your SLA limit in days | Escalation trigger — anything past this needs action now |
+| Threshold | Your SLA limit in days | Escalation trigger - anything past this needs action now |
 
 ## Scale Options
 
@@ -3202,14 +3202,14 @@ The data table is useful for:
 
 | **Format** | **What Is Exported** |
 | --- | --- |
-| **CSV** | Raw WIP data — one row per issue, with status, age in days, and key fields |
+| **CSV** | Raw WIP data - one row per issue, with status, age in days, and key fields |
 | **PNG** | Image snapshot of the scatter chart including all reference lines |
 | **Configuration** | JSON export of all gadget settings for reuse or backup |
 
 ## Common Use Cases
 
 ### Daily Standup Review
-Set the threshold to your team's SLA (e.g., 10 days). Open the chart at standup — any dot past the line needs a conversation. No sorting or filtering required.
+Set the threshold to your team's SLA (e.g., 10 days). Open the chart at standup - any dot past the line needs a conversation. No sorting or filtering required.
 
 ### Kanban SLE Tracking
 Enable the 85th percentile line. The line value is your team's SLE: "85% of our work completes within X days." Share this number with stakeholders as a data-driven commitment.
@@ -3675,7 +3675,7 @@ Shows the actual Jira issues in a configurable table format with Smart Labels, Q
 
 **Dynamic Filter Controller**
 
-Connects all charts and issue tables with one shared filtering experience — one filter bar updates every gadget simultaneously.
+Connects all charts and issue tables with one shared filtering experience - one filter bar updates every gadget simultaneously.
 
 **Time in Status**
 
@@ -3808,11 +3808,11 @@ Table · Table Heatmap · Table Row Heatmap · Table Column Heatmap · Column Ch
 **Key Features**
 
 - Up to 3 row fields and 3 column fields for multi-level grouping.
-- Make values clickable — click any cell to open the matching Jira issue list.
-- Heatmap coloring — Red, Blue, Green, or Grey base color.
+- Make values clickable - click any cell to open the matching Jira issue list.
+- Heatmap coloring - Red, Blue, Green, or Grey base color.
 - Totals row/column, percentage column, average column.
-- Date field formatting — week, month, quarter, year display formats.
-- Export — CSV and PNG.
+- Date field formatting - week, month, quarter, year display formats.
+- Export - CSV and PNG.
 
 ## Cumulative Flow Diagram
 
@@ -3826,9 +3826,9 @@ Status Categories · Individual Statuses · Board Columns · Board Column Catego
 
 **Key Features**
 
-- Board integration — use column definitions from a Jira Software board.
+- Board integration - use column definitions from a Jira Software board.
 - Include sub-tasks toggle.
-- Latest sprint auto — always shows the current sprint without reconfiguring.
+- Latest sprint auto - always shows the current sprint without reconfiguring.
 - Exclude/reorder/recolor bands individually.
 
 ## WIP Aging Charts
@@ -3891,7 +3891,7 @@ Use Time in Status for Cycle Time and Lead Time measurement, CFD for flow health
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Demo_Doc_a79097bdc7.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Demo_Doc_a79097bdc7.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
 </div>
 </div>
 `,
@@ -3922,9 +3922,9 @@ Use Time in Status for Cycle Time and Lead Time measurement, CFD for flow health
 
 | **Gadget** | **Description** |
 | --- | --- |
-| **Custom Charts** | Build visual reports with 10 chart types — 1D, 2D charts, tables, and KPI tiles. |
+| **Custom Charts** | Build visual reports with 10 chart types - 1D, 2D charts, tables, and KPI tiles. |
 | **Issue List** | Professional interactive tables with Smart Labels, Quick Filters, and export. |
-| **Dynamic Filter Controller** | Command center for dashboard filtering — one bar controls all connected gadgets. |
+| **Dynamic Filter Controller** | Command center for dashboard filtering - one bar controls all connected gadgets. |
 | **Time in Status** | Measure how long work spends in each stage. Identify bottlenecks with Cycle Time and Lead Time analytics. |
 | **Pivot Table** | Cross-tabulation with 9 display types, 7 aggregation methods, and drill-through to Jira issues. |
 | **Cumulative Flow Diagram** | Visualize work flow across pipeline stages over time. Track WIP, spot bottlenecks & monitor sprint health. |
@@ -3932,9 +3932,9 @@ Use Time in Status for Cycle Time and Lead Time measurement, CFD for flow health
 
 ## Security You Can Trust
 
-- **Run on Atlassian** — No external servers, no data leaving your Atlassian infrastructure.
-- **AGC Compatible** — Fully compatible with Atlassian Government Cloud.
-- **ISO Certified** — Clovity is an ISO 27001 certified company.
+- **Run on Atlassian** - No external servers, no data leaving your Atlassian infrastructure.
+- **AGC Compatible** - Fully compatible with Atlassian Government Cloud.
+- **ISO Certified** - Clovity is an ISO 27001 certified company.
 
 ## Key Differentiators
 
@@ -3986,7 +3986,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Sales_Doc_3_8936d1da1a.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Sales_Doc_3_8936d1da1a.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -4050,7 +4050,77 @@ Our app delivers complete coverage of enterprise Jira reporting foundations: JQL
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Competitor_Doc_479c80e80b.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Competitor_Doc_479c80e80b.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // APP PRICING
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "app-pricing",
+      title: "App Pricing",
+      articles: [
+        {
+          slug: "app-pricing",
+          title: "App Pricing",
+          content: `
+## Build Powerful Jira Dashboards Faster
+
+**Plan smarter. Deliver faster. All in Jira.**
+
+Dashboard Templates, Charts, Graphs & Reports for Jira is priced annually per Jira Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## Cloud Annual Pricing
+
+| **Team Size** | **Annual Price (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 15 | $262.50 |
+| 16 – 25 | $437.50 |
+| 26 – 50 | $875.00 |
+| 51 – 100 | $1,750.00 |
+| 101 – 200 | $3,200.00 |
+| 201 – 300 | $4,150.00 |
+| 301 – 400 | $4,600.00 |
+| 401 – 500 | $5,050.00 |
+| 501 – 600 | $5,500.00 |
+| 601 – 800 | $6,400.00 |
+| 801 – 1,000 | $7,300.00 |
+| 1,001 – 1,200 | $7,600.00 |
+| 1,201 – 1,400 | $7,900.00 |
+| 1,401 – 1,600 | $8,200.00 |
+| 1,601 – 1,800 | $8,500.00 |
+| 1,801 – 2,000 | $8,800.00 |
+| 2,001 – 2,250 | $9,175.00 |
+| 2,251 – 2,500 | $9,550.00 |
+| 2,501 – 2,750 | $9,925.00 |
+| 2,751 – 3,000 | $10,300.00 |
+| 3,001 – 3,250 | $10,675.00 |
+| 3,251 – 3,500 | $11,050.00 |
+| 3,501 – 3,750 | $11,425.00 |
+| 3,751 – 4,000 | $11,800.00 |
+| 4,001 – 4,250 | $12,175.00 |
+| 4,251 – 4,500 | $12,550.00 |
+| 4,501 – 4,750 | $12,925.00 |
+| 4,751 – 5,000 | $13,300.00 |
+
+## Pricing Notes
+
+- **Free for small teams** - Full feature access for up to 10 users at $0.00.
+- **Annual billing** - Prices shown are per year, billed through Atlassian.
+- **Cloud only** - Pricing applies to Jira Cloud instances.
+- **All features included** - Every pricing tier includes all 7 gadgets: Custom Charts, Issue List, Dynamic Filter Controller, Time in Status, Pivot Table, Cumulative Flow Diagram, and WIP Aging Charts.
+- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Templates_Charts_Graphs_and_Reports_for_Jira_b57e55dbe7.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,

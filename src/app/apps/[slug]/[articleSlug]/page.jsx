@@ -11,7 +11,6 @@ import { jqlaiDocs } from "@/data/jql-ai";
 import { contentFormattingConfluenceDocs } from "@/data/content-formatting-confluence-docs";
 import { backlogAuditorDocs } from "@/data/backlog-auditor-docs";
 import { pulseAiJiraDocs } from "@/data/pulse-ai-jira-docs";
-import { additionalResourcesDocs } from "@/data/additional-resources-docs";
 import DocSidebar from "@/components/DocSidebar";
 import ScrollToTop from "@/components/ScrollToTop";
 import ArticleContent from "@/components/ArticleContent";
@@ -21,22 +20,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 
-function withResources(docs) {
-  return {
-    ...docs,
-    categories: [...docs.categories, ...additionalResourcesDocs.categories],
-  };
-}
-
 const docsMap = {
-  "time-tracking-jira": withResources(timeTrackingDocs),
-  "dashboard-charts-jira": withResources(dashboardChartsDocs),
-  "reports-charts-confluence": withResources(reportsChartsConfluenceDocs),
-  "latex-diagrams-confluence": withResources(latexDiagramsConfluenceDocs),
-  "content-formatting-confluence": withResources(contentFormattingConfluenceDocs),
-  "backlog-auditor-jira": withResources(backlogAuditorDocs),
-  "jql-ai-jira": withResources(jqlaiDocs),
-  "pulse-ai-jira": withResources(pulseAiJiraDocs),
+  "time-tracking-jira": timeTrackingDocs,
+  "dashboard-charts-jira": dashboardChartsDocs,
+  "reports-charts-confluence": reportsChartsConfluenceDocs,
+  "latex-diagrams-confluence": latexDiagramsConfluenceDocs,
+  "content-formatting-confluence": contentFormattingConfluenceDocs,
+  "backlog-auditor-jira": backlogAuditorDocs,
+  "jql-ai-jira": jqlaiDocs,
+  "pulse-ai-jira": pulseAiJiraDocs,
 };
 
 export async function generateStaticParams() {

@@ -741,7 +741,7 @@ Non-obvious tips that save time and prevent common configuration mistakes.
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_User_Guide_776974cfef.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_User_Guide_776974cfef.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2474,7 +2474,7 @@ Not sure where to begin? This setup works for most teams and takes just a few mi
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Demo_Doc_9100e1a7de.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Demo_Doc_9100e1a7de.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2549,7 +2549,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Sales_Doc_f69acf6f47.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Sales_Doc_f69acf6f47.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -2612,7 +2612,78 @@ Our app delivers complete coverage of enterprise reporting foundations: CQL-base
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Competitor_Document_4f4d4bf68e.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Competitor_Document_4f4d4bf68e.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+
+    // ═══════════════════════════════════════════════════════════════
+    // APP PRICING
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "app-pricing",
+      title: "App Pricing",
+      articles: [
+        {
+          slug: "app-pricing",
+          title: "App Pricing",
+          content: `
+## Advanced Reporting, Charts & Deep Data Insights
+
+**Plan smarter. Deliver faster. All in Confluence.**
+
+Reports, Charts, Templates, CQL & Export for Confluence is priced annually per Confluence Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## Cloud Annual Pricing
+
+| **Team Size** | **Annual Price (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 15 | $97.50 |
+| 16 – 25 | $162.50 |
+| 26 – 50 | $325.00 |
+| 51 – 100 | $650.00 |
+| 101 – 200 | $1,100.00 |
+| 201 – 300 | $1,400.00 |
+| 301 – 400 | $1,550.00 |
+| 401 – 500 | $1,700.00 |
+| 501 – 600 | $1,850.00 |
+| 601 – 800 | $2,150.00 |
+| 801 – 1,000 | $2,450.00 |
+| 1,001 – 1,200 | $2,550.00 |
+| 1,201 – 1,400 | $2,650.00 |
+| 1,401 – 1,600 | $2,750.00 |
+| 1,601 – 1,800 | $2,850.00 |
+| 1,801 – 2,000 | $2,950.00 |
+| 2,001 – 2,250 | $3,075.00 |
+| 2,251 – 2,500 | $3,200.00 |
+| 2,501 – 2,750 | $3,325.00 |
+| 2,751 – 3,000 | $3,450.00 |
+| 3,001 – 3,250 | $3,575.00 |
+| 3,251 – 3,500 | $3,700.00 |
+| 3,501 – 3,750 | $3,825.00 |
+| 3,751 – 4,000 | $3,950.00 |
+| 4,001 – 4,250 | $4,075.00 |
+| 4,251 – 4,500 | $4,200.00 |
+| 4,501 – 4,750 | $4,325.00 |
+| 4,751 – 5,000 | $4,450.00 |
+
+## Pricing Notes
+
+- **Free for small teams** - Full feature access for up to 10 users at $0.00.
+- **Annual billing** - Prices shown are per year, billed through Atlassian.
+- **Cloud only** - Pricing applies to Confluence Cloud instances.
+- **All features included** - Every pricing tier includes the full reporting suite: CQL Reports, Charts, Templates, Recipes, JSON Export, and the Explore Fields inspector.
+- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_689e7f3872.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,

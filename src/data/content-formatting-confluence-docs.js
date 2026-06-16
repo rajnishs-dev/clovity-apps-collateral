@@ -639,7 +639,7 @@ Non-obvious tips that save time and prevent common mistakes.
 
 ## Tab Navigation
 
-- **Use the Parent Mapper for living hubs.** Tabs generated from child pages reflect the current child page list — add or rename a child page and the tab changes without editing the hub page. Custom Tabs require manual updates every time.
+- **Use the Parent Mapper for living hubs.** Tabs generated from child pages reflect the current child page list - add or rename a child page and the tab changes without editing the hub page. Custom Tabs require manual updates every time.
 - **Tab Navigation cannot be nested.** If you need collapsible subsections inside a tab, use Advanced Expand - it's designed for secondary grouping within a tab body.
 - **Reorder tabs by reordering child pages** in the Confluence page tree (drag and drop). The tab order follows the page tree by default.
 
@@ -674,7 +674,7 @@ Non-obvious tips that save time and prevent common mistakes.
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_User_Guide_Final_0d048b0587.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_User_Guide_Final_0d048b0587.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
    
   </div>
 </div>
@@ -704,7 +704,7 @@ Tab macros let you display multiple sections of content inside a single Confluen
 
 ### Method 1 - Content Mapper Tabs (Recommended for Existing Pages)
 
-Insert one of the three mapper macros directly on your page — each macro is standalone and renders the full tab interface by itself.
+Insert one of the three mapper macros directly on your page - each macro is standalone and renders the full tab interface by itself.
 
 | Macro | Use When |
 |---|---|
@@ -741,7 +741,7 @@ Insert the **Create Custom Tabs** macro directly on your page. Write content ins
 
 ## What It Does
 
-The Tab Parent Content Mapper creates one tab for each **child page** of a specified Confluence parent page. When child pages are added, renamed, or removed, the tabs reflect those changes — no manual editing of the hub page required.
+The Tab Parent Content Mapper creates one tab for each **child page** of a specified Confluence parent page. When child pages are added, renamed, or removed, the tabs reflect those changes - no manual editing of the hub page required.
 
 ## When to Use It
 
@@ -820,7 +820,7 @@ The Tab Label Content Mapper creates tabs based on a **label you enter in the ma
 
 ## What It Does
 
-The Tab Page Mapper lets you **hand-pick specific pages** from anywhere in the Confluence space to appear as tabs. Unlike the Parent or Label mappers, this one requires manual updates — you control exactly which pages are included and in what order.
+The Tab Page Mapper lets you **hand-pick specific pages** from anywhere in the Confluence space to appear as tabs. Unlike the Parent or Label mappers, this one requires manual updates - you control exactly which pages are included and in what order.
 
 ## When to Use It
 
@@ -1138,8 +1138,8 @@ The Background macro applies a background color, gradient, or image to any secti
 
 ## Usage Notes
 
-- Content inside the Background macro is fully editable — insert any Confluence content or other macros inside it
-- Images can be uploaded directly as Confluence attachments from the macro config panel — no external hosting required
+- Content inside the Background macro is fully editable - insert any Confluence content or other macros inside it
+- Images can be uploaded directly as Confluence attachments from the macro config panel - no external hosting required
 - Use the overlay feature to add a dark or colored semi-transparent layer over background images for better text contrast
 
 ## Common Patterns
@@ -1180,14 +1180,14 @@ The Alert macro creates a styled banner for informational messages, warnings, er
 | Style | Image Alert (with icon image) or Simple Alert (text only) |
 | Title | Bold heading for the alert (max 50 characters, required) |
 | Body | Alert message text (max 500 characters, required) |
-| Image | Custom image upload — only visible when Style is Image Alert |
-| Permanently dismiss | Checkbox — adds a dismiss option so readers can hide the alert permanently (stored in browser local storage) |
+| Image | Custom image upload - only visible when Style is Image Alert |
+| Permanently dismiss | Checkbox - adds a dismiss option so readers can hide the alert permanently (stored in browser local storage) |
 | Background color | Color picker or custom hex |
 | Text color | Color picker or custom hex |
 
 ## Known Limitations
 
-- The Permanently Dismiss option stores the dismissed state in the browser's local storage — it resets if the user clears browser data or switches devices
+- The Permanently Dismiss option stores the dismissed state in the browser's local storage - it resets if the user clears browser data or switches devices
 
 ## Best Practices
 
@@ -1211,7 +1211,7 @@ The Tooltip macro wraps a word or phrase with a hover tooltip that reveals addit
 |---|---|
 | Tooltip text | The text that appears when the user hovers over the macro (max 250 characters, plain text only) |
 
-The tooltip trigger is the content placed inside the macro body in the editor — any text or inline content you type inside the macro becomes the hoverable trigger.
+The tooltip trigger is the content placed inside the macro body in the editor - any text or inline content you type inside the macro becomes the hoverable trigger.
 
 ## When to Use Tooltips
 
@@ -1337,7 +1337,7 @@ The Pop-up Dialog macro creates a modal overlay that opens when a reader clicks 
 
 1. Insert the **Pop-up Dialog** macro on your page
 2. In the settings panel, enter a **Title** and **Body** for the dialog content
-3. A trigger button is automatically added — click the edit icon next to "Pop-up Trigger Added" to customise the button label and alignment
+3. A trigger button is automatically added - click the edit icon next to "Pop-up Trigger Added" to customise the button label and alignment
 4. Readers click the trigger button to open the dialog
 
 ## Configuration Options
@@ -1375,9 +1375,9 @@ The Advanced Expand macro creates a collapsible content section with a styled he
 | Setting | Options |
 |---|---|
 | Style | Style A (minimal with arrow), Style B (card with expand button), Style C (bordered/accented) |
-| Icon | Optional icon shown beside the header — choose from the built-in icon library or upload an emoji |
+| Icon | Optional icon shown beside the header - choose from the built-in icon library or upload an emoji |
 | Header size | Normal text, H1, H2, H3, H4, H5, H6 |
-| Accent color | Color picker — controls header text and icon color |
+| Accent color | Color picker - controls header text and icon color |
 | Header background color | Color picker (Style A only) |
 
 ## Expand Styles
@@ -1513,8 +1513,8 @@ Numbered Headings is a **page-level byline button**, not an inline macro. It app
 
 1. Open the page in **view mode**
 2. Click the **Numbered Heading | Clovity** button in the page byline
-3. A settings panel opens — enable numbering and configure the format
-4. Click Save — the page headings update immediately
+3. A settings panel opens - enable numbering and configure the format
+4. Click Save - the page headings update immediately
 
 ## Configuration Options
 
@@ -1522,13 +1522,13 @@ Numbered Headings is a **page-level byline button**, not an inline macro. It app
 |---|---|
 | Enable / Disable | Toggle numbered headings on or off for this page |
 | Number format | Decimal (1, 1.1, 1.1.1), Latin lower (a,b,c), Latin upper (A,B,C), Roman lower (i,ii,iii), Roman upper (I,II,III) |
-| Skip headings | Multi-select — choose which heading levels (H1–H6) to exclude from numbering |
+| Skip headings | Multi-select - choose which heading levels (H1–H6) to exclude from numbering |
 
 ## Behavior Notes
 
-- Numbering is applied to the live page HTML — heading text in the editor is not modified
-- Settings are stored per-page — each page has its own enable/format configuration
-- It is not inserted via "/" in the editor — it is a separate byline action button`,
+- Numbering is applied to the live page HTML - heading text in the editor is not modified
+- Settings are stored per-page - each page has its own enable/format configuration
+- It is not inserted via "/" in the editor - it is a separate byline action button`,
         },
         {
           slug: "divider-macro",
@@ -1635,7 +1635,7 @@ Countdown units shown as arc gauge indicators for each time unit.
 <img src="/images/content-formatting-assets/user-profile-macro.png" alt="User Profile Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The User Profile macro lets you add up to 30 profile cards on a single Macro. Each card displays a user's name and a custom details field (such as job title), along with an optional image and background color. Card Style controls only the visual appearance of the cards — it does not add or remove information fields.
+The User Profile macro lets you add up to 30 profile cards on a single Macro. Each card displays a user's name and a custom details field (such as job title), along with an optional image and background color. Card Style controls only the visual appearance of the cards - it does not add or remove information fields.
 
 ## How to Set It Up
 
@@ -1650,8 +1650,8 @@ The User Profile macro lets you add up to 30 profile cards on a single Macro. Ea
 
 | Setting | Description |
 |---|---|
-| Add Users | Search and add Confluence users to display — up to 30 users per macro |
-| Card Style | 5 visual layout options that change the card's appearance only — no extra fields are added or removed by changing style |
+| Add Users | Search and add Confluence users to display - up to 30 users per macro |
+| Card Style | 5 visual layout options that change the card's appearance only - no extra fields are added or removed by changing style |
 | Card Size | Small, Medium, or Large |
 | Name Color | Color of the user's display name on the card |
 | User Details Color | Color of the details text (e.g. job title) on the card |
@@ -1664,7 +1664,7 @@ Each user card has its own Content tab with individual settings:
 
 | Setting | Description |
 |---|---|
-| User Details | Free-text field (up to 50 characters) — enter the information to show on the card, such as job title, team, or role |
+| User Details | Free-text field (up to 50 characters) - enter the information to show on the card, such as job title, team, or role |
 | Background Color | Optional background color for that individual card |
 | Image | Optional custom image to display on the card |
 | Move backwards / Move forwards | Reorder the card's position within the macro |
@@ -1672,7 +1672,7 @@ Each user card has its own Content tab with individual settings:
 
 ## Card Style Note
 
-Card Style selects between 5 visual appearances for how the card is laid out. It only affects how the card looks — it does not pull in additional data from Confluence profiles or show/hide extra fields. The information displayed on each card is only what you enter in the User Details field and the user's name.
+Card Style selects between 5 visual appearances for how the card is laid out. It only affects how the card looks - it does not pull in additional data from Confluence profiles or show/hide extra fields. The information displayed on each card is only what you enter in the User Details field and the user's name.
 
 ## Common Use Cases
 
@@ -1775,13 +1775,13 @@ The JSON Viewer macro renders a block of JSON data in a formatted, syntax-highli
 <img src="/images/content-formatting-assets/custom-fonts-macro.png" alt="Custom Fonts Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The Custom Fonts macro lets you add a styled text block to any Confluence page. You type the text directly into the macro and control its font family, weight, size, color, alignment, and line height — all from the config panel. Use it to create visually distinct headings, section titles, or callout text that goes beyond Confluence's standard heading styles.
+The Custom Fonts macro lets you add a styled text block to any Confluence page. You type the text directly into the macro and control its font family, weight, size, color, alignment, and line height - all from the config panel. Use it to create visually distinct headings, section titles, or callout text that goes beyond Confluence's standard heading styles.
 
 ## How to Set It Up
 
 1. Insert the **Custom Fonts** macro on your page
 2. In the **Text** field, type the text you want to display (required)
-3. Set the **Alignment** — Left, Center, or Right
+3. Set the **Alignment** - Left, Center, or Right
 4. Under **Typography**, choose the **Font Family**, **Font Weight**, and drag the **Font Size** slider to the size you need
 5. Pick a **Text Color** from the preset swatches or use the custom color picker
 6. Optionally enable **Set line height manually** to control vertical spacing
@@ -1791,7 +1791,7 @@ The Custom Fonts macro lets you add a styled text block to any Confluence page. 
 
 | Setting | Options | Notes |
 |---|---|---|
-| Text | Free text input | Required — this is the text that will be displayed |
+| Text | Free text input | Required - this is the text that will be displayed |
 | Alignment | Left, Center, Right | Controls horizontal alignment of the text block |
 | Font Family | Dropdown (e.g. Arial, and other available fonts) | Selects the typeface for the text |
 | Font Weight | Regular, Bold, and other available weights | Controls how thick or thin the text strokes appear |
@@ -1814,13 +1814,13 @@ The Custom Fonts macro lets you add a styled text block to any Confluence page. 
 <img src="/images/content-formatting-assets/news-macro.png" alt="News Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The News macro displays Confluence blog posts from your space as a styled feed on any Confluence page. You give the feed a title, set how many posts to show, and choose the feed type — the macro then renders the matching blog posts in that layout.
+The News macro displays Confluence blog posts from your space as a styled feed on any Confluence page. You give the feed a title, set how many posts to show, and choose the feed type - the macro then renders the matching blog posts in that layout.
 
 ## How to Set It Up
 
 1. Insert the **News** macro on your page
 2. Enter a **Title** for the feed (required)
-3. Enter a **Limit** — the number of blog posts to display
+3. Enter a **Limit** - the number of blog posts to display
 4. Select a **Feed Type** from the dropdown (e.g. Image Feed)
 5. Publish the page
 
@@ -1828,7 +1828,7 @@ The News macro displays Confluence blog posts from your space as a styled feed o
 
 | Setting | Description |
 |---|---|
-| Title | Required — the heading displayed above the blog post feed |
+| Title | Required - the heading displayed above the blog post feed |
 | Limit | Number of blog posts to show in the feed |
 | Feed Type | Controls the layout of the feed (e.g. Image Feed displays posts with their associated images) |
 
@@ -1842,7 +1842,7 @@ The News macro displays Confluence blog posts from your space as a styled feed o
 ## Behavior Notes
 
 - The macro pulls blog posts from the current Confluence space
-- Only published blog posts are shown — drafts are not included
+- Only published blog posts are shown - drafts are not included
 - Posts the viewer does not have read permission to access are not displayed`,
         },
         {
@@ -1858,7 +1858,7 @@ The Page Tree macro displays all pages of the current Confluence space in a list
 ## How to Set It Up
 
 1. Insert the **Page Tree** macro on your page
-2. The macro immediately renders a list of all pages in the current space — no additional configuration required
+2. The macro immediately renders a list of all pages in the current space - no additional configuration required
 3. Publish the page
 
 ## Common Use Cases
@@ -1882,21 +1882,21 @@ The Page Tree macro displays all pages of the current Confluence space in a list
 <img src="/images/content-formatting-assets/activity-stream-macro.png" alt="Activity Stream Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The Activity Stream macro shows recent page activity from a selected Confluence space. Each entry displays the page name, the user who last modified it, and how long ago the change was made — grouped by user avatar. You set a title, choose the space, and set a limit on how many items to show.
+The Activity Stream macro shows recent page activity from a selected Confluence space. Each entry displays the page name, the user who last modified it, and how long ago the change was made - grouped by user avatar. You set a title, choose the space, and set a limit on how many items to show.
 
 ## How to Set It Up
 
 1. Insert the **Activity Stream** macro on your page
-2. Enter a **Title** — this appears as the heading above the activity list (e.g. "Recent Activity")
-3. Select the **Space** from the dropdown — the macro shows activity from that space
-4. Enter a **Limit** — the number of recent page entries to display
+2. Enter a **Title** - this appears as the heading above the activity list (e.g. "Recent Activity")
+3. Select the **Space** from the dropdown - the macro shows activity from that space
+4. Enter a **Limit** - the number of recent page entries to display
 5. Publish the page
 
 ## Configuration Options
 
 | Setting | Description |
 |---|---|
-| Title | Heading displayed above the activity list — leave blank and "Your title will appear here" is shown as a placeholder |
+| Title | Heading displayed above the activity list - leave blank and "Your title will appear here" is shown as a placeholder |
 | Space | The Confluence space to pull recent page activity from (selected from a dropdown of available spaces) |
 | Limit | Number of recent page activity entries to display |
 
@@ -1904,9 +1904,9 @@ The Activity Stream macro shows recent page activity from a selected Confluence 
 
 The macro renders a list of recently modified pages from the selected space. Each entry shows:
 
-- **Page name** — clickable link to the page
-- **User name** — the person who last modified the page
-- **Time ago** — how long ago the page was last changed (e.g. 14 days ago, 58 days ago)
+- **Page name** - clickable link to the page
+- **User name** - the person who last modified the page
+- **Time ago** - how long ago the page was last changed (e.g. 14 days ago, 58 days ago)
 
 Entries are grouped under the user's avatar, so you can see at a glance which user was responsible for which recent changes.
 
@@ -1931,12 +1931,12 @@ Entries are grouped under the user's avatar, so you can see at a glance which us
 <img src="/images/content-formatting-assets/number-list-macro.png" alt="Number List Macro screenshot" style="width: 100%; border-radius: 8px; border: 1px solid #e5e7eb; margin: 16px 0 24px;" />
 
 ## What It Does
-The Number List macro creates a styled numbered list on a Confluence page. You add each list item individually using the **Add a List item** button, choose a numbering style, set a color, pick a variation, and toggle rounded corners — all from the config panel.
+The Number List macro creates a styled numbered list on a Confluence page. You add each list item individually using the **Add a List item** button, choose a numbering style, set a color, pick a variation, and toggle rounded corners - all from the config panel.
 
 ## How to Set It Up
 
 1. Insert the **Number List** macro on your page
-2. Click **Add a List item** to add your first item — a text input appears for that item
+2. Click **Add a List item** to add your first item - a text input appears for that item
 3. Type the item text, then click **Add a List item** again to add more
 4. Choose a **Numbering** style
 5. Under **Appearance**, select a **Color**, **Variation**, and toggle **Fully rounded corners** if desired
@@ -1957,7 +1957,7 @@ The Number List macro creates a styled numbered list on a Confluence page. You a
 | Setting | Options | Description |
 |---|---|---|
 | Color | Preset swatches (dark, white, blue, green, orange, red, purple, black) + custom picker | Sets the color of the number markers |
-| Variation | Filled, Outlined, Plain | Controls the visual style of the number badge — Filled shows a solid colored badge, Outlined shows a border only, Plain shows the number without a badge |
+| Variation | Filled, Outlined, Plain | Controls the visual style of the number badge - Filled shows a solid colored badge, Outlined shows a border only, Plain shows the number without a badge |
 | Fully rounded corners | Toggle on / off | When on, the number badge uses fully circular/pill-shaped corners |
 
 ## Common Use Cases
@@ -1980,9 +1980,9 @@ The Form macro embeds a structured input form directly on any Confluence page. Y
 ## How to Set It Up
 
 1. Insert the **Form** macro on your page
-2. Enter a **Form Title** — this appears as the dark header bar at the top of the form (e.g. "My Form")
+2. Enter a **Form Title** - this appears as the dark header bar at the top of the form (e.g. "My Form")
 3. Under **Add a Field**, click any field type to add it to the form
-4. The added field appears under **Form Fields** — you can reorder fields using the up/down arrows and remove them with the delete button
+4. The added field appears under **Form Fields** - you can reorder fields using the up/down arrows and remove them with the delete button
 5. Continue adding fields until the form is complete
 6. Publish the page
 
@@ -1990,7 +1990,7 @@ The Form macro embeds a structured input form directly on any Confluence page. Y
 
 | Setting | Description |
 |---|---|
-| Form Title | Required — displayed as a bold header at the top of the rendered form |
+| Form Title | Required - displayed as a bold header at the top of the rendered form |
 
 ## Available Field Types
 
@@ -1998,8 +1998,8 @@ Click any of the following from the **Add a Field** section to add it to your fo
 
 | Field Type | Description |
 |---|---|
-| Short text | Single-line text input — for names, short answers, IDs |
-| Paragraph | Multi-line text input — for descriptions, comments, or longer responses |
+| Short text | Single-line text input - for names, short answers, IDs |
+| Paragraph | Multi-line text input - for descriptions, comments, or longer responses |
 | Number | Numeric input field |
 | Date field | Calendar date picker |
 | Attachment upload | Lets the form submitter upload a file |
@@ -2013,8 +2013,8 @@ Click any of the following from the **Add a Field** section to add it to your fo
 
 Once a field is added to the **Form Fields** list:
 
-- **Reorder** — use the up/down arrows on the right of each field to change its position
-- **Remove** — click the delete (×) button to remove a field from the form
+- **Reorder** - use the up/down arrows on the right of each field to change its position
+- **Remove** - click the delete (×) button to remove a field from the form
 
 ## Common Use Cases
 
@@ -2149,7 +2149,7 @@ The Attachment Management Center is a dedicated panel built into Content Formatt
 
 ## How to Access
 
-- **Globally**: The Attachment Management Center is accessible globally — you do not need to go through Space Settings
+- **Globally**: The Attachment Management Center is accessible globally - you do not need to go through Space Settings
 
 ## Admin Configuration
 
@@ -2531,9 +2531,9 @@ A single-page monthly report covering project summary, KPI targets, key initiati
 | Section | Content |
 |---|---|
 | Report Banner | Interactive Banner with report title and monthly summary |
-| Project Summary | Table with project name, status date, PM, stakeholders, and links — alongside a Table of Contents |
+| Project Summary | Table with project name, status date, PM, stakeholders, and links - alongside a Table of Contents |
 | Target Check | 3 Background cards, each showing a KPI's current value vs. target and insights |
-| Key Initiatives | Custom Tabs — one tab per initiative, each with a metrics table, insights, and project links |
+| Key Initiatives | Custom Tabs - one tab per initiative, each with a metrics table, insights, and project links |
 | Next Up | 3 Advanced Cards for upcoming focus areas |
 | Kudos | Table recognizing team members with appreciation notes |
 
@@ -3090,7 +3090,7 @@ Create fully structured Confluence pages with a single click - all macros pre-co
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_Demo_Doc_7753ffb23f.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_Demo_Doc_7753ffb23f.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3133,10 +3133,10 @@ Create fully structured Confluence pages with a single click - all macros pre-co
 
 ## Security You Can Trust
 
-- **Run on Atlassian** — Runs 100% inside Atlassian Cloud. Your data never leaves the platform - no external servers, no third-party storage, ever.
-- **AGC Compatible** — Fully compatible with Atlassian Government Cloud.
-- **ISO 27001 Certified** — Clovity is an ISO 27001 certified company.
-- **Zero External Servers** — No external infrastructure required.
+- **Run on Atlassian** - Runs 100% inside Atlassian Cloud. Your data never leaves the platform - no external servers, no third-party storage, ever.
+- **AGC Compatible** - Fully compatible with Atlassian Government Cloud.
+- **ISO 27001 Certified** - Clovity is an ISO 27001 certified company.
+- **Zero External Servers** - No external infrastructure required.
 
 ## Key Differentiators
 
@@ -3188,7 +3188,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_83e39f4d46.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_83e39f4d46.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3319,7 +3319,78 @@ We **fully cover Visibility (2/2) and Advance Attachment Manager (1/1)**, match 
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Competitor_Doc_Content_Formatting_032034c63d.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Competitor_Doc_Content_Formatting_032034c63d.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // APP PRICING
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "app-pricing",
+      title: "App Pricing",
+      articles: [
+        {
+          slug: "app-pricing",
+          title: "App Pricing",
+          content: `
+## Faster to Read. Easier to Govern. Simpler to Maintain.
+
+**Plan smarter. Deliver faster. All in Confluence.**
+
+Content Formatting Macros: Tabs, Navigation, Visibility & CSS is priced annually per Confluence Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## Cloud Annual Pricing
+
+| **Team Size** | **Annual Price (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 15 | $142.50 |
+| 16 – 25 | $237.50 |
+| 26 – 50 | $475.00 |
+| 51 – 100 | $950.00 |
+| 101 – 200 | $1,400.00 |
+| 201 – 300 | $1,700.00 |
+| 301 – 400 | $1,850.00 |
+| 401 – 500 | $2,000.00 |
+| 501 – 600 | $2,150.00 |
+| 601 – 800 | $2,450.00 |
+| 801 – 1,000 | $2,750.00 |
+| 1,001 – 1,200 | $2,850.00 |
+| 1,201 – 1,400 | $2,950.00 |
+| 1,401 – 1,600 | $3,050.00 |
+| 1,601 – 1,800 | $3,150.00 |
+| 1,801 – 2,000 | $3,250.00 |
+| 2,001 – 2,250 | $3,375.00 |
+| 2,251 – 2,500 | $3,500.00 |
+| 2,501 – 2,750 | $3,625.00 |
+| 2,751 – 3,000 | $3,750.00 |
+| 3,001 – 3,250 | $3,875.00 |
+| 3,251 – 3,500 | $4,000.00 |
+| 3,501 – 3,750 | $4,125.00 |
+| 3,751 – 4,000 | $4,250.00 |
+| 4,001 – 4,250 | $4,375.00 |
+| 4,251 – 4,500 | $4,500.00 |
+| 4,501 – 4,750 | $4,625.00 |
+| 4,751 – 5,000 | $4,750.00 |
+
+## Pricing Notes
+
+- **Free for small teams** - Full feature access for up to 10 users at $0.00.
+- **Annual billing** - Prices shown are per year, billed through Atlassian.
+- **Cloud only** - Pricing applies to Confluence Cloud instances.
+- **All features included** - Every pricing tier includes the full macro library: Tabs, Navigation, Visibility, CSS, Conditional Show/Hide, and 30+ formatting macros.
+- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
+
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_1b69b9efda.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,

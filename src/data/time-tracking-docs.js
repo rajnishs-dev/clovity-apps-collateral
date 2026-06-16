@@ -2715,7 +2715,7 @@ This is useful for part-time staff, contractors, or users in different regions w
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/user_guide_time_1_d73c53fcb8.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/user_guide_time_1_d73c53fcb8.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3360,8 +3360,8 @@ Demo of the Time Tracking, Resource Planning & Project Management on clovity-dem
 - All Assigned: USA Holiday Calendar
 
 **Workload Schemes**
-- Default: 8h/day — Ash, Shawn, Victor
-- Part Time: 4h/day — Christopher, Ashton Maka
+- Default: 8h/day - Ash, Shawn, Victor
+- Part Time: 4h/day - Christopher, Ashton Maka
 
 **Pre-Configured Leaves**
 - Ash Parker: Vacation Jun 3–4
@@ -3383,9 +3383,9 @@ Show clients how to know - before the sprint starts - whether their team has the
 ### 1. Settings Tour
 
 - Navigate: **Capacity Planner > Settings**
-- **Show Workload Schemes** — Default (8h/day: Ash, Shawn, Victor) and Part Time (4h/day: Christopher & Ashton Maka).
-- **Show Holiday Calendar** — USA Holiday Calendar assigned to all team members.
-- **Show Team Setup** — Click Teams > Demo Team, show 5 members with workload scheme assignments.
+- **Show Workload Schemes** - Default (8h/day: Ash, Shawn, Victor) and Part Time (4h/day: Christopher & Ashton Maka).
+- **Show Holiday Calendar** - USA Holiday Calendar assigned to all team members.
+- **Show Team Setup** - Click Teams > Demo Team, show 5 members with workload scheme assignments.
 
 **Value Point:** Configuration is done once by the admin. Every manager who uses the planner after that automatically gets accurate, policy-compliant capacity numbers - no manual inputs, no spreadsheet gymnastics.
 
@@ -3401,7 +3401,7 @@ Show clients how to know - before the sprint starts - whether their team has the
 
 **Talk Track:** *"In most teams, this information lives in someone's Slack DMs or a shared calendar that nobody checks before the sprint. Here it feeds directly into the capacity calculation - so when a manager says 'we have capacity for 80 hours this sprint,' that number is real."*
 
-### 3. Planning Calendar — June 2026
+### 3. Planning Calendar - June 2026
 
 - Navigate: **Capacity Planner > Planning Calendar**
 - Select **Demo Team + June 2026**
@@ -3409,17 +3409,17 @@ Show clients how to know - before the sprint starts - whether their team has the
 
 **Talk Track:** *"Demo Team has 312 available hours in June - not the theoretical 400, because we've already subtracted Ash's vacation, Shawn's sick day, Victor's leave, part-time schedules, and the Memorial Day holiday. That's the real number."*
 
-### 4. Reports — Planned & Planned vs. Actual
+### 4. Reports - Planned & Planned vs. Actual
 
 - Navigate: **Capacity Planner > Reports**
-- Open Planned Report — Select projects 1, 2, and 4. Select team Demo Team. Set date range to cover June 2026.
+- Open Planned Report - Select projects 1, 2, and 4. Select team Demo Team. Set date range to cover June 2026.
 - Cycle through Group By options: Group by Project | Group by Assignee | Group by Issue Type | Group by Issue
-- Switch to **Planned vs. Actual** — Show the delta column.
-- **Export to PDF/CSV** — Ready to drop into a status update or client report.
+- Switch to **Planned vs. Actual** - Show the delta column.
+- **Export to PDF/CSV** - Ready to drop into a status update or client report.
 
-**Value Point:** Planned vs. Actual answers "did we deliver what we said we would?" — in one click, not a half-day data pull from Jira and Excel.
+**Value Point:** Planned vs. Actual answers "did we deliver what we said we would?" - in one click, not a half-day data pull from Jira and Excel.
 
-### 5. Analytics — Four Tabs of Insight
+### 5. Analytics - Four Tabs of Insight
 
 - Navigate: **Capacity Planner > Analytics**
 
@@ -3441,28 +3441,28 @@ From logging a single hour to a full approval workflow - time tracking doesn't h
 **The problem you're solving:**
 > "Time tracking tools are either too clunky to use daily or too simple to give meaningful reports. Developers skip it. Managers chase people. Reports are always incomplete. What you're about to see fixes all three - logging is fast, approvals are structured, and reports are accurate."
 
-### 1. My Calendar — The Daily View
+### 1. My Calendar - The Daily View
 
 - Navigate: **Time Tracking > My Calendar**
-- Show Week View — point out time blocks already logged.
-- Switch to Month View — monthly summary with total hours logged per day.
+- Show Week View - point out time blocks already logged.
+- Switch to Month View - monthly summary with total hours logged per day.
 
-### 2. Assigned Work Items — Log Work with One Click
+### 2. Assigned Work Items - Log Work with One Click
 
-- Open Assigned Work Items panel — right side of My Calendar, shows all Jira issues assigned to the user.
-- Drag an issue onto a calendar day — Log Work form opens pre-populated.
+- Open Assigned Work Items panel - right side of My Calendar, shows all Jira issues assigned to the user.
+- Drag an issue onto a calendar day - Log Work form opens pre-populated.
 - Fill in: Time Spent (e.g., 2h), Date (auto-filled), Description (optional). Click Save.
 
 **Talk Track:** *"The #1 reason time tracking fails is friction. Drag, drop, two fields, done. And because the issues come from Jira automatically, there's no chance they're logging to the wrong project code."*
 
-### 3. My Timesheet — Configure & Submit
+### 3. My Timesheet - Configure & Submit
 
 - Navigate: **Time Tracking > My Timesheet**
 - Period set to Monthly. Progress bar shows hours vs. target.
-- Timesheet grid — each row is a Jira issue, each column is a day. Hours editable inline.
-- Submit Timesheet — click Submit for Approval, select approver (Akash Gupta), confirm.
+- Timesheet grid - each row is a Jira issue, each column is a day. Hours editable inline.
+- Submit Timesheet - click Submit for Approval, select approver (Akash Gupta), confirm.
 
-**Value Point:** Timesheet submission creates an auditable trail — timestamped, linked to real Jira worklogs, with approver sign-off. Especially powerful for consulting firms, agencies, and government contractors.
+**Value Point:** Timesheet submission creates an auditable trail - timestamped, linked to real Jira worklogs, with approver sign-off. Especially powerful for consulting firms, agencies, and government contractors.
 
 ### 4. Approvals
 
@@ -3471,12 +3471,12 @@ From logging a single hour to a full approval workflow - time tracking doesn't h
 
 **Talk Track:** *"Every org I talk to has a different approval workflow living somewhere between email and a shared drive. This puts it in Jira, tied to the actual time data, with a full audit history."*
 
-### 5. Reports — Multi-User Time Reporting
+### 5. Reports - Multi-User Time Reporting
 
 - Navigate: **Time Tracking > Reports**
 - Select all 5 Demo Team members, set date range to last 30 days.
 - Group by Assignee, then switch to Project.
-- Show total hours table — total hours logged per person vs. target hours.
+- Show total hours table - total hours logged per person vs. target hours.
 - Export PDF/CSV.
 
 ---
@@ -3490,18 +3490,18 @@ Give leadership the cross-project view they've been asking for - without a separ
 - Navigate: **Portfolio Management > Portfolio Table**
 - Set filters: Projects 1, 2, 3, 4 | Date Range: Last Quarter | Click Apply.
 
-### 2. Table View — Issues Across All Projects
+### 2. Table View - Issues Across All Projects
 
 - Default columns: Issue Key, Summary, Assignee, Status, Priority, Story Points.
 - Add custom columns: Progress | Formula Column | Time in Status
 - Group by hierarchy (Epics > Stories > Sub-tasks).
-- Inline editing — reassign or transition issues directly.
+- Inline editing - reassign or transition issues directly.
 
-### 3. Gantt View — Timeline & Dependencies
+### 3. Gantt View - Timeline & Dependencies
 
-- Switch to Gantt View — color-coded by project, zoom levels: Day/Week/Month/Quarter.
-- Dependency tracking — draw arrows between issues, blocked dependencies visually highlighted.
-- Drag to reschedule — dependent tasks automatically flag as impacted.
+- Switch to Gantt View - color-coded by project, zoom levels: Day/Week/Month/Quarter.
+- Dependency tracking - draw arrows between issues, blocked dependencies visually highlighted.
+- Drag to reschedule - dependent tasks automatically flag as impacted.
 
 **Value Point:** Cross-project Gantt for all 4 projects in a single pane - with live Jira data, no manual entry, and dependency tracking built in.
 
@@ -3519,17 +3519,17 @@ Turn a hundred-item backlog from a gut-feel debate into a data-driven, defensibl
 ### 1. Set Up the Scoring Context
 
 - Navigate: **Backlog Prioritization > Backlog Table**
-- Configure filter: Project 4 — CRM | Date Range: Last Quarter.
+- Configure filter: Project 4 - CRM | Date Range: Last Quarter.
 - Select **ICE Scoring Template** (Impact × Confidence × Ease).
 
 ### 2. Inline Scoring
 
 - Score an item inline (e.g., Impact: 8, Confidence: 7, Ease: 5 → ICE Score: 280).
-- Sort by ICE Score — backlog re-orders instantly.
+- Sort by ICE Score - backlog re-orders instantly.
 
-### 3. Priority Matrix — The Executive View
+### 3. Priority Matrix - The Executive View
 
-- Switch to **Matrix tab** — 2×2 quadrant chart.
+- Switch to **Matrix tab** - 2×2 quadrant chart.
 
 | Quadrant | Label | Action |
 | --- | --- | --- |
@@ -3544,7 +3544,7 @@ Turn a hundred-item backlog from a gut-feel debate into a data-driven, defensibl
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Demo_Doc_2_cade18ee8c.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Demo_Doc_2_cade18ee8c.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3582,9 +3582,9 @@ Turn a hundred-item backlog from a gut-feel debate into a data-driven, defensibl
 
 ## Security You Can Trust
 
-- **Enterprise Grade** — Built on Atlassian's Forge platform.
-- **AGC Compatible** — Fully compatible with Atlassian Government Cloud.
-- **ISO 27001 Certified** — Clovity is an ISO 27001 certified company.
+- **Enterprise Grade** - Built on Atlassian's Forge platform.
+- **AGC Compatible** - Fully compatible with Atlassian Government Cloud.
+- **ISO 27001 Certified** - Clovity is an ISO 27001 certified company.
 
 ## Key Differentiators
 
@@ -3636,7 +3636,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_1_006662e607.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_1_006662e607.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -3724,7 +3724,77 @@ A consolidated suite that replaces multiple plugin categories with one governed 
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Competitor_Comparision_8b37dbca41.pdf" download style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Competitor_Comparision_8b37dbca41.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+      ],
+    },
+    // ═══════════════════════════════════════════════════════════════
+    // APP PRICING
+    // ═══════════════════════════════════════════════════════════════
+    {
+      id: "app-pricing",
+      title: "App Pricing",
+      articles: [
+        {
+          slug: "app-pricing",
+          title: "App Pricing",
+          content: `
+## The All-in-One Workspace Planning Solution for Jira Teams
+
+**Plan smarter. Deliver faster. All in Jira.**
+
+Time Tracking, Resource Planning & Project Management is priced annually per Jira Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## Cloud Annual Pricing
+
+| **Team Size** | **Annual Price (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 15 | $592.50 |
+| 16 – 25 | $987.50 |
+| 26 – 50 | $1,975.00 |
+| 51 – 100 | $3,950.00 |
+| 101 – 200 | $6,900.00 |
+| 201 – 300 | $9,100.00 |
+| 301 – 400 | $10,550.00 |
+| 401 – 500 | $12,000.00 |
+| 501 – 600 | $13,450.00 |
+| 601 – 800 | $16,350.00 |
+| 801 – 1,000 | $19,250.00 |
+| 1,001 – 1,200 | $20,150.00 |
+| 1,201 – 1,400 | $21,050.00 |
+| 1,401 – 1,600 | $21,950.00 |
+| 1,601 – 1,800 | $22,850.00 |
+| 1,801 – 2,000 | $23,750.00 |
+| 2,001 – 2,250 | $24,875.00 |
+| 2,251 – 2,500 | $26,000.00 |
+| 2,501 – 2,750 | $27,125.00 |
+| 2,751 – 3,000 | $28,250.00 |
+| 3,001 – 3,250 | $29,375.00 |
+| 3,251 – 3,500 | $30,500.00 |
+| 3,501 – 3,750 | $31,625.00 |
+| 3,751 – 4,000 | $32,750.00 |
+| 4,001 – 4,250 | $33,875.00 |
+| 4,251 – 4,500 | $35,000.00 |
+| 4,501 – 4,750 | $36,125.00 |
+| 4,751 – 5,000 | $37,250.00 |
+
+## Pricing Notes
+
+- **Free for small teams** - Full feature access for up to 10 users at $0.00.
+- **Annual billing** - Prices shown are per year, billed through Atlassian.
+- **Cloud only** - Pricing applies to Jira Cloud instances.
+- **All features included** - Every pricing tier includes the full suite: Timesheets, Capacity Planner, Backlog Prioritization, and Portfolio & Project Management.
+- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_8fb258ea64.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,

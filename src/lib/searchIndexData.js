@@ -7,8 +7,6 @@ import { jqlaiDocs } from "@/data/jql-ai";
 import { contentFormattingConfluenceDocs } from "@/data/content-formatting-confluence-docs";
 import { backlogAuditorDocs } from "@/data/backlog-auditor-docs";
 import { pulseAiJiraDocs } from "@/data/pulse-ai-jira-docs";
-import { additionalResourcesDocs } from "@/data/additional-resources-docs";
-
 const docsMap = {
   "dashboard-charts-jira": dashboardChartsDocs,
   "time-tracking-jira": timeTrackingDocs,
@@ -22,28 +20,13 @@ const docsMap = {
 
 export function buildSearchIndex() {
   const index = [];
-  const seenAdditionalSlugs = new Set();
 
   for (const [appSlug, docs] of Object.entries(docsMap)) {
     if (!docs?.categories) continue;
     const app = apps.find((a) => a.slug === appSlug);
 
-    const allCategories = [
-      ...docs.categories,
-      ...additionalResourcesDocs.categories,
-    ];
-
-    for (const category of allCategories) {
+    for (const category of docs.categories) {
       for (const article of category.articles) {
-        const isAdditional = additionalResourcesDocs.categories.some(
-          (c) => c.id === category.id
-        );
-
-        if (isAdditional) {
-          if (seenAdditionalSlugs.has(article.slug)) continue;
-          seenAdditionalSlugs.add(article.slug);
-        }
-
         index.push({
           appSlug,
           appName: app?.shortName || appSlug,
