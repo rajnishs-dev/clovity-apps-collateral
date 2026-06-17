@@ -2664,8 +2664,8 @@ This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matche
       title: "App Pricing",
       articles: [
         {
-          slug: "app-pricing",
-          title: "App Pricing",
+          slug: "cloud-app-pricing",
+          title: "Cloud App Pricing",
           content: `
 ## Technical Docs Made Clear in Confluence
 
@@ -2720,6 +2720,36 @@ LaTeX Formulas & Diagrams (Gantt Charts, ERDs & Flowcharts) is priced annually p
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
     <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_085c9cbc92.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+  </div>
+</div>
+`,
+        },
+        {
+          slug: "agc-app-pricing",
+          title: "AGC App Pricing",
+          content: `
+## Technical Docs Made Clear in Confluence
+
+**Plan smarter. Deliver faster. All in Confluence.**
+
+LaTeX Formulas & Diagrams (Gantt Charts, ERDs & Flowcharts) is available on **Atlassian Government Cloud (AGC)** — a FedRAMP-authorized deployment of Atlassian products built for U.S. federal, state, local, and tribal government agencies. AGC pricing is billed annually per instance based on your total user count. Teams of up to 10 users get full access at no cost.
+
+## AGC Annual Pricing
+
+| **User Tier** | **AGC Annual Pricing (USD)** |
+| --- | --- |
+| Up to 10 | $0.00 |
+| 11 – 100 | Up to $880.00 |
+| 101 – 250 | Up to $1,900.00 |
+| 251 – 1,000 | Up to $6,475.00 |
+| 1,001 – 2,500 | Up to $11,575.00 |
+| 2,501 – 5,000 | Up to $18,325.00 |
+
+<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
+  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">AGC App Pricing - Full PDF</div>
+  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_AGC_ae2fd03471.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
