@@ -77,42 +77,43 @@ Jira Cloud only. Built on Atlassian Forge - no external servers, no data exports
           content: `12 step-by-step tutorials covering every module - click any video to start watching, or use the arrows to go through them in order. New to the app? Start with the [Product Introduction](/apps/time-tracking-jira/what-is-time-tracking) first.`,
           videoGallery: {
             playlistUrl:
-              "https://www.youtube.com/watch?v=7z8NjUmLtOs&list=PLACoCS_WiVwR45unjH2D5MwcBjMFFflCL",
+              "https://www.youtube.com/playlist?list=PLACoCS_WiVwR45unjH2D5MwcBjMFFflCL",
             videos: [
               {
-                id: "7z8NjUmLtOs",
+                id: "gK2Iq1OXiIs",
                 title: "Welcome to the Suite - App Overview",
               },
-              { id: "5SYYnnFm1AM", title: "Creating Your First Capacity Plan" },
-              { id: "Q1BAH-t9v8w", title: "Analytics - Team Allocation Tab" },
+              { id: "FNQrFDWmSWg", title: "Creating Your First Capacity Plan" },
+              { id: "MEWLyxONkqA", title: "Analytics - Team Allocation Tab" },
               {
-                id: "2-3ixqxDUSc",
+                id: "-T8tRi2dxGw",
                 title:
                   "Analytics - Assignee Capacity, Deadlines & Status Aging",
               },
               {
-                id: "uOhItP5bAyE",
-                title: "Saved Plans, Reports & Team Management",
+                id: "5FrzzZapPkQ",
+                title: "Reports & Team Management",
               },
               {
-                id: "kxVBTmIYXGk",
+                id: "uYVd9Qf3PTQ",
                 title: "Calendar View, Accounts & Settings",
               },
               {
-                id: "7vW46pVpNYE",
+                id: "EdtdvQge8TM",
                 title: "Logging Time - Timesheet & Reports",
               },
               {
-                id: "GYRiEwDA-yI",
+                id: "p-MJSCvgB-k",
                 title: "Scoring Your Backlog - RICE, ICE & WSJF",
               },
               {
-                id: "c-9IhCJMjxI",
+                id: "9p7Qjhk9wDU",
                 title: "Custom Templates, Priority Matrix & Saved Reports",
               },
-              { id: "PyFomw9i06g", title: "Building a Portfolio Roadmap" },
-              { id: "2CpKGScxWpg", title: "Gantt Chart and Saved Portfolios" },
-              { id: "nRDKQcaISgQ", title: "Permissions, Roles & App Settings" },
+              { id: "B0lITfI-jVc", title: "Building a Portfolio Roadmap" },
+              { id: "lKrmLBe6Fs4", title: "Saved Portfolios" },
+              { id: "6Z5rG1Wo2AQ", title: "Exploring Portfolio Views & Gantt Chart" },
+              { id: "PBJsuIf3Uz8", title: "Permissions, Roles & App Settings" },
             ],
           },
         },
