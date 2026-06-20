@@ -74,7 +74,7 @@ Jira Cloud only. Built on Atlassian Forge - no external servers, no data exports
         {
           slug: "demo-video",
           title: "Demo Videos & Walkthroughs",
-          content: `12 step-by-step tutorials covering every module - click any video to start watching, or use the arrows to go through them in order. New to the app? Start with the [Product Introduction](/apps/time-tracking-jira/what-is-time-tracking) first.`,
+          content: `13 step-by-step tutorials covering every module - click any video to start watching, or use the arrows to go through them in order. New to the app? Start with the [Product Introduction](/apps/time-tracking-jira/what-is-time-tracking) first.`,
           videoGallery: {
             playlistUrl:
               "https://www.youtube.com/playlist?list=PLACoCS_WiVwR45unjH2D5MwcBjMFFflCL",
