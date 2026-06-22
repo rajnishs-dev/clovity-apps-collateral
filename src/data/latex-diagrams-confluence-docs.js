@@ -14,7 +14,7 @@
           slug: "what-is-latex-diagrams",
           title: "What is LaTeX Formulas & Diagrams?",
           sideVideo: {
-            src: "https://www.youtube.com/embed/K7oRMlvbnJ0",
+            src: "https://www.youtube.com/embed/w0bm_sKp6mE",
             title:
               "LaTeX Formulas & Diagrams for Confluence - Product Overview",
           },
@@ -2376,132 +2376,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
           slug: "demo-doc",
           title: "Demo Doc",
           content: `
-## 1. Overview
-
-As teams scale on Confluence, documentation becomes harder to maintain - diagrams live in external tools, mathematical notation gets pasted as images and keeping technical docs up to date requires constant context switching.
-
-This app solves that by bringing three professional visualization macros directly into Confluence:
-
-- Create UML diagrams, flowcharts, sequence diagrams, ER diagrams, Gantt charts, and more - written as plain text, rendered instantly.
-- Render display-style mathematical equations using LaTeX - centered, publication-quality, with a live preview as you type.
-- Embed inline formulas inside paragraphs - formulas flow naturally within sentences, just like a LaTeX document.
-- Access a built-in library of 80+ formula templates across 11 subject categories, from Basic Algebra to Maxwell's equations.
-- Use all three macros on the same Confluence page - no external tools, no copy-paste, no lost context.
-
-**Designed for:** Engineering teams, technical writers, data scientists, educators, and researchers who need professional diagrams and mathematical notation inside Confluence - without leaving their documentation workflow.
-
-## 2. What's Included
-
-### Easy UML Diagrams
-
-Create any diagram type directly inside a Confluence page - write plain-text diagram syntax and see a live rendered preview as you type.
-
-**Includes:**
-
-- Flowchart, Sequence Diagram, Class Diagram, State Diagram, ER Diagram, Gantt Chart, Pie Chart, Git Graph, User Journey, Mind Map, Timeline, and Quadrant Chart - all powered by Mermaid.
-- Code editor on the left, rendered diagram preview on the right - updates in real time as you type.
-- One-click access to ready-made examples for all 12 diagram types - load any sample into the editor instantly.
-- Click and drag to navigate across large diagrams directly on the Confluence page.
-- Copy the Mermaid syntax to clipboard directly from the editor.
-- Clear syntax error display with expandable details so you can fix issues without guessing.
-
-### LaTeX Block Equations
-
-Render display-style mathematical equations centered and full-width on your Confluence page - publication-quality output for technical and scientific documentation.
-
-**Includes:**
-
-- Formulas appear within flowing text rather than as centered blocks - the macro uses Confluence's inline layout so content wraps naturally around rendered math.
-- Full formula library, live split-pane preview, multi-format input detection, and the three-engine rendering pipeline - identical to the block macro.
-- All 11 subject categories and 80+ formulas available for inline use.
-- Font size, theme, and color controls apply to inline output as well.
-
-## 3. Use Cases
-
-### Diagrams & Technical Documentation
-
-- System architecture diagrams - flowcharts and sequence diagrams embedded directly in architecture decision records.
-- Database schema documentation - ER diagrams kept up to date inside the same Confluence page as the schema description.
-- Project planning - Gantt charts created and edited in Confluence without exporting from external tools.
-- Process documentation - state diagrams and user journey maps embedded in team runbooks and onboarding guides.
-- Dependency mapping - Git graphs and relationship diagrams showing branch strategy or service dependencies.
-
-### Mathematical & Scientific Documentation
-
-- Engineering specs - block equations for formulas, tolerances, and derived values embedded in design documents.
-- Research notes - publication-quality LaTeX equations in Confluence wikis for academic or R&D teams.
-- Data science documentation - statistical formulas, probability distributions, and model descriptions rendered inline.
-- Physics and chemistry - Maxwell's equations, Schrödinger equation, chemical reaction notation via \\ce{} support.
-- Finance and analytics - mathematical formulas for scoring models, risk calculations, and metric definitions.
-
-### Mixed Content Documentation
-
-- Technical tutorials - diagrams and inline math in the same page for courses, training materials, or knowledge bases.
-- API and algorithm documentation - pseudocode flowcharts alongside formula definitions for algorithmic complexity.
-- Sprint and delivery planning - Gantt charts and sequence diagrams embedded in planning pages updated each sprint.
-- Stakeholder reports - professional diagram output and clean equation rendering that can be shared without screenshots.
-
-## 4. Quick Start
-
-**Step 1: Add a Diagram**
-1. Open a Confluence page in edit mode.
-2. Type / and search for Easy UML Diagrams → insert the macro.
-3. In the editor, click Samples → pick a diagram type → the code loads automatically.
-4. Edit the code as needed - the preview updates in real time.
-5. Click Save & Publish. Use zoom, pan, and fullscreen controls on the published page.
-
-**Step 2: Add a Block Equation**
-1. Type / and search for LaTeX Block Equations → insert the macro.
-2. Browse the formula library at the bottom - click a category tab, then click a formula card to load it.
-3. Or type your own LaTeX, AsciiMath, or MathJS expression directly - the format is detected automatically.
-4. Adjust font size and theme in the settings panel if needed.
-5. Click Save - the equation renders centered and display-style on the page.
-
-**Step 3: Add Inline Math**
-1. Type / and search for LaTeX Inline Equations → insert the macro.
-2. Write your paragraph text and LaTeX formulas inline.
-3. The preview shows the formula rendering inside the sentence in real time.
-4. Click Save - the formula appears inline within the paragraph on the Confluence page.
-
-## 5. Recommended Starter Setup
-
-### Easy UML Diagrams
-- Start with the Flowchart or Sequence Diagram samples - these cover the majority of technical documentation needs.
-- Use the ER Diagram sample for database schema documentation; keep it on the same page as your schema description.
-- Use the Gantt Chart for sprint or project planning pages - update the code directly in Confluence each sprint.
-- For large diagrams, use the fullscreen and zoom controls in the published view rather than shrinking the diagram.
-
-### LaTeX Block Equations
-- Start with the Physics or Algebra category in the formula library to get familiar with the editor.
-- Use the Paper theme for documentation intended to be screenshot or shared - it produces clean parchment-style output.
-- Turn on equation numbering for technical specs where equations are referenced later in the document.
-- Use the PNG export if you need to include a formula in a presentation or external document.
-
-### LaTeX Inline Equations
-- Use inline equations for definition paragraphs where a formula is part of the explanation, not a standalone element.
-- Keep inline formulas short - single variables, simple expressions, or symbol definitions work best inline.
-- Use block equations for anything complex - multi-line, fractions, matrices, or anything that needs visual prominence.
-
-## 6. Key Benefits
-
-| **Benefit** | **Description** |
-| --- | --- |
-| **Everything in Confluence** | Diagrams, block equations, and inline math all live inside Confluence pages - no external tools, no tab switching, no stale screenshots. |
-| **Live preview as you type** | Every keystroke updates the preview in real time across all three macros - what you see in the editor is exactly what renders on the page. |
-| **12 diagram types in one macro** | Flowcharts, sequence diagrams, ER diagrams, Gantt charts, mindmaps, & seven more - all from the same Easy UML Diagrams macro with one-click samples. |
-| **Professional math notation** | LaTeX formulas rendered at publication quality - the same notation used by academic publishers and research platforms. |
-| **80+ built-in formula templates** | Formula library covers Basic, Algebra, Calculus, Statistics, Physics, Chemistry, and five more categories - each with live rendered previews. |
-| **Inline and block math** | Block equations for display-style standalone formulas; inline equations for math embedded within paragraphs - both on the same page. |
-| **Interactive diagram controls** | Fullscreen controls on every published diagram - no need to open a separate tool to review large or complex diagrams. |
-| **Zero infrastructure** | Runs entirely on Atlassian Forge - no servers, no external databases, no data leaving your Atlassian environment. |
-
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Demo Doc - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_Demo_Doc_966641d833.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-  </div>
-</div>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_Demo_Doc_966641d833.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
@@ -2517,76 +2392,7 @@ Render display-style mathematical equations centered and full-width on your Conf
           slug: "sales-doc",
           title: "Sales Doc",
           content: `
-*Standardize Documentation. Visualize Architecture.*
-
-## What This App Delivers
-
-- **Visual Workflows** - Make complex docs easy with workflows.
-- **Consistent Formatting** - Standardize how teams document specs, architecture and metrics.
-- **Code-Driven Configuration** - Write code and preview UML diagrams.
-- **Single Source of Truth** - Always up-to-date diagrams and equations.
-
-## App Core Modules
-
-| **Module** | **Description** |
-| --- | --- |
-| **Code-Driven UML Integration** | Write code and preview UML diagrams. |
-| **Inline Math & Equations** | Embed complex formulas using LaTeX. |
-| **Living Documentation** | Always up-to-date diagrams and equations. |
-| **Visual Alignment** | Make complex docs easy with workflows. |
-
-## Security You Can Trust
-
-- **Run on Atlassian** - Runs 100% inside Atlassian Cloud. No external servers, no third-party storage.
-- **AGC Compatible** - Fully compatible with Atlassian Government Cloud.
-- **ISO Certified** - Clovity is an ISO 27001 certified company.
-
-## Key Differentiators
-
-**Two-in-one technical documentation:**
-UML diagrams + LaTeX equations in a single Confluence install.
-
-**Editable, not screenshot-based:**
-Keep diagrams and formulas maintainable and version-friendly.
-
-**Consistent rendering across pages:**
-Standardize how teams document specs, architecture and metrics.
-
-**Forge-native (Runs on Atlassian):**
-Cloud-ready approach aligned with enterprise admin expectations.
-
-## Build For
-
-- Engineers & Architects.
-- Data / ML / Analytics.
-- IT & Confluence Admins.
-- Tech Leads & Architects.
-- Product & Program Teams.
-
-## Why Enterprise Teams Prefer Clovity
-
-- 24/7 support with direct access to Atlassian experts.
-- Seamless native UX that works like Atlassian tools.
-- Cloud infrastructure ensuring high availability for global teams.
-
-## Try Our Other Apps In The Suite
-
-Extend Jira & Confluence with dashboards, reporting, planning, and technical documentation tools.
-
-| **App** |
-| --- |
-| [Content Formatting Macros: Tabs Navigation Visibility CSS](/apps/content-formatting-confluence) |
-| [Reports, Charts, Templates, CQL & Export for Confluence](/apps/reports-charts-confluence) |
-| [Dashboard Templates, Charts, Graphs & Reports for Jira](/apps/dashboard-charts-jira) |
-| [Time Tracking, Resource Planning & Project Management](/apps/time-tracking-jira) |
-
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Sales Doc - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Sales_Doc_b21e95bf4d.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-  </div>
-</div>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Sales_Doc_b21e95bf4d.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
@@ -2602,55 +2408,7 @@ Extend Jira & Confluence with dashboards, reporting, planning, and technical doc
           slug: "competitor-comparison",
           title: "Competitor Comparison",
           content: `
-This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matches the competitor apps' key capabilities across LaTeX and UML/Diagrams.
-
-## Narva - LaTeX Math for Confluence vs Our App
-
-| **Narva - LaTeX Math for Confluence** | **Our App** |
-| --- | --- |
-| Inline LaTeX macro | ✓ |
-| Block LaTeX macro | ✓ |
-| Export to PDF | ✗ |
-| Runs on Atlassian | ✓ |
-| Chemical equation support | ✓ (added feature) |
-
-## Stratus - PlantUML Diagrams for Confluence vs Our App
-
-| **Stratus - PlantUML Diagrams for Confluence** | **Our App** |
-| --- | --- |
-| Mermaid diagrams | ✓ |
-| PlantUML diagrams | ✗ |
-| Graphviz diagrams | ✓ |
-| Write diagram text like Markdown | ✓ |
-| GitHub Integration | ✗ |
-| GitLab Integration | ✗ |
-| Diagram change history | ✗ |
-
-## Coverage Summary (Overall)
-
-| **Metric** | **Value** |
-| --- | --- |
-| Total parent features listed | 12 |
-| Covered by our solution | 7 |
-| Not covered | 5 |
-| Overall coverage | ~60% (7/12) |
-
-**Not covered items (remaining gaps):**
-- Export to PDF (Narva LaTeX Math)
-- Graphviz diagrams (Stratus PlantUML Diagrams)
-- GitHub Integration (Stratus PlantUML Diagrams)
-- GitLab Integration (Stratus PlantUML Diagrams)
-- Diagram change history (Stratus PlantUML Diagrams)
-
-**Overall summary:** Our app covers the core essentials for LaTeX authoring (inline + block) and basic diagram authoring (text-based + Mermaid), and we also support advanced chemical equations. The gaps are niche integrations (GitHub/GitLab source sync, Graphviz-specific renderer, PDF export from macro) that most Confluence documentation teams do not require.
-
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">Competitor Comparison - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_f02f44b754.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-  </div>
-</div>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_f02f44b754.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
@@ -2667,91 +2425,14 @@ This comparison shows how our Confluence app (Clovity LaTeX + UML macros) matche
           slug: "cloud-app-pricing",
           title: "Cloud App Pricing",
           content: `
-## Technical Docs Made Clear in Confluence
-
-**Plan smarter. Deliver faster. All in Confluence.**
-
-LaTeX Formulas & Diagrams (Gantt Charts, ERDs & Flowcharts) is priced annually per Confluence Cloud instance based on your total user count. Teams of up to 10 users get full access at no cost.
-
-## Cloud Annual Pricing
-
-| **Team Size** | **Annual Price (USD)** |
-| --- | --- |
-| Up to 10 | $0.00 |
-| 11 – 15 | $97.50 |
-| 16 – 25 | $162.50 |
-| 26 – 50 | $325.00 |
-| 51 – 100 | $650.00 |
-| 101 – 200 | $1,150.00 |
-| 201 – 300 | $1,625.00 |
-| 301 – 400 | $2,075.00 |
-| 401 – 500 | $2,525.00 |
-| 501 – 600 | $2,975.00 |
-| 601 – 800 | $3,875.00 |
-| 801 – 1,000 | $4,775.00 |
-| 1,001 – 1,200 | $5,275.00 |
-| 1,201 – 1,400 | $5,775.00 |
-| 1,401 – 1,600 | $6,275.00 |
-| 1,601 – 1,800 | $6,775.00 |
-| 1,801 – 2,000 | $7,275.00 |
-| 2,001 – 2,250 | $7,900.00 |
-| 2,251 – 2,500 | $8,525.00 |
-| 2,501 – 2,750 | $9,025.00 |
-| 2,751 – 3,000 | $9,525.00 |
-| 3,001 – 3,250 | $10,025.00 |
-| 3,251 – 3,500 | $10,525.00 |
-| 3,501 – 3,750 | $11,025.00 |
-| 3,751 – 4,000 | $11,525.00 |
-| 4,001 – 4,250 | $12,025.00 |
-| 4,251 – 4,500 | $12,525.00 |
-| 4,501 – 4,750 | $13,025.00 |
-| 4,751 – 5,000 | $13,525.00 |
-
-## Pricing Notes
-
-- **Free for small teams** - Full feature access for up to 10 users at $0.00.
-- **Annual billing** - Prices shown are per year, billed through Atlassian.
-- **Cloud only** - Pricing applies to Confluence Cloud instances.
-- **All features included** - Every pricing tier includes the full macro suite: LaTeX Math Formulas, Mermaid Diagrams, Gantt Charts, ERDs, Flowcharts, and UML support.
-- **Paid via Atlassian** - Transactions are handled directly through the Atlassian Marketplace. No separate vendor billing.
-
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">App Pricing - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_085c9cbc92.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-  </div>
-</div>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_085c9cbc92.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
         {
           slug: "agc-app-pricing",
           title: "AGC App Pricing",
           content: `
-## Technical Docs Made Clear in Confluence
-
-**Plan smarter. Deliver faster. All in Confluence.**
-
-LaTeX Formulas & Diagrams (Gantt Charts, ERDs & Flowcharts) is available on **Atlassian Government Cloud (AGC)** — a FedRAMP-authorized deployment of Atlassian products built for U.S. federal, state, local, and tribal government agencies. AGC pricing is billed annually per instance based on your total user count. Teams of up to 10 users get full access at no cost.
-
-## AGC Annual Pricing
-
-| **User Tier** | **AGC Annual Pricing (USD)** |
-| --- | --- |
-| Up to 10 | $0.00 |
-| 11 – 100 | Up to $880.00 |
-| 101 – 250 | Up to $1,900.00 |
-| 251 – 1,000 | Up to $6,475.00 |
-| 1,001 – 2,500 | Up to $11,575.00 |
-| 2,501 – 5,000 | Up to $18,325.00 |
-
-<div style="border:1px solid #e2e8f0;border-radius:10px;padding:24px;margin-top:32px;text-align:center;background:#f8fafc;">
-  <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">AGC App Pricing - Full PDF</div>
-  <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download or open in your browser.</div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_AGC_ae2fd03471.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
-  </div>
-</div>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_AGC_ae2fd03471.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
