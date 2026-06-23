@@ -9,8 +9,6 @@ export const contentFormattingConfluenceDocs = {
      {
       id: "getting-started",
       title: "Getting Started",
-      id: "getting-started",
-      title: "Getting Started",
       articles: [
         {
           slug: "what-is-content-formatting",
@@ -1374,6 +1372,41 @@ Insert **Footnote Summary** macro at the bottom of the section or page. This ren
 - Policy pages with exception notes`,
         },
         {
+          slug: "footnotes-summary-macro",
+          title: "Footnotes Summary Macro",
+          content: `# Footnotes Summary Macro
+
+## What It Does
+The Footnotes Summary macro renders a numbered list of all Footnote macro definitions placed on the page above it. It works as the counterpart to the Footnotes macro — the Footnotes macro marks the inline reference, and the Footnotes Summary collects and displays all footnote text in one place.
+
+## Setup
+
+1. Place **Footnote** macros inline throughout your page content where you want reference numbers to appear
+2. At the end of the section (or page), insert the **Footnotes Summary** macro
+3. The Summary automatically scans upward and renders a numbered list of every footnote definition it finds in scope
+
+## Scope and Numbering
+
+| Behaviour | Detail |
+|---|---|
+| Numbering | Footnote numbers reset to 1 at each Footnotes Summary macro |
+| Scope | Each Summary collects footnotes from the current page scope up to the previous Summary (or page start) |
+| Multi-tab pages | Place one Footnotes Summary at the bottom of each tab for tab-scoped numbering, or one at the bottom of the page for page-wide numbering |
+
+## Limitations
+
+- The Footnotes Summary cannot be nested inside another macro's body
+- Footnotes are listed in the order they appear on the page, not alphabetically
+- Footnote content is plain text only — no links or macros inside footnote definitions
+
+## Use Cases
+
+- Academic-style documents with end-of-section citation lists
+- Legal and policy pages with footnoted exceptions
+- Research summaries requiring consolidated reference lists
+- Multi-section pages where each section has its own footnote list`,
+        },
+        {
           slug: "popup-dialog-macro",
           title: "Pop-up Dialog Macro",
           content: `# Pop-up Dialog Macro
@@ -1908,8 +1941,9 @@ The Page Tree macro displays all pages of the current Confluence space in a list
 ## How to Set It Up
 
 1. Insert the **Page Tree** macro on your page
-2. The macro immediately renders a list of all pages in the current space - no additional configuration required
-3. Publish the page
+2. By default, the macro renders all pages in the current space starting from the space homepage — no configuration required
+3. Optionally, open the config panel to set a **Root Page** — the tree will then show only that page and its sub-pages instead of the full space
+4. Publish the page
 
 ## Common Use Cases
 
@@ -2510,7 +2544,7 @@ Audit log entries are retained for **90 days** by default. Entries older than 90
 
 ## What Templates Are Included?
 
-Content Formatting Macros includes three ready-to-use Confluence page templates that demonstrate the app's capabilities in realistic, production-ready page designs.
+Content Formatting Macros includes four ready-to-use Confluence page templates that demonstrate the app's capabilities in realistic, production-ready page designs.
 
 ---
 
@@ -2596,14 +2630,41 @@ A single-page monthly report covering project summary, KPI targets, key initiati
 
 ---
 
+## Template 4 - User Guide
+
+A structured product or feature documentation page showcasing the Buttons macro in detail — styles, shapes, sizes, icon positions, hover effects, and font options — alongside Getting Started cards and a quick links footer.
+
+### Page Structure
+
+| Section | Content |
+|---|---|
+| Hero | Full-width gradient Background with Custom Fonts title (macro name, subtitle, tagline) |
+| Introduction | 2-column layout — text description alongside a screenshot image background |
+| Examples | Buttons macro rows demonstrating all style variants, shapes, sizes, icon positions, hover effects, and font families |
+| Getting Started | Advanced Cards inside a Background — How To Insert, Templates, Configuration, How To Edit/Remove |
+| Quick Links | Dark full-width Background with horizontal Buttons rows for site navigation |
+
+### Macros Used
+- Background (hero gradient, screenshot columns, Getting Started wrapper, footer)
+- Custom Fonts (hero title styling)
+- Buttons (all examples rows, quick links footer)
+- Advanced Cards (Getting Started section, 4 cards in 1-column layout)
+
+---
+
 ## How to Access Templates
 
-1. In Confluence, navigate to the space where you want to create the page
-2. Click **Create** → **From Template**
-3. Search for **"Content Formatting"** or browse the template gallery
-4. Select **Team Hub**, **Company Hub**, or **Monthly Project Report**
-5. Click **Use Template** - the page opens in edit mode with all macros pre-configured
-6. Replace placeholder text and configure macros with your actual content
+1. In Confluence, click the **Settings** (gear icon) → look for **Page Templates | Clovity** under the Apps section in the left sidebar
+2. The template gallery opens — use the category filter pills (**All**, **HR**, **Project**, **Documentation**) to browse
+3. Click **Preview** on any card to see a full screenshot of the template
+4. Click **Use Template** on the card (or inside the preview modal)
+5. In the dialog that opens:
+   - Select a **Space** (required)
+   - Optionally choose a **Parent Page** to nest the new page under
+   - Optionally add or remove **Labels** (pre-filled from the template)
+   - Enter a **Page Title** (pre-filled with the template name)
+6. Click **Create Page** — the app creates the page and any child pages automatically via the Confluence API, with all macros pre-configured
+7. Click **Open Page** in the success dialog to go directly to the new page
 
 ---
 
@@ -2611,10 +2672,11 @@ A single-page monthly report covering project summary, KPI targets, key initiati
 
 | Issue | Fix |
 |---|---|
-| Templates not showing in the gallery | Confirm the app is installed and activated for the space |
-| Macros showing placeholder content | Edit each macro and configure it with real data |
-| Team Hub child pages missing | Child pages (Meeting Notes, Ways of Working) are created automatically when the template is applied |
-| Banner images not loading | Confirm the template assets are deployed alongside the app |`,
+| Cannot find Page Templates in Confluence Settings | Confirm the app is installed and active — go to **Settings** → **Manage apps** and verify Content Formatting Macros shows "Active" |
+| Template gallery is blank or won't load | Refresh the page; if it persists, re-install the app or contact support |
+| Macros showing placeholder content | Click the macro's edit (pencil) icon and configure it with your real data, then publish |
+| Team Hub child pages not created | Child pages (Meeting Notes, Ways of Working) are created automatically by the app via API — check that you have page-create permissions in the selected space |
+| Banner images not loading | The images are bundled with the app — confirm the app version is up to date on the Marketplace |`,
         },
       ],
     },
