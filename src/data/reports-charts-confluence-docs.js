@@ -12,7 +12,7 @@
           slug: "what-is-reports-charts",
           title: "What is Reports & Charts for Confluence?",
           sideVideo: {
-            src: "https://www.youtube.com/embed/oD5evunAQok",
+            src: "https://www.youtube.com/embed/YKna97uRVvg",
             title:
               "Reports, Charts, Templates, CQL & Export for Confluence - Product Overview",
           },
