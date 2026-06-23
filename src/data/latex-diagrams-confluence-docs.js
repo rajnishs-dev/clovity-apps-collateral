@@ -2352,7 +2352,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
           slug: "competitor-comparison",
           title: "Competitor Comparison",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_f02f44b754.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/latex_competitor_doc_f1e635e671.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

@@ -80,11 +80,11 @@ Jira Cloud only. Built on Atlassian Forge - no external servers, no data exports
               "https://www.youtube.com/playlist?list=PLACoCS_WiVwR45unjH2D5MwcBjMFFflCL",
             videos: [
               {
-                id: "gK2Iq1OXiIs",
+                id: "3_jtLcWe8JM",
                 title: "Welcome to the Suite - App Overview",
               },
               { id: "FNQrFDWmSWg", title: "Creating Your First Capacity Plan" },
-              { id: "MEWLyxONkqA", title: "Analytics - Team Allocation Tab" },
+              { id: "rn1iYq2OdW4", title: "Analytics - Team Allocation Tab" },
               {
                 id: "-T8tRi2dxGw",
                 title:
@@ -113,7 +113,7 @@ Jira Cloud only. Built on Atlassian Forge - no external servers, no data exports
               { id: "B0lITfI-jVc", title: "Building a Portfolio Roadmap" },
               { id: "lKrmLBe6Fs4", title: "Saved Portfolios" },
               { id: "6Z5rG1Wo2AQ", title: "Exploring Portfolio Views & Gantt Chart" },
-              { id: "PBJsuIf3Uz8", title: "Permissions, Roles & App Settings" },
+              { id: "Oi1DcoTk9ac", title: "Permissions, Roles & App Settings" },
             ],
           },
         },
