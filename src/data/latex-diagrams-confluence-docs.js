@@ -285,61 +285,6 @@ When making large changes:
 * **Code examples** → [Examples Library](/apps/latex-diagrams-confluence/examples-library)`,
         },
         {
-          slug: "system-requirements",
-          title: "System Requirements",
-          content: `
-## Platform Requirements
-
-| Requirement | Details |
-|---|---|
-| **Confluence Edition** | Confluence Cloud and AGC |
-| **Confluence Server** | Not supported |
-| **Confluence Data Center** | Not supported |
-| **Atlassian Platform** | Confluence Cloud Forge / Connect app |
-
-This app is exclusively designed for Confluence Cloud. There is no Server or Data Center version.
-
-### Mermaid Coverage
-
-Supported diagram types include:
-
-| Type | Header |
-|---|---|
-| Flowchart | \`flowchart TD\` / \`graph TD\` |
-| Sequence | \`sequenceDiagram\` |
-| Class | \`classDiagram\` |
-| Entity Relationship | \`erDiagram\` |
-| Gantt | \`gantt\` |
-| Pie | \`pie\` |
-| Mindmap | \`mindmap\` |
-| State | \`stateDiagram-v2\` |
-
-## Browser Requirements
-
-All modern browsers are supported:
-
-| Browser | Support |
-|---|---|
-| Google Chrome | Latest 2 versions |
-| Mozilla Firefox | Latest 2 versions |
-| Microsoft Edge | Latest 2 versions |
-| Apple Safari | Latest 2 versions |
-
-Internet Explorer is not supported.
-
-## Network & Infrastructure
-
-* **No external servers:** all rendering happens client-side in the browser
-* **No data exports:** macro source content stays within your Confluence environment
-* **No special network configuration** beyond standard access to \`*.atlassian.net\` and \`*.atlassian.com\`
-
-## Known Limitations
-
-- **Cloud only** - no Server or Data Center support
-- **No real-time collaboration** - simultaneous edits use last-save-wins storage
-- **No bulk import** - content must be entered via the macro editor`,
-        },
-        {
           slug: "permissions-access",
           title: "Permissions & Access",
           content: `
@@ -465,8 +410,7 @@ You install apps and want to understand what this adds to your instance.
 
 **Start with:**
 1. [Installation & Setup](/apps/latex-diagrams-confluence/installation-setup) - install from Atlassian Marketplace
-2. [System Requirements](/apps/latex-diagrams-confluence/system-requirements) - Confluence Cloud only; browser-side rendering
-3. [Permissions & Access](/apps/latex-diagrams-confluence/permissions-access) - what the app accesses and how content is stored
+2. [Permissions & Access](/apps/latex-diagrams-confluence/permissions-access) - what the app accesses and how content is stored
 `,
         },
         {
@@ -2376,7 +2320,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
           slug: "demo-doc",
           title: "Demo Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_Demo_Doc_966641d833.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Demo_Doc_4b6c513f5f.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

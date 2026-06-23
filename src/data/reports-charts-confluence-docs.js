@@ -306,62 +306,6 @@ Click **Save** to publish the report to your Confluence page. The macro editor c
 | Pre-built templates | [Templates & Import/Export](/apps/reports-charts-confluence/templates-import-export) |`,
         },
         {
-          slug: "system-requirements",
-          title: "System Requirements",
-          content: `
-Reports, Charts, Templates, CQL & Export for Confluence is a Confluence Cloud macro app. Review the requirements below before installing.
-
-## Platform Requirements
-
-| **Requirement** | **Supported** | **Not Supported** |
-| --- | --- | --- |
-| Confluence Cloud | Yes - fully supported | - |
-| Confluence Data Center | No | Data Center is not supported |
-| Confluence Server | No | Server (on-premise) is not supported |
-| Jira Cloud | No - this is a Confluence app | Jira is a separate product |
-
-> **Important:** This app is Confluence Cloud exclusive. If you are on Confluence Data Center or Server, this app will not be available in your Marketplace.
-
-## Browser Requirements
-
-The app works in all modern, evergreen browsers. No browser extensions or plugins are required.
-
-| **Browser** | **Support** |
-| --- | --- |
-| Google Chrome (latest) | Fully supported |
-| Mozilla Firefox (latest) | Fully supported |
-| Microsoft Edge (latest, Chromium-based) | Fully supported |
-| Apple Safari (latest) | Fully supported |
-| Internet Explorer | Not supported |
-
-For best performance, use the latest stable version of your preferred browser.
-
-## Confluence Subscription
-
-| **Confluence Plan** | **App Available?** |
-| --- | --- |
-| Confluence Cloud Free | Available (subject to Marketplace free trial) |
-| Confluence Cloud Standard | Fully supported |
-| Confluence Cloud Premium | Fully supported |
-| Confluence Cloud Enterprise | Fully supported |
-
-## User Permissions Required
-
-| **Action** | **Minimum Permission Required** |
-| --- | --- |
-| Install the app | Space Admin or Site Admin |
-| Insert the macro on a page | Edit permission on the Confluence page |
-| View a report (published page) | Read permission on the Confluence page and its spaces |
-| Configure macro settings | Edit permission on the page containing the macro |
-
-## Data & Privacy
-
-* All report data is fetched live from your Confluence Cloud instance at render time
-* No report data is stored outside of Atlassian infrastructure
-* The app respects all Confluence content permissions - users only see content they are authorized to access
-* Compatible with Atlassian data residency settings`,
-        },
-        {
           slug: "permissions-access",
           title: "Permissions & Access",
           content: `
@@ -2309,7 +2253,7 @@ If Reports, Charts, Templates, CQL & Export for Confluence is uninstalled from y
           slug: "demo-doc",
           title: "Demo Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Demo_Doc_9100e1a7de.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Demo_Doc_1_49d80de711.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

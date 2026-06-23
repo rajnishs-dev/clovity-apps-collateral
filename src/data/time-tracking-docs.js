@@ -231,64 +231,6 @@ Click **Settings → My Permissions** to confirm your role:
 - Invite your team by assigning Member roles via **Settings → RBAC → User Roles**`,
         },
         {
-          slug: "system-requirements",
-          title: "System Requirements",
-          content: `
-## Platform Requirements
-
-| Requirement | Details |
-|---|---|
-| **Jira Edition** | Jira Cloud and AGC |
-| **Jira Server** | Not supported |
-| **Jira Data Center** | Not supported |
-| **Atlassian Platform** | Atlassian Forge |
-
-## Browser Requirements
-
-All modern browsers are supported:
-
-| Browser | Minimum Version |
-|---|---|
-| Google Chrome | Latest 2 versions |
-| Mozilla Firefox | Latest 2 versions |
-| Microsoft Edge | Latest 2 versions |
-| Apple Safari | Latest 2 versions |
-
-Internet Explorer is not supported.
-
-## Jira Permissions Required for Installation
-
-The app requests the following permissions during Marketplace install:
-
-| Permission | Why It's Needed |
-|---|---|
-| Read Jira issues and projects | Load issues for capacity analysis, backlog scoring, and portfolio views |
-| Read and write worklogs | Log, edit, and approve time entries |
-| Read users and groups | Display assignees; RBAC role management |
-| Read Jira configuration | Detect issue types, statuses, priorities, and custom fields |
-
-## Platform Constraints (Atlassian Forge)
-
-| Constraint | Impact |
-|---|---|
-| Forge storage limits | App data (roles, time logs, templates) stored in Forge KVS - large datasets may approach limits |
-| Jira API rate limits | Jira REST API rate limits apply; large issue fetches use backoff/retry automatically |
-| No background scheduled jobs | Reporting data is pulled on-demand, not pre-aggregated overnight |
-| No real-time push updates | Data reflects the state at last page load - manual refresh required to see changes from others |
-
-## Known Limitations
-
-- **No Jira Server / Data Center support** - Atlassian Forge is Cloud-only
-- **No real-time collaboration** - simultaneous edits to shared portfolios use last-write-wins storage
-- **On-demand data only** - no overnight aggregation; large reports may take longer to load
-- **No external integrations** - the app does not natively connect to Slack, Teams, Harvest, or Toggl
-- **No bulk time import** - time entries must be logged via the app UI or the Jira Worklog API
-
-## Network Requirements
-
-No special network configuration is needed beyond standard access to \`*.atlassian.net\` and \`*.atlassian.com\`.`,
-        },
-        {
           slug: "permissions-access",
           title: "Permissions & Access",
           content: `
@@ -3332,7 +3274,7 @@ App configuration data (report setups, templates, portfolios, scoring) is stored
           slug: "demo-doc",
           title: "Demo Doc",
                     content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Demo_Doc_2_cade18ee8c.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Demo_Doc_2e02bb180b.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

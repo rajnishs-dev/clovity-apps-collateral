@@ -231,65 +231,6 @@ To make your dashboard interactive:
 - Set up **Tabs** in the Dynamic Filter Controller for preset views`,
         },
         {
-          slug: "system-requirements",
-          title: "System Requirements",
-          content: `
-## Platform Requirements
-
-| Requirement | Details |
-|---|---|
-| **Jira Edition** | Jira Cloud and AGC |
-| **Jira Server** | Not supported |
-| **Jira Data Center** | Not supported |
-| **Atlassian Platform** | Atlassian Forge |
-
-## Browser Requirements
-
-All modern browsers are supported:
-
-| Browser | Minimum Version |
-|---|---|
-| Google Chrome | Latest 2 versions |
-| Mozilla Firefox | Latest 2 versions |
-| Microsoft Edge | Latest 2 versions |
-| Apple Safari | Latest 2 versions |
-
-Internet Explorer is not supported.
-
-## Jira Permissions Required
-
-The app requests the following permissions during Marketplace install:
-
-| Permission | Why It's Needed |
-|---|---|
-| read:jira-work | Read issues, projects, filters for charts and tables |
-| write:jira-work | Save gadget configurations |
-| read:jira-user | Display user information in Issue List columns |
-| read:dashboard:jira | Access dashboard gadgets |
-| write:dashboard:jira | Save and update gadget configurations on dashboards |
-| storage:app | Store gadget configurations in Forge KVS |
-
-## Data Limits & Performance
-
-| Constraint | Impact |
-|---|---|
-| Large issue queries | Queries returning 50,000+ issues may be slow to render |
-| Real-time updates | Data refreshes on page load or manual refresh - not streaming |
-| Segment count | 10–20 segments render faster than 100+; keep queries focused |
-| Forge KVS storage | Gadget configurations stored in Forge KVS - very large configurations may approach limits |
-
-## Known Limitations
-
-- **No Jira Server / Data Center support** - Atlassian Forge is Cloud-only
-- **No real-time push updates** - dashboard data reflects the state at last page load; manual refresh required
-- **No historical snapshots** - charts show current Jira state; point-in-time snapshots are not built in
-- **No external integrations** - the app does not natively connect to Slack, Teams, or external BI tools
-
-## Network Requirements
-
-No special network configuration is required beyond standard access to \`*.atlassian.net\` and \`*.atlassian.com\`.`,
-        },
-        {
           slug: "permissions-access",
           title: "Permissions & Access",
           content: `
@@ -3620,7 +3561,7 @@ If you plan to uninstall and reinstall the app:
           slug: "demo-doc",
           title: "Demo Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Demo_Doc_a79097bdc7.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Templates_Charts_Graphs_and_Reports_for_Jira_Demo_Doc_27962ca518.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

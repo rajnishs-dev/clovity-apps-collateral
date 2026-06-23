@@ -14,7 +14,7 @@ export const contentFormattingConfluenceDocs = {
           slug: "what-is-content-formatting",
           title: "What is Content Formatting Macros?",
           sideVideo: {
-            src: "https://www.youtube.com/embed/qL1FyvaBG2w",
+            src: "https://www.youtube.com/embed/IVYf00T0R7c",
             title:
               "Content Formatting Macros: Tabs, Navigation, Visibility & CSS - Product Overview",
           },
@@ -312,54 +312,6 @@ Insert the tab mapper macro directly on the page (type "/" → search the macro 
 
 ### Step 4 - Enrich with Formatting Macros
 Add Alert macros for warnings, Buttons for CTAs, Background for section separation, and Status badges for current state. Publish when ready.`,
-        },
-        {
-          slug: "system-requirements",
-          title: "System Requirements",
-          content: `
-## Platform Requirements
-
-| Requirement | Details |
-|---|---|
-| **Confluence Edition** | Confluence Cloud and AGC |
-| **Confluence Data Center** | Not supported |
-| **Confluence Server** | Not supported |
-| **Atlassian Platform** | Atlassian Connect / Forge |
-
-Content Formatting Macros is built exclusively for **Confluence Cloud**. There is no Data Center or Server version, and no plans to release one.
-
-## Browser Requirements
-
-All modern browsers are supported:
-
-| Browser | Minimum Version |
-|---|---|
-| Google Chrome | Latest 2 versions |
-| Mozilla Firefox | Latest 2 versions |
-| Microsoft Edge | Latest 2 versions |
-| Apple Safari | Latest 2 versions |
-
-Internet Explorer is not supported.
-
-## Confluence Mobile Limitations
-
-| Feature | Mobile Status |
-|---|---|
-| Tab macros (read) | Renders as static content - tabs are visible |
-| Tab macros (edit) | Not supported on mobile |
-| Conditional visibility | Honored at render time |
-| Countdown Timer | Limited real-time updates |
-| Pop-up Dialog | May not open on touch devices |
-| Attachment Center | Accessible via browser, not native mobile app |
-
-For the full interactive experience, use a desktop browser.
-
-## Attachment Center Requirements
-
-The Attachment Management Center requires:
-- Confluence Space Admin role to enable and configure per-space
-- The app to be installed and active on the Confluence site
-- Attachment Center feature to be toggled on in Space Settings per-space`,
         },
         {
           slug: "permissions-access",
@@ -3001,7 +2953,7 @@ Include the number of pages involved, the app you are migrating from, and your t
           slug: "demo-doc",
           title: "Demo Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_Demo_Doc_7753ffb23f.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Content_Formatting_Macros_Tabs_Navigation_Visibility_CSS_Demo_Doc_d1707f39ef.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
