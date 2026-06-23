@@ -3274,7 +3274,7 @@ App configuration data (report setups, templates, portfolios, scoring) is stored
           slug: "demo-doc",
           title: "Demo Doc",
                     content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Demo_Doc_2e02bb180b.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Demo_Doc_911a3646e7.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
