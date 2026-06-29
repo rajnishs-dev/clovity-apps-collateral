@@ -1329,7 +1329,7 @@ Insert **Footnote Summary** macro at the bottom of the section or page. This ren
           content: `# Footnotes Summary Macro
 
 ## What It Does
-The Footnotes Summary macro renders a numbered list of all Footnote macro definitions placed on the page above it. It works as the counterpart to the Footnotes macro — the Footnotes macro marks the inline reference, and the Footnotes Summary collects and displays all footnote text in one place.
+The Footnotes Summary macro renders a numbered list of all Footnote macro definitions placed on the page above it. It works as the counterpart to the Footnotes macro - the Footnotes macro marks the inline reference, and the Footnotes Summary collects and displays all footnote text in one place.
 
 ## Setup
 
@@ -1349,7 +1349,7 @@ The Footnotes Summary macro renders a numbered list of all Footnote macro defini
 
 - The Footnotes Summary cannot be nested inside another macro's body
 - Footnotes are listed in the order they appear on the page, not alphabetically
-- Footnote content is plain text only — no links or macros inside footnote definitions
+- Footnote content is plain text only - no links or macros inside footnote definitions
 
 ## Use Cases
 
@@ -1893,8 +1893,8 @@ The Page Tree macro displays all pages of the current Confluence space in a list
 ## How to Set It Up
 
 1. Insert the **Page Tree** macro on your page
-2. By default, the macro renders all pages in the current space starting from the space homepage — no configuration required
-3. Optionally, open the config panel to set a **Root Page** — the tree will then show only that page and its sub-pages instead of the full space
+2. By default, the macro renders all pages in the current space starting from the space homepage - no configuration required
+3. Optionally, open the config panel to set a **Root Page** - the tree will then show only that page and its sub-pages instead of the full space
 4. Publish the page
 
 ## Common Use Cases
@@ -2584,16 +2584,16 @@ A single-page monthly report covering project summary, KPI targets, key initiati
 
 ## Template 4 - User Guide
 
-A structured product or feature documentation page showcasing the Buttons macro in detail — styles, shapes, sizes, icon positions, hover effects, and font options — alongside Getting Started cards and a quick links footer.
+A structured product or feature documentation page showcasing the Buttons macro in detail - styles, shapes, sizes, icon positions, hover effects, and font options - alongside Getting Started cards and a quick links footer.
 
 ### Page Structure
 
 | Section | Content |
 |---|---|
 | Hero | Full-width gradient Background with Custom Fonts title (macro name, subtitle, tagline) |
-| Introduction | 2-column layout — text description alongside a screenshot image background |
+| Introduction | 2-column layout - text description alongside a screenshot image background |
 | Examples | Buttons macro rows demonstrating all style variants, shapes, sizes, icon positions, hover effects, and font families |
-| Getting Started | Advanced Cards inside a Background — How To Insert, Templates, Configuration, How To Edit/Remove |
+| Getting Started | Advanced Cards inside a Background - How To Insert, Templates, Configuration, How To Edit/Remove |
 | Quick Links | Dark full-width Background with horizontal Buttons rows for site navigation |
 
 ### Macros Used
@@ -2607,7 +2607,7 @@ A structured product or feature documentation page showcasing the Buttons macro 
 ## How to Access Templates
 
 1. In Confluence, click the **Settings** (gear icon) → look for **Page Templates | Clovity** under the Apps section in the left sidebar
-2. The template gallery opens — use the category filter pills (**All**, **HR**, **Project**, **Documentation**) to browse
+2. The template gallery opens - use the category filter pills (**All**, **HR**, **Project**, **Documentation**) to browse
 3. Click **Preview** on any card to see a full screenshot of the template
 4. Click **Use Template** on the card (or inside the preview modal)
 5. In the dialog that opens:
@@ -2615,7 +2615,7 @@ A structured product or feature documentation page showcasing the Buttons macro 
    - Optionally choose a **Parent Page** to nest the new page under
    - Optionally add or remove **Labels** (pre-filled from the template)
    - Enter a **Page Title** (pre-filled with the template name)
-6. Click **Create Page** — the app creates the page and any child pages automatically via the Confluence API, with all macros pre-configured
+6. Click **Create Page** - the app creates the page and any child pages automatically via the Confluence API, with all macros pre-configured
 7. Click **Open Page** in the success dialog to go directly to the new page
 
 ---
@@ -2624,11 +2624,11 @@ A structured product or feature documentation page showcasing the Buttons macro 
 
 | Issue | Fix |
 |---|---|
-| Cannot find Page Templates in Confluence Settings | Confirm the app is installed and active — go to **Settings** → **Manage apps** and verify Content Formatting Macros shows "Active" |
+| Cannot find Page Templates in Confluence Settings | Confirm the app is installed and active - go to **Settings** → **Manage apps** and verify Content Formatting Macros shows "Active" |
 | Template gallery is blank or won't load | Refresh the page; if it persists, re-install the app or contact support |
 | Macros showing placeholder content | Click the macro's edit (pencil) icon and configure it with your real data, then publish |
-| Team Hub child pages not created | Child pages (Meeting Notes, Ways of Working) are created automatically by the app via API — check that you have page-create permissions in the selected space |
-| Banner images not loading | The images are bundled with the app — confirm the app version is up to date on the Marketplace |`,
+| Team Hub child pages not created | Child pages (Meeting Notes, Ways of Working) are created automatically by the app via API - check that you have page-create permissions in the selected space |
+| Banner images not loading | The images are bundled with the app - confirm the app version is up to date on the Marketplace |`,
         },
       ],
     },
