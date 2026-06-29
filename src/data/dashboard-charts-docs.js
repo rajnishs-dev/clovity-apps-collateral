@@ -236,7 +236,7 @@ To make your dashboard interactive:
           content: `
 ## How Access Works
 
-Custom Charts & Dashboards does not have its own user role system. Access is governed entirely by **Jira's existing permissions**:
+Dashboard Templates, Charts, Graphs & Reports for Jira does not have its own user role system. Access is governed entirely by **Jira's existing permissions**:
 
 | Access Level | How It's Determined | What Users Can Do |
 |---|---|---|
