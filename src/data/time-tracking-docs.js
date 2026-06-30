@@ -31,7 +31,7 @@ All of this runs natively inside Jira Cloud, using your existing projects, issue
 
 ## Four Integrated Modules
 
-| Module | What It Does |
+| **Module** | What It Does |
 |---|---|
 | **Capacity Planner & Insight** | Analyze team workload, deadlines, and risks across projects |
 | **Time Tracking & Reporting** | Log work, build timesheet reports, manage billing accounts and categories |
@@ -152,24 +152,24 @@ After installation:
 
 Once installed, complete these setup tasks before rolling out to your team:
 
-| Step | Where | What to Do |
+| **Step** | Where | What to Do |
 |---|---|---|
-| 1. Configure general settings | App → Settings → General | Set time display unit, timezone, first day of week, working hours |
-| 2. Set up time categories | App → Settings → Time Categories | Create categories like Development, QA, Meetings |
-| 3. Configure billing accounts | App → Time Tracking → Accounts | Create accounts for client billing codes (optional) |
-| 4. Set up holiday calendar | App → Settings → Manage Staff → Holiday Calendar | Add company holidays for accurate capacity calculations |
-| 5. Assign Member roles | App → Settings → RBAC → User Roles | Give team members access to log time and use the app |
+| **1. Configure general settings** | App → Settings → General | Set time display unit, timezone, first day of week, working hours |
+| **2. Set up time categories** | App → Settings → Time Categories | Create categories like Development, QA, Meetings |
+| **3. Configure billing accounts** | App → Time Tracking → Accounts | Create accounts for client billing codes (optional) |
+| **4. Set up holiday calendar** | App → Settings → Manage Staff → Holiday Calendar | Add company holidays for accurate capacity calculations |
+| **5. Assign Member roles** | App → Settings → RBAC → User Roles | Give team members access to log time and use the app |
 
 ## Jira Permissions Required for Installation
 
 The app requests the following permissions during Marketplace install:
 
-| Permission | Why It's Needed |
+| **Permission** | Why It's Needed |
 |---|---|
-| Read Jira issues and projects | Load issues for capacity analysis, backlog scoring, and portfolio views |
-| Read and write worklogs | Log, edit, and approve time entries |
-| Read users and groups | Display assignees; RBAC role management |
-| Read Jira configuration | Detect issue types, statuses, priorities, and custom fields |
+| **Read Jira issues and projects** | Load issues for capacity analysis, backlog scoring, and portfolio views |
+| **Read and write worklogs** | Log, edit, and approve time entries |
+| **Read users and groups** | Display assignees; RBAC role management |
+| **Read Jira configuration** | Detect issue types, statuses, priorities, and custom fields |
 
 ## Uninstalling
 
@@ -238,7 +238,7 @@ Click **Settings → My Permissions** to confirm your role:
 
 The app uses a two-role model that integrates directly with Jira's existing user management:
 
-| Role | How Assigned | What They Can Do |
+| **Role** | How Assigned | What They Can Do |
 |---|---|---|
 | **Global Admin** | Automatic - inherited from Jira site administrator status | Full access to all modules, settings, RBAC management, approve/reject time entries |
 | **Member** | Manually assigned by a Global Admin inside the app | Log time, run capacity analysis, score backlogs, view portfolio data |
@@ -246,19 +246,19 @@ The app uses a two-role model that integrates directly with Jira's existing user
 
 ## Access Levels by Feature
 
-| Feature | Global Admin | Member | No Role |
+| **Feature** | Global Admin | Member | No Role |
 |---|---|---|---|
-| Log time against issues | Yes | Yes | No |
-| Edit own time entries | Yes | Yes | No |
-| Approve / reject time entries | Yes | No | No |
-| View capacity analytics | Yes | Yes | Read-only |
-| Score backlog items | Yes | Yes | No |
-| View portfolio data | Yes | Yes | Read-only |
-| Access Settings | Yes | No | No |
-| Assign / revoke Member roles | Yes | No | No |
-| Create billing accounts | Yes | No | No |
-| Create scoring templates | Yes | Member (own) | No |
-| Create and save portfolios | Yes | Yes | No |
+| **Log time against issues** | Yes | Yes | No |
+| **Edit own time entries** | Yes | Yes | No |
+| **Approve / reject time entries** | Yes | No | No |
+| **View capacity analytics** | Yes | Yes | Read-only |
+| **Score backlog items** | Yes | Yes | No |
+| **View portfolio data** | Yes | Yes | Read-only |
+| **Access Settings** | Yes | No | No |
+| **Assign / revoke Member roles** | Yes | No | No |
+| **Create billing accounts** | Yes | No | No |
+| **Create scoring templates** | Yes | Member (own) | No |
+| **Create and save portfolios** | Yes | Yes | No |
 
 ## How to Open the App
 
@@ -309,18 +309,18 @@ There is no self-service role request form - access is granted by a Global Admin
 
 The app uses a consistent layout across all modules:
 
-| Area | Location | Purpose |
+| **Area** | Location | Purpose |
 |---|---|---|
-| Module Switcher | Top of sidebar dropdown | Switch between the 4 modules |
-| Sidebar Navigation | Left panel | Navigate between sections within the active module |
-| Content Area | Main right panel | Displays the active section's content |
-| Settings Link | Bottom of sidebar | Access global app configuration |
+| **Module Switcher** | Top of sidebar dropdown | Switch between the 4 modules |
+| **Sidebar Navigation** | Left panel | Navigate between sections within the active module |
+| **Content Area** | Main right panel | Displays the active section's content |
+| **Settings Link** | Bottom of sidebar | Access global app configuration |
 
 ## Module Navigation
 
 Use the dropdown at the top of the sidebar to switch modules:
 
-| Module | What It Opens |
+| **Module** | What It Opens |
 |---|---|
 | **Capacity Planner & Insight** | Analyze team workload, capacity, and delivery risks |
 | **Time Tracking** | Log, review, and approve time entries; build timesheet reports |
@@ -343,7 +343,7 @@ Available in all Time Tracking views. Click **Log Time** to open a quick-log for
 
 ## Settings - Interface Walk-through
 
-| Tab | Purpose |
+| **Tab** | Purpose |
 |---|---|
 | **General** | App-wide preferences (time unit, timezone, working days) |
 | **Time Tracking** | Time tracking module settings |
@@ -368,61 +368,61 @@ Available in all Time Tracking views. Click **Log Time** to open a quick-log for
           content: `
 ## Capacity Planner & Insight
 
-| Feature | Description |
+| **Feature** | Description |
 |---|---|
-| Capacity Planner | Timesheet-style capacity view showing who is working on what and how much; group by User, Team, Group |
-| Saved Plans | Save and reuse planning configurations for recurring sprint/cycle reviews |
-| Capacity Report | Multi-dimensional tabular report combining available hours, estimated work, and logged hours |
-| Analytics Dashboard | Four-tab dashboard covering team allocation, per-person capacity, deadline risks, and status aging |
-| Team Allocation Tab | Issue distribution by status, type, and priority across the team |
-| Assignee Capacity Tab | Per-person breakdown of issue count, estimates, and logged hours vs. available hours |
-| Deadlines & Risks Tab | Issues near or past their due date, sorted by risk level |
-| Status Aging Monitor Tab | Issues stuck in the same status for longer than a configured threshold |
+| **Capacity Planner** | Timesheet-style capacity view showing who is working on what and how much; group by User, Team, Group |
+| **Saved Plans** | Save and reuse planning configurations for recurring sprint/cycle reviews |
+| **Capacity Report** | Multi-dimensional tabular report combining available hours, estimated work, and logged hours |
+| **Analytics Dashboard** | Four-tab dashboard covering team allocation, per-person capacity, deadline risks, and status aging |
+| **Team Allocation Tab** | Issue distribution by status, type, and priority across the team |
+| **Assignee Capacity Tab** | Per-person breakdown of issue count, estimates, and logged hours vs. available hours |
+| **Deadlines & Risks Tab** | Issues near or past their due date, sorted by risk level |
+| **Status Aging Monitor Tab** | Issues stuck in the same status for longer than a configured threshold |
 
 ## Time Tracking & Reporting
 
-| Feature | Description |
+| **Feature** | Description |
 |---|---|
-| My Calendar | Personal daily calendar showing hours logged per day; highlights days with missing entries |
-| My Timesheet | Personal tabular view of logged time with filters, grouping, and export |
-| Report Builder | Full-team timesheet reports with advanced nested filtering, grouping, chart visualization, and CSV/PDF export |
-| Billing Accounts | Categorize worklogs by client or engagement for account-based billing reports |
-| Time Categories | Classify time entries by work type (Development, Code Review, Meetings, QA, etc.) |
-| Worklog Fields | Custom fields that capture extra context when logging time (text, number, select, checkbox) |
-| Log Time | Log time directly against any Jira issue from any Time Tracking view |
-| Approve / Reject | Global Admins can approve or reject time entries submitted by team members |
+| **My Calendar** | Personal daily calendar showing hours logged per day; highlights days with missing entries |
+| **My Timesheet** | Personal tabular view of logged time with filters, grouping, and export |
+| **Report Builder** | Full-team timesheet reports with advanced nested filtering, grouping, chart visualization, and CSV/PDF export |
+| **Billing Accounts** | Categorize worklogs by client or engagement for account-based billing reports |
+| **Time Categories** | Classify time entries by work type (Development, Code Review, Meetings, QA, etc.) |
+| **Worklog Fields** | Custom fields that capture extra context when logging time (text, number, select, checkbox) |
+| **Log Time** | Log time directly against any Jira issue from any Time Tracking view |
+| **Approve / Reject** | Global Admins can approve or reject time entries submitted by team members |
 
 ## Portfolio Management (PPM)
 
-| Feature | Description |
+| **Feature** | Description |
 |---|---|
-| Table View | Flat sortable/filterable issue table with inline editing |
-| Gantt Chart | Interactive timeline with drag-to-update dates, dependencies (FS/SS/FF/SF), baseline, critical path |
-| Graph View | Tree/node diagram showing epic-story-subtask hierarchy |
-| Treemap View | Space-filling grid sized by effort metric, colored by status or priority |
-| Pie Chart View | Distribution charts showing issue breakdown by any dimension |
-| Board View | Kanban-style column layout organized by Jira status |
-| Dashboard Gadget | Portfolio metrics widget embedded on any Jira dashboard |
-| JQL Filtering | Define portfolio scope dynamically using Jira Query Language |
-| Saved Portfolios | Persist portfolio name, filter scope, and settings for recurring reviews |
+| **Table View** | Flat sortable/filterable issue table with inline editing |
+| **Gantt Chart** | Interactive timeline with drag-to-update dates, dependencies (FS/SS/FF/SF), baseline, critical path |
+| **Graph View** | Tree/node diagram showing epic-story-subtask hierarchy |
+| **Treemap View** | Space-filling grid sized by effort metric, colored by status or priority |
+| **Pie Chart View** | Distribution charts showing issue breakdown by any dimension |
+| **Board View** | Kanban-style column layout organized by Jira status |
+| **Dashboard Gadget** | Portfolio metrics widget embedded on any Jira dashboard |
+| **JQL Filtering** | Define portfolio scope dynamically using Jira Query Language |
+| **Saved Portfolios** | Persist portfolio name, filter scope, and settings for recurring reviews |
 
 ## Backlog Prioritization
 
-| Feature | Description |
+| **Feature** | Description |
 |---|---|
-| Backlog Table | Sortable, filterable table of Jira issues with inline-editable scoring metric columns |
-| Scoring Templates | Built-in frameworks: ICE, RICE, WSJF, Value vs Effort; fully custom templates also supported |
-| Priority Matrix | Scatter plot placing each issue on two axes (e.g., Value vs. Effort) with quadrant labels |
-| Views & Filters | Filter by issue type, status, assignee, label, sprint; sort by any column including Score |
-| Saved Views & Reports | Save scored backlog snapshots with all metric values and filter/sort configuration |
+| **Backlog Table** | Sortable, filterable table of Jira issues with inline-editable scoring metric columns |
+| **Scoring Templates** | Built-in frameworks: ICE, RICE, WSJF, Value vs Effort; fully custom templates also supported |
+| **Priority Matrix** | Scatter plot placing each issue on two axes (e.g., Value vs. Effort) with quadrant labels |
+| **Views & Filters** | Filter by issue type, status, assignee, label, sprint; sort by any column including Score |
+| **Saved Views & Reports** | Save scored backlog snapshots with all metric values and filter/sort configuration |
 
 ## Teams Management
 
-| Feature | Description |
+| **Feature** | Description |
 |---|---|
-| Teams | Create named groups of Jira users; source from Manual selection or Jira Group sync |
-| Programs | Group multiple teams into higher-level organizational structures (e.g., Departments, PI teams) |
-| Cross-Module Reuse | Teams available for filtering and grouping across Capacity, Time Tracking, and Portfolio |`,
+| **Teams** | Create named groups of Jira users; source from Manual selection or Jira Group sync |
+| **Programs** | Group multiple teams into higher-level organizational structures (e.g., Departments, PI teams) |
+| **Cross-Module Reuse** | Teams available for filtering and grouping across Capacity, Time Tracking, and Portfolio |`,
         },
         {
           slug: "how-to-tutorials",
@@ -625,12 +625,12 @@ The Capacity Planner is a timesheet-style view showing team workload distributio
 
 **Planner Layout:**
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
-| User / Group / Team | Left column - people/groups in the plan |
-| Issue rows | Each row shows an issue with estimated and remaining hours |
-| Date columns | Hours for each specific date/week/month |
-| Total row | Aggregates hours across all rows |
+| **User / Group / Team** | Left column - people/groups in the plan |
+| **Issue rows** | Each row shows an issue with estimated and remaining hours |
+| **Date columns** | Hours for each specific date/week/month |
+| **Total row** | Aggregates hours across all rows |
 
 **Grouping Options:** User → Issue | Team → User → Issue | Issue Type → User
 
@@ -680,12 +680,12 @@ The Capacity Report provides a tabular breakdown of available hours, estimated w
 
 **Reading the Report:**
 
-| Column | Meaning |
+| **Column** | Meaning |
 |---|---|
-| Available | Total available working hours (based on working days and hours/day settings) |
-| Estimated | Sum of remaining estimates on assigned issues |
-| Logged | Actual hours logged in Jira worklogs |
-| Allocation % | Estimated hours as a percentage of available hours |
+| **Available** | Total available working hours (based on working days and hours/day settings) |
+| **Estimated** | Sum of remaining estimates on assigned issues |
+| **Logged** | Actual hours logged in Jira worklogs |
+| **Allocation %** | Estimated hours as a percentage of available hours |
 
 **Export:** Export → CSV
 
@@ -709,48 +709,48 @@ My Calendar is a personal daily view of your logged time.
 
 My Timesheet is a personal tabular view of your logged time.
 
-| Component | Description |
+| **Component** | Description |
 |---|---|
-| Filter Bar | Set project, date range, account, and category filters |
-| Group By | Add grouping dimensions (Project, Issue, Date, Account, etc.) |
-| Date Columns | Each column shows hours for a specific date/week/month |
-| View Mode Toggle | Switch between Days, Weeks, and Months |
+| **Filter Bar** | Set project, date range, account, and category filters |
+| **Group By** | Add grouping dimensions (Project, Issue, Date, Account, etc.) |
+| **Date Columns** | Each column shows hours for a specific date/week/month |
+| **View Mode Toggle** | Switch between Days, Weeks, and Months |
 
 **Recommended Group-By Combinations:**
 
-| Goal | Group By Setting |
+| **Goal** | Group By Setting |
 |---|---|
-| Project breakdown | Project → Issue |
-| Day-by-day view | Issue → Date |
-| Billing view | Account → Project → Issue |
+| **Project breakdown** | Project → Issue |
+| **Day-by-day view** | Issue → Date |
+| **Billing view** | Account → Project → Issue |
 
 ### Timesheet Report Builder
 
 The Report Builder shows time logged by the entire team with full filtering and grouping.
 
-| Component | Description |
+| **Component** | Description |
 |---|---|
-| Report Name | Click the title to rename; auto-saves on blur |
-| Add Filter | Set Project, Users, Accounts, Date Range, Time Category |
-| Group By | Stack multiple grouping levels for nested reports |
-| View Mode | Days, Weeks, or Months column display |
-| Log Time | Quick-log button available within the report |
-| Chart Section | Bar or pie chart of logged time (included in PDF exports) |
-| Export | CSV (data) or PDF (formatted report with charts) |
+| **Report Name** | Click the title to rename; auto-saves on blur |
+| **Add Filter** | Set Project, Users, Accounts, Date Range, Time Category |
+| **Group By** | Stack multiple grouping levels for nested reports |
+| **View Mode** | Days, Weeks, or Months column display |
+| **Log Time** | Quick-log button available within the report |
+| **Chart Section** | Bar or pie chart of logged time (included in PDF exports) |
+| **Export** | CSV (data) or PDF (formatted report with charts) |
 
 ### Filters and Grouping
 
 **Available Filters:**
 
-| Filter | Description |
+| **Filter** | Description |
 |---|---|
-| Project | Limit results to one or more Jira projects |
-| Users / Assignee | Filter to specific team members |
-| Date Range | From and To date picker |
-| Account | Filter by billing account |
-| Time Category | Filter by category type |
-| Issue Type | Filter by Jira issue type |
-| Sprint | Filter by active or past sprints |
+| **Project** | Limit results to one or more Jira projects |
+| **Users / Assignee** | Filter to specific team members |
+| **Date Range** | From and To date picker |
+| **Account** | Filter by billing account |
+| **Time Category** | Filter by category type |
+| **Issue Type** | Filter by Jira issue type |
+| **Sprint** | Filter by active or past sprints |
 
 **Grouping Dimensions:**
 Project, Assignee, Issue, Issue Type, Priority, Status, Reporter, Label, Sprint, Parent, Account, Time Category, Date
@@ -769,14 +769,14 @@ Billing Accounts categorize worklogs by client or engagement.
 
 Access from Settings → Time Tracking tab:
 
-| Setting | Options | Default |
+| **Setting** | Options | Default |
 |---|---|---|
-| Time Display Unit | Jira default, Hours/Minutes, Hours, Days | Jira default |
-| Default Time Range | Current month/quarter/year/week/day | Current month |
-| Timezone Mode | Jira timezone / User's timezone / My timezone | Jira timezone |
-| First Day of Week | Sunday–Saturday | Monday |
-| Working Days | Mon–Fri checkboxes | Mon–Fri |
-| Hours Per Day | Number input | 8 |
+| **Time Display Unit** | Jira default, Hours/Minutes, Hours, Days | Jira default |
+| **Default Time Range** | Current month/quarter/year/week/day | Current month |
+| **Timezone Mode** | Jira timezone / User's timezone / My timezone | Jira timezone |
+| **First Day of Week** | Sunday–Saturday | Monday |
+| **Working Days** | Mon–Fri checkboxes | Mon–Fri |
+| **Hours Per Day** | Number input | 8 |
 
 ---
 
@@ -797,14 +797,14 @@ Access from Settings → Time Tracking tab:
 
 ### View Types
 
-| View | Best For |
+| **View** | Best For |
 |---|---|
-| Table | Detailed review, bulk editing, data export |
-| Gantt Chart | Roadmap presentations, dependency visualization, timeline planning |
-| Graph View | Epic-story-subtask hierarchy visualization |
-| Treemap | Visual health check; issue size proportional to effort metric |
-| Pie Chart | Status/priority distribution for stakeholder reports |
-| Board View | Kanban-style workflow tracking, fast triage |
+| **Table** | Detailed review, bulk editing, data export |
+| **Gantt Chart** | Roadmap presentations, dependency visualization, timeline planning |
+| **Graph View** | Epic-story-subtask hierarchy visualization |
+| **Treemap** | Visual health check; issue size proportional to effort metric |
+| **Pie Chart** | Status/priority distribution for stakeholder reports |
+| **Board View** | Kanban-style workflow tracking, fast triage |
 
 **Switching Views:** use the view mode selector in the top-right of the portfolio.
 
@@ -843,13 +843,13 @@ Adds portfolio metrics to any Jira dashboard.
 
 Access: Portfolio → Settings gear icon → Portfolio Settings tab, or global Settings → Portfolio tab
 
-| Setting | Description |
+| **Setting** | Description |
 |---|---|
-| Time Display Unit | How hours display in portfolio table |
-| Bookings start date | Which Jira field maps to the Gantt bar start (e.g., Start date) |
-| Bookings end date | Which Jira field maps to the Gantt bar end (e.g., Due date) |
-| Hours per day | Converts story points/day estimates to hours |
-| Working days | Days counted as working days in capacity calculations |
+| **Time Display Unit** | How hours display in portfolio table |
+| **Bookings start date** | Which Jira field maps to the Gantt bar start (e.g., Start date) |
+| **Bookings end date** | Which Jira field maps to the Gantt bar end (e.g., Due date) |
+| **Hours per day** | Converts story points/day estimates to hours |
+| **Working days** | Days counted as working days in capacity calculations |
 
 ![Setting](/time-tracking-imgs/portfolio/setting.png)
 ---
@@ -875,12 +875,12 @@ The Backlog Table is a sortable, filterable table with inline-editable scoring m
 
 **Built-in Templates:**
 
-| Template | Formula | Best For |
+| **Template** | Formula | Best For |
 |---|---|---|
-| ICE | Impact × Confidence × Ease | Feature requests and bugs |
-| RICE | (Reach × Impact × Confidence) / Effort | Product features with reach |
-| WSJF | (Business Value + Time Criticality + Risk Reduction) / Job Size | SAFe/ART prioritization |
-| Value vs. Effort | Value / Effort | Simple two-dimension ranking |
+| **ICE** | Impact × Confidence × Ease | Feature requests and bugs |
+| **RICE** | (Reach × Impact × Confidence) / Effort | Product features with reach |
+| **WSJF** | (Business Value + Time Criticality + Risk Reduction) / Job Size | SAFe/ART prioritization |
+| **Value vs. Effort** | Value / Effort | Simple two-dimension ranking |
 
 **Creating a Custom Template:**
 1. Template selector → Manage Templates → Create New Template
@@ -924,13 +924,13 @@ Teams are named groups of Jira users reused across Capacity, Time Tracking, and 
 
 **Creating a Team:**
 
-| Field | Required | Description |
+| **Field** | Required | Description |
 |---|---|---|
-| Team Name | Yes | Display name (e.g., "Platform Team") |
-| Description | No | Brief description |
-| Color | No | Color tag for visual identification |
-| Source | Yes | Manual (add members individually) or Jira Group (auto-sync) |
-| Members | Yes | Add by user search or Jira Group selection |
+| **Team Name** | Yes | Display name (e.g., "Platform Team") |
+| **Description** | No | Brief description |
+| **Color** | No | Color tag for visual identification |
+| **Source** | Yes | Manual (add members individually) or Jira Group (auto-sync) |
+| **Members** | Yes | Add by user search or Jira Group selection |
 
 **Source Types:**
 - **Manual:** members stay fixed until you edit the team
@@ -1016,7 +1016,7 @@ The Capacity Planner is a timesheet-style view that shows how team workload is d
 
 Capacity Planner & Insight → **Capacity Planner** → click **Create New Planner** or open a saved plan from the sidebar
 
-![Step 1](/time-tracking-imgs/capacity/planner/capacityResourceFilter.png)
+![Step 1](/time-tracking-imgs/capacity/planner/capacityResourceFilter-update.png)
 ## Creating a New Plan
 
 1. Click **Create New Planner**
@@ -1029,7 +1029,7 @@ Capacity Planner & Insight → **Capacity Planner** → click **Create New Plann
 
 ## Planner Layout
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
 | **User / Group / Team** | Left column - the people or groups in the plan |
 | **Issue rows** | Each row under a user shows an assigned Jira issue |
@@ -1042,11 +1042,11 @@ Capacity Planner & Insight → **Capacity Planner** → click **Create New Plann
 
 ## Grouping Options
 
-| Grouping | When to Use |
+| **Grouping** | When to Use |
 |---|---|
-| User → Issue | Individual workload drill-down |
-| Team → User → Issue | Team-level rollup with individual breakdown |
-| Issue Type → User | Understand how issue types distribute across people |
+| **User → Issue** | Individual workload drill-down |
+| **Team → User → Issue** | Team-level rollup with individual breakdown |
+| **Issue Type → User** | Understand how issue types distribute across people |
 
 ## Reading the Planner
 
@@ -1103,14 +1103,14 @@ Provides an overview of how issues are distributed across the team.
 
 Shows per-person workload metrics to identify over- or under-allocation.
 
-| Column | Meaning |
+| **Column** | Meaning |
 |---|---|
-| Assignee | Team member name |
-| Issues | Number of assigned open issues |
-| Original Estimate | Total originally estimated hours |
-| Remaining Estimate | Hours of work remaining |
-| Logged | Hours already logged |
-| Allocation | Remaining estimate as % of available hours |
+| **Assignee** | Team member name |
+| **Issues** | Number of assigned open issues |
+| **Original Estimate** | Total originally estimated hours |
+| **Remaining Estimate** | Hours of work remaining |
+| **Logged** | Hours already logged |
+| **Allocation** | Remaining estimate as % of available hours |
 
 **Use before sprint planning** to confirm no team member is already over-committed.
 
@@ -1118,13 +1118,13 @@ Shows per-person workload metrics to identify over- or under-allocation.
 
 Lists issues near or past their due date, sorted by risk level.
 
-| Column | Meaning |
+| **Column** | Meaning |
 |---|---|
-| Issue | Jira issue key and summary |
-| Assignee | Who is responsible |
-| Due Date | Jira due date |
-| Remaining | Remaining estimate |
-| Risk Level | Overdue / At Risk / On Track |
+| **Issue** | Jira issue key and summary |
+| **Assignee** | Who is responsible |
+| **Due Date** | Jira due date |
+| **Remaining** | Remaining estimate |
+| **Risk Level** | Overdue / At Risk / On Track |
 
 **Use for weekly stakeholder updates** to communicate delivery risks proactively.
 
@@ -1154,12 +1154,12 @@ Saved Plans let you preserve capacity planner configurations for reuse across sp
 
 When you save a Capacity Planner configuration, the following is preserved:
 
-| Saved | Not Saved |
+| **Saved** | Not Saved |
 |---|---|
-| Selected users / groups / teams | Live Jira worklog data |
-| Date range | Current issue statuses |
-| View mode (Days/Weeks/Months) | Hours that have changed since last save |
-| Grouping configuration | New issues assigned after save |
+| **Selected users / groups / teams** | Live Jira worklog data |
+| **Date range** | Current issue statuses |
+| **View mode (Days/Weeks/Months)** | Hours that have changed since last save |
+| **Grouping configuration** | New issues assigned after save |
 
 Opening a saved plan re-runs the query against current Jira data - it always shows live data within the saved scope.
 
@@ -1180,7 +1180,7 @@ The plan immediately appears in the **Saved Plans** section of the sidebar.
 
 ## Managing Saved Plans
 
-| Action | How |
+| **Action** | How |
 |---|---|
 | **Rename** | Hover the plan → click the Edit (pencil) icon → type new name → Enter |
 | **Delete** | Hover the plan → click the Delete (trash) icon → Confirm |
@@ -1213,7 +1213,7 @@ Capacity Planner & Insight → **Capacity Report**
 
 ## Configuring the Report
 
-| Control | Options |
+| **Control** | Options |
 |---|---|
 | **Project** | One or more Jira projects |
 | **Users** | Filter to specific individuals |
@@ -1229,7 +1229,7 @@ Click **Apply** after setting all controls.
 
 ## Reading the Report
 
-| Column | Meaning |
+| **Column** | Meaning |
 |---|---|
 | **Name** | User / Team / Project (based on Group By) |
 | **Available** | Total working hours available (working days × hours/day from Settings) |
@@ -1241,11 +1241,11 @@ Click **Apply** after setting all controls.
 
 ### Allocation Interpretation
 
-| Allocation % | Status |
+| **Allocation %** | Status |
 |---|---|
-| < 70% | Under-utilised - capacity available |
-| 70–100% | Healthy utilisation |
-| > 100% | Over-allocated - risk of missed commitments |
+| **< 70%** | Under-utilised - capacity available |
+| **70–100%** | Healthy utilisation |
+| **> 100%** | Over-allocated - risk of missed commitments |
 
 ## Exporting
 
@@ -1273,12 +1273,12 @@ My Calendar shows a monthly grid where each day cell displays the total hours yo
 
 ## Navigating the Calendar
 
-| Control | Action |
+| **Control** | Action |
 |---|---|
 | **< >** arrows | Move to previous / next month |
 | **Today** button | Jump back to the current month |
-| Day cell | Click to open the detailed worklog list for that day |
-| Hover on day cell | See a quick summary pop-up of worklogs |
+| **Day cell** | Click to open the detailed worklog list for that day |
+| **Hover on day cell** | See a quick summary pop-up of worklogs |
 
 ## Logging Time from the Calendar
 
@@ -1318,13 +1318,13 @@ My Timesheet is your personal tabular view of logged time, with flexible filters
 
 ## Layout
 
-| Component | Description |
+| **Component** | Description |
 |---|---|
-| Filter Bar | Set Project, Date Range, Billing Account, and Time Category filters |
-| Group By | Add one or more grouping dimensions to organise rows |
-| Date Columns | Each column represents a day, week, or month depending on View Mode |
-| View Mode Toggle | Switch between **Days**, **Weeks**, and **Months** |
-| Export Button | Download your timesheet as CSV |
+| **Filter Bar** | Set Project, Date Range, Billing Account, and Time Category filters |
+| **Group By** | Add one or more grouping dimensions to organise rows |
+| **Date Columns** | Each column represents a day, week, or month depending on View Mode |
+| **View Mode Toggle** | Switch between **Days**, **Weeks**, and **Months** |
+| **Export Button** | Download your timesheet as CSV |
 
 ## Setting Filters
 
@@ -1337,16 +1337,16 @@ My Timesheet is your personal tabular view of logged time, with flexible filters
 
 Use **Group By** to stack grouping levels for nested breakdowns:
 
-| Goal | Recommended Group By |
+| **Goal** | Recommended Group By |
 |---|---|
-| See time per project | Project → Issue |
-| Day-by-day breakdown | Issue → Date |
-| Billing/client view | Account → Project → Issue |
-| Team-role view | Time Category → Issue |
+| **See time per project** | Project → Issue |
+| **Day-by-day breakdown** | Issue → Date |
+| **Billing/client view** | Account → Project → Issue |
+| **Team-role view** | Time Category → Issue |
 
 ## Switching View Modes
 
-| Mode | Best For |
+| **Mode** | Best For |
 |---|---|
 | **Days** | Day-level detail, daily logging verification |
 | **Weeks** | Weekly sprint reviews |
@@ -1374,15 +1374,15 @@ Time Tracking & Reporting → **Timesheet and Reporting** → Create New Report 
 
 ## Report Components
 
-| Component | Description |
+| **Component** | Description |
 |---|---|
-| Report Name | Click the title to rename; saves automatically |
-| Add Filter | Set Project, Users, Accounts, Date Range, Time Category |
-| Group By | Stack multiple grouping levels for nested reports |
-| View Mode | Days, Weeks, or Months column display |
-| Log Time | Quick-log button - add worklogs without leaving the report |
-| Chart Section | Bar or pie chart of logged time (included in PDF exports) |
-| Export | CSV (raw data) or PDF (formatted report with charts) |
+| **Report Name** | Click the title to rename; saves automatically |
+| **Add Filter** | Set Project, Users, Accounts, Date Range, Time Category |
+| **Group By** | Stack multiple grouping levels for nested reports |
+| **View Mode** | Days, Weeks, or Months column display |
+| **Log Time** | Quick-log button - add worklogs without leaving the report |
+| **Chart Section** | Bar or pie chart of logged time (included in PDF exports) |
+| **Export** | CSV (raw data) or PDF (formatted report with charts) |
 
 ## Creating a Report
 
@@ -1396,12 +1396,12 @@ Time Tracking & Reporting → **Timesheet and Reporting** → Create New Report 
 
 ## Group By Combinations
 
-| Goal | Group By |
+| **Goal** | Group By |
 |---|---|
-| Team overview | User → Project |
-| Issue-level breakdown | Project → Issue |
-| Billing report | Account → User → Issue |
-| Category analysis | Time Category → User |
+| **Team overview** | User → Project |
+| **Issue-level breakdown** | Project → Issue |
+| **Billing report** | Account → User → Issue |
+| **Category analysis** | Time Category → User |
 
 ## Chart Section
 
@@ -1412,7 +1412,7 @@ Time Tracking & Reporting → **Timesheet and Reporting** → Create New Report 
 
 ## Exporting
 
-| Format | Contents |
+| **Format** | Contents |
 |---|---|
 | **CSV** | All rows, columns, and grouping levels as a flat spreadsheet |
 | **PDF** | Formatted report with header, filters summary, grouped table, and chart |
@@ -1431,7 +1431,7 @@ Filters and Grouping controls are available across all Time Tracking & Reporting
 
 ## Available Filters
 
-| Filter | Description |
+| **Filter** | Description |
 |---|---|
 | **Project** | Limit results to one or more Jira projects |
 | **Users / Assignee** | Filter to specific team members |
@@ -1454,21 +1454,21 @@ Filters and Grouping controls are available across all Time Tracking & Reporting
 
 Group By lets you nest rows into hierarchical breakdowns:
 
-| Dimension | Groups Rows By |
+| **Dimension** | Groups Rows By |
 |---|---|
-| Project | Jira project |
-| Assignee | User who logged time |
-| Issue | Jira issue key and title |
-| Issue Type | Story, Bug, Task, etc. |
-| Priority | Jira priority level |
-| Status | Current issue status |
-| Reporter | Issue reporter |
-| Label | Jira labels |
-| Sprint | Sprint name |
-| Parent | Parent issue (for sub-tasks) |
-| Account | Billing account |
-| Time Category | Work category |
-| Date | Calendar date |
+| **Project** | Jira project |
+| **Assignee** | User who logged time |
+| **Issue** | Jira issue key and title |
+| **Issue Type** | Story, Bug, Task, etc. |
+| **Priority** | Jira priority level |
+| **Status** | Current issue status |
+| **Reporter** | Issue reporter |
+| **Label** | Jira labels |
+| **Sprint** | Sprint name |
+| **Parent** | Parent issue (for sub-tasks) |
+| **Account** | Billing account |
+| **Time Category** | Work category |
+| **Date** | Calendar date |
 
 ## Stacking Group By Levels
 
@@ -1559,7 +1559,7 @@ Global sidebar → **Settings** → **Time Tracking** tab
 
 ## Available Settings
 
-| Setting | Options | Default | Impact |
+| **Setting** | Options | Default | Impact |
 |---|---|---|---|
 | **Time Display Unit** | Jira default · Hours/Minutes · Hours · Days | Jira default | How hours appear in all views (e.g., 2h 30m vs 2.5h) |
 | **Default Time Range** | Current day · week · month · quarter · year | Current month | Pre-populates the date picker when opening any view |
@@ -1570,16 +1570,16 @@ Global sidebar → **Settings** → **Time Tracking** tab
 
 ## Time Display Unit
 
-| Option | Example Display |
+| **Option** | Example Display |
 |---|---|
-| Jira default | Follows Jira's global time tracking format |
-| Hours/Minutes | 2h 30m |
-| Hours | 2.5h |
-| Days | 0.3d (based on Hours Per Day) |
+| **Jira default** | Follows Jira's global time tracking format |
+| **Hours/Minutes** | 2h 30m |
+| **Hours** | 2.5h |
+| **Days** | 0.3d (based on Hours Per Day) |
 
 ## Timezone Mode
 
-| Mode | Description |
+| **Mode** | Description |
 |---|---|
 | **Jira timezone** | Uses the Jira instance timezone for all calculations |
 | **User's timezone** | Each user sees times in their own Jira profile timezone |
@@ -1619,10 +1619,10 @@ A Portfolio is a named collection of Jira issues grouped and visualised across m
 
 ## Manual Filter vs JQL
 
-| Method | Best For | Example |
+| **Method** | Best For | Example |
 |---|---|---|
-| Manual Filter | Simple project/status/type scopes | All open Stories in Project A |
-| JQL | Complex cross-project queries | Epics due this quarter across 3 projects |
+| **Manual Filter** | Simple project/status/type scopes | All open Stories in Project A |
+| **JQL** | Complex cross-project queries | Epics due this quarter across 3 projects |
 
 ## Example JQL Scopes
 
@@ -1662,7 +1662,7 @@ The Portfolio module offers six view types, each suited to a different planning 
 
 ## Available Views
 
-| View | Best For |
+| **View** | Best For |
 |---|---|
 | **Table** | Detailed data review, bulk editing, field updates, CSV export |
 | **Gantt Chart** | Roadmap presentations, timeline planning, dependency visualisation |
@@ -1721,12 +1721,12 @@ Saved Portfolios are named portfolio configurations that are persisted and share
 
 ## What Gets Saved
 
-| Saved | Not Saved (always live) |
+| **Saved** | Not Saved (always live) |
 |---|---|
-| Portfolio name | Jira issue data |
-| Filter / JQL scope | Current issue statuses |
-| Default view type | Worklog or estimate changes |
-| Portfolio Settings (date field mappings) | New issues matching scope |
+| **Portfolio name** | Jira issue data |
+| **Filter / JQL scope** | Current issue statuses |
+| **Default view type** | Worklog or estimate changes |
+| **Portfolio Settings (date field mappings)** | New issues matching scope |
 
 Opening a saved portfolio always loads **current Jira data** within the saved scope.
 
@@ -1795,11 +1795,11 @@ The Portfolio Dashboard Gadget lets you embed portfolio metrics directly onto an
 
 ## Gadget Configuration Options
 
-| Option | Description |
+| **Option** | Description |
 |---|---|
-| Portfolio | Select from your saved portfolios |
-| View | Choose the summary metric type (issue count, status breakdown, etc.) |
-| Date Range | Optionally restrict data to a date window |
+| **Portfolio** | Select from your saved portfolios |
+| **View** | Choose the summary metric type (issue count, status breakdown, etc.) |
+| **Date Range** | Optionally restrict data to a date window |
 
 ## What the Gadget Displays
 
@@ -1814,12 +1814,12 @@ Jira dashboards support gadget resizing - drag the bottom-right corner of the ga
 
 ## Troubleshooting
 
-| Problem | Fix |
+| **Problem** | Fix |
 |---|---|
-| No data in gadget | Verify the portfolio scope still returns issues and you have read access to those projects |
-| Blank after setup | Remove and re-add the gadget with fresh configuration |
-| Gadget not found in search | Ensure the app is installed and activated in Jira (check Manage Apps) |
-| Old data showing | Jira dashboards cache gadget data - click Refresh or reload the page |
+| **No data in gadget** | Verify the portfolio scope still returns issues and you have read access to those projects |
+| **Blank after setup** | Remove and re-add the gadget with fresh configuration |
+| **Gadget not found in search** | Ensure the app is installed and activated in Jira (check Manage Apps) |
+| **Old data showing** | Jira dashboards cache gadget data - click Refresh or reload the page |
 
 ## Tips
 
@@ -1841,7 +1841,7 @@ Portfolio Settings control how the portfolio module displays time, maps Jira dat
 
 ## Settings Reference
 
-| Setting | Description | Example |
+| **Setting** | Description | Example |
 |---|---|---|
 | **Time Display Unit** | How hours appear in portfolio table columns | Hours, Days, Story Points |
 | **Bookings Start Date** | Which Jira field maps to the Gantt bar start | "Start date", "Custom field: Planned Start" |
@@ -1862,18 +1862,18 @@ If these are not set, the Gantt chart will not render bars for issues that lack 
 
 ## Common Field Mappings
 
-| Mapping | Recommended Jira Field |
+| **Mapping** | Recommended Jira Field |
 |---|---|
-| Start Date | "Start date" (native Jira field) or a custom Date field |
-| End Date | "Due date" (native Jira field) or a custom Date field |
+| **Start Date** | "Start date" (native Jira field) or a custom Date field |
+| **End Date** | "Due date" (native Jira field) or a custom Date field |
 
 ## Troubleshooting Gantt Issues
 
-| Problem | Fix |
+| **Problem** | Fix |
 |---|---|
-| Gantt bars not rendering | Verify Start and End date fields are mapped and issues have values in those fields |
-| Wrong timeline dates | Check field mapping - a mismatched field (e.g., Created vs Start date) produces wrong bars |
-| Bars rendering in wrong position | Confirm Hours Per Day and Working Days match your team's schedule |
+| **Gantt bars not rendering** | Verify Start and End date fields are mapped and issues have values in those fields |
+| **Wrong timeline dates** | Check field mapping - a mismatched field (e.g., Created vs Start date) produces wrong bars |
+| **Bars rendering in wrong position** | Confirm Hours Per Day and Working Days match your team's schedule |
 
 ## Tips
 
@@ -1900,15 +1900,15 @@ Backlog Prioritization → **Backlog Table**
 
 ## Table Layout
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
-| Issue | Jira issue key + summary |
-| Issue Type | Story, Bug, Task, etc. |
-| Status | Current Jira status |
-| Priority | Jira priority (Highest to Lowest) |
-| Scoring Metrics | One column per metric defined in the template (e.g., Impact, Confidence, Ease) |
-| Score | Calculated composite score - auto-updates when metrics change |
-| Assignee | Assigned team member |
+| **Issue** | Jira issue key + summary |
+| **Issue Type** | Story, Bug, Task, etc. |
+| **Status** | Current Jira status |
+| **Priority** | Jira priority (Highest to Lowest) |
+| **Scoring Metrics** | One column per metric defined in the template (e.g., Impact, Confidence, Ease) |
+| **Score** | Calculated composite score - auto-updates when metrics change |
+| **Assignee** | Assigned team member |
 
 ## Scoring Issues Inline
 
@@ -1928,14 +1928,14 @@ Backlog Prioritization → **Backlog Table**
 
 ## Filtering
 
-| Filter | Options |
+| **Filter** | Options |
 |---|---|
-| Issue Type | Story, Bug, Task, Sub-task, Epic |
-| Status | Any Jira workflow status |
-| Assignee | Select team member(s) |
-| Label | Jira labels |
-| Sprint | Active or completed sprints |
-| Priority | Highest, High, Medium, Low, Lowest |
+| **Issue Type** | Story, Bug, Task, Sub-task, Epic |
+| **Status** | Any Jira workflow status |
+| **Assignee** | Select team member(s) |
+| **Label** | Jira labels |
+| **Sprint** | Active or completed sprints |
+| **Priority** | Highest, High, Medium, Low, Lowest |
 
 ## Exporting
 
@@ -1959,11 +1959,11 @@ Scoring Templates define the metrics and formula used to calculate a composite p
 ### ICE Score
 **Formula:** Impact × Confidence × Ease
 
-| Metric | Scale | Meaning |
+| **Metric** | Scale | Meaning |
 |---|---|---|
-| Impact | 1–10 | How much value does this deliver? |
-| Confidence | 1–10 | How confident are we in the estimate? |
-| Ease | 1–10 | How easy is it to implement? |
+| **Impact** | 1–10 | How much value does this deliver? |
+| **Confidence** | 1–10 | How confident are we in the estimate? |
+| **Ease** | 1–10 | How easy is it to implement? |
 
 **Best for:** Feature requests and bug fixes where effort vs. value trade-offs are primary.
 
@@ -1972,12 +1972,12 @@ Scoring Templates define the metrics and formula used to calculate a composite p
 ### RICE Score
 **Formula:** (Reach × Impact × Confidence) / Effort
 
-| Metric | Scale | Meaning |
+| **Metric** | Scale | Meaning |
 |---|---|---|
-| Reach | Number | How many users affected per quarter? |
-| Impact | 1–3 | Massive (3) → Minimal (0.25) |
-| Confidence | % | Estimate reliability (100% = certain) |
-| Effort | Person-months | Work required |
+| **Reach** | Number | How many users affected per quarter? |
+| **Impact** | 1–3 | Massive (3) → Minimal (0.25) |
+| **Confidence** | % | Estimate reliability (100% = certain) |
+| **Effort** | Person-months | Work required |
 
 **Best for:** Product features where audience reach is a key input.
 
@@ -1986,12 +1986,12 @@ Scoring Templates define the metrics and formula used to calculate a composite p
 ### WSJF - Weighted Shortest Job First
 **Formula:** (Business Value + Time Criticality + Risk Reduction) / Job Size
 
-| Metric | Scale | Meaning |
+| **Metric** | Scale | Meaning |
 |---|---|---|
-| Business Value | 1–21 (Fibonacci) | Revenue or strategic value |
-| Time Criticality | 1–21 | How much value is lost by delay? |
-| Risk Reduction | 1–21 | Risk or opportunity enabled |
-| Job Size | 1–21 | Relative effort estimate |
+| **Business Value** | 1–21 (Fibonacci) | Revenue or strategic value |
+| **Time Criticality** | 1–21 | How much value is lost by delay? |
+| **Risk Reduction** | 1–21 | Risk or opportunity enabled |
+| **Job Size** | 1–21 | Relative effort estimate |
 
 **Best for:** SAFe environments and Agile Release Train (ART) prioritisation.
 
@@ -2000,10 +2000,10 @@ Scoring Templates define the metrics and formula used to calculate a composite p
 ### Value vs. Effort
 **Formula:** Value / Effort
 
-| Metric | Scale | Meaning |
+| **Metric** | Scale | Meaning |
 |---|---|---|
-| Value | 1–10 | Business or user value |
-| Effort | 1–10 | Implementation complexity |
+| **Value** | 1–10 | Business or user value |
+| **Effort** | 1–10 | Implementation complexity |
 
 **Best for:** Simple two-dimension ranking when speed matters over precision.
 
@@ -2043,7 +2043,7 @@ The Backlog Prioritization module provides multiple view types, flexible filteri
 
 ## View Types
 
-| View | How to Access | Best For |
+| **View** | How to Access | Best For |
 |---|---|---|
 | **Table** | Default view | Inline scoring, sorting, bulk triage |
 | **Priority Matrix** | Click the Matrix view button (top-right) | Visual quadrant-based prioritisation |
@@ -2054,14 +2054,14 @@ Toggle between views using the **view switcher** in the top-right of the Backlog
 
 ### Available Filters
 
-| Filter | Options |
+| **Filter** | Options |
 |---|---|
-| Issue Type | Story, Bug, Task, Sub-task, Epic |
-| Status | Any Jira workflow status |
-| Assignee | One or more team members |
-| Label | Jira labels |
-| Sprint | Active or past sprints |
-| Priority | Highest, High, Medium, Low, Lowest |
+| **Issue Type** | Story, Bug, Task, Sub-task, Epic |
+| **Status** | Any Jira workflow status |
+| **Assignee** | One or more team members |
+| **Label** | Jira labels |
+| **Sprint** | Active or past sprints |
+| **Priority** | Highest, High, Medium, Low, Lowest |
 
 ### Applying Filters
 
@@ -2081,12 +2081,12 @@ Toggle between views using the **view switcher** in the top-right of the Backlog
 
 ### Recommended Sort Orders
 
-| Scenario | Sort |
+| **Scenario** | Sort |
 |---|---|
-| Sprint planning | Score ↓ |
-| Find unscored issues | Score ↑ (empty/zero scores first) |
-| Review by assignee | Assignee A–Z, then Score ↓ |
-| Status-based triage | Status A–Z, then Score ↓ |
+| **Sprint planning** | Score ↓ |
+| **Find unscored issues** | Score ↑ (empty/zero scores first) |
+| **Review by assignee** | Assignee A–Z, then Score ↓ |
+| **Status-based triage** | Status A–Z, then Score ↓ |
 
 ## Saved Views
 
@@ -2106,11 +2106,11 @@ Saved Views preserve your current filter + sort + grouping configuration for reu
 
 ### Managing Saved Views
 
-| Action | How |
+| **Action** | How |
 |---|---|
-| Rename | Hover the view → Edit icon → type new name |
-| Delete | Hover the view → Trash icon → Confirm |
-| Update | Apply the view, make changes, click Save View → overwrite |
+| **Rename** | Hover the view → Edit icon → type new name |
+| **Delete** | Hover the view → Trash icon → Confirm |
+| **Update** | Apply the view, make changes, click Save View → overwrite |
 
 ## Tips
 
@@ -2131,12 +2131,12 @@ Backlog Prioritization → Backlog Table → click the **Matrix view** button (t
 
 Each dot on the scatter plot represents one Jira issue. The position is determined by the two selected scoring metrics:
 
-| Quadrant | Position | Label | Action |
+| **Quadrant** | Position | Label | Action |
 |---|---|---|---|
-| Top-right | High X, High Y | **Quick Wins** or **Big Bets** | Prioritise first |
-| Top-left | Low X, High Y | **Big Bets** or **Fill-ins** | Evaluate effort vs. value |
-| Bottom-right | High X, Low Y | **Fill-ins** | Schedule if capacity allows |
-| Bottom-left | Low X, Low Y | **Avoid** | Deprioritise or remove from backlog |
+| **Top-right** | High X, High Y | **Quick Wins** or **Big Bets** | Prioritise first |
+| **Top-left** | Low X, High Y | **Big Bets** or **Fill-ins** | Evaluate effort vs. value |
+| **Bottom-right** | High X, Low Y | **Fill-ins** | Schedule if capacity allows |
+| **Bottom-left** | Low X, Low Y | **Avoid** | Deprioritise or remove from backlog |
 
 > Quadrant labels depend on which metrics you assign to each axis.
 
@@ -2154,11 +2154,11 @@ Each dot on the scatter plot represents one Jira issue. The position is determin
 
 **Common Axis Combinations:**
 
-| X Axis | Y Axis | Insight |
+| **X Axis** | Y Axis | Insight |
 |---|---|---|
-| Effort | Value | Classic value vs. effort quadrant |
-| Confidence | Impact | Identify high-impact, high-confidence bets |
-| Job Size | Business Value | WSJF visual breakdown |
+| **Effort** | Value | Classic value vs. effort quadrant |
+| **Confidence** | Impact | Identify high-impact, high-confidence bets |
+| **Job Size** | Business Value | WSJF visual breakdown |
 
 ## Adjusting Quadrant Boundaries
 
@@ -2189,13 +2189,13 @@ Saved Prioritized Reports capture a snapshot of the backlog scoring at a specifi
 
 ## What a Saved Report Preserves
 
-| Preserved | Not Preserved |
+| **Preserved** | Not Preserved |
 |---|---|
-| Project selection | Current Jira issue statuses (may have changed) |
-| Scoring template used | New issues added after the save |
-| Metric values per issue (at save time) | Template changes made after the save |
-| Sort and filter configuration | Worklogs or estimate updates |
-| Date/time of save | |
+| **Project selection** | Current Jira issue statuses (may have changed) |
+| **Scoring template used** | New issues added after the save |
+| **Metric values per issue (at save time)** | Template changes made after the save |
+| **Sort and filter configuration** | Worklogs or estimate updates |
+| **Date/time of save** | |
 
 ## Saving a Report
 
@@ -2217,19 +2217,19 @@ The report appears in the **Saved Reports** section of the sidebar.
 
 ## Using Saved Reports for Planning
 
-| Use Case | How |
+| **Use Case** | How |
 |---|---|
-| Pre-sprint baseline | Save a report before sprint planning to record what was scored going in |
-| Post-sprint retrospective | Compare saved reports from consecutive sprints to track score changes |
-| Audit trail | Share a saved report link with stakeholders as evidence of prioritisation rationale |
-| Template benchmarking | Save reports using different templates on the same backlog to compare ranking outcomes |
+| **Pre-sprint baseline** | Save a report before sprint planning to record what was scored going in |
+| **Post-sprint retrospective** | Compare saved reports from consecutive sprints to track score changes |
+| **Audit trail** | Share a saved report link with stakeholders as evidence of prioritisation rationale |
+| **Template benchmarking** | Save reports using different templates on the same backlog to compare ranking outcomes |
 
 ## Managing Saved Reports
 
-| Action | How |
+| **Action** | How |
 |---|---|
-| Rename | Hover the report → Edit icon → type new name |
-| Delete | Hover the report → Trash icon → Confirm |
+| **Rename** | Hover the report → Edit icon → type new name |
+| **Delete** | Hover the report → Trash icon → Confirm |
 
 ## Tips
 
@@ -2254,13 +2254,13 @@ Global sidebar → **Teams Management** → **Teams**
 1. Click **Create Team**
 2. Fill in the team form:
 
-| Field | Required | Description |
-|---|---|---|
-| Team Name | Yes | Display name (e.g., "Platform Team", "QA Squad") |
-| Description | No | Brief description of the team's role or scope |
-| Color | No | Colour tag for visual identification in views |
-| Source | Yes | **Manual** or **Jira Group** |
-| Members | Yes | Add individual users or select a Jira Group |
+   | **Field** | Required | Description |
+   |---|---|---|
+   | **Team Name** | Yes | Display name (e.g., "Platform Team", "QA Squad") |
+   | **Description** | No | Brief description of the team's role or scope |
+   | **Color** | No | Colour tag for visual identification in views |
+   | **Source** | Yes | **Manual** or **Jira Group** |
+   | **Members** | Yes | Add individual users or select a Jira Group |
 
 3. Click **Save**
 
@@ -2280,7 +2280,7 @@ Global sidebar → **Teams Management** → **Teams**
 
 ## Using Teams Across Modules
 
-| Module | How Teams Are Used |
+| **Module** | How Teams Are Used |
 |---|---|
 | **Capacity Planner** | Group By → Team - shows rolled-up capacity per team |
 | **Capacity Report** | Filter by Team - restricts the report to selected team members |
@@ -2289,12 +2289,12 @@ Global sidebar → **Teams Management** → **Teams**
 
 ## Managing Teams
 
-| Action | How |
+| **Action** | How |
 |---|---|
-| Edit team | Teams list → Edit (pencil) icon → modify → Save |
-| Add member | Edit team → Members field → search and add user |
-| Remove member | Edit team → Members list → click × next to user |
-| Delete team | Teams list → Delete (trash) icon → Confirm |
+| **Edit team** | Teams list → Edit (pencil) icon → modify → Save |
+| **Add member** | Edit team → Members field → search and add user |
+| **Remove member** | Edit team → Members list → click × next to user |
+| **Delete team** | Teams list → Delete (trash) icon → Confirm |
 
 > Deleting a team does not delete users or their worklogs. It only removes the team grouping.
 
@@ -2345,11 +2345,11 @@ All 7 members are visible in capacity reports when filtered by the Engineering p
 
 ## Constraints
 
-| Rule | Detail |
+| **Rule** | Detail |
 |---|---|
-| A team can belong to only one program | Restructure programs if teams move between departments |
-| Programs must contain at least one team | Empty programs cannot be saved |
-| Programs cannot be nested | Programs are a flat grouping of teams - no program-of-programs |
+| **A team can belong to only one program** | Restructure programs if teams move between departments |
+| **Programs must contain at least one team** | Empty programs cannot be saved |
+| **Programs cannot be nested** | Programs are a flat grouping of teams - no program-of-programs |
 
 ## Using Programs in Capacity Reports
 
@@ -2360,12 +2360,12 @@ All 7 members are visible in capacity reports when filtered by the Engineering p
 
 ## Managing Programs
 
-| Action | How |
+| **Action** | How |
 |---|---|
-| Edit / rename | Programs list → Edit icon → modify → Save |
-| Add a team | Edit program → Select Teams → add team → Save |
-| Remove a team | Edit program → Teams list → click × → Save |
-| Delete program | Programs list → Delete icon → Confirm |
+| **Edit / rename** | Programs list → Edit icon → modify → Save |
+| **Add a team** | Edit program → Select Teams → add team → Save |
+| **Remove a team** | Edit program → Teams list → click × → Save |
+| **Delete program** | Programs list → Delete icon → Confirm |
 
 > Deleting a program does not delete its teams or members.
 
@@ -2389,7 +2389,7 @@ Global sidebar → **Settings** → **General** tab
 
 ## Available Settings
 
-| Setting | Options | Default | Effect |
+| **Setting** | Options | Default | Effect |
 |---|---|---|---|
 | **Time Display Unit** | Jira default · Hours/Minutes · Hours · Days | Jira default | How time values appear across all modules |
 | **First Day of Week** | Sunday – Saturday | Monday | Sets the start of the week in calendar and week-mode views |
@@ -2400,12 +2400,12 @@ Global sidebar → **Settings** → **General** tab
 
 ## Time Display Unit
 
-| Option | Example |
+| **Option** | Example |
 |---|---|
-| Jira default | Follows the Jira instance format |
-| Hours/Minutes | 2h 30m |
-| Hours | 2.5h |
-| Days | 0.3d (based on Hours Per Day setting) |
+| **Jira default** | Follows the Jira instance format |
+| **Hours/Minutes** | 2h 30m |
+| **Hours** | 2.5h |
+| **Days** | 0.3d (based on Hours Per Day setting) |
 
 ## Working Days & Hours Per Day
 
@@ -2421,7 +2421,7 @@ Available hours per week = Working Days count × Hours Per Day
 
 ## Timezone Mode
 
-| Mode | Best For |
+| **Mode** | Best For |
 |---|---|
 | **Jira timezone** | Co-located teams; single timezone |
 | **User's timezone** | Distributed teams; each user sees their local time |
@@ -2468,18 +2468,18 @@ Global sidebar → **Settings** → **Worklog Fields** tab
 1. Click **Add Field**
 2. Configure:
 
-| Setting | Options | Description |
-|---|---|---|
-| Field Name | Text | Label shown in the Log Time form |
-| Field Type | Text · Dropdown · Checkbox · Date | Input type for the field |
-| Required | Yes / No | Whether the field must be filled before saving |
-| Options (for Dropdown) | Comma-separated list | Dropdown option values |
+   | **Setting** | Options | Description |
+   |---|---|---|
+   | **Field Name** | Text | Label shown in the Log Time form |
+   | **Field Type** | Text · Dropdown · Checkbox · Date | Input type for the field |
+   | **Required** | Yes / No | Whether the field must be filled before saving |
+   | **Options (for Dropdown)** | Comma-separated list | Dropdown option values |
 
 3. Click **Save**
 
 ## Field Types
 
-| Type | Use Case | Example |
+| **Type** | Use Case | Example |
 |---|---|---|
 | **Text** | Free-form notes or identifiers | "Cost Centre: CC-1042" |
 | **Dropdown** | Controlled vocabulary | "Billable / Non-billable / Internal" |
@@ -2492,10 +2492,10 @@ Drag and drop fields in the Worklog Fields list to change their display order in
 
 ## Editing and Deleting Fields
 
-| Action | How |
+| **Action** | How |
 |---|---|
-| Edit | Click the Edit (pencil) icon → modify → Save |
-| Delete | Click the Delete (trash) icon → Confirm |
+| **Edit** | Click the Edit (pencil) icon → modify → Save |
+| **Delete** | Click the Delete (trash) icon → Confirm |
 
 > Deleting a field removes it from the Log Time form but does not delete historical worklog data that used this field.
 
@@ -2526,14 +2526,14 @@ Global sidebar → **Settings** → **Time Categories** tab
 
 The app ships with a set of default time categories:
 
-| Category | Description |
+| **Category** | Description |
 |---|---|
-| Development | Feature development, implementation work |
-| Code Review | Reviewing pull requests and code changes |
-| Testing / QA | Manual or automated testing |
-| Meetings | Standups, sprint ceremonies, client calls |
-| Documentation | Writing specs, runbooks, or user docs |
-| Support | Bug triage, customer issue investigation |
+| **Development** | Feature development, implementation work |
+| **Code Review** | Reviewing pull requests and code changes |
+| **Testing / QA** | Manual or automated testing |
+| **Meetings** | Standups, sprint ceremonies, client calls |
+| **Documentation** | Writing specs, runbooks, or user docs |
+| **Support** | Bug triage, customer issue investigation |
 
 ## Creating a Custom Category
 
@@ -2572,7 +2572,7 @@ Deactivated categories are hidden from the form but their data remains in report
 
 Once set up, Time Categories appear as:
 
-| Feature | Where |
+| **Feature** | Where |
 |---|---|
 | **Filter** | Add Filter → Time Category in Report Builder, My Timesheet, Capacity Report |
 | **Group By** | Group By → Time Category for category-breakdown reports |
@@ -2608,12 +2608,12 @@ Manage Staff lets you:
 
 The Manage Staff page displays all Jira users in your instance with:
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
-| Name | Jira display name |
-| Email | Jira account email |
-| Status | Active / Inactive |
-| App Access | Whether this user appears in app dropdowns |
+| **Name** | Jira display name |
+| **Email** | Jira account email |
+| **Status** | Active / Inactive |
+| **App Access** | Whether this user appears in app dropdowns |
 
 ## Enabling / Disabling Users
 
@@ -2685,15 +2685,15 @@ Access all global settings from any module's sidebar → **Settings** (bottom of
 
 Controls app-wide preferences that apply across all modules.
 
-| Setting | Options | Default | Effect |
+| **Setting** | Options | Default | Effect |
 |---|---|---|---|
-| Time Display Unit | Jira default, Hours/Minutes, Hours, Days, Weeks, Months | Jira default | How time is displayed across the entire app |
-| Enable Rough Planning | Sync with Jira / Manual booking mode | Sync. with Jira | Controls how capacity estimates are derived |
-| Default Time Range | Current month, quarter, year, week, day, last 7 days | Current month | Pre-selected date range when opening any module |
-| Timezone Mode | Jira timezone, User's timezone, My timezone | Jira timezone | How worklog timestamps are interpreted |
-| First Day of Week | Sunday through Saturday | Monday | Day the week starts on in calendar and Day-view columns |
-| Working Days | Checkboxes for each day | Mon–Fri | Days counted as working days in capacity calculations |
-| Hours Per Day | Number input | 8 | Working hours per day, used in capacity and display |
+| **Time Display Unit** | Jira default, Hours/Minutes, Hours, Days, Weeks, Months | Jira default | How time is displayed across the entire app |
+| **Enable Rough Planning** | Sync with Jira / Manual booking mode | Sync. with Jira | Controls how capacity estimates are derived |
+| **Default Time Range** | Current month, quarter, year, week, day, last 7 days | Current month | Pre-selected date range when opening any module |
+| **Timezone Mode** | Jira timezone, User's timezone, My timezone | Jira timezone | How worklog timestamps are interpreted |
+| **First Day of Week** | Sunday through Saturday | Monday | Day the week starts on in calendar and Day-view columns |
+| **Working Days** | Checkboxes for each day | Mon–Fri | Days counted as working days in capacity calculations |
+| **Hours Per Day** | Number input | 8 | Working hours per day, used in capacity and display |
 
 **Timezone Mode guidance:**
 - Use **Jira timezone** for teams in the same location
@@ -2705,14 +2705,14 @@ Controls app-wide preferences that apply across all modules.
 
 Access from Settings → Time Tracking tab:
 
-| Setting | Options | Default |
+| **Setting** | Options | Default |
 |---|---|---|
-| Time Display Unit | Jira default, Hours/Minutes, Hours, Days | Jira default |
-| Default Time Range | Current month, quarter, year, week, day, last 7 days | Current month |
-| Timezone Mode | Jira timezone, User's timezone, My timezone | Jira timezone |
-| First Day of Week | Sunday–Saturday | Monday |
-| Working Days | Checkboxes | Mon–Fri |
-| Hours Per Day | Number input | 8 |
+| **Time Display Unit** | Jira default, Hours/Minutes, Hours, Days | Jira default |
+| **Default Time Range** | Current month, quarter, year, week, day, last 7 days | Current month |
+| **Timezone Mode** | Jira timezone, User's timezone, My timezone | Jira timezone |
+| **First Day of Week** | Sunday–Saturday | Monday |
+| **Working Days** | Checkboxes | Mon–Fri |
+| **Hours Per Day** | Number input | 8 |
 
 ---
 
@@ -2730,12 +2730,12 @@ Custom fields that appear in the Log Time form for capturing additional context.
 
 **Field Types:**
 
-| Type | Description | Example Use |
+| **Type** | Description | Example Use |
 |---|---|---|
-| Text | Single-line text input | Client PO number, activity description |
-| Number | Numeric input only | Ticket/reference number |
-| Select | Dropdown from defined options | Activity type (Development, Testing, Meeting) |
-| Checkbox | True/False toggle | Billable / Non-billable flag |
+| **Text** | Single-line text input | Client PO number, activity description |
+| **Number** | Numeric input only | Ticket/reference number |
+| **Select** | Dropdown from defined options | Activity type (Development, Testing, Meeting) |
+| **Checkbox** | True/False toggle | Billable / Non-billable flag |
 
 **Tips:**
 - Limit to 3–5 fields - too many fields slow down the logging experience
@@ -2753,15 +2753,15 @@ Classify worklogs by work type; appear as a dropdown in the Log Time form.
 
 **Recommended Categories:**
 
-| Category | Use Case |
+| **Category** | Use Case |
 |---|---|
-| Development | Feature work, bug fixes, coding |
-| Code Review | PR reviews, pair reviews |
-| Meetings | Stand-ups, retrospectives, planning |
-| QA Testing | Test execution, test case writing |
-| Documentation | Writing docs, wikis, runbooks |
-| Support | Customer support tickets, incidents |
-| Research | Spike work, investigation |
+| **Development** | Feature work, bug fixes, coding |
+| **Code Review** | PR reviews, pair reviews |
+| **Meetings** | Stand-ups, retrospectives, planning |
+| **QA Testing** | Test execution, test case writing |
+| **Documentation** | Writing docs, wikis, runbooks |
+| **Support** | Customer support tickets, incidents |
+| **Research** | Spike work, investigation |
 
 **Using in Reports:**
 - Filter by Time Category in the Report Builder
@@ -2774,14 +2774,14 @@ Classify worklogs by work type; appear as a dropdown in the Log Time form.
 
 Access from global Settings → Portfolio tab or from inside a portfolio → Settings gear.
 
-| Tab | Setting | Description |
+| **Tab** | Setting | Description |
 |---|---|---|
-| Time & Units | Time Display Unit | How hours display in portfolio table |
-| Calendar & working days | Bookings start date | Jira field mapped to Gantt bar start (e.g., Start date) |
-| Calendar & working days | Bookings end date | Jira field mapped to Gantt bar end (e.g., Due date) |
-| Calendar & working days | Hours per day | Used to convert story points/estimates to hours |
-| Calendar & working days | Working days | Days counted as working days |
-| Timezone & defaults | Timezone | How date/time is interpreted when reading from Jira |
+| **Time & Units** | Time Display Unit | How hours display in portfolio table |
+| **Calendar & working days** | Bookings start date | Jira field mapped to Gantt bar start (e.g., Start date) |
+| **Calendar & working days** | Bookings end date | Jira field mapped to Gantt bar end (e.g., Due date) |
+| **Calendar & working days** | Hours per day | Used to convert story points/estimates to hours |
+| **Calendar & working days** | Working days | Days counted as working days |
+| **Timezone & defaults** | Timezone | How date/time is interpreted when reading from Jira |
 
 > **Important:** Gantt Chart bars will not render correctly until **Bookings start date** and **Bookings end date** are mapped to Jira fields that have values on your issues.`,
         },
@@ -2800,19 +2800,19 @@ Teams are named groups of Jira users that the app uses for capacity planning, ti
 3. Click **Create Team**
 4. Fill in the form:
 
-| Field | Required | Description |
-|---|---|---|
-| Team Name | Yes | Display name (e.g., "Platform Team") |
-| Description | No | Brief description of the team's purpose |
-| Color | No | Color tag for visual identification |
-| Source | Yes | **Manual** (add members individually) or **Jira Group** (sync from group) |
-| Members | Yes | Add by user search or Jira Group selection |
+   | **Field** | Required | Description |
+   |---|---|---|
+   | **Team Name** | Yes | Display name (e.g., "Platform Team") |
+   | **Description** | No | Brief description of the team's purpose |
+   | **Color** | No | Color tag for visual identification |
+   | **Source** | Yes | **Manual** (add members individually) or **Jira Group** (sync from group) |
+   | **Members** | Yes | Add by user search or Jira Group selection |
 
 5. Click **Save**
 
 ### Source: Manual vs. Jira Group
 
-| Source | Behavior |
+| **Source** | Behavior |
 |---|---|
 | **Manual** | Members stay fixed until you edit the team manually |
 | **Jira Group** | Members auto-sync from the Jira group - changes to the group reflect automatically |
@@ -2892,22 +2892,22 @@ Cannot be done from within the app. Requires Jira site admin access:
           content: `
 ## Role Comparison Table
 
-| Capability | Global Admin | Member | No Role |
+| **Capability** | Global Admin | Member | No Role |
 |---|---|---|---|
-| Log time against issues | Yes | Yes | No |
-| Edit own time entries | Yes | Yes | No |
-| Approve / reject time entries | Yes | No | No |
-| View capacity analytics | Yes | Yes | Read-only |
-| Run backlog prioritization | Yes | Yes | Read-only |
-| Score backlog items | Yes | Yes | No |
-| View portfolio data | Yes | Yes | Read-only |
-| Access Settings | Yes | No | No |
-| Assign / revoke Member roles | Yes | No | No |
-| View My Permissions tab | Yes | Yes | Yes |
-| Create billing accounts | Yes | No | No |
-| Create scoring templates | Yes | Member (own) | No |
-| Create and save portfolios | Yes | Yes | No |
-| Delete portfolios created by others | Yes | No | No |
+| **Log time against issues** | Yes | Yes | No |
+| **Edit own time entries** | Yes | Yes | No |
+| **Approve / reject time entries** | Yes | No | No |
+| **View capacity analytics** | Yes | Yes | Read-only |
+| **Run backlog prioritization** | Yes | Yes | Read-only |
+| **Score backlog items** | Yes | Yes | No |
+| **View portfolio data** | Yes | Yes | Read-only |
+| **Access Settings** | Yes | No | No |
+| **Assign / revoke Member roles** | Yes | No | No |
+| **View My Permissions tab** | Yes | Yes | Yes |
+| **Create billing accounts** | Yes | No | No |
+| **Create scoring templates** | Yes | Member (own) | No |
+| **Create and save portfolios** | Yes | Yes | No |
+| **Delete portfolios created by others** | Yes | No | No |
 
 ## How Global Admin Works
 
@@ -2949,13 +2949,13 @@ The app stores all data using **Atlassian Forge Key-Value Storage (KVS)**:
 
 ## What Data the App Accesses
 
-| Data Type | Used For | Where Stored |
+| **Data Type** | Used For | Where Stored |
 |---|---|---|
-| Jira issues and projects | Capacity analysis, backlog scoring, portfolio views | Read from Jira; not copied |
-| Jira worklogs | Time tracking - read and write | Written to Jira; time log metadata in Forge KVS |
-| Jira users and groups | Assignee display, RBAC | Read from Jira; not copied |
-| Jira configuration | Issue types, statuses, priorities, custom fields | Read from Jira; not copied |
-| App configurations | Report setups, templates, portfolios, scoring | Stored in Forge KVS |
+| **Jira issues and projects** | Capacity analysis, backlog scoring, portfolio views | Read from Jira; not copied |
+| **Jira worklogs** | Time tracking - read and write | Written to Jira; time log metadata in Forge KVS |
+| **Jira users and groups** | Assignee display, RBAC | Read from Jira; not copied |
+| **Jira configuration** | Issue types, statuses, priorities, custom fields | Read from Jira; not copied |
+| **App configurations** | Report setups, templates, portfolios, scoring | Stored in Forge KVS |
 
 ## What the App Does NOT Access
 
@@ -2973,13 +2973,13 @@ The app stores all data using **Atlassian Forge Key-Value Storage (KVS)**:
 
 ## Atlassian Forge Security
 
-| Control | Details |
+| **Control** | Details |
 |---|---|
-| Data Isolation | Each Jira installation has its own isolated Forge KVS namespace - no data sharing between tenants |
-| Encryption at Rest | All Forge KVS data is encrypted by Atlassian |
-| Encryption in Transit | All communication uses TLS 1.2+ |
-| No External Data Egress | The app does not make outbound calls to Clovity servers |
-| Access Control | App can only access Jira data permitted by the user's Jira permissions |
+| **Data Isolation** | Each Jira installation has its own isolated Forge KVS namespace - no data sharing between tenants |
+| **Encryption at Rest** | All Forge KVS data is encrypted by Atlassian |
+| **Encryption in Transit** | All communication uses TLS 1.2+ |
+| **No External Data Egress** | The app does not make outbound calls to Clovity servers |
+| **Access Control** | App can only access Jira data permitted by the user's Jira permissions |
 
 ## GDPR Compliance
 
@@ -3035,12 +3035,12 @@ Workload Schemes define the number of working hours per day for different workin
 
 **Example Schemes:**
 
-| Scheme | Mon | Tue | Wed | Thu | Fri |
+| **Scheme** | Mon | Tue | Wed | Thu | Fri |
 |---|---|---|---|---|---|
-| Full-Time 8h | 8 | 8 | 8 | 8 | 8 |
-| Part-Time 4h | 4 | 4 | 4 | 4 | 4 |
-| 4-day week | 0 | 8 | 8 | 8 | 8 |
-| Contractor 6h | 6 | 6 | 6 | 6 | 6 |
+| **Full-Time 8h** | 8 | 8 | 8 | 8 | 8 |
+| **Part-Time 4h** | 4 | 4 | 4 | 4 | 4 |
+| **4-day week** | 0 | 8 | 8 | 8 | 8 |
+| **Contractor 6h** | 6 | 6 | 6 | 6 | 6 |
 
 ### Staff Assignment
 
@@ -3060,21 +3060,21 @@ Links individual staff members to workload schemes.
 
 ## Performance Optimization Tips
 
-| Problem | Solution |
+| **Problem** | Solution |
 |---|---|
-| Report loads slowly | Narrow the date range; reduce group-by dimensions; filter to fewer projects |
-| Capacity analysis takes too long | Select fewer projects or shorter date range |
-| Gantt chart is sluggish | Reduce issue count in portfolio using tighter JQL filters |
-| Backlog table is slow | Filter to a specific issue type or status to reduce the issue count |
-| Dashboard gadget shows no data | Check that the portfolio scope still contains issues; verify read access |
+| **Report loads slowly** | Narrow the date range; reduce group-by dimensions; filter to fewer projects |
+| **Capacity analysis takes too long** | Select fewer projects or shorter date range |
+| **Gantt chart is sluggish** | Reduce issue count in portfolio using tighter JQL filters |
+| **Backlog table is slow** | Filter to a specific issue type or status to reduce the issue count |
+| **Dashboard gadget shows no data** | Check that the portfolio scope still contains issues; verify read access |
 
 ## Platform Limits
 
-| Constraint | Impact |
+| **Constraint** | Impact |
 |---|---|
-| Forge KVS storage | Very large datasets may approach Forge storage limits |
-| Jira API rate limits | Automatic backoff/retry is built in - very large issue fetches may be slower |
-| No pre-aggregation | All reports are generated on-demand from Jira data - no overnight aggregation cache |`,
+| **Forge KVS storage** | Very large datasets may approach Forge storage limits |
+| **Jira API rate limits** | Automatic backoff/retry is built in - very large issue fetches may be slower |
+| **No pre-aggregation** | All reports are generated on-demand from Jira data - no overnight aggregation cache |`,
         },
       ],
     },
@@ -3096,16 +3096,16 @@ Time Tracking, Resource Planning & Project Management is a **native Jira Cloud a
 
 ### What Jira Data It Uses
 
-| Jira Data | How It's Used |
+| **Jira Data** | How It's Used |
 |---|---|
-| Issues | Source for time logging, capacity analysis, backlog scoring, and portfolio views |
-| Projects | Scope selector for all modules |
-| Worklogs | Read and write time entries |
-| Users and Groups | Assignee display, RBAC Global Admin detection |
-| Sprints | Available as a grouping dimension in reports and backlog views |
-| Issue Types, Statuses, Priorities | Filtering and grouping in all modules |
-| Custom Fields | Available for filtering in portfolio and report builder |
-| Saved Filters | Can be used as portfolio scope in Portfolio Management |
+| **Issues** | Source for time logging, capacity analysis, backlog scoring, and portfolio views |
+| **Projects** | Scope selector for all modules |
+| **Worklogs** | Read and write time entries |
+| **Users and Groups** | Assignee display, RBAC Global Admin detection |
+| **Sprints** | Available as a grouping dimension in reports and backlog views |
+| **Issue Types, Statuses, Priorities** | Filtering and grouping in all modules |
+| **Custom Fields** | Available for filtering in portfolio and report builder |
+| **Saved Filters** | Can be used as portfolio scope in Portfolio Management |
 
 ## Jira Dashboard Integration
 
@@ -3118,16 +3118,16 @@ The **Portfolio Dashboard Gadget** adds a portfolio metrics widget to any Jira d
 
 ## Currently Not Supported
 
-| Integration | Status |
+| **Integration** | Status |
 |---|---|
-| Jira Server / Data Center | Not supported - Forge platform is Cloud-only |
-| Confluence | No direct integration |
-| Slack | Not supported |
-| Microsoft Teams | Not supported |
-| Google Sheets / Excel | CSV export available for manual transfer |
-| Tempo Timesheets | No direct integration |
-| Harvest / Toggl | No direct integration |
-| SAP / Oracle ERP | No direct integration |
+| **Jira Server / Data Center** | Not supported - Forge platform is Cloud-only |
+| **Confluence** | No direct integration |
+| **Slack** | Not supported |
+| **Microsoft Teams** | Not supported |
+| **Google Sheets / Excel** | CSV export available for manual transfer |
+| **Tempo Timesheets** | No direct integration |
+| **Harvest / Toggl** | No direct integration |
+| **SAP / Oracle ERP** | No direct integration |
 
 ## Roadmap
 
