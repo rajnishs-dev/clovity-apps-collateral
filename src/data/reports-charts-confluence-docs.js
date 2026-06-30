@@ -27,17 +27,17 @@ Reports, Charts, Templates, CQL & Export for Confluence is a macro-based reporti
 
 | **Capability** | **Description** |
 | --- | --- |
-| Data Source Selection | Spaces drill-down (visual) or Custom CQL (query-based) for flexible content targeting |
-| Metadata Loading | Load expansion groups to make fields available for columns, filters, and charts |
-| Display Options | Table, List, Paragraph, Grid, or Charts - choose the format that fits your audience |
-| Columns & Filters | Define what data fields appear and refine which records are shown |
-| Templates | 35 pre-built tabular + 17 chart templates for instant setup |
-| Import / Export | Share report setups as JSON recipes across teams and spaces |
-| Raw View | Inspect underlying JSON data and metadata structure for debugging |
-| Explore | Discover available metadata fields with types and sample values |
-| Live Preview | See changes instantly as you configure - no save needed |
-| Export | Download report data as CSV or JSON for offline analysis |
-| Result Limit + Pagination | Control dataset size and navigate large reports efficiently |
+| **Data Source Selection** | Spaces drill-down (visual) or Custom CQL (query-based) for flexible content targeting |
+| **Metadata Loading** | Load expansion groups to make fields available for columns, filters, and charts |
+| **Display Options** | Table, List, Paragraph, Grid, or Charts - choose the format that fits your audience |
+| **Columns & Filters** | Define what data fields appear and refine which records are shown |
+| **Templates** | 35 pre-built tabular + 17 chart templates for instant setup |
+| **Import / Export** | Share report setups as JSON recipes across teams and spaces |
+| **Raw View** | Inspect underlying JSON data and metadata structure for debugging |
+| **Explore** | Discover available metadata fields with types and sample values |
+| **Live Preview** | See changes instantly as you configure - no save needed |
+| **Export** | Download report data as CSV or JSON for offline analysis |
+| **Result Limit + Pagination** | Control dataset size and navigate large reports efficiently |
 
 ## Who Is It For?
 
@@ -99,9 +99,9 @@ Before installing, confirm you have:
 
 | **Requirement** | **Detail** |
 | --- | --- |
-| Confluence Cloud site | The app supports Confluence Cloud only (not Data Center or Server) |
-| Space Admin or Site Admin role | Required to install apps from the Marketplace |
-| Atlassian account | Required to accept app permissions during installation |
+| **Confluence Cloud site** | The app supports Confluence Cloud only (not Data Center or Server) |
+| **Space Admin or Site Admin role** | Required to install apps from the Marketplace |
+| **Atlassian account** | Required to accept app permissions during installation |
 
 ## Step-by-Step Installation
 
@@ -137,18 +137,18 @@ Once installed, the app is available to all users on your Confluence Cloud site.
 
 | **Next Step** | **Where to Go** |
 | --- | --- |
-| Build your first report | See [Quick Start Guide](/apps/reports-charts-confluence/quick-start) |
-| Understand permissions | See [Permissions & Access](/apps/reports-charts-confluence/permissions-access) |
-| Explore all features | See [Features](/apps/reports-charts-confluence/features-intro) |
+| **Build your first report** | See [Quick Start Guide](/apps/reports-charts-confluence/quick-start) |
+| **Understand permissions** | See [Permissions & Access](/apps/reports-charts-confluence/permissions-access) |
+| **Explore all features** | See [Features](/apps/reports-charts-confluence/features-intro) |
 
 ## Troubleshooting Installation
 
 | **Issue** | **Solution** |
 | --- | --- |
-| App not appearing in macro menu | Wait a few minutes and refresh - Confluence may cache the macro list |
-| Permission denied during install | Confirm you have Space Admin or Site Admin role on the site |
-| App not found in Marketplace | Try searching just "Reports Charts Clovity" or browse by category |
-| Installation fails | Check your Atlassian Cloud subscription level and try again |`,
+| **App not appearing in macro menu** | Wait a few minutes and refresh - Confluence may cache the macro list |
+| **Permission denied during install** | Confirm you have Space Admin or Site Admin role on the site |
+| **App not found in Marketplace** | Try searching just "Reports Charts Clovity" or browse by category |
+| **Installation fails** | Check your Atlassian Cloud subscription level and try again |`,
         },
         {
           slug: "quick-start",
@@ -299,11 +299,11 @@ Click **Save** to publish the report to your Confluence page. The macro editor c
 
 | **Topic** | **Where to Go** |
 | --- | --- |
-| Data source options | [Data Source](/apps/reports-charts-confluence/data-source) |
-| Understanding expansions | [Expansions](/apps/reports-charts-confluence/expansions) |
-| All view types | [Report Views](/apps/reports-charts-confluence/report-views) |
-| Columns and filters | [Columns & Filters](/apps/reports-charts-confluence/columns-filters) |
-| Pre-built templates | [Templates & Import/Export](/apps/reports-charts-confluence/templates-import-export) |`,
+| **Data source options** | [Data Source](/apps/reports-charts-confluence/data-source) |
+| **Understanding expansions** | [Expansions](/apps/reports-charts-confluence/expansions) |
+| **All view types** | [Report Views](/apps/reports-charts-confluence/report-views) |
+| **Columns and filters** | [Columns & Filters](/apps/reports-charts-confluence/columns-filters) |
+| **Pre-built templates** | [Templates & Import/Export](/apps/reports-charts-confluence/templates-import-export) |`,
         },
         {
           slug: "permissions-access",
@@ -315,9 +315,9 @@ Reports, Charts, Templates, CQL & Export for Confluence uses Confluence's native
 
 | **Role** | **Can Install App?** |
 | --- | --- |
-| Confluence Site Admin | Yes |
-| Confluence Space Admin | Yes (via Manage Apps in Confluence settings) |
-| Regular Confluence user | No - must request install from an admin |
+| **Confluence Site Admin** | Yes |
+| **Confluence Space Admin** | Yes (via Manage Apps in Confluence settings) |
+| **Regular Confluence user** | No - must request install from an admin |
 
 ## Macro Usage Permissions
 
@@ -325,10 +325,10 @@ Once the app is installed, any Confluence user with page edit access can insert 
 
 | **Action** | **Who Can Do It** |
 | --- | --- |
-| Insert the macro on a page | Any user with Edit permission on that page |
-| Configure the macro (open editor) | Any user with Edit permission on that page |
-| View a published report | Any user with Read permission on the page |
-| Export report data (CSV/JSON) | Any user who can view the published report |
+| **Insert the macro on a page** | Any user with Edit permission on that page |
+| **Configure the macro (open editor)** | Any user with Edit permission on that page |
+| **View a published report** | Any user with Read permission on the page |
+| **Export report data (CSV/JSON)** | Any user who can view the published report |
 
 ## How Report Data Visibility Works
 
@@ -336,10 +336,10 @@ Reports, Charts, Templates, CQL & Export for Confluence fully respects Confluenc
 
 | **Scenario** | **Result** |
 | --- | --- |
-| Viewer has access to all queried spaces | Full results displayed |
-| Viewer has access to only some spaces | Only permitted content appears |
-| Viewer has no access to a space | That space's content is excluded entirely |
-| Page has content restrictions | Restricted pages are excluded from results |
+| **Viewer has access to all queried spaces** | Full results displayed |
+| **Viewer has access to only some spaces** | Only permitted content appears |
+| **Viewer has no access to a space** | That space's content is excluded entirely |
+| **Page has content restrictions** | Restricted pages are excluded from results |
 
 > **Important:** Two users viewing the same report on the same page may see different results - each sees only the content they are authorized to access.
 
@@ -428,7 +428,7 @@ A single-page reference for report types, CQL patterns, column block types, and 
 
 ## Report Types at a Glance
 
-| Report Type | Best For | Full Reference |
+| **Report Type** | Best For | Full Reference |
 |---|---|---|
 | **Table** | Sortable page inventory with configurable columns | [Table View](/apps/reports-charts-confluence/table-view) |
 | **List** | Clean reading-order content list | [List View](/apps/reports-charts-confluence/list-view) |
@@ -438,51 +438,51 @@ A single-page reference for report types, CQL patterns, column block types, and 
 
 ## Data Source Options
 
-| Source | How to Use |
+| **Source** | How to Use |
 |---|---|
 | **Spaces** | Visual drill-down picker - select a space or page hierarchy |
 | **Custom CQL** | Type a CQL query for full control over what content is included |
 
 ## Common CQL Patterns
 
-| Goal | CQL |
+| **Goal** | CQL |
 |---|---|
-| All pages in a space | \`space = "SPACENAME" AND type = page\` |
-| Stale pages (not updated in 90 days) | \`type = page AND lastmodified < now("-90d")\` |
-| Pages with a specific label | \`label = "decision" AND type = page\` |
-| Recently created content | \`type = page AND created >= now("-30d")\` |
-| Title contains keyword | \`type = page AND title ~ "Release Notes"\` |
-| Pages with restrictions | \`type = page AND ancestor = "PAGE_ID"\` |
-| Blog posts in a space | \`space = "SPACENAME" AND type = blogpost\` |
+| **All pages in a space** | \`space = "SPACENAME" AND type = page\` |
+| **Stale pages (not updated in 90 days)** | \`type = page AND lastmodified < now("-90d")\` |
+| **Pages with a specific label** | \`label = "decision" AND type = page\` |
+| **Recently created content** | \`type = page AND created >= now("-30d")\` |
+| **Title contains keyword** | \`type = page AND title ~ "Release Notes"\` |
+| **Pages with restrictions** | \`type = page AND ancestor = "PAGE_ID"\` |
+| **Blog posts in a space** | \`space = "SPACENAME" AND type = blogpost\` |
 
 ## Column Block Types
 
-| Block Type | Use Case |
+| **Block Type** | Use Case |
 |---|---|
-| Basic | Plain text field value |
-| Link | Clickable link (field value + URL field) |
-| Image | Thumbnail from a URL field |
-| Collection | Array/list field (e.g., labels, contributors) |
-| Regex | Extract part of a field value using a pattern |
-| Text | Static text or combined field values |
+| **Basic** | Plain text field value |
+| **Link** | Clickable link (field value + URL field) |
+| **Image** | Thumbnail from a URL field |
+| **Collection** | Array/list field (e.g., labels, contributors) |
+| **Regex** | Extract part of a field value using a pattern |
+| **Text** | Static text or combined field values |
 
 → [Columns & Filters](/apps/reports-charts-confluence/columns-filters)
 
 ## Export Formats
 
-| Format | Available On | Use Case |
+| **Format** | Available On | Use Case |
 |---|---|---|
-| CSV | Table, List | Spreadsheet analysis (Excel, Google Sheets) |
-| JSON | All report types | Developer processing, full API payload |
+| **CSV** | Table, List | Spreadsheet analysis (Excel, Google Sheets) |
+| **JSON** | All report types | Developer processing, full API payload |
 
 ## Settings Panel Tabs
 
-| Tab | Purpose |
+| **Tab** | Purpose |
 |---|---|
-| Columns | Define which fields to show and how to format them |
-| Templates | Browse and apply 35 tabular + 17 chart pre-built templates |
-| Import | Paste a JSON recipe to recreate a full report configuration |
-| Raw | Inspect raw Confluence API JSON for debugging field paths |
+| **Columns** | Define which fields to show and how to format them |
+| **Templates** | Browse and apply 35 tabular + 17 chart pre-built templates |
+| **Import** | Paste a JSON recipe to recreate a full report configuration |
+| **Raw** | Inspect raw Confluence API JSON for debugging field paths |
 
 → [Macro Editor UI Tour](/apps/reports-charts-confluence/macro-editor-ui-tour)
 `,
@@ -528,14 +528,14 @@ In the **Left Panel**, check these expansion groups:
 
 In the **Right Panel → Columns tab**, click **+ Add New Column** for each:
 
-| Column Label | Block Type | Data Value |
+| **Column Label** | Block Type | Data Value |
 |---|---|---|
-| Page Title | Link | title / _links.webui |
-| Last Modified | Basic | version.when |
-| Last Author | Basic | version.by.displayName |
-| Created | Basic | history.createdDate |
-| Created By | Basic | history.createdBy.displayName |
-| Labels | Collection | metadata.labels.results[].name |
+| **Page Title** | Link | title / _links.webui |
+| **Last Modified** | Basic | version.when |
+| **Last Author** | Basic | version.by.displayName |
+| **Created** | Basic | history.createdDate |
+| **Created By** | Basic | history.createdBy.displayName |
+| **Labels** | Collection | metadata.labels.results[].name |
 
 → [Columns & Filters](/apps/reports-charts-confluence/columns-filters)
 
@@ -706,12 +706,12 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Subpage** | **What you will find** |
 | --- | --- |
-| Tabular Overview | When to use each view and how to choose the right one |
-| Table View | Spreadsheet-style rows and columns - the primary report type |
-| List View | One card per record - clean, human-readable output |
-| Grid View | Responsive card grid - visual dashboards and directories |
-| Paragraph View | Prose-style output - digests, summaries, newsletters |
-| Templates | All 35 pre-built tabular templates listed and described |`,
+| **Tabular Overview** | When to use each view and how to choose the right one |
+| **Table View** | Spreadsheet-style rows and columns - the primary report type |
+| **List View** | One card per record - clean, human-readable output |
+| **Grid View** | Responsive card grid - visual dashboards and directories |
+| **Paragraph View** | Prose-style output - digests, summaries, newsletters |
+| **Templates** | All 35 pre-built tabular templates listed and described |`,
         },
         {
           slug: "tabular-overview",
@@ -730,10 +730,10 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **View** | **Layout Style** | **Best For** | **Supports Pagination** |
 | --- | --- | --- | --- |
-| Table | Rows and columns - spreadsheet-style | Audits, governance, structured data comparison | Yes |
-| List | One card per record - vertical list | Page indexes, team directories, readable inventories | Yes |
-| Grid | Card tiles in a responsive grid | Visual dashboards, profile directories, galleries | Yes |
-| Paragraph | Flowing prose - one block per record | Weekly digests, executive summaries, narrative reports | No |
+| **Table** | Rows and columns - spreadsheet-style | Audits, governance, structured data comparison | Yes |
+| **List** | One card per record - vertical list | Page indexes, team directories, readable inventories | Yes |
+| **Grid** | Card tiles in a responsive grid | Visual dashboards, profile directories, galleries | Yes |
+| **Paragraph** | Flowing prose - one block per record | Weekly digests, executive summaries, narrative reports | No |
 
 ## What All Views Share
 
@@ -748,10 +748,10 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **If you want to...** | **Use This View** |
 | --- | --- |
-| Compare multiple fields side by side across many records | Table |
-| Show a clean, readable list where each item stands alone | List |
-| Present visual cards with images - like a team directory or gallery | Grid |
-| Create a narrative summary - readable prose, not a data table | Paragraph |
+| **Compare multiple fields side by side across many records** | Table |
+| **Show a clean, readable list where each item stands alone** | List |
+| **Present visual cards with images - like a team directory or gallery** | Grid |
+| **Create a narrative summary - readable prose, not a data table** | Paragraph |
 
 ## Switching Between Views
 
@@ -779,25 +779,25 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Feature** | **Description** |
 | --- | --- |
-| Column headers | Defined by your Columns tab - label, block type, and source field |
-| Sortable columns | Click any header to sort ascending or descending |
-| Inline search | Filter visible rows by keyword - no data reload |
-| CSV export | Download all visible columns and filtered data as a spreadsheet |
-| JSON export | Full data structure download for developers or integrations |
-| Pagination | Navigate large datasets with Previous/Next and page numbers |
-| Result Limit | Control how many rows appear per page |
-| All 6 block types | Basic, Image, Link, Collection, Regex, Text - all supported |
+| **Column headers** | Defined by your Columns tab - label, block type, and source field |
+| **Sortable columns** | Click any header to sort ascending or descending |
+| **Inline search** | Filter visible rows by keyword - no data reload |
+| **CSV export** | Download all visible columns and filtered data as a spreadsheet |
+| **JSON export** | Full data structure download for developers or integrations |
+| **Pagination** | Navigate large datasets with Previous/Next and page numbers |
+| **Result Limit** | Control how many rows appear per page |
+| **All 6 block types** | Basic, Image, Link, Collection, Regex, Text - all supported |
 
 ## Column Block Types in Table View
 
 | **Block Type** | **What It Renders** | **Common Table Use Case** |
 | --- | --- | --- |
-| Basic | Plain text or number | Page ID, version number, space key, status |
-| Image | Inline image (size adjustable) | Profile picture of last editor, page thumbnail |
-| Link | Clickable hyperlink | Page title linking to the Confluence page |
-| Collection | Array/list joined by separator | Labels as comma-separated list, contributors |
-| Regex | Extracted or transformed text via pattern | Extracting version number from a title |
-| Text | Formatted text with prefix, suffix, truncation, fallback | Truncated excerpt, 'N/A' fallback for empty fields |
+| **Basic** | Plain text or number | Page ID, version number, space key, status |
+| **Image** | Inline image (size adjustable) | Profile picture of last editor, page thumbnail |
+| **Link** | Clickable hyperlink | Page title linking to the Confluence page |
+| **Collection** | Array/list joined by separator | Labels as comma-separated list, contributors |
+| **Regex** | Extracted or transformed text via pattern | Extracting version number from a title |
+| **Text** | Formatted text with prefix, suffix, truncation, fallback | Truncated excerpt, 'N/A' fallback for empty fields |
 
 ## Configuring Table View
 
@@ -814,9 +814,9 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Format** | **How to Access** | **Best For** |
 | --- | --- | --- |
-| CSV | Export button → CSV | Excel, Google Sheets, stakeholder sharing |
-| JSON | Export button → JSON | Developer use, API integrations |
-| Config Recipe | Import tab → Copy JSON | Share report setup with team |
+| **CSV** | Export button → CSV | Excel, Google Sheets, stakeholder sharing |
+| **JSON** | Export button → JSON | Developer use, API integrations |
+| **Config Recipe** | Import tab → Copy JSON | Share report setup with team |
 
 **Best for:** Content audits, governance reports, compliance tracking, contributor tracking, stale content review, and any report that benefits from side-by-side field comparison.`,
         },
@@ -836,12 +836,12 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Feature** | **Description** |
 | --- | --- |
-| Card-based layout | Each record occupies its own row as a standalone card |
-| Field labels inline | Column labels shown next to values for easy reading |
-| Image block support | Profile pictures or thumbnails render prominently in each card |
-| Link block support | Card titles or fields can be clickable links |
-| Pagination | Navigate large lists with Previous/Next controls |
-| Inline search | Filter visible items by keyword |
+| **Card-based layout** | Each record occupies its own row as a standalone card |
+| **Field labels inline** | Column labels shown next to values for easy reading |
+| **Image block support** | Profile pictures or thumbnails render prominently in each card |
+| **Link block support** | Card titles or fields can be clickable links |
+| **Pagination** | Navigate large lists with Previous/Next controls |
+| **Inline search** | Filter visible items by keyword |
 
 ## When to Use List View
 
@@ -879,12 +879,12 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Feature** | **Description** |
 | --- | --- |
-| Responsive grid layout | Cards arrange in multiple columns and adapt to page width |
-| Image block - prominent | Images render as the card's visual focus (e.g. profile photo, thumbnail) |
-| Link block | Card title or image can be a clickable link to the Confluence page |
-| Pagination | Navigate large grids with Previous/Next controls |
-| Inline search | Filter visible cards by keyword |
-| All column types supported | Basic, Image, Link, Collection, Regex, Text |
+| **Responsive grid layout** | Cards arrange in multiple columns and adapt to page width |
+| **Image block - prominent** | Images render as the card's visual focus (e.g. profile photo, thumbnail) |
+| **Link block** | Card title or image can be a clickable link to the Confluence page |
+| **Pagination** | Navigate large grids with Previous/Next controls |
+| **Inline search** | Filter visible cards by keyword |
+| **All column types supported** | Basic, Image, Link, Collection, Regex, Text |
 
 ## When to Use Grid View
 
@@ -922,12 +922,12 @@ Non-obvious tips that save time and prevent common configuration mistakes.
 
 | **Feature** | **Description** |
 | --- | --- |
-| Prose output | Each record becomes a readable paragraph, not a table row |
-| Column concatenation | Column values are joined together to form sentences |
-| Prefix & Suffix (Text block) | Add connecting words before/after field values to build natural sentences |
-| Fallback values | Show a default text when a field is empty |
-| No pagination | All records rendered sequentially as continuous text |
-| Inline search | Filter visible paragraphs by keyword |
+| **Prose output** | Each record becomes a readable paragraph, not a table row |
+| **Column concatenation** | Column values are joined together to form sentences |
+| **Prefix & Suffix (Text block)** | Add connecting words before/after field values to build natural sentences |
+| **Fallback values** | Show a default text when a field is empty |
+| **No pagination** | All records rendered sequentially as continuous text |
+| **Inline search** | Filter visible paragraphs by keyword |
 
 ## When to Use Paragraph View
 
@@ -943,9 +943,9 @@ Use the Text block type with Prefix and Suffix settings to construct natural-lan
 
 | **Column** | **Block Type** | **Prefix** | **Source Field** | **Suffix** | **Result** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Link | - | title → _links.webui | - | Clickable page title |
-| 2 | Text | was last updated by | version.by.displayName | - | ...was last updated by John |
-| 3 | Text | on | version.when | . | ...on 12 Feb 2026. |
+| **1** | Link | - | title → _links.webui | - | Clickable page title |
+| **2** | Text | was last updated by | version.by.displayName | - | ...was last updated by John |
+| **3** | Text | on | version.when | . | ...on 12 Feb 2026. |
 
 ## Configuring Paragraph View
 
@@ -986,41 +986,41 @@ Use the Text block type with Prefix and Suffix settings to construct natural-lan
 
 | **#** | **Template Name** | **What It Shows** | **Objective** | **Best For** |
 | --- | --- | --- | --- | --- |
-| 1 | Pages grouped by selected labels | Pages filtered by chosen labels, showing page title + labels list | Quickly find and review all pages tagged with important labels | Governance for 'urgent/critical' pages, label cleanup, topic-based content tracking |
-| 2 | Page last update details | Each page with last editor and last edited date | Track ownership and most recent activity per page | Audit 'who changed what', stale content review, accountability reporting |
-| 3 | All comments with resolution status | Comments (inline + normal) with resolution status, author, modified date, excerpt | Track discussion items and unresolved feedback across Confluence | Review unresolved inline comments, discussion follow-ups, moderation/audit |
-| 4 | Blog posts overview | Table of blog posts with title + excerpt/summary | Quick overview of announcements/news posts | Company news digest, blog library, communications tracking |
-| 5 | Pages matching title keyword | Pages whose title contains a keyword (e.g., 'project') | Discover related pages without knowing exact names | Find 'Release Notes', 'Project', 'Design', 'Meeting Notes' pages fast |
-| 6 | Recently updated content across spaces | Latest modified pages/blogs across all spaces with space + last modified | Monitor recent activity globally | Weekly admin audit, adoption tracking, activity dashboards |
-| 7 | Content created by me | All pages/blogs/comments created by current user with type, contributors, excerpt | Personal contribution inventory | Performance reporting, personal dashboard, self-audit of work |
-| 8 | Pages updated this year | Pages modified after start of year + contributors | Measure this year's documentation activity | Annual reporting, review top active areas, contributor visibility |
-| 9 | Pages authored by me | Only pages created by current user, sorted by last modified + title | Personal page library and maintenance list | Clean up old pages you own, maintain your content set |
-| 10 | Page likes in current space | Pages in current space with like count | Identify popular/high-value pages | Highlight best docs, measure engagement, identify key references |
-| 11 | Attachments and images in current space | Attachments list with file name, parent page, file size, image preview | Audit attachments usage and storage | Storage cleanup, find large files, media inventory |
-| 12 | My recently updated pages | Pages last modified by current user with updated time | Track your latest edits | Daily/weekly work recap, 'what did I touch recently' |
-| 13 | Child pages with contributors and last editor | Child pages under current page with last editor, last modified, contributors | Manage a page tree with clear ownership/activity | Documentation hub maintenance, section owners, navigation governance |
-| 14 | Recently updated pages across all spaces | Pages sorted by last modified with space + friendly update time | Global page activity feed | Admin monitoring, knowledge base activity reporting |
-| 15 | Pages created in last 3 months | Pages created in last 12 weeks + last modified | Identify new content for review | Onboarding content review, new documentation QA, growth tracking |
-| 16 | Pages created this year | Pages created since start of year with created date | Measure content growth (new pages) | Annual documentation growth metrics, team output reporting |
-| 17 | Page creation vs last update timeline | Pages with both created date and latest update date | Understand lifecycle - fresh vs long-lived pages | Staleness analysis, maintenance planning, governance insights |
-| 18 | Pages by space and creator | Pages with space + original creator | Ownership tracking across spaces | Identify responsible teams/users, transfer ownership, audits |
-| 19 | Labels used in current space | Pages in current space + their labels | Label governance and taxonomy review | Standardize labels, remove duplicates, find untagged content |
-| 20 | Child pages of the current page | Child pages list with excerpt | Create quick index/summary of a section | Documentation landing pages, structured navigation, hub pages |
-| 21 | Recently created pages | Pages sorted by creation date (newest first) + created date | Spotlight newly created documentation | New content review queue, onboarding 'what's new' |
-| 22 | Pages Updated By a Specific User | Pages with last updated by + last updated date (version fields) | Track updates by a user (or team) for accountability | Reviewer workflow, contributor reports, audit trail |
-| 23 | Attachments Overview with Metadata | Table report of attachments with key metadata | Audit and manage files easily | Clean storage, find large/old files, track uploads |
-| 24 | Stale Pages – Detailed View | Pages not modified in 40+ days with space info, created/creator, last modified/modifier, page link | Full stale-content audit with enough fields to take action | Cleanup campaigns, compliance reviews, maintenance scheduling |
-| 25 | Content Created in Date Range | Content with type + created date + author | Report content created within a defined period | Monthly/quarterly reporting, content production tracking |
-| 26 | Attachments Coverage Summary | Pages with attachment counts and attachment paging metadata + link | Understand attachment coverage per page | Identify pages with heavy attachments, storage governance |
-| 27 | Owner vs Last Editor | Pages showing creator (owner) vs last updater + last updated time | Compare ownership vs active editors | Ownership reassignment, accountability checks, audit reporting |
-| 28 | Pages – IDs & ARIs | Pages with content ID, ARI, base64 ARI, type | Provide internal identifiers for integrations/debugging | API troubleshooting, migration scripts, support diagnostics |
-| 29 | Space & Page Status Audit | Pages with space type/status + page status + page link | Governance view for cleanup and standardization | Space lifecycle audits, ensure pages/spaces are 'current', compliance |
-| 30 | Pages – Link Formats Overview | Shows API link, standard web link, and short link for pages | Help users choose correct link format for sharing/integration | Documentation linking standards, automation/webhook references |
-| 31 | Blog Posts – Older than 30 Days | Blog posts created >30 days ago with space + last updated | Review older blogs for archival/cleanup | Content hygiene, outdated announcements review |
-| 32 | Content – Everything Except Pages | All content items where type != page (blogs, attachments, comments, etc.) | Audit non-page content across instance | Storage cleanup, attachment audits, content-type governance |
-| 33 | Blog Posts – Updated This Year | Blog posts modified since start of year with last updated + space key | Track active blog/news activity this year | Communications KPI, yearly reporting, stakeholder updates |
-| 34 | Weekly Updated Pages | Pages updated in last 7 days with space + last updated + excerpt | Weekly activity snapshot | Weekly digest, team status reporting, 'what changed' |
-| 35 | Today Updated Pages | Pages updated in last 24 hours with space + last updated + excerpt | Daily change tracker | Daily standups, release/change monitoring, fast review queue |
+| **1** | Pages grouped by selected labels | Pages filtered by chosen labels, showing page title + labels list | Quickly find and review all pages tagged with important labels | Governance for 'urgent/critical' pages, label cleanup, topic-based content tracking |
+| **2** | Page last update details | Each page with last editor and last edited date | Track ownership and most recent activity per page | Audit 'who changed what', stale content review, accountability reporting |
+| **3** | All comments with resolution status | Comments (inline + normal) with resolution status, author, modified date, excerpt | Track discussion items and unresolved feedback across Confluence | Review unresolved inline comments, discussion follow-ups, moderation/audit |
+| **4** | Blog posts overview | Table of blog posts with title + excerpt/summary | Quick overview of announcements/news posts | Company news digest, blog library, communications tracking |
+| **5** | Pages matching title keyword | Pages whose title contains a keyword (e.g., 'project') | Discover related pages without knowing exact names | Find 'Release Notes', 'Project', 'Design', 'Meeting Notes' pages fast |
+| **6** | Recently updated content across spaces | Latest modified pages/blogs across all spaces with space + last modified | Monitor recent activity globally | Weekly admin audit, adoption tracking, activity dashboards |
+| **7** | Content created by me | All pages/blogs/comments created by current user with type, contributors, excerpt | Personal contribution inventory | Performance reporting, personal dashboard, self-audit of work |
+| **8** | Pages updated this year | Pages modified after start of year + contributors | Measure this year's documentation activity | Annual reporting, review top active areas, contributor visibility |
+| **9** | Pages authored by me | Only pages created by current user, sorted by last modified + title | Personal page library and maintenance list | Clean up old pages you own, maintain your content set |
+| **10** | Page likes in current space | Pages in current space with like count | Identify popular/high-value pages | Highlight best docs, measure engagement, identify key references |
+| **11** | Attachments and images in current space | Attachments list with file name, parent page, file size, image preview | Audit attachments usage and storage | Storage cleanup, find large files, media inventory |
+| **12** | My recently updated pages | Pages last modified by current user with updated time | Track your latest edits | Daily/weekly work recap, 'what did I touch recently' |
+| **13** | Child pages with contributors and last editor | Child pages under current page with last editor, last modified, contributors | Manage a page tree with clear ownership/activity | Documentation hub maintenance, section owners, navigation governance |
+| **14** | Recently updated pages across all spaces | Pages sorted by last modified with space + friendly update time | Global page activity feed | Admin monitoring, knowledge base activity reporting |
+| **15** | Pages created in last 3 months | Pages created in last 12 weeks + last modified | Identify new content for review | Onboarding content review, new documentation QA, growth tracking |
+| **16** | Pages created this year | Pages created since start of year with created date | Measure content growth (new pages) | Annual documentation growth metrics, team output reporting |
+| **17** | Page creation vs last update timeline | Pages with both created date and latest update date | Understand lifecycle - fresh vs long-lived pages | Staleness analysis, maintenance planning, governance insights |
+| **18** | Pages by space and creator | Pages with space + original creator | Ownership tracking across spaces | Identify responsible teams/users, transfer ownership, audits |
+| **19** | Labels used in current space | Pages in current space + their labels | Label governance and taxonomy review | Standardize labels, remove duplicates, find untagged content |
+| **20** | Child pages of the current page | Child pages list with excerpt | Create quick index/summary of a section | Documentation landing pages, structured navigation, hub pages |
+| **21** | Recently created pages | Pages sorted by creation date (newest first) + created date | Spotlight newly created documentation | New content review queue, onboarding 'what's new' |
+| **22** | Pages Updated By a Specific User | Pages with last updated by + last updated date (version fields) | Track updates by a user (or team) for accountability | Reviewer workflow, contributor reports, audit trail |
+| **23** | Attachments Overview with Metadata | Table report of attachments with key metadata | Audit and manage files easily | Clean storage, find large/old files, track uploads |
+| **24** | Stale Pages – Detailed View | Pages not modified in 40+ days with space info, created/creator, last modified/modifier, page link | Full stale-content audit with enough fields to take action | Cleanup campaigns, compliance reviews, maintenance scheduling |
+| **25** | Content Created in Date Range | Content with type + created date + author | Report content created within a defined period | Monthly/quarterly reporting, content production tracking |
+| **26** | Attachments Coverage Summary | Pages with attachment counts and attachment paging metadata + link | Understand attachment coverage per page | Identify pages with heavy attachments, storage governance |
+| **27** | Owner vs Last Editor | Pages showing creator (owner) vs last updater + last updated time | Compare ownership vs active editors | Ownership reassignment, accountability checks, audit reporting |
+| **28** | Pages – IDs & ARIs | Pages with content ID, ARI, base64 ARI, type | Provide internal identifiers for integrations/debugging | API troubleshooting, migration scripts, support diagnostics |
+| **29** | Space & Page Status Audit | Pages with space type/status + page status + page link | Governance view for cleanup and standardization | Space lifecycle audits, ensure pages/spaces are 'current', compliance |
+| **30** | Pages – Link Formats Overview | Shows API link, standard web link, and short link for pages | Help users choose correct link format for sharing/integration | Documentation linking standards, automation/webhook references |
+| **31** | Blog Posts – Older than 30 Days | Blog posts created >30 days ago with space + last updated | Review older blogs for archival/cleanup | Content hygiene, outdated announcements review |
+| **32** | Content – Everything Except Pages | All content items where type != page (blogs, attachments, comments, etc.) | Audit non-page content across instance | Storage cleanup, attachment audits, content-type governance |
+| **33** | Blog Posts – Updated This Year | Blog posts modified since start of year with last updated + space key | Track active blog/news activity this year | Communications KPI, yearly reporting, stakeholder updates |
+| **34** | Weekly Updated Pages | Pages updated in last 7 days with space + last updated + excerpt | Weekly activity snapshot | Weekly digest, team status reporting, 'what changed' |
+| **35** | Today Updated Pages | Pages updated in last 24 hours with space + last updated + excerpt | Daily change tracker | Daily standups, release/change monitoring, fast review queue |
  
   <img 
     src="/images/global/reports-charts-confluence/custom-tabular-report/img_6.png"
@@ -1033,11 +1033,11 @@ Use the Text block type with Prefix and Suffix settings to construct natural-lan
 
 | **Benefit** | **What It Means** |
 | --- | --- |
-| Quick start | Ready-to-use configurations - zero manual setup needed |
-| Best practices | Proven report structures for the most common use cases |
-| Consistency | Standardized reporting patterns across teams and spaces |
-| Customizable | Use as a starting point - add, remove, or reorder columns freely after applying |
-| Unlockable | Templates are locked by default - click Edit in the center panel to modify |
+| **Quick start** | Ready-to-use configurations - zero manual setup needed |
+| **Best practices** | Proven report structures for the most common use cases |
+| **Consistency** | Standardized reporting patterns across teams and spaces |
+| **Customizable** | Use as a starting point - add, remove, or reorder columns freely after applying |
+| **Unlockable** | Templates are locked by default - click Edit in the center panel to modify |
 
 **Tip:** After applying a template, click the Edit button in the center panel to unlock it - then customize columns, filters, or data source to fit your exact needs.`,
         },
@@ -1057,10 +1057,10 @@ Use the Text block type with Prefix and Suffix settings to construct natural-lan
 
 | **Subpage** | **What you will find** |
 | --- | --- |
-| Chart Overview | How charts work and how they are configured |
-| Chart Types | Bar, Pie, and Line - when to use each |
-| Chart Configuration | Step-by-step chart configuration and common patterns |
-| Chart Templates | All 17 pre-built chart templates listed and described |`,
+| **Chart Overview** | How charts work and how they are configured |
+| **Chart Types** | Bar, Pie, and Line - when to use each |
+| **Chart Configuration** | Step-by-step chart configuration and common patterns |
+| **Chart Templates** | All 17 pre-built chart templates listed and described |`,
         },
         {
           slug: "chart-overview",
@@ -1075,9 +1075,9 @@ Charts group your Confluence data (by Space, Type, Author, Date, etc.) and apply
 
 | **Chart Type** | **Best For** | **Example Use Case** |
 | --- | --- | --- |
-| Bar Chart | Comparing quantities across categories | Pages per space, top editors, label usage |
-| Pie Chart | Understanding composition or distribution | Content type mix, likes vs no likes |
-| Line Chart | Tracking change or trends over time | Pages created over time, daily updates |
+| **Bar Chart** | Comparing quantities across categories | Pages per space, top editors, label usage |
+| **Pie Chart** | Understanding composition or distribution | Content type mix, likes vs no likes |
+| **Line Chart** | Tracking change or trends over time | Pages created over time, daily updates |
 
 ## How Charts Are Configured
 
@@ -1167,12 +1167,12 @@ Shows change over time using a connected line. Best for tracking growth, trends,
 
 | **Question to Answer** | **Recommended Chart** |
 | --- | --- |
-| How many [X] per [category]? | Bar Chart |
-| What is the split/composition of [X]? | Pie Chart |
-| How has [X] changed over time? | Line Chart |
-| Who are the top [contributors/editors]? | Bar Chart |
-| Which spaces are most/least active? | Bar Chart |
-| What percentage is [type A] vs [type B]? | Pie Chart |`,
+| **How many [X] per [category]?** | Bar Chart |
+| **What is the split/composition of [X]?** | Pie Chart |
+| **How has [X] changed over time?** | Line Chart |
+| **Who are the top [contributors/editors]?** | Bar Chart |
+| **Which spaces are most/least active?** | Bar Chart |
+| **What percentage is [type A] vs [type B]?** | Pie Chart |`,
         },
         {
           slug: "chart-configuration",
@@ -1183,10 +1183,10 @@ Shows change over time using a connected line. Best for tracking growth, trends,
 
 | **Setting** | **Description** | **Example Values** |
 | --- | --- | --- |
-| Chart Type | Bar, Pie, or Line | Bar Chart |
-| Group By | The field to bucket/categorize data | Space, Author, Type, Month, Day |
-| Metric | What to measure per group | Count (most common) |
-| Series | Optional secondary grouping for stacked charts | Type (page vs blog) |
+| **Chart Type** | Bar, Pie, or Line | Bar Chart |
+| **Group By** | The field to bucket/categorize data | Space, Author, Type, Month, Day |
+| **Metric** | What to measure per group | Count (most common) |
+| **Series** | Optional secondary grouping for stacked charts | Type (page vs blog) |
 
 ## How to Configure a Chart
 
@@ -1230,10 +1230,10 @@ Shows change over time using a connected line. Best for tracking growth, trends,
 
 | **Problem** | **Check** |
 | --- | --- |
-| Chart shows no data | Dataset too small or over-filtered - remove a filter and try again |
-| Group By field is empty | Required expansion not loaded - add expansion for that field |
-| Unexpected chart results | Verify Group By field type is suitable for aggregation |
-| Date axis not working | Ensure date field is from a loaded expansion |`,
+| **Chart shows no data** | Dataset too small or over-filtered - remove a filter and try again |
+| **Group By field is empty** | Required expansion not loaded - add expansion for that field |
+| **Unexpected chart results** | Verify Group By field type is suitable for aggregation |
+| **Date axis not working** | Ensure date field is from a loaded expansion |`,
         },
         {
           slug: "chart-templates",
@@ -1249,23 +1249,23 @@ Shows change over time using a connected line. Best for tracking growth, trends,
 
 | **#** | **Template Name** | **Chart Type** | **Groups By** | **Use Case** |
 | --- | --- | --- | --- | --- |
-| 1 | Pages by space and content type | Bar (Stacked) | Space + Type | Compare pages vs blogs per space |
-| 2 | Creator contributions by space | Bar (Stacked) | Creator + Space | Identify top content creators per space |
-| 3 | Blog posts by space and author | Bar (Stacked) | Space + Author | See who publishes blogs and where |
-| 4 | Overall content type distribution | Pie | Type | Understand content mix across instance |
-| 5 | Daily page activity by space | Line | Day + Space | Track daily update trends per space |
-| 6 | Total pages per space | Bar | Space | Compare space sizes by page volume |
-| 7 | Most active spaces (last 30 days) | Bar | Space | Rank spaces by recent activity |
-| 8 | Comments by space | Bar | Space | Measure discussion intensity per space |
-| 9 | Comments by author | Bar | Author | Identify top commenters |
-| 10 | Pages created over time | Line | Month (createdDate) | Track content growth trend |
-| 11 | Pages updated over time | Line | Month (lastUpdated) | Track update cadence (maintenance) |
-| 12 | Attachments by space | Bar | Space | Compare file usage across spaces |
-| 13 | Attachments by file type | Pie | mediaType | Understand file format distribution |
-| 14 | Blog posts over time | Line | Month (createdDate) | Track publishing frequency trend |
-| 15 | Top page editors | Bar | Last Editor | Identify most active editors |
-| 16 | Overall content growth summary | Line | Month + Type | Compare pages vs blogs growth trend |
-| 17 | Comments over time | Line | Month (createdDate) | Track discussion volume trend |
+| **1** | Pages by space and content type | Bar (Stacked) | Space + Type | Compare pages vs blogs per space |
+| **2** | Creator contributions by space | Bar (Stacked) | Creator + Space | Identify top content creators per space |
+| **3** | Blog posts by space and author | Bar (Stacked) | Space + Author | See who publishes blogs and where |
+| **4** | Overall content type distribution | Pie | Type | Understand content mix across instance |
+| **5** | Daily page activity by space | Line | Day + Space | Track daily update trends per space |
+| **6** | Total pages per space | Bar | Space | Compare space sizes by page volume |
+| **7** | Most active spaces (last 30 days) | Bar | Space | Rank spaces by recent activity |
+| **8** | Comments by space | Bar | Space | Measure discussion intensity per space |
+| **9** | Comments by author | Bar | Author | Identify top commenters |
+| **10** | Pages created over time | Line | Month (createdDate) | Track content growth trend |
+| **11** | Pages updated over time | Line | Month (lastUpdated) | Track update cadence (maintenance) |
+| **12** | Attachments by space | Bar | Space | Compare file usage across spaces |
+| **13** | Attachments by file type | Pie | mediaType | Understand file format distribution |
+| **14** | Blog posts over time | Line | Month (createdDate) | Track publishing frequency trend |
+| **15** | Top page editors | Bar | Last Editor | Identify most active editors |
+| **16** | Overall content growth summary | Line | Month + Type | Compare pages vs blogs growth trend |
+| **17** | Comments over time | Line | Month (createdDate) | Track discussion volume trend |
 
 ## Quick-Start Guide
 
@@ -1292,18 +1292,18 @@ Shows change over time using a connected line. Best for tracking growth, trends,
 
 | **Subpage** | **What you will find** |
 | --- | --- |
-| Data Source | Spaces drill-down vs Custom CQL - when to use each |
-| Expansions | What expansions are, how to load them, and best practices |
-| Report Views | Overview of Table, List, Grid, Paragraph, and Chart views |
-| Columns & Filters | Block types, column setup, filter operators and logic |
-| Templates & Import/Export | Pre-built templates, JSON recipes, and export options |
-| Macro Editor UI Tour | Visual walkthrough of every panel and tab in the macro editor |
-| Live Preview | How and when the preview updates as you configure |
-| Raw View | Inspect the JSON returned by Confluence and find exact field paths |
-| Explore | Discover all available metadata fields with types and sample values |
-| Export | Download report data as CSV or JSON |
-| Edit Lock/Unlock | How template locking works and how to unlock for editing |
-| Result Limit | Control dataset size and optimize report performance |`,
+| **Data Source** | Spaces drill-down vs Custom CQL - when to use each |
+| **Expansions** | What expansions are, how to load them, and best practices |
+| **Report Views** | Overview of Table, List, Grid, Paragraph, and Chart views |
+| **Columns & Filters** | Block types, column setup, filter operators and logic |
+| **Templates & Import/Export** | Pre-built templates, JSON recipes, and export options |
+| **Macro Editor UI Tour** | Visual walkthrough of every panel and tab in the macro editor |
+| **Live Preview** | How and when the preview updates as you configure |
+| **Raw View** | Inspect the JSON returned by Confluence and find exact field paths |
+| **Explore** | Discover all available metadata fields with types and sample values |
+| **Export** | Download report data as CSV or JSON |
+| **Edit Lock/Unlock** | How template locking works and how to unlock for editing |
+| **Result Limit** | Control dataset size and optimize report performance |`,
         },
         {
           slug: "data-source",
@@ -1327,8 +1327,8 @@ Best for browse-based, simple reporting. No syntax required - ideal for non-tech
 
 | **Limit** | **Value** | **Reason** |
 | --- | --- | --- |
-| Space Selection Limit | Up to 15 spaces | Ensures optimal system performance |
-| Page Selection Limit | Up to 25 pages | Maintains report performance |
+| **Space Selection Limit** | Up to 15 spaces | Ensures optimal system performance |
+| **Page Selection Limit** | Up to 25 pages | Maintains report performance |
 
 ### When to Use Spaces
 
@@ -1386,12 +1386,12 @@ Confluence Query Language (CQL) gives you precise, rules-based control. Best for
 
 | **Feature** | **Spaces (Drill-down)** | **Custom CQL** |
 | --- | --- | --- |
-| Ease of use | Visual, no syntax required | Requires CQL knowledge |
-| Dynamic updates | Fixed selection | Fully dynamic |
-| Cross-space queries | Up to 15 spaces | Unlimited |
-| Child page inclusion | Include Children toggle | Use CQL descendants() |
-| Technical level | Non-technical users | Technical users |
-| Best for | Quick, targeted reports | Complex, automated reports |`,
+| **Ease of use** | Visual, no syntax required | Requires CQL knowledge |
+| **Dynamic updates** | Fixed selection | Fully dynamic |
+| **Cross-space queries** | Up to 15 spaces | Unlimited |
+| **Child page inclusion** | Include Children toggle | Use CQL descendants() |
+| **Technical level** | Non-technical users | Technical users |
+| **Best for** | Quick, targeted reports | Complex, automated reports |`,
         },
         {
           slug: "expansions",
@@ -1412,9 +1412,9 @@ Expansions are metadata groups that load additional field data for each content 
 
 | **Category** | **Fields Available** |
 | --- | --- |
-| Structure | ancestors, children, descendants, container |
-| Body & Metadata | body, metadata, operations, restrictions, version |
-| History | contributors, lastUpdated, previousVersion, nextVersion, ownedBy |
+| **Structure** | ancestors, children, descendants, container |
+| **Body & Metadata** | body, metadata, operations, restrictions, version |
+| **History** | contributors, lastUpdated, previousVersion, nextVersion, ownedBy |
 
 ## How to Use Expansions
 
@@ -1441,11 +1441,11 @@ Expansions are metadata groups that load additional field data for each content 
 
 | **View** | **Description** | **Best For** | **Pagination** |
 | --- | --- | --- | --- |
-| Table | Rows and columns - spreadsheet-style layout | Audits, governance, structured data | Yes |
-| List | One card/row per record - simple vertical list | Page indexes, quick inventories | Yes |
-| Paragraph | Flowing prose - each record becomes a text block | Weekly digests, executive summaries | No |
-| Grid | Card layout in a responsive grid | Team directories, visual dashboards | Yes |
-| Charts | Bar, pie, or line charts | Trend analysis, distribution insights | No |
+| **Table** | Rows and columns - spreadsheet-style layout | Audits, governance, structured data | Yes |
+| **List** | One card/row per record - simple vertical list | Page indexes, quick inventories | Yes |
+| **Paragraph** | Flowing prose - each record becomes a text block | Weekly digests, executive summaries | No |
+| **Grid** | Card layout in a responsive grid | Team directories, visual dashboards | Yes |
+| **Charts** | Bar, pie, or line charts | Trend analysis, distribution insights | No |
 
   <img 
     src="/images/global/reports-charts-confluence/features/img_3.png"
@@ -1527,12 +1527,12 @@ Each column has three required settings: Column Label, Block Type, and Data Valu
 
 | **Block Type** | **Description** | **Use Cases** |
 | --- | --- | --- |
-| Basic | Standard text/numeric display | Names, IDs, dates, simple metadata |
-| Image | Displays images from URLs. Size adjustable with slider (shows px dimensions) | Profile pictures, thumbnails, logos |
-| Link | Creates clickable hyperlinks. Combines link text + URL from different fields | Page titles linking to pages, URLs |
-| Collection | Handles array/list data. Custom joiners: comma, pipe, newline, etc. | Labels, contributors, tags |
-| Regex | Applies regex patterns to extract or transform data | Extracting patterns, data cleanup |
-| Text | Enhanced display with prefix/suffix, truncation, case, fallback values | Formatted output, truncated titles |
+| **Basic** | Standard text/numeric display | Names, IDs, dates, simple metadata |
+| **Image** | Displays images from URLs. Size adjustable with slider (shows px dimensions) | Profile pictures, thumbnails, logos |
+| **Link** | Creates clickable hyperlinks. Combines link text + URL from different fields | Page titles linking to pages, URLs |
+| **Collection** | Handles array/list data. Custom joiners: comma, pipe, newline, etc. | Labels, contributors, tags |
+| **Regex** | Applies regex patterns to extract or transform data | Extracting patterns, data cleanup |
+| **Text** | Enhanced display with prefix/suffix, truncation, case, fallback values | Formatted output, truncated titles |
 
   <img 
     src="/images/global/reports-charts-confluence/features/img_5.png"
@@ -1544,12 +1544,12 @@ Each column has three required settings: Column Label, Block Type, and Data Valu
 
 | **Action** | **Description** |
 | --- | --- |
-| Add Column | Click '+ Add New Column' to create a new column |
-| Edit Column | Modify label, block type, source field, or formatting inline |
-| Delete Column | Remove a column using the trash icon |
-| Drag & Drop Reorder | Drag the handle icon to change column display order |
-| Duplicate Column | Copy an existing column configuration - saves setup time for similar columns |
-| Hide Column | Temporarily remove from display without deleting - configuration is preserved |
+| **Add Column** | Click '+ Add New Column' to create a new column |
+| **Edit Column** | Modify label, block type, source field, or formatting inline |
+| **Delete Column** | Remove a column using the trash icon |
+| **Drag & Drop Reorder** | Drag the handle icon to change column display order |
+| **Duplicate Column** | Copy an existing column configuration - saves setup time for similar columns |
+| **Hide Column** | Temporarily remove from display without deleting - configuration is preserved |
 
 ## Applying Filters
 
@@ -1565,9 +1565,9 @@ Filters refine which records appear in the preview. They run top-to-bottom with 
 
 | **Part** | **Description** | **Examples** |
 | --- | --- | --- |
-| Operator | How to compare the value | Contains, Equals, >, <, >=, <=, Starts With, Ends With, Regex, Is Empty, Advanced |
-| Property | The field to filter on | Title, Space, Created Date, Last Modified, Created By, Content Type |
-| Value / Query | What to compare against | "Release Notes", "DEV", currentUser() |
+| **Operator** | How to compare the value | Contains, Equals, >, <, >=, <=, Starts With, Ends With, Regex, Is Empty, Advanced |
+| **Property** | The field to filter on | Title, Space, Created Date, Last Modified, Created By, Content Type |
+| **Value / Query** | What to compare against | "Release Notes", "DEV", currentUser() |
 
 ### How to Fill a Filter Row
 
@@ -1581,20 +1581,20 @@ Preview updates using the full stack of filters, top to bottom.
 
 | **Operator** | **Description** | **Example** |
 | --- | --- | --- |
-| Contains | Field includes the value | Title contains 'Project' |
-| Not Contains | Field excludes the value | Title not contains 'Draft' |
-| Equals | Exact match | Type equals 'page' |
-| Not Equals | Any value except this | Status not equals 'archived' |
-| Starts With | Field begins with value | Title starts with 'Release' |
-| Ends With | Field ends with value | Title ends with '2024' |
-| Greater Than (>) | Numeric/date comparison | Version > 5 |
-| Less Than (<) | Numeric/date comparison | Like count < 10 |
-| Greater or Equal (>=) | Numeric/date comparison | Created >= 2024-01-01 |
-| Less or Equal (<=) | Numeric/date comparison | Like count <= 100 |
-| Is Empty | Field has no value | Labels is empty |
-| Is Not Empty | Field has a value | Last modified is not empty |
-| Regex | Pattern matching | Title matches /Release/ |
-| Advanced | Custom expression | Complex multi-field expressions |`,
+| **Contains** | Field includes the value | Title contains 'Project' |
+| **Not Contains** | Field excludes the value | Title not contains 'Draft' |
+| **Equals** | Exact match | Type equals 'page' |
+| **Not Equals** | Any value except this | Status not equals 'archived' |
+| **Starts With** | Field begins with value | Title starts with 'Release' |
+| **Ends With** | Field ends with value | Title ends with '2024' |
+| **Greater Than (>)** | Numeric/date comparison | Version > 5 |
+| **Less Than (<)** | Numeric/date comparison | Like count < 10 |
+| **Greater or Equal (>=)** | Numeric/date comparison | Created >= 2024-01-01 |
+| **Less or Equal (<=)** | Numeric/date comparison | Like count <= 100 |
+| **Is Empty** | Field has no value | Labels is empty |
+| **Is Not Empty** | Field has a value | Last modified is not empty |
+| **Regex** | Pattern matching | Title matches /Release/ |
+| **Advanced** | Custom expression | Complex multi-field expressions |`,
         },
         {
           slug: "templates-import-export",
@@ -1655,9 +1655,9 @@ Use Import to recreate any report from a JSON configuration recipe - instantly r
 
 | **Export Type** | **Format** | **How to Access** | **What's Included** |
 | --- | --- | --- | --- |
-| Report Data | CSV | Center panel Export button (Table view) | All visible columns and filtered data |
-| Report Data | JSON | Center panel Export button (all views) | Full data structure from Confluence |
-| Report Config | JSON Recipe | Copy JSON button in Import tab | Full configuration to recreate the report |
+| **Report Data** | CSV | Center panel Export button (Table view) | All visible columns and filtered data |
+| **Report Data** | JSON | Center panel Export button (all views) | Full data structure from Confluence |
+| **Report Config** | JSON Recipe | Copy JSON button in Import tab | Full configuration to recreate the report |
 
 **Tip:** Store JSON recipes on a shared Confluence 'Report Library' page - document each recipe's purpose and use case so your team can find and reuse them.`,
         },
@@ -1690,12 +1690,12 @@ The top bar contains the primary controls for your report configuration.
 
 | **Header Element** | **Description** | **Notes** |
 | --- | --- | --- |
-| Data Source | Toggle between Spaces and Custom CQL | Changes the Source Value field behavior below it |
-| Source Value | The actual query or space/page selection | CQL text for CQL mode; visual selector for Spaces mode |
-| Result Limit | Max records to return | Default 50. Can be set to any number (e.g. 100, 500) |
-| Report Type | Display format selector | Table, List, Paragraph, Grid, Charts |
-| Save | Publish the report to Confluence page | Closes editor after saving |
-| Close | Exit without saving | Prompts if unsaved changes exist |
+| **Data Source** | Toggle between Spaces and Custom CQL | Changes the Source Value field behavior below it |
+| **Source Value** | The actual query or space/page selection | CQL text for CQL mode; visual selector for Spaces mode |
+| **Result Limit** | Max records to return | Default 50. Can be set to any number (e.g. 100, 500) |
+| **Report Type** | Display format selector | Table, List, Paragraph, Grid, Charts |
+| **Save** | Publish the report to Confluence page | Closes editor after saving |
+| **Close** | Exit without saving | Prompts if unsaved changes exist |
 
 ## Left Panel - Data Expansions
 
@@ -1714,9 +1714,9 @@ Load metadata fields required for columns, filters, and charts.
 
 | **Expansion Category** | **Key Fields** |
 | --- | --- |
-| Structure | ancestors, children, descendants, container |
-| Body & Metadata | body, metadata, operations, restrictions, version |
-| History | contributors, lastUpdated, previousVersion, nextVersion, ownedBy |
+| **Structure** | ancestors, children, descendants, container |
+| **Body & Metadata** | body, metadata, operations, restrictions, version |
+| **History** | contributors, lastUpdated, previousVersion, nextVersion, ownedBy |
 
 ## Center Panel - Live Preview & Tools
 
@@ -1730,12 +1730,12 @@ The center panel is your main workspace - it shows results and provides all prev
 
 | **Element** | **What It Does** |
 | --- | --- |
-| Live Preview | Displays report results in real-time. Updates automatically as configuration changes. |
-| Filter Panel | Apply filter rows (Operator + Property + Value). AND logic, top-to-bottom execution. |
-| Explore | Switch to Explore mode - lists all available fields with types and sample values. |
-| Export | Download data as CSV (Table view) or JSON (all views). Includes copy-to-clipboard. |
-| Edit (Lock/Unlock) | Templates are locked after applying. Click Edit to unlock and modify. |
-| Pagination | Previous/Next buttons, page numbers, results-per-page selector. |
+| **Live Preview** | Displays report results in real-time. Updates automatically as configuration changes. |
+| **Filter Panel** | Apply filter rows (Operator + Property + Value). AND logic, top-to-bottom execution. |
+| **Explore** | Switch to Explore mode - lists all available fields with types and sample values. |
+| **Export** | Download data as CSV (Table view) or JSON (all views). Includes copy-to-clipboard. |
+| **Edit (Lock/Unlock)** | Templates are locked after applying. Click Edit to unlock and modify. |
+| **Pagination** | Previous/Next buttons, page numbers, results-per-page selector. |
 
 ## Right Panel - Configuration Tabs
 
@@ -1749,10 +1749,10 @@ Four tabs for configuring your report structure, applying templates, importing r
 
 | **Tab** | **Purpose** | **Key Actions** |
 | --- | --- | --- |
-| Columns | Define what data appears and how it is formatted | Add, Edit, Delete, Reorder, Duplicate, Hide columns |
-| Templates | Browse and apply 35 tabular + 17 chart templates | Search, select, apply - auto-configures everything |
-| Import | Import JSON recipes to recreate report configurations | Paste JSON, validate, search, copy config |
-| Raw | Inspect raw JSON returned from Confluence | View, search, expand/collapse, copy field paths |
+| **Columns** | Define what data appears and how it is formatted | Add, Edit, Delete, Reorder, Duplicate, Hide columns |
+| **Templates** | Browse and apply 35 tabular + 17 chart templates | Search, select, apply - auto-configures everything |
+| **Import** | Import JSON recipes to recreate report configurations | Paste JSON, validate, search, copy config |
+| **Raw** | Inspect raw JSON returned from Confluence | View, search, expand/collapse, copy field paths |
 
 ## Saved Report on Confluence Page
 
@@ -1767,12 +1767,12 @@ After clicking Save, the macro editor closes and your live report appears direct
 
 | **Element** | **Where It Appears** | **What It Does** |
 | --- | --- | --- |
-| Report Title / Header | Top of the macro | Shows the report name or description (if configured) |
-| Table with Columns & Rows | Main body | Displays live Confluence data - updates automatically as content changes |
-| Search Box | Top of report | Filters visible rows by keyword - does not change the data source |
-| Export Button (CSV/JSON) | Top toolbar | Downloads current report data - CSV for spreadsheets, JSON for integrations |
-| Pagination Controls (Prev/Next) | Bottom of report | Navigate between pages of results - shows current page and total count |
-| Edit Button (pencil icon) | Top right of macro | Reopens the macro editor - only visible to users with edit permission on the page |
+| **Report Title / Header** | Top of the macro | Shows the report name or description (if configured) |
+| **Table with Columns & Rows** | Main body | Displays live Confluence data - updates automatically as content changes |
+| **Search Box** | Top of report | Filters visible rows by keyword - does not change the data source |
+| **Export Button (CSV/JSON)** | Top toolbar | Downloads current report data - CSV for spreadsheets, JSON for integrations |
+| **Pagination Controls (Prev/Next)** | Bottom of report | Navigate between pages of results - shows current page and total count |
+| **Edit Button (pencil icon)** | Top right of macro | Reopens the macro editor - only visible to users with edit permission on the page |
 
 ## Complete Workflow Summary
 
@@ -1838,10 +1838,10 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Benefit** | **What It Means** |
 | --- | --- |
-| Immediate feedback | See changes without saving - no page reload needed |
-| Faster configuration | Test settings in real-time and adjust instantly |
-| Error detection | Identify issues (blank columns, wrong filters) before finalizing |
-| Safe experimentation | Try different configurations without affecting the published report |
+| **Immediate feedback** | See changes without saving - no page reload needed |
+| **Faster configuration** | Test settings in real-time and adjust instantly |
+| **Error detection** | Identify issues (blank columns, wrong filters) before finalizing |
+| **Safe experimentation** | Try different configurations without affecting the published report |
 
 **Tip:** Check Live Preview frequently as you build - after adding each column and each filter. This catches issues early before they compound.`,
         },
@@ -1860,11 +1860,11 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Purpose** | **Detail** |
 | --- | --- |
-| Discover available fields | Browse all fields returned by your data source and loaded expansions |
-| Find exact JSON paths | Get the precise field path to use in column Data Value settings |
-| Inspect data structure | Understand how Confluence returns nested objects and arrays |
-| Debug blank columns | Verify whether a field exists and has a value for your content |
-| Debug filter issues | Confirm field values match what your filter is comparing against |
+| **Discover available fields** | Browse all fields returned by your data source and loaded expansions |
+| **Find exact JSON paths** | Get the precise field path to use in column Data Value settings |
+| **Inspect data structure** | Understand how Confluence returns nested objects and arrays |
+| **Debug blank columns** | Verify whether a field exists and has a value for your content |
+| **Debug filter issues** | Confirm field values match what your filter is comparing against |
 
 ## When to Use Raw View
 
@@ -1905,11 +1905,11 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Purpose** | **Detail** |
 | --- | --- |
-| Discover available fields | View all metadata fields returned by your current data source |
-| Field selection assistance | Identify the correct field path for columns and filters |
-| Data type information | See field types (string, number, date, array, object) for each field |
-| Sample values | View real sample data to confirm a field contains what you expect |
-| Reduce trial and error | Find the right field path without guessing or checking Raw View manually |
+| **Discover available fields** | View all metadata fields returned by your current data source |
+| **Field selection assistance** | Identify the correct field path for columns and filters |
+| **Data type information** | See field types (string, number, date, array, object) for each field |
+| **Sample values** | View real sample data to confirm a field contains what you expect |
+| **Reduce trial and error** | Find the right field path without guessing or checking Raw View manually |
 
 ## How to Use Explore
 
@@ -1924,11 +1924,11 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Feature** | **Explore** | **Raw View** |
 | --- | --- | --- |
-| Shows fields as | Clean list - one field per row | Full JSON structure of a record |
-| Field types shown | Yes - clearly labeled | Inferred from JSON value format |
-| Sample values | Yes - one sample value per field | Full record data for all fields |
-| Best for | Discovering and picking the right field | Verifying exact paths and nested data |
-| Ease of use | Beginner-friendly | More detailed - for advanced debugging |
+| **Shows fields as** | Clean list - one field per row | Full JSON structure of a record |
+| **Field types shown** | Yes - clearly labeled | Inferred from JSON value format |
+| **Sample values** | Yes - one sample value per field | Full record data for all fields |
+| **Best for** | Discovering and picking the right field | Verifying exact paths and nested data |
+| **Ease of use** | Beginner-friendly | More detailed - for advanced debugging |
 
 **Tip:** Use Explore first to discover the right field, then use Raw View to verify the exact JSON path if needed.`,
         },
@@ -1947,8 +1947,8 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Format** | **Best For** | **How to Open** |
 | --- | --- | --- |
-| CSV | Sharing with stakeholders, Excel/Google Sheets analysis, offline filtering | Excel, Google Sheets, Numbers, any spreadsheet tool |
-| JSON | Developer use, API integrations, data backup, programmatic processing | Code editor, JSON viewer, developer tools |
+| **CSV** | Sharing with stakeholders, Excel/Google Sheets analysis, offline filtering | Excel, Google Sheets, Numbers, any spreadsheet tool |
+| **JSON** | Developer use, API integrations, data backup, programmatic processing | Code editor, JSON viewer, developer tools |
 
 ## Purpose
 
@@ -1976,8 +1976,8 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Action** | **What It Does** | **Found In** |
 | --- | --- | --- |
-| Export (CSV/JSON) | Downloads report DATA - the actual Confluence content records | Center panel Export button |
-| Copy JSON (Recipe) | Copies report CONFIGURATION - the setup to recreate the report | Import tab → Copy JSON button |`,
+| **Export (CSV/JSON)** | Downloads report DATA - the actual Confluence content records | Center panel Export button |
+| **Copy JSON (Recipe)** | Copies report CONFIGURATION - the setup to recreate the report | Import tab → Copy JSON button |`,
         },
         {
           slug: "edit-lock-unlock",
@@ -1988,8 +1988,8 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **State** | **What It Means** | **What You Can Do** |
 | --- | --- | --- |
-| Locked (default) | Template is protected - configuration is read-only | View, preview, and export data - cannot edit columns or settings |
-| Unlocked (after Edit) | Configuration is open for editing | Add, remove, reorder columns, change filters, data source, view type |
+| **Locked (default)** | Template is protected - configuration is read-only | View, preview, and export data - cannot edit columns or settings |
+| **Unlocked (after Edit)** | Configuration is open for editing | Add, remove, reorder columns, change filters, data source, view type |
 
 <img 
     src="/images/global/reports-charts-confluence/features/img_20.png"
@@ -2035,10 +2035,10 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Purpose** | **Detail** |
 | --- | --- |
-| Control dataset size | Limit the number of results displayed in the report |
-| Improve performance | Smaller result sets load faster - both in editor and on the published page |
-| Manage large datasets | Prevent overwhelming displays when a data source returns thousands of records |
-| Pagination-ready | Works together with Pagination to let users navigate large result sets efficiently |
+| **Control dataset size** | Limit the number of results displayed in the report |
+| **Improve performance** | Smaller result sets load faster - both in editor and on the published page |
+| **Manage large datasets** | Prevent overwhelming displays when a data source returns thousands of records |
+| **Pagination-ready** | Works together with Pagination to let users navigate large result sets efficiently |
 
 ## How to Set Result Limit
 
@@ -2052,11 +2052,11 @@ Live Preview is the center panel of the macro editor. Every change you make - da
 
 | **Scenario** | **Recommended Limit** |
 | --- | --- |
-| First-time setup / testing | 50 - fast preview, easy to verify |
-| Standard operational reports | 100–200 - good balance of data and performance |
-| Comprehensive audits / governance | 500+ - use with Pagination for navigation |
-| Daily or weekly digest reports | 25–50 - keeps the report focused and readable |
-| Export to CSV for full data | Set high (e.g., 1000) then export - don't rely on paginated view |
+| **First-time setup / testing** | 50 - fast preview, easy to verify |
+| **Standard operational reports** | 100–200 - good balance of data and performance |
+| **Comprehensive audits / governance** | 500+ - use with Pagination for navigation |
+| **Daily or weekly digest reports** | 25–50 - keeps the report focused and readable |
+| **Export to CSV for full data** | Set high (e.g., 1000) then export - don't rely on paginated view |
 
 * Start with smaller limits (50–100) for faster testing
 * Increase as needed for comprehensive reports
@@ -2090,11 +2090,11 @@ CQL (Confluence Query Language) gives you precise, rules-based access to all Con
 
 | **Content Type** | **CQL \`type\` Value** | **Description** |
 | --- | --- | --- |
-| Pages | \`type = page\` | Standard Confluence pages |
-| Blog Posts | \`type = blogpost\` | Blog entries in any space |
-| Attachments | \`type = attachment\` | Files attached to pages |
-| Comments | \`type = comment\` | Inline and page-level comments |
-| Space | Accessed via \`space\` field | Filter by one or more space keys |
+| **Pages** | \`type = page\` | Standard Confluence pages |
+| **Blog Posts** | \`type = blogpost\` | Blog entries in any space |
+| **Attachments** | \`type = attachment\` | Files attached to pages |
+| **Comments** | \`type = comment\` | Inline and page-level comments |
+| **Space** | Accessed via \`space\` field | Filter by one or more space keys |
 
 ### Confluence Spaces & Pages
 
@@ -2111,10 +2111,10 @@ The app fully respects Confluence's native permission model. Reports show only c
 
 | **Scenario** | **Result** |
 | --- | --- |
-| Viewer has access to all queried spaces | Full results displayed |
-| Viewer has access to only some spaces | Only permitted content appears |
-| Viewer has no access to a space | That space's content is excluded entirely |
-| Page has content restrictions | Restricted pages are excluded from results |
+| **Viewer has access to all queried spaces** | Full results displayed |
+| **Viewer has access to only some spaces** | Only permitted content appears |
+| **Viewer has no access to a space** | That space's content is excluded entirely |
+| **Page has content restrictions** | Restricted pages are excluded from results |
 
 > **Note:** Two users viewing the same report on the same page may see different results - each viewer sees only the content they are permitted to access.
 
@@ -2124,9 +2124,9 @@ If your Confluence Cloud site is connected to Jira Cloud, some Jira-related meta
 
 | **Integration Scenario** | **What's Available** |
 | --- | --- |
-| Jira issues linked to Confluence pages | Linked Jira issue references may appear in page metadata |
-| Confluence pages in Jira-connected spaces | Standard Confluence fields (space, type, creator, labels, dates) are fully available |
-| Jira-specific fields (e.g., issue status, assignee) | Not directly available - these live in Jira, not Confluence |
+| **Jira issues linked to Confluence pages** | Linked Jira issue references may appear in page metadata |
+| **Confluence pages in Jira-connected spaces** | Standard Confluence fields (space, type, creator, labels, dates) are fully available |
+| **Jira-specific fields (e.g., issue status, assignee)** | Not directly available - these live in Jira, not Confluence |
 
 > **Important:** The app queries Confluence content, not Jira directly. Jira issue data (status, priority, assignee) is not available as report fields unless it has been explicitly surfaced in Confluence page metadata.
 
@@ -2134,17 +2134,17 @@ If your Confluence Cloud site is connected to Jira Cloud, some Jira-related meta
 
 | **CQL Field** | **Description** | **Example** |
 | --- | --- | --- |
-| \`type\` | Content type | \`type = page\` |
-| \`space\` | Space key | \`space = "ENG"\` |
-| \`title\` | Page or blog title | \`title ~ "Release Notes"\` |
-| \`label\` | Assigned labels | \`label = "urgent"\` |
-| \`creator\` | Original author | \`creator = currentUser()\` |
-| \`contributor\` | Any contributor | \`contributor = "jsmith"\` |
-| \`lastModifier\` | Most recent editor | \`lastModifier = currentUser()\` |
-| \`created\` | Creation date | \`created >= "2026-01-01"\` |
-| \`lastModified\` | Last update date | \`lastModified >= now("-30d")\` |
-| \`ancestor\` | Parent page ID | \`ancestor = 12345\` |
-| \`status\` | Content status | \`status = "current"\` |`,
+| **\`type\`** | Content type | \`type = page\` |
+| **\`space\`** | Space key | \`space = "ENG"\` |
+| **\`title\`** | Page or blog title | \`title ~ "Release Notes"\` |
+| **\`label\`** | Assigned labels | \`label = "urgent"\` |
+| **\`creator\`** | Original author | \`creator = currentUser()\` |
+| **\`contributor\`** | Any contributor | \`contributor = "jsmith"\` |
+| **\`lastModifier\`** | Most recent editor | \`lastModifier = currentUser()\` |
+| **\`created\`** | Creation date | \`created >= "2026-01-01"\` |
+| **\`lastModified\`** | Last update date | \`lastModified >= now("-30d")\` |
+| **\`ancestor\`** | Parent page ID | \`ancestor = 12345\` |
+| **\`status\`** | Content status | \`status = "current"\` |`,
         },
         {
           slug: "data-migration",
@@ -2169,14 +2169,14 @@ A JSON recipe is a complete export of a report's configuration - data source, ex
 
 | **Element** | **Included in Recipe?** |
 | --- | --- |
-| Data Source (Spaces or CQL) | Yes |
-| CQL query or space/page selection | Yes |
-| Loaded expansion groups | Yes |
-| Column definitions (label, block type, field path, formatting) | Yes |
-| Filter rows (operator, property, value) | Yes |
-| Report Type (Table, List, Grid, Paragraph, Charts) | Yes |
-| Result Limit | Yes |
-| Actual report data (Confluence content) | No - data is always fetched live |
+| **Data Source (Spaces or CQL)** | Yes |
+| **CQL query or space/page selection** | Yes |
+| **Loaded expansion groups** | Yes |
+| **Column definitions (label, block type, field path, formatting)** | Yes |
+| **Filter rows (operator, property, value)** | Yes |
+| **Report Type (Table, List, Grid, Paragraph, Charts)** | Yes |
+| **Result Limit** | Yes |
+| **Actual report data (Confluence content)** | No - data is always fetched live |
 
 ## Exporting Reports for Backup
 
@@ -2218,13 +2218,13 @@ When you need to move a report from one Confluence space or page to another, use
 
 | **Step** | **Action** |
 | --- | --- |
-| Export config | Copy JSON recipe from Import tab |
-| Create new macro | Insert macro on destination page |
-| Import config | Paste JSON recipe in Import tab |
-| Update data source | Change space selection or CQL space filter |
-| Verify permissions | Confirm viewer has access to target space |
-| Verify columns | Check that all fields are still available (same expansions needed) |
-| Save and publish | Save macro, then publish the Confluence page |
+| **Export config** | Copy JSON recipe from Import tab |
+| **Create new macro** | Insert macro on destination page |
+| **Import config** | Paste JSON recipe in Import tab |
+| **Update data source** | Change space selection or CQL space filter |
+| **Verify permissions** | Confirm viewer has access to target space |
+| **Verify columns** | Check that all fields are still available (same expansions needed) |
+| **Save and publish** | Save macro, then publish the Confluence page |
 
 ## What Happens If the App Is Uninstalled
 
@@ -2232,11 +2232,11 @@ If Reports, Charts, Templates, CQL & Export for Confluence is uninstalled from y
 
 | **Element** | **What Happens** |
 | --- | --- |
-| Report macros on pages | Remain on pages as **placeholder blocks** - they do not disappear |
-| Report data displayed | No longer rendered - placeholders show a "macro unavailable" message |
-| JSON recipes stored on pages | Remain intact - text content is unaffected by uninstall |
-| Confluence page content | Unchanged - uninstalling the app does not delete or modify page content |
-| Re-installing the app | Restores full macro functionality - reports become live again automatically |
+| **Report macros on pages** | Remain on pages as **placeholder blocks** - they do not disappear |
+| **Report data displayed** | No longer rendered - placeholders show a "macro unavailable" message |
+| **JSON recipes stored on pages** | Remain intact - text content is unaffected by uninstall |
+| **Confluence page content** | Unchanged - uninstalling the app does not delete or modify page content |
+| **Re-installing the app** | Restores full macro functionality - reports become live again automatically |
 
 > **Important:** Your Confluence pages and their content (including any JSON recipes stored as text) are never deleted when the app is uninstalled. Re-installing the app restores all reports to their previously configured state.`,
         },
@@ -2269,7 +2269,7 @@ If Reports, Charts, Templates, CQL & Export for Confluence is uninstalled from y
           slug: "sales-doc",
           title: "Sales Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Sales_Doc_f69acf6f47.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Reports_Charts_Templates_CQL_and_Export_for_Confluence_Sales_Doc_92cca5a175.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

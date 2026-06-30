@@ -33,7 +33,7 @@ All of this is done **inside Jira**, using your existing projects, filters, and 
 
 ## Seven Integrated Gadgets
 
-| Gadget | What It Does |
+| **Gadget** | What It Does |
 |---|---|
 | **Custom Charts** | Create pie, bar, line, table, funnel, and tile charts from Jira issues; supports 10 chart types |
 | **Issue List** | Display Jira issues in a configurable table with custom columns, smart labels, and quick filters |
@@ -139,26 +139,26 @@ After installation:
 
 Once installed, complete these setup tasks before rolling out to your team:
 
-| Step | Where | What to Do |
+| **Step** | Where | What to Do |
 |---|---|---|
-| 1. Open Admin Settings | Apps → Custom Charts → Admin | Review global defaults for export, number format, date format |
-| 2. Configure export access | Admin → Customization Options | Enable or disable PNG/PDF/CSV export for all users |
-| 3. Set data source rules | Admin → Data Sources | Control whether users can use Projects, Saved Filters, JQL, or Controller |
-| 4. Enable/disable features | Admin → Features | Toggle Issue List, Custom Chart, Dynamic Filter Controller, and Templates on or off |
-| 5. Create a test dashboard | Jira → Dashboards → Create | Add one of each gadget to verify everything works |
+| **1. Open Admin Settings** | Apps → Custom Charts → Admin | Review global defaults for export, number format, date format |
+| **2. Configure export access** | Admin → Customization Options | Enable or disable PNG/PDF/CSV export for all users |
+| **3. Set data source rules** | Admin → Data Sources | Control whether users can use Projects, Saved Filters, JQL, or Controller |
+| **4. Enable/disable features** | Admin → Features | Toggle Issue List, Custom Chart, Dynamic Filter Controller, and Templates on or off |
+| **5. Create a test dashboard** | Jira → Dashboards → Create | Add one of each gadget to verify everything works |
 
 ## Jira Permissions Required for Installation
 
 The app requests the following permissions during Marketplace install:
 
-| Permission | Why It's Needed |
+| **Permission** | Why It's Needed |
 |---|---|
-| read:jira-work | Read issues, projects, and filters for charts and tables |
-| write:jira-work | Save gadget configurations |
-| read:jira-user | Display user information (assignees, reporters) in Issue List |
-| read:dashboard:jira | Access dashboard gadgets |
-| write:dashboard:jira | Save and update gadget configurations |
-| storage:app | Store gadget configurations in Forge KVS |
+| **read:jira-work** | Read issues, projects, and filters for charts and tables |
+| **write:jira-work** | Save gadget configurations |
+| **read:jira-user** | Display user information (assignees, reporters) in Issue List |
+| **read:dashboard:jira** | Access dashboard gadgets |
+| **write:dashboard:jira** | Save and update gadget configurations |
+| **storage:app** | Store gadget configurations in Forge KVS |
 
 ## Uninstalling
 
@@ -238,7 +238,7 @@ To make your dashboard interactive:
 
 Dashboard Templates, Charts, Graphs & Reports for Jira does not have its own user role system. Access is governed entirely by **Jira's existing permissions**:
 
-| Access Level | How It's Determined | What Users Can Do |
+| **Access Level** | How It's Determined | What Users Can Do |
 |---|---|---|
 | **Dashboard Owner / Editor** | Jira dashboard share permissions | Add, edit, and remove gadgets; save configurations |
 | **Dashboard Viewer** | Jira dashboard share permissions | View gadget data; use Dynamic Filter Controller filters |
@@ -248,7 +248,7 @@ Dashboard Templates, Charts, Graphs & Reports for Jira does not have its own use
 
 Gadget access is tied to Jira dashboard permissions:
 
-| Permission | Who Sets It | Effect |
+| **Permission** | Who Sets It | Effect |
 |---|---|---|
 | **Owner** | Dashboard creator | Full edit access |
 | **Can Edit** | Dashboard owner shares with individuals or groups | Can add/edit/remove gadgets |
@@ -373,7 +373,7 @@ Never used this app before?
 
 ## Seven Gadgets at a Glance
 
-| Gadget | What It Does | Best For | Full Docs |
+| **Gadget** | What It Does | Best For | Full Docs |
 |---|---|---|---|
 | **Custom Charts** | 10 chart types from Jira issue data | Visual reports, KPIs, trend charts | [Custom Charts →](/apps/dashboard-charts-jira/custom-charts-gadget-intro) |
 | **Issue List** | Configurable table of Jira issues | Sprint boards, workqueues, exports | [Issue List →](/apps/dashboard-charts-jira/issue-list-gadget-intro) |
@@ -389,57 +389,57 @@ Never used this app before?
 
 Full guide: [Chart Types Guide](/apps/dashboard-charts-jira/chart-types-guide)
 
-| Chart | Use When | Reference |
+| **Chart** | Use When | Reference |
 |---|---|---|
-| Pie | Show proportions (status mix, priority split) | [Pie →](/apps/dashboard-charts-jira/chart-types-guide) |
-| Bar | Compare categories (issues per assignee) | [Bar →](/apps/dashboard-charts-jira/chart-types-guide) |
-| Grouped Bar | Compare with sub-categories (status by type) | [Grouped Bar →](/apps/dashboard-charts-jira/group-by-segments-2d) |
-| Stacked Bar | Show composition inside categories (sprint by status) | [Stacked Bar →](/apps/dashboard-charts-jira/group-by-segments-2d) |
-| Line | Show trends over time (bugs created per week) | [Line →](/apps/dashboard-charts-jira/date-range-custom-charts) |
-| 2D Line | Compare multiple trends on one axis | [2D Line →](/apps/dashboard-charts-jira/group-by-segments-2d) |
-| Table | Show exact numbers | [Table →](/apps/dashboard-charts-jira/chart-types-guide) |
-| 2D Table | Cross-tab matrix (assignee × status) | [2D Table →](/apps/dashboard-charts-jira/group-by-segments-2d) |
-| Funnel | Show stage progression (workflow pipeline) | [Funnel →](/apps/dashboard-charts-jira/chart-types-guide) |
-| Tile | Single KPI number | [Tile →](/apps/dashboard-charts-jira/chart-types-guide) |
+| **Pie** | Show proportions (status mix, priority split) | [Pie →](/apps/dashboard-charts-jira/chart-types-guide) |
+| **Bar** | Compare categories (issues per assignee) | [Bar →](/apps/dashboard-charts-jira/chart-types-guide) |
+| **Grouped Bar** | Compare with sub-categories (status by type) | [Grouped Bar →](/apps/dashboard-charts-jira/group-by-segments-2d) |
+| **Stacked Bar** | Show composition inside categories (sprint by status) | [Stacked Bar →](/apps/dashboard-charts-jira/group-by-segments-2d) |
+| **Line** | Show trends over time (bugs created per week) | [Line →](/apps/dashboard-charts-jira/date-range-custom-charts) |
+| **2D Line** | Compare multiple trends on one axis | [2D Line →](/apps/dashboard-charts-jira/group-by-segments-2d) |
+| **Table** | Show exact numbers | [Table →](/apps/dashboard-charts-jira/chart-types-guide) |
+| **2D Table** | Cross-tab matrix (assignee × status) | [2D Table →](/apps/dashboard-charts-jira/group-by-segments-2d) |
+| **Funnel** | Show stage progression (workflow pipeline) | [Funnel →](/apps/dashboard-charts-jira/chart-types-guide) |
+| **Tile** | Single KPI number | [Tile →](/apps/dashboard-charts-jira/chart-types-guide) |
 
 ---
 
 ## Data Source Types
 
-| Source | When to Use | Reference |
+| **Source** | When to Use | Reference |
 |---|---|---|
-| Projects | Simple project-level reports | [Quick Start →](/apps/dashboard-charts-jira/quick-start) |
-| Saved Filter | Reusable criteria shared across gadgets | [Integrations →](/apps/dashboard-charts-jira/supported-integrations) |
-| Custom JQL | Advanced filtering or custom conditions | [How-To JQL →](/apps/dashboard-charts-jira/how-to-guides) |
-| Board | Time in Status, CFD, WIP Aging - board column definitions | [TIS Overview →](/apps/dashboard-charts-jira/time-in-status-overview) |
-| Dynamic Filter Controller | End users filter the dashboard interactively | [DFC Setup →](/apps/dashboard-charts-jira/dynamic-filter-controller-setup) |
+| **Projects** | Simple project-level reports | [Quick Start →](/apps/dashboard-charts-jira/quick-start) |
+| **Saved Filter** | Reusable criteria shared across gadgets | [Integrations →](/apps/dashboard-charts-jira/supported-integrations) |
+| **Custom JQL** | Advanced filtering or custom conditions | [How-To JQL →](/apps/dashboard-charts-jira/how-to-guides) |
+| **Board** | Time in Status, CFD, WIP Aging - board column definitions | [TIS Overview →](/apps/dashboard-charts-jira/time-in-status-overview) |
+| **Dynamic Filter Controller** | End users filter the dashboard interactively | [DFC Setup →](/apps/dashboard-charts-jira/dynamic-filter-controller-setup) |
 
 ---
 
 ## Common JQL Patterns
 
-| Use Case | JQL |
+| **Use Case** | JQL |
 |---|---|
-| Current sprint | \`sprint in openSprints()\` |
-| Open bugs | \`issuetype = Bug AND resolution is EMPTY\` |
-| My issues | \`assignee = currentUser()\` |
-| High priority unresolved | \`priority in (High, Highest) AND resolution is EMPTY\` |
-| Issues created this month | \`created >= startOfMonth()\` |
-| Overdue | \`duedate < now() AND resolution is EMPTY\` |
-| Specific fix version | \`fixVersion = "v2.0"\` |
+| **Current sprint** | \`sprint in openSprints()\` |
+| **Open bugs** | \`issuetype = Bug AND resolution is EMPTY\` |
+| **My issues** | \`assignee = currentUser()\` |
+| **High priority unresolved** | \`priority in (High, Highest) AND resolution is EMPTY\` |
+| **Issues created this month** | \`created >= startOfMonth()\` |
+| **Overdue** | \`duedate < now() AND resolution is EMPTY\` |
+| **Specific fix version** | \`fixVersion = "v2.0"\` |
 
 ---
 
 ## Export Formats by Gadget
 
-| Gadget | CSV | PNG | PDF | Config JSON | Docs |
+| **Gadget** | CSV | PNG | PDF | Config JSON | Docs |
 |---|---|---|---|---|---|
-| Custom Charts | ✓ | ✓ | ✓ | ✓ | [Display Options →](/apps/dashboard-charts-jira/display-options) |
-| Issue List | ✓ | ✓ | ✓ | ✓ | [Display & Export →](/apps/dashboard-charts-jira/issue-list-display-export) |
-| Time in Status | ✓ | ✓ | - | ✓ | [Display & Export →](/apps/dashboard-charts-jira/time-in-status-display-export) |
-| Pivot Table | ✓ | ✓ | - | ✓ | [Formatting & Export →](/apps/dashboard-charts-jira/pivot-table-formatting-export) |
-| WIP Aging Charts | ✓ | ✓ | - | ✓ | [Display & Export →](/apps/dashboard-charts-jira/wip-aging-display-export) |
-| CFD | - | - | - | ✓ | [Display Options →](/apps/dashboard-charts-jira/cumulative-flow-display) |
+| **Custom Charts** | ✓ | ✓ | ✓ | ✓ | [Display Options →](/apps/dashboard-charts-jira/display-options) |
+| **Issue List** | ✓ | ✓ | ✓ | ✓ | [Display & Export →](/apps/dashboard-charts-jira/issue-list-display-export) |
+| **Time in Status** | ✓ | ✓ | - | ✓ | [Display & Export →](/apps/dashboard-charts-jira/time-in-status-display-export) |
+| **Pivot Table** | ✓ | ✓ | - | ✓ | [Formatting & Export →](/apps/dashboard-charts-jira/pivot-table-formatting-export) |
+| **WIP Aging Charts** | ✓ | ✓ | - | ✓ | [Display & Export →](/apps/dashboard-charts-jira/wip-aging-display-export) |
+| **CFD** | - | - | - | ✓ | [Display Options →](/apps/dashboard-charts-jira/cumulative-flow-display) |
 
 > Export must be enabled in [Admin Settings](/apps/dashboard-charts-jira/admin-settings).
 
@@ -447,15 +447,15 @@ Full guide: [Chart Types Guide](/apps/dashboard-charts-jira/chart-types-guide)
 
 ## Key Settings Locations
 
-| Task | Where | Reference |
+| **Task** | Where | Reference |
 |---|---|---|
-| Enable/disable gadgets site-wide | Admin Settings → Features | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
-| Restrict data sources | Admin Settings → Data Sources | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
-| Control export access | Admin Settings → Customization Options | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
-| Set global number/date format | Admin Settings → Customization Options | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
-| Connect to Dynamic Filter Controller | Gadget edit mode → Data Source → DFC | [Connecting Gadgets →](/apps/dashboard-charts-jira/dynamic-filter-controller-connect) |
-| Find Reference ID | Saved DFC gadget (shown on the gadget face) | [Connecting Gadgets →](/apps/dashboard-charts-jira/dynamic-filter-controller-connect) |
-| Backup gadget config | Any gadget edit mode → Import/Export tab | [Data Migration →](/apps/dashboard-charts-jira/data-migration) |
+| **Enable/disable gadgets site-wide** | Admin Settings → Features | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
+| **Restrict data sources** | Admin Settings → Data Sources | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
+| **Control export access** | Admin Settings → Customization Options | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
+| **Set global number/date format** | Admin Settings → Customization Options | [Admin Settings →](/apps/dashboard-charts-jira/admin-settings) |
+| **Connect to Dynamic Filter Controller** | Gadget edit mode → Data Source → DFC | [Connecting Gadgets →](/apps/dashboard-charts-jira/dynamic-filter-controller-connect) |
+| **Find Reference ID** | Saved DFC gadget (shown on the gadget face) | [Connecting Gadgets →](/apps/dashboard-charts-jira/dynamic-filter-controller-connect) |
+| **Backup gadget config** | Any gadget edit mode → Import/Export tab | [Data Migration →](/apps/dashboard-charts-jira/data-migration) |
 
 ---
 
@@ -583,19 +583,19 @@ Directors, VPs, and senior stakeholders who need a clear, data-driven view of de
 
 ## Dashboard Layout Plan
 
-| Row | Gadget | Type | Purpose |
+| **Row** | Gadget | Type | Purpose |
 |---|---|---|---|
-| Row 1 | Global Filter Controller | Dynamic Filter Controller | One filter bar drives everything |
-| Row 2a | Total Open Issues | Custom Charts → Tile | Key KPI number |
-| Row 2b | Issue Distribution | Custom Charts → Pie | Status breakdown |
-| Row 2c | Delivery Funnel | Custom Charts → Funnel | Pipeline visualization |
-| Row 3a | Sprint Progress | Custom Charts → Stacked Bar | Sprint completion over time |
-| Row 3b | Trend Over Time | Custom Charts → 2D Line | Created vs resolved trend |
-| Row 4a | Flow Health | Cumulative Flow Diagram | WIP and bottleneck visibility |
-| Row 4b | Aging Work | WIP Aging Charts | At-risk items at a glance |
-| Row 5a | Team × Status | Pivot Table | Cross-dimensional workload |
-| Row 5b | Cycle Time | Time in Status | Where work slows down |
-| Row 6 | Active Issues | Issue List | Full issue details |
+| **Row 1** | Global Filter Controller | Dynamic Filter Controller | One filter bar drives everything |
+| **Row 2a** | Total Open Issues | Custom Charts → Tile | Key KPI number |
+| **Row 2b** | Issue Distribution | Custom Charts → Pie | Status breakdown |
+| **Row 2c** | Delivery Funnel | Custom Charts → Funnel | Pipeline visualization |
+| **Row 3a** | Sprint Progress | Custom Charts → Stacked Bar | Sprint completion over time |
+| **Row 3b** | Trend Over Time | Custom Charts → 2D Line | Created vs resolved trend |
+| **Row 4a** | Flow Health | Cumulative Flow Diagram | WIP and bottleneck visibility |
+| **Row 4b** | Aging Work | WIP Aging Charts | At-risk items at a glance |
+| **Row 5a** | Team × Status | Pivot Table | Cross-dimensional workload |
+| **Row 5b** | Cycle Time | Time in Status | Where work slows down |
+| **Row 6** | Active Issues | Issue List | Full issue details |
 
 ---
 
@@ -762,12 +762,12 @@ Click **"Show Connected Charts"** on the controller - all connected gadgets are 
 
 ## Common Issues
 
-| Problem | Fix |
+| **Problem** | Fix |
 |---|---|
-| Gadget not updating | Check Source Type is "Dynamic Filter Controller" and correct Reference ID is selected |
-| Controller not in the dropdown | Both gadgets must be on the same dashboard |
-| Wrong data after filtering | Check the controller's base data source scope |
-| Old data showing | Hard refresh (Ctrl+F5) and re-save the controller |
+| **Gadget not updating** | Check Source Type is "Dynamic Filter Controller" and correct Reference ID is selected |
+| **Controller not in the dropdown** | Both gadgets must be on the same dashboard |
+| **Wrong data after filtering** | Check the controller's base data source scope |
+| **Old data showing** | Hard refresh (Ctrl+F5) and re-save the controller |
 `,
         },
         {
@@ -942,11 +942,11 @@ The Custom Charts gadget supports 10 chart types across 5 categories:
 
 | **Category** | **Chart Types** |
 | --- | --- |
-| Pie | Pie Chart |
-| Bar | Bar, Grouped Bar, Stacked Bar |
-| Line | Line, 2D Line |
-| Table | Table, 2D Table |
-| Other | Funnel, Tile |
+| **Pie** | Pie Chart |
+| **Bar** | Bar, Grouped Bar, Stacked Bar |
+| **Line** | Line, 2D Line |
+| **Table** | Table, 2D Table |
+| **Other** | Funnel, Tile |
 
 ## Quick Start: Create Your First Chart
 
@@ -962,28 +962,28 @@ Done! Your chart is live.
 
 | **Tab** | **What It Controls** |
 | --- | --- |
-| Chart Type | Visual format (pie, bar, line, etc.) |
-| Chart By | Main grouping field/segments |
-| Group By | Second dimension (for 2D charts) |
-| Calculations | Reference lines (goal, trend, average) |
-| Display Settings | Visual options and formatting |
-| Description | Explanatory text |
-| Import/Export | Configuration sharing |
+| **Chart Type** | Visual format (pie, bar, line, etc.) |
+| **Chart By** | Main grouping field/segments |
+| **Group By** | Second dimension (for 2D charts) |
+| **Calculations** | Reference lines (goal, trend, average) |
+| **Display Settings** | Visual options and formatting |
+| **Description** | Explanatory text |
+| **Import/Export** | Configuration sharing |
 
 ## Quick Reference: Chart Type Selection
 
 | **If You Want To...** | **Use This Chart** |
 | --- | --- |
-| Show percentages/proportions | Pie |
-| Compare values across categories | Bar |
-| Compare with sub-categories | Grouped Bar |
-| Show composition within categories | Stacked Bar |
-| Show trends over time | Line |
-| Compare multiple trends | 2D Line |
-| Show exact numbers | Table |
-| Show a data matrix | 2D Table |
-| Show stage progression | Funnel |
-| Show single KPIs | Tile |
+| **Show percentages/proportions** | Pie |
+| **Compare values across categories** | Bar |
+| **Compare with sub-categories** | Grouped Bar |
+| **Show composition within categories** | Stacked Bar |
+| **Show trends over time** | Line |
+| **Compare multiple trends** | 2D Line |
+| **Show exact numbers** | Table |
+| **Show a data matrix** | 2D Table |
+| **Show stage progression** | Funnel |
+| **Show single KPIs** | Tile |
 
 ## Tips for Effective Charts
 
@@ -1162,12 +1162,12 @@ Result: A table where rows are team members, columns are statuses, and cells sho
 
 | **Chart Type** | **Field Creates** |
 | --- | --- |
-| Pie | Slices |
-| Bar | Bars |
-| Line | Points on the line |
-| Table | Rows |
-| Funnel | Funnel stages |
-| Tile | Single value |
+| **Pie** | Slices |
+| **Bar** | Bars |
+| **Line** | Points on the line |
+| **Table** | Rows |
+| **Funnel** | Funnel stages |
+| **Tile** | Single value |
 
 ## Chart By Options
 
@@ -1177,9 +1177,9 @@ You have three ways to define segments:
 
 | **Option** | **Description** | **Best For** |
 | --- | --- | --- |
-| Jira Fields | Group by any Jira field | Simple field-based grouping |
-| Custom JQL | Define segments with JQL queries | Complex, custom groupings |
-| Saved Filters | Use existing filters as segments | Reusing filter definitions |
+| **Jira Fields** | Group by any Jira field | Simple field-based grouping |
+| **Custom JQL** | Define segments with JQL queries | Complex, custom groupings |
+| **Saved Filters** | Use existing filters as segments | Reusing filter definitions |
 
 ## Option 1: Grouping by Jira Fields
 
@@ -1191,13 +1191,13 @@ Select any Jira field to group your data. Segments are automatically created for
 
 | **Field** | **Creates Segments For** |
 | --- | --- |
-| Status | Each workflow status |
-| Assignee | Each team member + Unassigned |
-| Priority | Highest, High, Medium, Low, Lowest |
-| Issue Type | Story, Bug, Task, Epic, etc. |
-| Component | Each component in the project |
-| Labels | Each label applied to issues |
-| Sprint | Each sprint (active, future, closed) |
+| **Status** | Each workflow status |
+| **Assignee** | Each team member + Unassigned |
+| **Priority** | Highest, High, Medium, Low, Lowest |
+| **Issue Type** | Story, Bug, Task, Epic, etc. |
+| **Component** | Each component in the project |
+| **Labels** | Each label applied to issues |
+| **Sprint** | Each sprint (active, future, closed) |
 
 ## Option 2: Grouping by Custom JQL
 
@@ -1209,9 +1209,9 @@ Define your own segments using JQL queries. This gives you complete control over
 
 | **Segment Name** | **JQL Condition** |
 | --- | --- |
-| New (< 7 days) | issuetype = Bug AND created >= -7d |
-| Aging (7-30 days) | issuetype = Bug AND created >= -30d AND created < -7d |
-| Old (> 30 days) | issuetype = Bug AND created < -30d |
+| **New (< 7 days)** | issuetype = Bug AND created >= -7d |
+| **Aging (7-30 days)** | issuetype = Bug AND created >= -30d AND created < -7d |
+| **Old (> 30 days)** | issuetype = Bug AND created < -30d |
 
 > **Tip:** Each issue appears only in the FIRST matching segment. Order your segments carefully if conditions might overlap.
 
@@ -1247,11 +1247,11 @@ Click the color swatch to open the color picker.
 
 | **Option** | **Sorts By** |
 | --- | --- |
-| Count (High to Low) | Largest segments first |
-| Count (Low to High) | Smallest segments first |
-| A to Z | Alphabetical ascending |
-| Z to A | Alphabetical descending |
-| Custom | Your manual drag order |
+| **Count (High to Low)** | Largest segments first |
+| **Count (Low to High)** | Smallest segments first |
+| **A to Z** | Alphabetical ascending |
+| **Z to A** | Alphabetical descending |
+| **Custom** | Your manual drag order |
 `,
         },
         {
@@ -1268,24 +1268,24 @@ Add a second dimension to your charts with the "Group By" feature, available for
 
 | **Without Group By** | **With Group By** |
 | --- | --- |
-| Status (3 bars) | Status x Issue Type (3 groups of 3 bars) |
-| One data series | Multiple data series |
-| Simple comparison | Cross-dimensional analysis |
+| **Status (3 bars)** | Status x Issue Type (3 groups of 3 bars) |
+| **One data series** | Multiple data series |
+| **Simple comparison** | Cross-dimensional analysis |
 
 ## Which Charts Support Group By?
 
 | **Chart Type** | **Group By Support** |
 | --- | --- |
-| Pie | No |
-| Bar (1D) | No |
-| Grouped Bar | Yes |
-| Stacked Bar | Yes |
-| Line (1D) | No |
-| 2D Line | Yes |
-| Table (1D) | No |
-| 2D Table | Yes |
-| Funnel | No |
-| Tile | No |
+| **Pie** | No |
+| **Bar (1D)** | No |
+| **Grouped Bar** | Yes |
+| **Stacked Bar** | Yes |
+| **Line (1D)** | No |
+| **2D Line** | Yes |
+| **Table (1D)** | No |
+| **2D Table** | Yes |
+| **Funnel** | No |
+| **Tile** | No |
 
 ## How Field By and Group By Work Together
 
@@ -1299,9 +1299,9 @@ Group By = Columns/Series (multiple bars/lines)
 
 | **Setting** | **Value** |
 | --- | --- |
-| Field By | Status |
-| Group By | Issue Type |
-| Result | For each status, see separate bars for Stories, Bugs, Tasks side by side |
+| **Field By** | Status |
+| **Group By** | Issue Type |
+| **Result** | For each status, see separate bars for Stories, Bugs, Tasks side by side |
 
 ### Stacked Bar Example
 
@@ -1309,9 +1309,9 @@ Group By = Columns/Series (multiple bars/lines)
 
 | **Setting** | **Value** |
 | --- | --- |
-| Field By | Status |
-| Group By | Priority |
-| Result | Each Status shows priorities stacked in a single bar |
+| **Field By** | Status |
+| **Group By** | Priority |
+| **Result** | Each Status shows priorities stacked in a single bar |
 
 ### 2D Table Example
 
@@ -1319,19 +1319,19 @@ Group By = Columns/Series (multiple bars/lines)
 
 | **Setting** | **Value** |
 | --- | --- |
-| Field By | Priority |
-| Group By | Status |
-| Result | Matrix with Priority as rows, statuses as columns |
+| **Field By** | Priority |
+| **Group By** | Status |
+| **Result** | Matrix with Priority as rows, statuses as columns |
 
 ## Common Group By Combinations
 
 | **Purpose** | **Field By** | **Group By** |
 | --- | --- | --- |
-| Bug vs Story by status | Status | Issue Type |
-| Priority mix per sprint | Sprint | Priority |
-| Team trends over time | Week | Team |
-| Completion by component | Component | Status |
-| Work type by person | Assignee | Issue Type |
+| **Bug vs Story by status** | Status | Issue Type |
+| **Priority mix per sprint** | Sprint | Priority |
+| **Team trends over time** | Week | Team |
+| **Completion by component** | Component | Status |
+| **Work type by person** | Assignee | Issue Type |
 
 ## Best Practices
 
@@ -1359,9 +1359,9 @@ By default, charts show the Count of issues. You can change this:
 
 | **Calculation** | **What It Shows** | **Example** |
 | --- | --- | --- |
-| Count | Number of issues | 25 issues in "To Do" |
-| Sum | Total of a numeric field | 150 total Story Points |
-| Average | Mean of a numeric field | 6 SP average per issue |
+| **Count** | Number of issues | 25 issues in "To Do" |
+| **Sum** | Total of a numeric field | 150 total Story Points |
+| **Average** | Mean of a numeric field | 6 SP average per issue |
 
 ## Count Calculation
 
@@ -1385,9 +1385,9 @@ Add horizontal reference lines to provide context on Bar and Line charts.
 
 | **Line Type** | **Description** | **Use Case** |
 | --- | --- | --- |
-| Goal | Fixed target value you set | We want to complete 50 SP per sprint |
-| Trend | Calculated trend direction | Are bugs increasing or decreasing? |
-| Average | Mean across all segments | Who's above/below average? |
+| **Goal** | Fixed target value you set | We want to complete 50 SP per sprint |
+| **Trend** | Calculated trend direction | Are bugs increasing or decreasing? |
+| **Average** | Mean across all segments | Who's above/below average? |
 
 ## Goal Line
 
@@ -1421,24 +1421,24 @@ Helpful for comparing individuals to team average.
 
 | **Week** | **Issues (Normal) - Issues (Cumulative)** |
 | --- | --- |
-| Week 1 | 10 - 10 |
-| Week 2 | 15 - 25 |
-| Week 3 | 12 - 37 |
-| Week 4 | 8 - 45 |
+| **Week 1** | 10 - 10 |
+| **Week 2** | 15 - 25 |
+| **Week 3** | 12 - 37 |
+| **Week 4** | 8 - 45 |
 
 ## Which Charts Support Reference Lines?
 
 | **Chart Type** | **Reference Lines** |
 | --- | --- |
-| Bar | Goal, Trend, Average |
-| Grouped Bar | Goal, Trend, Average |
-| Stacked Bar | Goal, Trend, Average |
-| Line | Goal, Trend, Average |
-| 2D Line | Goal, Trend, Average |
-| Pie | Not applicable |
-| Table | Not applicable |
-| Funnel | Not applicable |
-| Tile | Not applicable |
+| **Bar** | Goal, Trend, Average |
+| **Grouped Bar** | Goal, Trend, Average |
+| **Stacked Bar** | Goal, Trend, Average |
+| **Line** | Goal, Trend, Average |
+| **2D Line** | Goal, Trend, Average |
+| **Pie** | Not applicable |
+| **Table** | Not applicable |
+| **Funnel** | Not applicable |
+| **Tile** | Not applicable |
 `,
         },
         {
@@ -1467,13 +1467,13 @@ Control how your Custom Chart looks: formatting, tooltips, labels, layout, and e
 
 ![General Settings](/images/dashboard-charts/Custom%20Charts/Display%20Options/general-settings.png)
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Date format | Controls how dates appear in charts/tooltips where dates are shown. | 20 Jan 2021 (DD Mon YYYY) |
-| % Places Control | Sets decimal places for percentage values shown in labels/tooltips. | 1 |
-| Auto refresh every 10 minute | Refreshes the gadget automatically (primarily useful in View mode). | Off |
-| Show options menu button | Shows the chart's options/menu button (for quick actions). | On |
-| Export to Png, Pdf & Csv | Enables direct export from the gadget. | On (may be disabled by admin) |
+| **Date format** | Controls how dates appear in charts/tooltips where dates are shown. | 20 Jan 2021 (DD Mon YYYY) |
+| **% Places Control** | Sets decimal places for percentage values shown in labels/tooltips. | 1 |
+| **Auto refresh every 10 minute** | Refreshes the gadget automatically (primarily useful in View mode). | Off |
+| **Show options menu button** | Shows the chart's options/menu button (for quick actions). | On |
+| **Export to Png, Pdf & Csv** | Enables direct export from the gadget. | On (may be disabled by admin) |
 
 If export is disabled by admin, the toggle will show **"Disabled by admin"** and exports won't be available.
 
@@ -1483,31 +1483,31 @@ If export is disabled by admin, the toggle will show **"Disabled by admin"** and
 
 ### Chart options
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show tooltip on Legends name hover | Hover over legend items to see tooltip details. | On |
-| Display on hover | What appears on hover: Count, Count / %, %, % / Count. | Count |
-| Maximum pie chart diameter | Controls pie size (range: 300-400px). (Pie only) | 300px |
-| Y-axis height | Vertical size control (Funnel only) (range: 320-800px). | 350px |
+| **Show tooltip on Legends name hover** | Hover over legend items to see tooltip details. | On |
+| **Display on hover** | What appears on hover: Count, Count / %, %, % / Count. | Count |
+| **Maximum pie chart diameter** | Controls pie size (range: 300-400px). (Pie only) | 300px |
+| **Y-axis height** | Vertical size control (Funnel only) (range: 320-800px). | 350px |
 
 ### Labels
 
 ![Labels](/images/dashboard-charts/Custom%20Charts/Display%20Options/labels.png)
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Heading | Heading label shown with the chart/legend area. | Blank |
-| Count label | Label for count values (ex: "Issues", "Tickets"). | Issues |
+| **Heading** | Heading label shown with the chart/legend area. | Blank |
+| **Count label** | Label for count values (ex: "Issues", "Tickets"). | Issues |
 
 ### Legend display
 
 ![Legends](/images/dashboard-charts/Custom%20Charts/Display%20Options/legends.png)
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show chart legend | Shows/hides the legend list. | On |
-| Show total row | Shows a total row in the legend/table area (where applicable). | On |
-| Show number column | Shows the serial/number column in the legend/table area. | On |
+| **Show chart legend** | Shows/hides the legend list. | On |
+| **Show total row** | Shows a total row in the legend/table area (where applicable). | On |
+| **Show number column** | Shows the serial/number column in the legend/table area. | On |
 
 **Example (Pie):** If you want quick context without clicking, set **Display on hover = Count / %** and **% Places Control = 1**.
 
@@ -1517,28 +1517,28 @@ If export is disabled by admin, the toggle will show **"Disabled by admin"** and
 
 ### Chart options
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show tooltip on bar hover | Shows tooltip when hovering a bar. | On |
-| Tooltip display | Tooltip format: Count, %, Count (%), % (Count). | Count (%) |
-| Show Count labels above bars | Prints count values above each bar. | On |
-| Show zero Count labels above bars | Also shows labels for bars with 0 count. | Off |
-| Show % labels above bars | Prints % labels above bars. | Off |
-| Show horizontal gridlines | Adds horizontal gridlines for readability. | Off |
-| Show Count total under chart | Displays total count below the chart. | On |
+| **Show tooltip on bar hover** | Shows tooltip when hovering a bar. | On |
+| **Tooltip display** | Tooltip format: Count, %, Count (%), % (Count). | Count (%) |
+| **Show Count labels above bars** | Prints count values above each bar. | On |
+| **Show zero Count labels above bars** | Also shows labels for bars with 0 count. | Off |
+| **Show % labels above bars** | Prints % labels above bars. | Off |
+| **Show horizontal gridlines** | Adds horizontal gridlines for readability. | Off |
+| **Show Count total under chart** | Displays total count below the chart. | On |
 
 ### Axis & label
 
 ![Axis and Labels](/images/dashboard-charts/Custom%20Charts/Display%20Options/axis-and-labels.png)
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show y-axis label | Toggles Y-axis label. | On |
-| Y-axis label | Custom Y-axis title text. | Issues |
-| Show x-axis label | Toggles X-axis label. | On |
-| X-axis label | Custom X-axis title text. | Date |
-| Y-axis height | Chart height control (range: 320-800px). | 350px |
-| Y-axis unit | Shows axis values as Count or %. | Count |
+| **Show y-axis label** | Toggles Y-axis label. | On |
+| **Y-axis label** | Custom Y-axis title text. | Issues |
+| **Show x-axis label** | Toggles X-axis label. | On |
+| **X-axis label** | Custom X-axis title text. | Date |
+| **Y-axis height** | Chart height control (range: 320-800px). | 350px |
+| **Y-axis unit** | Shows axis values as Count or %. | Count |
 
 **Example (Bar):** To display distribution instead of raw totals: set **Y-axis unit = %**, enable **Show % labels above bars**, and keep **% Places Control = 1**.
 
@@ -1550,26 +1550,26 @@ If export is disabled by admin, the toggle will show **"Disabled by admin"** and
 
 ### Chart options
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show tooltip on point hover | Shows tooltip when hovering a point. | On |
-| Tooltip display | Tooltip format: Count, %, Count (%), % (Count). | Count (%) |
-| Show Count labels above points | Prints count values above points. | On |
-| Show zero Count labels above points | Shows labels for 0 values. | Off |
-| Show % labels above points | Prints % labels above points. | Off |
-| Show horizontal gridlines | Adds horizontal gridlines. | Off |
-| Show vertical gridlines | Adds vertical gridlines. | Off |
-| Show vertical hover line | Shows a vertical guide line on hover. | On |
-| Show Count total under chart | Displays total count below the chart. | On |
+| **Show tooltip on point hover** | Shows tooltip when hovering a point. | On |
+| **Tooltip display** | Tooltip format: Count, %, Count (%), % (Count). | Count (%) |
+| **Show Count labels above points** | Prints count values above points. | On |
+| **Show zero Count labels above points** | Shows labels for 0 values. | Off |
+| **Show % labels above points** | Prints % labels above points. | Off |
+| **Show horizontal gridlines** | Adds horizontal gridlines. | Off |
+| **Show vertical gridlines** | Adds vertical gridlines. | Off |
+| **Show vertical hover line** | Shows a vertical guide line on hover. | On |
+| **Show Count total under chart** | Displays total count below the chart. | On |
 
 ### Axis & label
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show y-axis label / Y-axis label | Toggle + text for Y-axis title. | On / Issues |
-| Show x-axis label / X-axis label | Toggle + text for X-axis title. | On / Date |
-| Y-axis height | Chart height control (range: 320-800px). | 350px |
-| Y-axis unit | Axis unit: Count or %. | Count |
+| **Show y-axis label / Y-axis label** | Toggle + text for Y-axis title. | On / Issues |
+| **Show x-axis label / X-axis label** | Toggle + text for X-axis title. | On / Date |
+| **Y-axis height** | Chart height control (range: 320-800px). | 350px |
+| **Y-axis unit** | Axis unit: Count or %. | Count |
 
 ## Table charts (Table / Table 2D)
 
@@ -1577,28 +1577,28 @@ If export is disabled by admin, the toggle will show **"Disabled by admin"** and
 
 ### Chart options
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show tooltip on hover | Shows tooltip when hovering over values/names. | On |
-| Show number column | Adds a serial/number column. | On |
-| Show total rows | Adds total row(s) at bottom. | On |
-| Limit rows | Limits table rows shown (range: 1-200). | 5 |
+| **Show tooltip on hover** | Shows tooltip when hovering over values/names. | On |
+| **Show number column** | Adds a serial/number column. | On |
+| **Show total rows** | Adds total row(s) at bottom. | On |
+| **Limit rows** | Limits table rows shown (range: 1-200). | 5 |
 
 ### Table 2D only
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Show total column | Adds a total column to the right. | On |
-| Display | Chooses how values display: Count, Count / %, %, % / Count. | Count |
-| Group By Label | Custom label for the group-by dimension. | Blank |
-| Show group by heading label | Shows/hides the group-by heading label. | On |
+| **Show total column** | Adds a total column to the right. | On |
+| **Display** | Chooses how values display: Count, Count / %, %, % / Count. | Count |
+| **Group By Label** | Custom label for the group-by dimension. | Blank |
+| **Show group by heading label** | Shows/hides the group-by heading label. | On |
 
 ### Labels
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Heading | Table heading label. | Blank |
-| Count label | Column label for count values. | Issues |
+| **Heading** | Table heading label. | Blank |
+| **Count label** | Column label for count values. | Issues |
 
 **Example (Table):** For clean dashboards, set **Limit rows = 10-20**, enable **Show total rows**, and keep **Display = Count / %** for executive summaries (Table 2D).
 
@@ -1608,21 +1608,21 @@ If export is disabled by admin, the toggle will show **"Disabled by admin"** and
 
 ### Chart options
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Max tiles per row | Controls how many tiles appear in one row (range: 1-8). | 5 |
-| Limit rows | Controls how many tile rows appear (range: 1-50). | 2 |
-| Display | Tile content format: Count, Count / %, %, % / Count, Name only. | Count |
-| Show count total | Shows the total count summary (where applicable). | On |
-| Show tooltip on name hover | Shows tooltip when hovering tile name. | On |
+| **Max tiles per row** | Controls how many tiles appear in one row (range: 1-8). | 5 |
+| **Limit rows** | Controls how many tile rows appear (range: 1-50). | 2 |
+| **Display** | Tile content format: Count, Count / %, %, % / Count, Name only. | Count |
+| **Show count total** | Shows the total count summary (where applicable). | On |
+| **Show tooltip on name hover** | Shows tooltip when hovering tile name. | On |
 
 ### Labels
 
-| Setting | What it does | Default |
+| **Setting** | What it does | Default |
 | --- | --- | --- |
-| Heading | Tile section heading label. | Blank |
-| Count label | Label for count values. | Issues |
-| Show chart by and count labels | Shows/hides footer labels for chart-by + count label. | On |
+| **Heading** | Tile section heading label. | Blank |
+| **Count label** | Label for count values. | Issues |
+| **Show chart by and count labels** | Shows/hides footer labels for chart-by + count label. | On |
 
 **Example (Tiles):** For compact widgets, use **Max tiles per row = 4**, **Limit rows = 2**, and **Display = Count / %**.
 
@@ -1664,9 +1664,9 @@ Use Templates to start a Custom Chart faster with a ready-made chart setup. Temp
 
 | **Area** | **What the template applies** | **Why it matters** |
 | --- | --- | --- |
-| Chart setup | Chart title, chart type, main field, and group by field when defined in the template. | The basic report layout is created for you. |
-| Advanced logic | JQL segments and group-by JQL segments for templates that use comparison or segment-based logic. | Templates can represent more than a simple field chart. |
-| Starter labels | Starter labels used by the template where needed. | Users get a readable chart immediately and can refine it later. |
+| **Chart setup** | Chart title, chart type, main field, and group by field when defined in the template. | The basic report layout is created for you. |
+| **Advanced logic** | JQL segments and group-by JQL segments for templates that use comparison or segment-based logic. | Templates can represent more than a simple field chart. |
+| **Starter labels** | Starter labels used by the template where needed. | Users get a readable chart immediately and can refine it later. |
 
 ## Template catalog for Custom Charts
 
@@ -1676,20 +1676,20 @@ Use Templates to start a Custom Chart faster with a ready-made chart setup. Temp
 
 | **Template** | **Chart type** | **Main field** | **Group By** | **What it creates** | **Best use** |
 | --- | --- | --- | --- | --- | --- |
-| Issues by Status | Pie Chart | status | - | Shows how issues are distributed by status. | Good for a fast status breakdown and a simple shareable chart. |
-| Issues by Priority | Funnel Chart | priority | - | Shows issue volume by priority in a funnel-style view. | Useful when you want to compare how work is distributed across priority levels. |
-| Issues by Issue Type | Line Chart | issuetype | - | Plots issues by issue type in a line-style view. | Useful when you want a lightweight category comparison in a line chart presentation. |
-| Issues by Assignee | Bar Chart | assignee | - | Shows how work is distributed across assignees. | Useful for workload distribution or ownership checks. |
-| Unresolved Issues | Bar Chart | Custom JQL | - | Creates a JQL-segment chart using the segment "Unresolved" with JQL \`status != Done\`. | Useful when you want a quick unresolved-only starter chart without building a segment manually. |
-| Issues by Component | Table Chart | components | - | Builds a table-based summary by component. | Useful when users prefer a tabular view instead of a visual chart. |
-| Issues by Labels | Bar Chart | labels | - | Builds a bar chart grouped by issue labels. | Useful for tag-based reporting and theme analysis. |
-| Issues by Fix Version | Line Chart | fixVersions | - | Builds a line-style chart by fix version. | Useful for release-oriented reporting. |
-| Bug Rate by Sprint | Grouped Bar Chart | sprint | Custom JQL (group by segments) | Uses Group By JQL segments and starts with a "Bugs" segment using \`issuetype = Bug\`. | Useful when you want sprint-level comparison with a bug-only grouped slice. |
-| Issues by Status per Project | Stacked Bar Chart | status | project | Compares statuses within each project using a stacked bar layout. | Useful for cross-project status comparison in one chart. |
-| Issues by Priority per Project | Grouped Bar Chart | priority | project | Compares project-level priority distribution side by side. | Useful for seeing whether one project carries more high-priority work than another. |
-| Issues by Type per Assignee | Stacked Bar Chart | issuetype | assignee | Compares issue types within each assignee. | Useful for role mix, work allocation, and team ownership analysis. |
-| To Do by Priority | Stacked Bar Chart | priority | Custom JQL (group by segments) | Uses Group By JQL segments and starts with a "TO DO" segment using \`status = 'To Do'\`. | Useful when you want to compare only To Do issues by priority. |
-| Epic Progress | Grouped Bar Chart | status | Epic link | Builds a grouped comparison using status within each Epic link. | Useful for epic-level progress review and delivery tracking. |
+| **Issues by Status** | Pie Chart | status | - | Shows how issues are distributed by status. | Good for a fast status breakdown and a simple shareable chart. |
+| **Issues by Priority** | Funnel Chart | priority | - | Shows issue volume by priority in a funnel-style view. | Useful when you want to compare how work is distributed across priority levels. |
+| **Issues by Issue Type** | Line Chart | issuetype | - | Plots issues by issue type in a line-style view. | Useful when you want a lightweight category comparison in a line chart presentation. |
+| **Issues by Assignee** | Bar Chart | assignee | - | Shows how work is distributed across assignees. | Useful for workload distribution or ownership checks. |
+| **Unresolved Issues** | Bar Chart | Custom JQL | - | Creates a JQL-segment chart using the segment "Unresolved" with JQL \`status != Done\`. | Useful when you want a quick unresolved-only starter chart without building a segment manually. |
+| **Issues by Component** | Table Chart | components | - | Builds a table-based summary by component. | Useful when users prefer a tabular view instead of a visual chart. |
+| **Issues by Labels** | Bar Chart | labels | - | Builds a bar chart grouped by issue labels. | Useful for tag-based reporting and theme analysis. |
+| **Issues by Fix Version** | Line Chart | fixVersions | - | Builds a line-style chart by fix version. | Useful for release-oriented reporting. |
+| **Bug Rate by Sprint** | Grouped Bar Chart | sprint | Custom JQL (group by segments) | Uses Group By JQL segments and starts with a "Bugs" segment using \`issuetype = Bug\`. | Useful when you want sprint-level comparison with a bug-only grouped slice. |
+| **Issues by Status per Project** | Stacked Bar Chart | status | project | Compares statuses within each project using a stacked bar layout. | Useful for cross-project status comparison in one chart. |
+| **Issues by Priority per Project** | Grouped Bar Chart | priority | project | Compares project-level priority distribution side by side. | Useful for seeing whether one project carries more high-priority work than another. |
+| **Issues by Type per Assignee** | Stacked Bar Chart | issuetype | assignee | Compares issue types within each assignee. | Useful for role mix, work allocation, and team ownership analysis. |
+| **To Do by Priority** | Stacked Bar Chart | priority | Custom JQL (group by segments) | Uses Group By JQL segments and starts with a "TO DO" segment using \`status = 'To Do'\`. | Useful when you want to compare only To Do issues by priority. |
+| **Epic Progress** | Grouped Bar Chart | status | Epic link | Builds a grouped comparison using status within each Epic link. | Useful for epic-level progress review and delivery tracking. |
 
 ## Important behavior and limitations
 
@@ -1726,11 +1726,11 @@ Use date fields to group Jira issues into clear time periods, build trend charts
 
 | **Control** | **What it does** | **Common values** |
 | --- | --- | --- |
-| Date grouping | Controls how dates are bucketed for reporting. | Days, Weeks, Months, Years |
-| Date range | Limits which period is included in the chart. | All, Past 7 Days, Past 30 Days, Past 90 Days, This Week, Last Week, This Month, Last Month, This Quarter, Last Quarter, This Year, Last Year, Between dates |
-| Custom from / to dates | Appears when Between dates is selected so the user can define an exact window. | Manual date entry |
-| Date format | Controls how the final date labels appear to users. | Examples include DD Mon YYYY, Mon DD, YYYY, or YYYY-M-DD |
-| Ordering | Keeps date charts in time order instead of alphabetical order. | Chronological by default for date fields |
+| **Date grouping** | Controls how dates are bucketed for reporting. | Days, Weeks, Months, Years |
+| **Date range** | Limits which period is included in the chart. | All, Past 7 Days, Past 30 Days, Past 90 Days, This Week, Last Week, This Month, Last Month, This Quarter, Last Quarter, This Year, Last Year, Between dates |
+| **Custom from / to dates** | Appears when Between dates is selected so the user can define an exact window. | Manual date entry |
+| **Date format** | Controls how the final date labels appear to users. | Examples include DD Mon YYYY, Mon DD, YYYY, or YYYY-M-DD |
+| **Ordering** | Keeps date charts in time order instead of alphabetical order. | Chronological by default for date fields |
 
 > **Note:** When a date field is selected, the gadget automatically prefers chronological ordering. This makes trend charts easier to read.
 
@@ -1738,23 +1738,23 @@ Use date fields to group Jira issues into clear time periods, build trend charts
 
 | **Grouping option** | **Best use** |
 | --- | --- |
-| Days | Shows each day as its own point or segment. Best for short time windows and detailed monitoring. |
-| Weeks | Groups issues into weekly buckets. Useful for sprint-level and weekly trend reporting. |
-| Months | Groups issues by calendar month. Good for management reporting and longer trend views. |
-| Years | Groups issues by year. Best for long-term summaries with a broad time span. |
+| **Days** | Shows each day as its own point or segment. Best for short time windows and detailed monitoring. |
+| **Weeks** | Groups issues into weekly buckets. Useful for sprint-level and weekly trend reporting. |
+| **Months** | Groups issues by calendar month. Good for management reporting and longer trend views. |
+| **Years** | Groups issues by year. Best for long-term summaries with a broad time span. |
 
 ## Date range options
 
 | **Range option** | **When to use it** |
 | --- | --- |
-| All | Shows all available dates in the result set. |
-| Past 24 Hours | Rolling window ending now. Useful for near-real-time activity. |
-| Past 3 / 7 / 30 / 90 Days | Rolling time windows for short- or medium-term trend analysis. |
-| This Week / Last Week | Calendar-based weekly windows. |
-| This Month / Last Month | Calendar-based monthly windows. |
-| This Quarter / Last Quarter | Quarter-based reporting windows. |
-| This Year / Last Year | Year-based reporting windows. |
-| Between dates | Lets the user choose an exact from-date and to-date for a custom report window. |
+| **All** | Shows all available dates in the result set. |
+| **Past 24 Hours** | Rolling window ending now. Useful for near-real-time activity. |
+| **Past 3 / 7 / 30 / 90 Days** | Rolling time windows for short- or medium-term trend analysis. |
+| **This Week / Last Week** | Calendar-based weekly windows. |
+| **This Month / Last Month** | Calendar-based monthly windows. |
+| **This Quarter / Last Quarter** | Quarter-based reporting windows. |
+| **This Year / Last Year** | Year-based reporting windows. |
+| **Between dates** | Lets the user choose an exact from-date and to-date for a custom report window. |
 
 ## Examples
 
@@ -1829,15 +1829,15 @@ Use Issue List when you need:
 
 | **Feature** | **Description** |
 | --- | --- |
-| Custom Columns | Add any Jira field as a column - standard or custom |
-| Smart Labels | Color-coded badge indicators based on JQL or saved filter conditions |
-| Quick Filters | One-click filter buttons above the table for instant slicing |
-| AND/OR Filter Logic | Control whether multiple active filters narrow or broaden the result |
-| Sorting | Click any column header to sort ascending or descending |
-| Pagination | Show 5, 10, 20, or 50 issues per page |
-| Templates | Pre-built table layouts for common use cases |
-| Export | CSV, PNG, and PDF export for the currently filtered result set |
-| Import/Export Config | JSON backup and restore of the full gadget configuration |
+| **Custom Columns** | Add any Jira field as a column - standard or custom |
+| **Smart Labels** | Color-coded badge indicators based on JQL or saved filter conditions |
+| **Quick Filters** | One-click filter buttons above the table for instant slicing |
+| **AND/OR Filter Logic** | Control whether multiple active filters narrow or broaden the result |
+| **Sorting** | Click any column header to sort ascending or descending |
+| **Pagination** | Show 5, 10, 20, or 50 issues per page |
+| **Templates** | Pre-built table layouts for common use cases |
+| **Export** | CSV, PNG, and PDF export for the currently filtered result set |
+| **Import/Export Config** | JSON backup and restore of the full gadget configuration |
 `,
         },
         {
@@ -1926,13 +1926,13 @@ Multiple Smart Labels can be active at the same time - each gets its own column.
 
 | **Label** | **Type** | **Condition** |
 | --- | --- | --- |
-| Critical | JQL | \`priority = Highest\` |
-| Overdue | JQL | \`duedate < now() AND resolution is EMPTY\` |
-| Blocked | JQL | \`labels = blocked\` |
-| Unassigned | JQL | \`assignee is EMPTY\` |
-| Due Soon | JQL | \`duedate >= now() AND duedate <= 7d\` |
-| Escalated | JQL | \`labels = escalated OR priority in (Highest, High)\` |
-| My Watch | Filter | Any saved Jira filter you select |
+| **Critical** | JQL | \`priority = Highest\` |
+| **Overdue** | JQL | \`duedate < now() AND resolution is EMPTY\` |
+| **Blocked** | JQL | \`labels = blocked\` |
+| **Unassigned** | JQL | \`assignee is EMPTY\` |
+| **Due Soon** | JQL | \`duedate >= now() AND duedate <= 7d\` |
+| **Escalated** | JQL | \`labels = escalated OR priority in (Highest, High)\` |
+| **My Watch** | Filter | Any saved Jira filter you select |
 
 ## Color Conventions
 
@@ -1969,15 +1969,15 @@ Multiple filters can be active at the same time - AND/OR logic controls how they
 
 | **Button Label** | **JQL Condition** |
 | --- | --- |
-| My Issues | \`assignee = currentUser()\` |
-| Bugs Only | \`issuetype = Bug\` |
-| High Priority | \`priority in (High, Highest)\` |
-| Due This Week | \`duedate >= startOfWeek() AND duedate <= endOfWeek()\` |
-| Unassigned | \`assignee is EMPTY\` |
-| Blocked | \`labels = blocked\` |
-| Overdue | \`duedate < now() AND resolution is EMPTY\` |
-| This Sprint | \`sprint in openSprints()\` |
-| Recently Updated | \`updated >= -7d\` |
+| **My Issues** | \`assignee = currentUser()\` |
+| **Bugs Only** | \`issuetype = Bug\` |
+| **High Priority** | \`priority in (High, Highest)\` |
+| **Due This Week** | \`duedate >= startOfWeek() AND duedate <= endOfWeek()\` |
+| **Unassigned** | \`assignee is EMPTY\` |
+| **Blocked** | \`labels = blocked\` |
+| **Overdue** | \`duedate < now() AND resolution is EMPTY\` |
+| **This Sprint** | \`sprint in openSprints()\` |
+| **Recently Updated** | \`updated >= -7d\` |
 
 ## AND vs OR Logic
 
@@ -2067,28 +2067,28 @@ Start with a ready-made table layout instead of building the Issue List from scr
 
 | **Behavior** | **What it means** |
 | --- | --- |
-| Title update | The Issue List title is updated to the template name so the table is easy to recognize. |
-| Column setup | The template chooses the main columns for that use case, such as Key, Summary, Status, Priority, Assignee, Created, Updated, or Resolved. |
-| Sorting | The template applies default sorting so the most important issues appear first. |
-| Quick filters | Templates can include one or more quick filters. Some templates include active quick filters by default, while others include optional filters that start inactive. |
-| Filter operator | Templates use a filter operator to combine quick filters. In the current built-in catalog, the operator is AND. |
-| Issue Type safeguard | If a template does not include Issue Type in its column list, the gadget automatically adds Issue Type so the table keeps a clear type indicator. |
+| **Title update** | The Issue List title is updated to the template name so the table is easy to recognize. |
+| **Column setup** | The template chooses the main columns for that use case, such as Key, Summary, Status, Priority, Assignee, Created, Updated, or Resolved. |
+| **Sorting** | The template applies default sorting so the most important issues appear first. |
+| **Quick filters** | Templates can include one or more quick filters. Some templates include active quick filters by default, while others include optional filters that start inactive. |
+| **Filter operator** | Templates use a filter operator to combine quick filters. In the current built-in catalog, the operator is AND. |
+| **Issue Type safeguard** | If a template does not include Issue Type in its column list, the gadget automatically adds Issue Type so the table keeps a clear type indicator. |
 
 ## Built-in Issue List templates
 
 | **Template** | **Best used for** | **Main columns** | **Default sort** |
 | --- | --- | --- | --- |
-| My Open Issues | Personal work queue | Key, Summary, Status, Priority, Updated, Assignee | Updated newest first |
-| Recently Updated Issues | Latest activity tracking | Key, Summary, Status, Assignee, Updated, Project | Updated newest first |
-| Unresolved by Priority | Outstanding work by urgency | Priority, Key, Summary, Status, Assignee, Created | Priority high to low, then newest created |
-| Team Workload | Work split by assignee | Assignee, Key, Summary, Status, Priority, Due Date | Assignee A-Z, then Priority high to low |
-| Reopened Issues | Reopened or bounced-back work | Key, Summary, Status, Priority, Assignee, Updated, Resolved | Updated newest first |
-| Blockers List (Release / Sprint) | Release or sprint blockers | Key, Summary, Priority, Status, Assignee, Fix Versions, Updated | Priority high to low, then Updated newest first |
-| Recently Resolved (Last 7 days) | Freshly completed work | Key, Summary, Priority, Assignee, Resolved, Created | Resolved newest first |
-| High Priority Unassigned (Triage) | Unassigned urgent work needing ownership | Priority, Key, Summary, Status, Project, Created, Updated | Priority high to low, then oldest created first |
-| Open Issues (No update in 14 days) | Aging open work | Key, Summary, Status, Assignee, Priority, Updated, Created | Oldest updated first |
-| Critical Bugs Open (P1 Bugs) | Highest-risk bug list | Key, Summary, Priority, Status, Assignee, Updated, Created | Updated newest first |
-| Delivery Outliers (Recently Resolved, Created Long Ago) | Items resolved recently but created long ago | Key, Summary, Priority, Created, Resolved, Assignee | Resolved newest first, then oldest created first |
+| **My Open Issues** | Personal work queue | Key, Summary, Status, Priority, Updated, Assignee | Updated newest first |
+| **Recently Updated Issues** | Latest activity tracking | Key, Summary, Status, Assignee, Updated, Project | Updated newest first |
+| **Unresolved by Priority** | Outstanding work by urgency | Priority, Key, Summary, Status, Assignee, Created | Priority high to low, then newest created |
+| **Team Workload** | Work split by assignee | Assignee, Key, Summary, Status, Priority, Due Date | Assignee A-Z, then Priority high to low |
+| **Reopened Issues** | Reopened or bounced-back work | Key, Summary, Status, Priority, Assignee, Updated, Resolved | Updated newest first |
+| **Blockers List (Release / Sprint)** | Release or sprint blockers | Key, Summary, Priority, Status, Assignee, Fix Versions, Updated | Priority high to low, then Updated newest first |
+| **Recently Resolved (Last 7 days)** | Freshly completed work | Key, Summary, Priority, Assignee, Resolved, Created | Resolved newest first |
+| **High Priority Unassigned (Triage)** | Unassigned urgent work needing ownership | Priority, Key, Summary, Status, Project, Created, Updated | Priority high to low, then oldest created first |
+| **Open Issues (No update in 14 days)** | Aging open work | Key, Summary, Status, Assignee, Priority, Updated, Created | Oldest updated first |
+| **Critical Bugs Open (P1 Bugs)** | Highest-risk bug list | Key, Summary, Priority, Status, Assignee, Updated, Created | Updated newest first |
+| **Delivery Outliers (Recently Resolved, Created Long Ago)** | Items resolved recently but created long ago | Key, Summary, Priority, Created, Resolved, Assignee | Resolved newest first, then oldest created first |
 
 > **Note:** Templates do not lock the Issue List. After applying a template, you can still add or remove columns, change the sort order, edit quick filters, and save the gadget with your own final setup.
 `,
@@ -2156,10 +2156,10 @@ Without a DFC, each chart is static: its data source is fixed and only an editor
 
 | **Scenario** | **Use** |
 | --- | --- |
-| Dashboard is for one fixed project and one audience | Regular data source per gadget |
-| Multiple people view the same dashboard but need to filter differently | DFC |
-| Dashboard shows multiple team views that switch between sprints | DFC with tabs |
-| You want viewers (not editors) to control the scope | DFC |
+| **Dashboard is for one fixed project and one audience** | Regular data source per gadget |
+| **Multiple people view the same dashboard but need to filter differently** | DFC |
+| **Dashboard shows multiple team views that switch between sprints** | DFC with tabs |
+| **You want viewers (not editors) to control the scope** | DFC |
 `,
         },
         {
@@ -2218,10 +2218,10 @@ When adding a Jira Field type, you can configure:
 
 | **Option** | **What it controls** |
 | --- | --- |
-| Show Sorting Options | Lets viewers sort connected Issue Lists from the DFC bar |
-| Allow Add Fields | Viewers can temporarily add filter fields during a session |
-| Show AND/OR Selector | Shows a toggle to switch filter logic between AND and OR |
-| Show Options Menu | Shows or hides the options button on the controller |
+| **Show Sorting Options** | Lets viewers sort connected Issue Lists from the DFC bar |
+| **Allow Add Fields** | Viewers can temporarily add filter fields during a session |
+| **Show AND/OR Selector** | Shows a toggle to switch filter logic between AND and OR |
+| **Show Options Menu** | Shows or hides the options button on the controller |
 
 ![Dynamic Filter Display Options](/images/dashboard-charts/Dynamic%20FIlter/dynamic-filter-display-options.png)
 `,
@@ -2241,11 +2241,11 @@ Each tab stores a named set of filter values. When a user clicks a tab, the DFC 
 
 | **Tab** | **Filter values** |
 | --- | --- |
-| All Work | (no filters) |
-| This Sprint | Sprint = current sprint |
-| My Issues | Assignee = me |
-| Bugs | Issue Type = Bug |
-| High Priority | Priority = High, Highest |
+| **All Work** | (no filters) |
+| **This Sprint** | Sprint = current sprint |
+| **My Issues** | Assignee = me |
+| **Bugs** | Issue Type = Bug |
+| **High Priority** | Priority = High, Highest |
 
 ## How to create a tab
 
@@ -2322,9 +2322,9 @@ You can connect as many gadgets as needed to a single DFC. One filter bar can co
 
 | **Check** | **Why it matters** |
 | --- | --- |
-| DFC and charts are on the same Jira dashboard | Gadgets only see DFCs on the same dashboard |
-| DFC is saved before connecting charts | The DFC must exist and have a Reference ID before charts can connect |
-| Data source is set to "Dynamic Filter Controller" on each chart | The gadget won't respond to the DFC until its data source is switched |
+| **DFC and charts are on the same Jira dashboard** | Gadgets only see DFCs on the same dashboard |
+| **DFC is saved before connecting charts** | The DFC must exist and have a Reference ID before charts can connect |
+| **Data source is set to "Dynamic Filter Controller" on each chart** | The gadget won't respond to the DFC until its data source is switched |
 `,
         },
         {
@@ -2352,12 +2352,12 @@ Use Templates to add a ready-made set of filter fields and quick filters to the 
 
 | **Area** | **What happens when you apply a template** |
 | --- | --- |
-| Active tab fields | The current field list on the active tab is replaced by the template field set. |
-| Quick filters | Template quick filters are added as Custom JQL toggle chips. Filters marked active in the template start enabled. |
-| Selected projects | The current project selection is reused as a default selection on the active tab. |
-| Other tabs | No changes are made to other tabs. |
-| Data source | No change. The existing source type and source values remain in place. |
-| Gadget layout and display options | No chart-style or admin-setting change is made by templates. |
+| **Active tab fields** | The current field list on the active tab is replaced by the template field set. |
+| **Quick filters** | Template quick filters are added as Custom JQL toggle chips. Filters marked active in the template start enabled. |
+| **Selected projects** | The current project selection is reused as a default selection on the active tab. |
+| **Other tabs** | No changes are made to other tabs. |
+| **Data source** | No change. The existing source type and source values remain in place. |
+| **Gadget layout and display options** | No chart-style or admin-setting change is made by templates. |
 
 > **Note:** Some templates use fields such as Sprint, Epic, or Story Points. If those fields are not available in your Jira site or are configured differently, you may need to edit the tab after applying the template.
 
@@ -2365,18 +2365,18 @@ Use Templates to add a ready-made set of filter fields and quick filters to the 
 
 | **Template** | **Best for** | **Main filters** | **Default active filter** |
 | --- | --- | --- | --- |
-| My Work (Daily Driver) | Everyday personal work view | Project, Issue Type, Status, Assignee, Priority, Text | Assignee to me |
-| Sprint Control (Scrum) | Sprint planning and sprint tracking | Project, Sprint, Status, Assignee, Issue Type, Text | Current sprint |
-| Backlog Grooming | Backlog clean-up and triage | Project, Issue Type, Priority, Assignee, Labels, Components, Text | Backlog only |
-| Team Workload (People View) | Balancing work across people | Project, Assignee, Status Category, Priority, Due Date, Text | Assigned only |
-| Triage Inbox (New + Unowned) | New work that needs assignment | Project, Issue Type, Priority, Assignee, Created, Components, Text | Unassigned only + Created last 48h |
-| Critical Incidents (P1/P2) | Serious incident response | Project, Issue Type, Priority, Status, Assignee, Updated, Text | P1 only |
-| Aging Open Issues (Stale Work) | Work that has gone quiet | Project, Status Category, Priority, Assignee, Updated, Text | Open only + No update 14d+ |
-| Roadmap Scope (Epic + Work) | Roadmap and epic-level visibility | Project, Epic, Issue Type, Status Category, Assignee, Priority, Text | Not done |
-| Dependency & Blockers (Delivery Risk) | Blocked work and linked issue risk | Project, Status, Priority, Assignee, Text | Is blocked |
-| QA / Testing Pipeline | Testing handoff and QA tracking | Project, Status, Issue Type, Priority, Assignee, Fix Versions, Text | Bugs only |
-| Due Dates & Commitments | Deadline and commitment tracking | Project, Due Date, Status Category, Assignee, Priority, Text | Due this week |
-| Customer Escalations / VIP | Escalated or VIP work | Project, Priority, Status, Assignee, Labels, Updated, Text | Escalation |
+| **My Work (Daily Driver)** | Everyday personal work view | Project, Issue Type, Status, Assignee, Priority, Text | Assignee to me |
+| **Sprint Control (Scrum)** | Sprint planning and sprint tracking | Project, Sprint, Status, Assignee, Issue Type, Text | Current sprint |
+| **Backlog Grooming** | Backlog clean-up and triage | Project, Issue Type, Priority, Assignee, Labels, Components, Text | Backlog only |
+| **Team Workload (People View)** | Balancing work across people | Project, Assignee, Status Category, Priority, Due Date, Text | Assigned only |
+| **Triage Inbox (New + Unowned)** | New work that needs assignment | Project, Issue Type, Priority, Assignee, Created, Components, Text | Unassigned only + Created last 48h |
+| **Critical Incidents (P1/P2)** | Serious incident response | Project, Issue Type, Priority, Status, Assignee, Updated, Text | P1 only |
+| **Aging Open Issues (Stale Work)** | Work that has gone quiet | Project, Status Category, Priority, Assignee, Updated, Text | Open only + No update 14d+ |
+| **Roadmap Scope (Epic + Work)** | Roadmap and epic-level visibility | Project, Epic, Issue Type, Status Category, Assignee, Priority, Text | Not done |
+| **Dependency & Blockers (Delivery Risk)** | Blocked work and linked issue risk | Project, Status, Priority, Assignee, Text | Is blocked |
+| **QA / Testing Pipeline** | Testing handoff and QA tracking | Project, Status, Issue Type, Priority, Assignee, Fix Versions, Text | Bugs only |
+| **Due Dates & Commitments** | Deadline and commitment tracking | Project, Due Date, Status Category, Assignee, Priority, Text | Due this week |
+| **Customer Escalations / VIP** | Escalated or VIP work | Project, Priority, Status, Assignee, Labels, Updated, Text | Escalation |
 
 > **Note:** Dynamic Filter Controller template is a starter pack for one tab. It gives that tab a useful set of fields and quick filters, but it does not rebuild the whole gadget.
 `,
@@ -2441,13 +2441,13 @@ Standard Jira charts show the current state of issues. Time in Status reads the 
 
 | **Feature** | **Description** |
 | --- | --- |
-| Changelog-Based | Reads actual status transition history - not just current state |
-| 7 Report Types | Time in Status, Average Time, Time per Date, Status Count, Transition Count, Time in Assignee, Status Entrance Date |
-| Chart Outputs | Column chart, bar chart, and line chart - each report type has its own visualization |
-| Status Grouping | Combine multiple statuses into named bands - built-in Cycle Time and Lead Time groups included |
-| Working Hours | Select a "Business" time format + configure a Work Schedule to exclude non-working hours |
-| Date Range Filter | Scope analysis to last 7/30/90 days, this/last week, this/last month, or a custom range |
-| Configurable Columns | Choose which statuses, fields, and issues appear in the report |
+| **Changelog-Based** | Reads actual status transition history - not just current state |
+| **7 Report Types** | Time in Status, Average Time, Time per Date, Status Count, Transition Count, Time in Assignee, Status Entrance Date |
+| **Chart Outputs** | Column chart, bar chart, and line chart - each report type has its own visualization |
+| **Status Grouping** | Combine multiple statuses into named bands - built-in Cycle Time and Lead Time groups included |
+| **Working Hours** | Select a "Business" time format + configure a Work Schedule to exclude non-working hours |
+| **Date Range Filter** | Scope analysis to last 7/30/90 days, this/last week, this/last month, or a custom range |
+| **Configurable Columns** | Choose which statuses, fields, and issues appear in the report |
 `,
         },
         {
@@ -2485,13 +2485,13 @@ Standard Jira charts show the current state of issues. Time in Status reads the 
 
 | **Report** | **Default Visualization** |
 | --- | --- |
-| Time in Status | Column chart (per issue, per status) |
-| Average Time | Bar chart (status vs average time) |
-| Time in Status per Date | Line chart (trend over time) |
-| Status Count | Bar chart (count per status) |
-| Transition Count | Bar chart (transitions per status) |
-| Time in Assignee | Bar chart (time per assignee) |
-| Status Entrance Date | Table (date per issue per status) |
+| **Time in Status** | Column chart (per issue, per status) |
+| **Average Time** | Bar chart (status vs average time) |
+| **Time in Status per Date** | Line chart (trend over time) |
+| **Status Count** | Bar chart (count per status) |
+| **Transition Count** | Bar chart (transitions per status) |
+| **Time in Assignee** | Bar chart (time per assignee) |
+| **Status Entrance Date** | Table (date per issue per status) |
 `,
         },
         {
@@ -2650,8 +2650,8 @@ An issue moved to "In Review" on Friday at 5pm and out on Monday at 9am.
 
 | **Calculation** | **Result** |
 | --- | --- |
-| Calendar time | 64 hours (full weekend counted) |
-| Business hours (8h/day, Mon–Fri) | 0 hours (no working time elapsed over the weekend) |
+| **Calendar time** | 64 hours (full weekend counted) |
+| **Business hours (8h/day, Mon–Fri)** | 0 hours (no working time elapsed over the weekend) |
 
 The business hours result accurately reflects that no one was actually reviewing the issue over the weekend.
 `,
@@ -2688,10 +2688,10 @@ Open **Average Time** and sort by time descending. The top row is your biggest b
 
 | **What You See** | **What It Means** | **What to Do** |
 | --- | --- | --- |
-| "In Review" averaging 3+ days | Reviews are not happening frequently enough | Schedule daily review slots |
-| "QA" averaging 5+ days | QA capacity is too low relative to developer output | Add QA resource or reduce WIP |
-| "Waiting for Customer" averaging 10+ days | Follow-up is not happening | Add SLA reminders or escalation rules |
-| "To Do" averaging 7+ days | Work is queued longer than it takes to complete | Review prioritization process |
+| **"In Review" averaging 3+ days** | Reviews are not happening frequently enough | Schedule daily review slots |
+| **"QA" averaging 5+ days** | QA capacity is too low relative to developer output | Add QA resource or reduce WIP |
+| **"Waiting for Customer" averaging 10+ days** | Follow-up is not happening | Add SLA reminders or escalation rules |
+| **"To Do" averaging 7+ days** | Work is queued longer than it takes to complete | Review prioritization process |
 
 ### Spotting Rework
 
@@ -2741,14 +2741,14 @@ Use this section to learn how to configure row/column grouping, choose an aggreg
 
 | **Feature** | **Description** |
 | --- | --- |
-| Multi-Field Grouping | Up to 3 fields on rows, up to 3 fields on columns |
-| 7 Aggregation Methods | Count, Sum, Average, Min, Max, Count %, Sum % |
-| 9 Display Types | Tables, heatmaps, and charts |
-| Heatmap Coloring | Color-code cells by value intensity (Red, Blue, Green, Grey) |
-| Totals & Averages | Auto-sum and average rows, columns, and grand total |
-| Make Values Clickable | Click any cell value to open the matching Jira issue list in a new tab |
-| Date Formatting | Per-field date format options (day, week, month, quarter, year display formats) |
-| Auto-Refresh | Automatically reload data every 10 minutes in view mode |
+| **Multi-Field Grouping** | Up to 3 fields on rows, up to 3 fields on columns |
+| **7 Aggregation Methods** | Count, Sum, Average, Min, Max, Count %, Sum % |
+| **9 Display Types** | Tables, heatmaps, and charts |
+| **Heatmap Coloring** | Color-code cells by value intensity (Red, Blue, Green, Grey) |
+| **Totals & Averages** | Auto-sum and average rows, columns, and grand total |
+| **Make Values Clickable** | Click any cell value to open the matching Jira issue list in a new tab |
+| **Date Formatting** | Per-field date format options (day, week, month, quarter, year display formats) |
+| **Auto-Refresh** | Automatically reload data every 10 minutes in view mode |
 
 ## Data Sources
 
@@ -2771,10 +2771,10 @@ The Pivot Table is built by selecting fields for rows and columns:
 
 | **Row Fields** | **Column Fields** | **What It Shows** |
 | --- | --- | --- |
-| Assignee | Status | Issues per person per status |
-| Component | Priority | Issues per component per priority level |
-| Sprint, Issue Type | Status | Issues by sprint + type combination, broken down by status |
-| Project | Month (Created) | Issue volume per project per month |
+| **Assignee** | Status | Issues per person per status |
+| **Component** | Priority | Issues per component per priority level |
+| **Sprint, Issue Type** | Status | Issues by sprint + type combination, broken down by status |
+| **Project** | Month (Created) | Issue volume per project per month |
 
 ### Adding Fields
 
@@ -2926,11 +2926,11 @@ Drag fields up or down in the list to control grouping order:
 
 | **Row Fields** | **Column Fields** | **What It Shows** |
 | --- | --- | --- |
-| Assignee | Status | Issues per person per status |
-| Component | Priority | Issues per component per priority level |
-| Sprint, Issue Type | Status | Issues by sprint + type, broken down by status |
-| Project | Month (Created) | Issue volume per project per month |
-| Epic | Assignee | Work per epic per team member |
+| **Assignee** | Status | Issues per person per status |
+| **Component** | Priority | Issues per component per priority level |
+| **Sprint, Issue Type** | Status | Issues by sprint + type, broken down by status |
+| **Project** | Month (Created) | Issue volume per project per month |
+| **Epic** | Assignee | Work per epic per team member |
 `,
         },
         {
@@ -3028,11 +3028,11 @@ When a date field is used as a row or column field, you can control how the date
 
 | **Format** | **Example** |
 | --- | --- |
-| Day | Jan 06, 2025 |
-| Week | Week of Jan 06, 2025 |
-| Month | January 2025 |
-| Quarter | Q1 2025 |
-| Year | 2025 |
+| **Day** | Jan 06, 2025 |
+| **Week** | Week of Jan 06, 2025 |
+| **Month** | January 2025 |
+| **Quarter** | Q1 2025 |
+| **Year** | 2025 |
 
 ## Make Values Clickable (Drill-Through)
 
@@ -3088,14 +3088,14 @@ Use this section to understand how to configure band modes, scope data to specif
 
 | **Feature** | **Description** |
 | --- | --- |
-| Stacked Area Chart | One colored band per workflow stage - bands stack to show total WIP |
-| 6 Band Modes | Status categories, individual statuses, board columns, board column categories, work item types, custom field values |
-| Calculate By | Issue count, Story Points, Story Point Estimate, Original Time Estimate, or any custom numeric field |
-| Board Integration | Connect to a Jira Software board to use its column definitions as bands |
-| Sprint & Release Scoping | Scope the CFD to a specific sprint (including "latest sprint auto") or release version |
-| Flexible Date Ranges | Rolling windows, fixed ranges, sprint dates, or release dates |
-| Include Sub-Tasks | Toggle to include or exclude sub-tasks from the analysis |
-| Band Customization | Reorder, hide, and color-code individual workflow bands |
+| **Stacked Area Chart** | One colored band per workflow stage - bands stack to show total WIP |
+| **6 Band Modes** | Status categories, individual statuses, board columns, board column categories, work item types, custom field values |
+| **Calculate By** | Issue count, Story Points, Story Point Estimate, Original Time Estimate, or any custom numeric field |
+| **Board Integration** | Connect to a Jira Software board to use its column definitions as bands |
+| **Sprint & Release Scoping** | Scope the CFD to a specific sprint (including "latest sprint auto") or release version |
+| **Flexible Date Ranges** | Rolling windows, fixed ranges, sprint dates, or release dates |
+| **Include Sub-Tasks** | Toggle to include or exclude sub-tasks from the analysis |
+| **Band Customization** | Reorder, hide, and color-code individual workflow bands |
 
 ## How to Read a CFD
 
@@ -3238,10 +3238,10 @@ Instead of selecting a specific sprint, choose **"Latest sprint (auto)"**. The C
 
 | **Interval** | **Best For** |
 | --- | --- |
-| 1 day | Short sprints, detailed monitoring |
-| 1 week | Multi-week releases, quarterly views |
-| 2 weeks | Longer release cycles |
-| 1 month | Year-level or roadmap views |
+| **1 day** | Short sprints, detailed monitoring |
+| **1 week** | Multi-week releases, quarterly views |
+| **2 weeks** | Longer release cycles |
+| **1 month** | Year-level or roadmap views |
 `,
         },
         {
@@ -3322,12 +3322,12 @@ Use this section to understand the scatter plot format, age calculation options,
 
 | **Feature** | **Description** |
 | --- | --- |
-| Scatter Plot | One dot per issue - X-axis = age, Y-axis = status group |
-| 5 Age Calculation Methods | Time since last entry, sum of all occurrences, category sum, category first entry, time since creation |
-| Three Reference Lines | Average, Threshold (with configurable value), and Percentile (1–99) lines |
-| Data Table View | Switch from scatter plot to a tabular view of all WIP items with age details |
-| Log Scale Option | Compress wide age ranges for better readability |
-| Status Ordering | Custom Y-axis order via comma-separated list |
+| **Scatter Plot** | One dot per issue - X-axis = age, Y-axis = status group |
+| **5 Age Calculation Methods** | Time since last entry, sum of all occurrences, category sum, category first entry, time since creation |
+| **Three Reference Lines** | Average, Threshold (with configurable value), and Percentile (1–99) lines |
+| **Data Table View** | Switch from scatter plot to a tabular view of all WIP items with age details |
+| **Log Scale Option** | Compress wide age ranges for better readability |
+| **Status Ordering** | Custom Y-axis order via comma-separated list |
 
 ## How to Read the Chart
 
@@ -3570,9 +3570,9 @@ A common professional setup:
 
 | **Line** | **Value** | **Purpose** |
 | --- | --- | --- |
-| Average | Calculated automatically | Internal baseline - "what's normal" |
-| Percentile 85 | Calculated automatically | Your public SLE commitment to stakeholders |
-| Threshold | Your SLA limit in days | Escalation trigger - anything past this needs action now |
+| **Average** | Calculated automatically | Internal baseline - "what's normal" |
+| **Percentile 85** | Calculated automatically | Your public SLE commitment to stakeholders |
+| **Threshold** | Your SLA limit in days | Escalation trigger - anything past this needs action now |
 
 ## Scale Options
 
@@ -3681,12 +3681,12 @@ Control global app behavior for all gadgets - Custom Charts, Issue List, Dynamic
 
 ## Admin Settings tabs
 
-| Tab | What it does | Applies to |
+| **Tab** | What it does | Applies to |
 | --- | --- | --- |
-| Customization Options | Sets global defaults for export and display formatting. | Custom Chart, Issue List |
-| Features | Turns major app features on or off for the whole site. | All gadgets |
-| Data Sources | Controls which source types users can select when building gadgets. | Custom Chart, Issue List, Filter Controller links |
-| Support | Provides help, training, and documentation links. | All users |
+| **Customization Options** | Sets global defaults for export and display formatting. | Custom Chart, Issue List |
+| **Features** | Turns major app features on or off for the whole site. | All gadgets |
+| **Data Sources** | Controls which source types users can select when building gadgets. | Custom Chart, Issue List, Filter Controller links |
+| **Support** | Provides help, training, and documentation links. | All users |
 
 ## Customization Options
 
@@ -3694,13 +3694,13 @@ Control global app behavior for all gadgets - Custom Charts, Issue List, Dynamic
 
 ### Available settings
 
-| Setting | What it does | Default | Notes |
+| **Setting** | What it does | Default | Notes |
 | --- | --- | --- | --- |
-| Allow direct export | Lets users export gadget content directly from the gadget menu. | On | If disabled, export actions should not be available to users. |
-| Number format | Controls how large numbers are displayed. | 123,456.78 | Useful for keeping chart and table totals consistent. |
-| Decimal places | Sets default decimal precision for percentages and calculated values. | 1 | Applied as the starting value, but users may still change it in gadget settings. |
-| Date format | Controls how dates appear in supported gadgets. | 20 Jan 2025 style | Helps standardize date display across reports. |
-| Time unit | Controls the default time unit used where supported. | Hours | Relevant for calculations and time-based reporting displays. |
+| **Allow direct export** | Lets users export gadget content directly from the gadget menu. | On | If disabled, export actions should not be available to users. |
+| **Number format** | Controls how large numbers are displayed. | 123,456.78 | Useful for keeping chart and table totals consistent. |
+| **Decimal places** | Sets default decimal precision for percentages and calculated values. | 1 | Applied as the starting value, but users may still change it in gadget settings. |
+| **Date format** | Controls how dates appear in supported gadgets. | 20 Jan 2025 style | Helps standardize date display across reports. |
+| **Time unit** | Controls the default time unit used where supported. | Hours | Relevant for calculations and time-based reporting displays. |
 
 > **Note:** Customization Options are global defaults. They are meant to give users a clean starting point, but they do not replace every gadget-level display setting.
 
@@ -3710,16 +3710,16 @@ Control global app behavior for all gadgets - Custom Charts, Issue List, Dynamic
 
 ### Feature toggles
 
-| Feature | What happens when enabled | What happens when disabled |
+| **Feature** | What happens when enabled | What happens when disabled |
 | --- | --- | --- |
-| Issue List | Users can create and use Issue List gadgets. | Issue List functionality is blocked for users. |
-| Custom Chart | Users can create and use Custom Chart gadgets. | Custom Chart functionality is blocked for users. |
-| Dynamic Filter Controller | Users can use the Dynamic Filter Controller gadget. | Controller-based filtering is blocked for users. |
-| Templates | Users can open and apply built-in templates in supported gadgets. | Template buttons or template flows should be unavailable. |
-| Time in Status | Users can create and use the Time in Status gadget. | Time in Status is hidden and unavailable. |
-| Pivot Table | Users can create and use the Pivot Table gadget. | Pivot Table is hidden and unavailable. |
-| WIP Aging Charts | Users can create and use the WIP Aging Charts gadget. | WIP Aging Charts is hidden and unavailable. |
-| Cumulative Flow Diagram | Users can create and use the Cumulative Flow Diagram gadget. | CFD is hidden and unavailable. |
+| **Issue List** | Users can create and use Issue List gadgets. | Issue List functionality is blocked for users. |
+| **Custom Chart** | Users can create and use Custom Chart gadgets. | Custom Chart functionality is blocked for users. |
+| **Dynamic Filter Controller** | Users can use the Dynamic Filter Controller gadget. | Controller-based filtering is blocked for users. |
+| **Templates** | Users can open and apply built-in templates in supported gadgets. | Template buttons or template flows should be unavailable. |
+| **Time in Status** | Users can create and use the Time in Status gadget. | Time in Status is hidden and unavailable. |
+| **Pivot Table** | Users can create and use the Pivot Table gadget. | Pivot Table is hidden and unavailable. |
+| **WIP Aging Charts** | Users can create and use the WIP Aging Charts gadget. | WIP Aging Charts is hidden and unavailable. |
+| **Cumulative Flow Diagram** | Users can create and use the Cumulative Flow Diagram gadget. | CFD is hidden and unavailable. |
 
 ## Data Sources
 
@@ -3727,12 +3727,12 @@ Control global app behavior for all gadgets - Custom Charts, Issue List, Dynamic
 
 ### Available source controls
 
-| Source type | What it allows | Used in | If disabled |
+| **Source type** | What it allows | Used in | If disabled |
 | --- | --- | --- | --- |
-| Projects | Users can build gadgets from selected Jira projects. | Custom Chart, Issue List | Project source option should not be available. |
-| Saved Filters | Users can use saved Jira filters as the source. | Custom Chart, Issue List | Saved filter source option should not be available. |
-| Custom JQL | Users can enter their own JQL. | Custom Chart, Issue List, Filter workflows | Raw custom JQL should not be available as a source option. |
-| Filter Controller | Users can connect gadgets to a Dynamic Filter Controller. | Custom Chart, Issue List | Controller reference source should not be available. |
+| **Projects** | Users can build gadgets from selected Jira projects. | Custom Chart, Issue List | Project source option should not be available. |
+| **Saved Filters** | Users can use saved Jira filters as the source. | Custom Chart, Issue List | Saved filter source option should not be available. |
+| **Custom JQL** | Users can enter their own JQL. | Custom Chart, Issue List, Filter workflows | Raw custom JQL should not be available as a source option. |
+| **Filter Controller** | Users can connect gadgets to a Dynamic Filter Controller. | Custom Chart, Issue List | Controller reference source should not be available. |
 
 ## Support Tab
 
@@ -3745,12 +3745,12 @@ Control global app behavior for all gadgets - Custom Charts, Issue List, Dynamic
 
 ## How Admin Settings apply in the app
 
-| Area | How settings are used | Important detail |
+| **Area** | How settings are used | Important detail |
 | --- | --- | --- |
-| Custom Chart | Uses feature flags, source blocking, export control, and formatting defaults. | Admins can influence chart setup, but not every chart-specific display option. |
-| Issue List | Uses feature flags, source blocking, export control, and formatting defaults. | Admins can control broad behavior, but not every table preference. |
-| Dynamic Filter Controller | Uses feature flags and source-related controls. | Formatting defaults are less relevant here than in chart and table gadgets. |
-| Templates | Controlled mainly through the global Templates feature toggle. | Admins can enable or disable template access, but cannot manage template content from Admin Settings. |
+| **Custom Chart** | Uses feature flags, source blocking, export control, and formatting defaults. | Admins can influence chart setup, but not every chart-specific display option. |
+| **Issue List** | Uses feature flags, source blocking, export control, and formatting defaults. | Admins can control broad behavior, but not every table preference. |
+| **Dynamic Filter Controller** | Uses feature flags and source-related controls. | Formatting defaults are less relevant here than in chart and table gadgets. |
+| **Templates** | Controlled mainly through the global Templates feature toggle. | Admins can enable or disable template access, but cannot manage template content from Admin Settings. |
 
 > **Note:** Admin Settings work best as a global governance layer. They are strong for basic control and consistency, but they are not a full enterprise policy console.
 
@@ -3783,7 +3783,7 @@ The app reads and displays data directly from your Jira Cloud instance. All data
 
 ### Jira Data the App Uses
 
-| Jira Data Type | How the App Uses It |
+| **Jira Data Type** | How the App Uses It |
 |---|---|
 | **Issues** | Primary source for all charts, tables, and filters - count, sum, group, and filter issues by any field |
 | **Projects** | Select one or more projects as the data source for a gadget |
@@ -3820,11 +3820,11 @@ The app is delivered as **Jira dashboard gadgets** - the standard Atlassian mech
 
 Gadgets adjust their display to the column width assigned in the dashboard layout. For best results:
 
-| Gadget | Recommended Column Width |
+| **Gadget** | Recommended Column Width |
 |---|---|
-| Custom Charts (Pie, Bar, Line) | 1 or 2 columns |
-| Issue List | 2 or 3 columns (wider is better for many columns) |
-| Dynamic Filter Controller | Full width (3 columns) or at least 2 columns |
+| **Custom Charts (Pie, Bar, Line)** | 1 or 2 columns |
+| **Issue List** | 2 or 3 columns (wider is better for many columns) |
+| **Dynamic Filter Controller** | Full width (3 columns) or at least 2 columns |
 
 ---
 
@@ -3845,13 +3845,13 @@ Gadgets adjust their display to the column width assigned in the dashboard layou
 
 ### Supported Filter Types
 
-| Filter Type | Supported |
+| **Filter Type** | Supported |
 |---|---|
-| Personal saved filters (My Filters) | Yes |
-| Shared filters (visible to you) | Yes |
-| Favorite filters | Yes |
-| Starred filters | Yes |
-| Filters you don't have access to | No - only filters you can view in Jira |
+| **Personal saved filters (My Filters)** | Yes |
+| **Shared filters (visible to you)** | Yes |
+| **Favorite filters** | Yes |
+| **Starred filters** | Yes |
+| **Filters you don't have access to** | No - only filters you can view in Jira |
 
 ---
 
@@ -3859,14 +3859,14 @@ Gadgets adjust their display to the column width assigned in the dashboard layou
 
 The current version does not natively integrate with:
 
-| Tool | Status |
+| **Tool** | Status |
 |---|---|
-| Slack | Not supported |
-| Microsoft Teams | Not supported |
-| Confluence | Not supported |
-| Google Sheets / Excel | Not supported (use CSV export instead) |
-| BI tools (Tableau, Power BI) | Not supported (use CSV export instead) |
-| Jira Server / Data Center | Not supported |
+| **Slack** | Not supported |
+| **Microsoft Teams** | Not supported |
+| **Confluence** | Not supported |
+| **Google Sheets / Excel** | Not supported (use CSV export instead) |
+| **BI tools (Tableau, Power BI)** | Not supported (use CSV export instead) |
+| **Jira Server / Data Center** | Not supported |
 
 > **Workaround for BI tools:** Use the CSV export feature to download issue data, then import it into your preferred BI or spreadsheet tool.
 
@@ -3874,7 +3874,7 @@ The current version does not natively integrate with:
 
 ## Platform & Security
 
-| Aspect | Detail |
+| **Aspect** | Detail |
 |---|---|
 | **Platform** | Atlassian Forge (Cloud-native, sandboxed) |
 | **Data storage** | Forge KVS - gadget configurations only; no issue data stored |
@@ -3911,16 +3911,16 @@ Every gadget has a built-in JSON export that captures the complete configuration
 
 ### What the Export JSON Contains
 
-| Included | Not Included |
+| **Included** | Not Included |
 |---|---|
-| Chart type | Jira issue data |
-| Chart By field and segments | Jira project settings |
-| Group By field | Dashboard layout |
-| Display Options | User access permissions |
-| Quick filters (Issue List) | Dynamic Filter Controller connections |
-| Smart Labels (Issue List) | |
-| Reference lines (Custom Charts) | |
-| Gadget title and description | |
+| **Chart type** | Jira issue data |
+| **Chart By field and segments** | Jira project settings |
+| **Group By field** | Dashboard layout |
+| **Display Options** | User access permissions |
+| **Quick filters (Issue List)** | Dynamic Filter Controller connections |
+| **Smart Labels (Issue List)** | |
+| **Reference lines (Custom Charts)** | |
+| **Gadget title and description** | |
 
 ---
 
@@ -3975,17 +3975,17 @@ Gadget configurations can be moved between different Jira Cloud sites using the 
 
 ### What Transfers Cleanly
 
-| Config Element | Transfers? | Notes |
+| **Config Element** | Transfers? | Notes |
 |---|---|---|
-| Chart type | Yes | |
-| Chart By - Jira standard fields | Usually yes | Field must exist on target instance |
-| Chart By - Custom JQL segments | Usually yes | JQL field names must be valid on target |
-| Display Options | Yes | |
-| Smart Labels | Usually yes | JQL conditions must be valid on target |
-| Quick Filters | Usually yes | JQL conditions must be valid on target |
-| Chart title / description | Yes | |
-| Data source selection | **No** | Must be re-selected manually |
-| Custom field references | **Verify** | Custom field names must match on target |
+| **Chart type** | Yes | |
+| **Chart By - Jira standard fields** | Usually yes | Field must exist on target instance |
+| **Chart By - Custom JQL segments** | Usually yes | JQL field names must be valid on target |
+| **Display Options** | Yes | |
+| **Smart Labels** | Usually yes | JQL conditions must be valid on target |
+| **Quick Filters** | Usually yes | JQL conditions must be valid on target |
+| **Chart title / description** | Yes | |
+| **Data source selection** | **No** | Must be re-selected manually |
+| **Custom field references** | **Verify** | Custom field names must match on target |
 
 ---
 
@@ -4028,13 +4028,13 @@ If you plan to uninstall and reinstall the app:
 
 ## Limitations
 
-| Limitation | Detail |
+| **Limitation** | Detail |
 |---|---|
-| No bulk export | Configurations must be exported one gadget at a time |
-| No dashboard-level export | Jira does not support exporting a full dashboard including gadget configs |
-| Controller connections not exported | Linked chart-to-controller relationships must be re-established manually after import |
-| Data source not exported | Project, filter, or JQL selections must be re-entered after import |
-| App uninstall deletes all configs | There is no recovery after uninstall if configurations were not exported first |
+| **No bulk export** | Configurations must be exported one gadget at a time |
+| **No dashboard-level export** | Jira does not support exporting a full dashboard including gadget configs |
+| **Controller connections not exported** | Linked chart-to-controller relationships must be re-established manually after import |
+| **Data source not exported** | Project, filter, or JQL selections must be re-entered after import |
+| **App uninstall deletes all configs** | There is no recovery after uninstall if configurations were not exported first |
 `,
         },
       ],
@@ -4066,7 +4066,7 @@ If you plan to uninstall and reinstall the app:
           slug: "sales-doc",
           title: "Sales Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Sales_Doc_3_8936d1da1a.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Templates_Charts_Graphs_and_Reports_for_Jira_Sales_Doc_1_28b27bab5c.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

@@ -1,4 +1,4 @@
-export const pulseAiJiraDocs = {
+﻿export const pulseAiJiraDocs = {
   appSlug: "pulse-ai-jira",
   categories: [
     // ═══════════════════════════════════════════════════════════════
@@ -32,7 +32,7 @@ Pulse AI is available on the Atlassian Marketplace.
 
 ## Who Should Use This Guide
 
-| Role | Primary Sections |
+| **Role** | Primary Sections |
 |---|---|
 | **Jira Administrators** | Full guide. Primary audience. |
 | **Jira Project Leads** | Dashboard, Projects, Sprints & Delivery. |
@@ -73,12 +73,12 @@ After installation:
 
 ## Jira Permissions Required
 
-| Permission | Why It's Needed |
+| **Permission** | Why It's Needed |
 |---|---|
-| Read Jira issues and projects | Load project context and findings for scoring |
-| Read Jira configuration | Detect workflows, schemes, custom fields, and issue types |
-| Read users and groups | Audit access hygiene and permission risk |
-| Administer Jira (admin only) | Required to install the app |
+| **Read Jira issues and projects** | Load project context and findings for scoring |
+| **Read Jira configuration** | Detect workflows, schemes, custom fields, and issue types |
+| **Read users and groups** | Audit access hygiene and permission risk |
+| **Administer Jira (admin only)** | Required to install the app |
 
 ## Uninstalling
 
@@ -87,7 +87,7 @@ To uninstall: **Jira Settings → Apps → Manage apps** → find Pulse AI → c
         },
         {
           slug: "first-launch-oauth",
-          title: "First Launch & OAuth Authorisation",
+          title: "First Launch & OAuth Authorization",
           content: `
 On first launch you will see the Welcome / OAuth screen. Pulse AI uses **OAuth 2.0 (3-legged)** via Atlassian to authorise access to your site's data.
 
@@ -123,7 +123,7 @@ Spans the full width. Contains:
 
 Primary navigation. Sections are grouped into:
 
-| Group | Sections |
+| **Group** | Sections |
 |---|---|
 | **Overview** | Dashboard |
 | **Sprint & Delivery** | Sprints & Delivery |
@@ -169,7 +169,7 @@ You install, configure, and maintain Pulse AI for your organisation. You are the
 
 **Start with:**
 1. [Installation & Setup](/apps/pulse-ai-jira/installation-setup) - install the app and complete OAuth
-2. [First Launch & OAuth Authorisation](/apps/pulse-ai-jira/first-launch-oauth) - connect to your Atlassian site and run the first scan
+2. [First Launch & OAuth Authorization](/apps/pulse-ai-jira/first-launch-oauth) - connect to your Atlassian site and run the first scan
 3. [Understanding the Layout](/apps/pulse-ai-jira/understanding-layout) - learn the navigation, top bar, and FAB
 
 **Then explore:**
@@ -270,7 +270,7 @@ You are onboarding or assessing a client Jira instance. Use the full guide plus 
 Never used Pulse AI before?
 
 1. Read [What is Pulse AI for Jira?](/apps/pulse-ai-jira/what-is-pulse-ai) - 2-minute overview
-2. Follow [First Launch & OAuth Authorisation](/apps/pulse-ai-jira/first-launch-oauth) - connect and run your first scan
+2. Follow [First Launch & OAuth Authorization](/apps/pulse-ai-jira/first-launch-oauth) - connect and run your first scan
 3. Use the [Quick Reference Card](/apps/pulse-ai-jira/quick-reference) - bookmark as a cheat sheet
 `,
         },
@@ -281,7 +281,7 @@ Never used Pulse AI before?
 
 ## Five Pillars at a Glance
 
-| Pillar | What It Covers | Weight | Full Docs |
+| **Pillar** | What It Covers | Weight | Full Docs |
 |---|---|---|---|
 | **Sprint & Delivery** | Sprint health, carryover, blockers, board velocity | 20% | [Sprints & Delivery →](/apps/pulse-ai-jira/sprints-delivery-overview) |
 | **Project & Data Integrity** | Project health, issue quality, field completeness | 20% | [Projects →](/apps/pulse-ai-jira/projects) |
@@ -293,7 +293,7 @@ Never used Pulse AI before?
 
 ## All 22 Sections at a Glance
 
-| Section | What It Monitors | Key Findings | Docs |
+| **Section** | What It Monitors | Key Findings | Docs |
 |---|---|---|---|
 | **Sprints & Delivery** | Sprint utilisation, carryover, blockers across all boards | Overcommitted, At Risk, stale backlog | [→](/apps/pulse-ai-jira/sprints-delivery-overview) |
 | **Projects** | Per-project health, lead coverage, backlog staleness | No Lead, Inactive, Stale Backlog | [→](/apps/pulse-ai-jira/projects) |
@@ -321,13 +321,13 @@ Never used Pulse AI before?
 
 ## Grade & Score Reference
 
-| Grade | Score | Label | Colour |
+| **Grade** | Score | Label | Colour |
 |---|---|---|---|
-| A | 90–100 | Excellent | Green |
-| B | 80–89 | Good | Blue |
-| C | 70–79 | Needs Attention | Yellow |
-| D | 55–69 | Poor | Orange |
-| F | 0–54 | Critical | Red |
+| **A** | 90–100 | Excellent | Green |
+| **B** | 80–89 | Good | Blue |
+| **C** | 70–79 | Needs Attention | Yellow |
+| **D** | 55–69 | Poor | Orange |
+| **F** | 0–54 | Critical | Red |
 
 Full reference: [Pulse Score Reference →](/apps/pulse-ai-jira/pulse-score-reference)
 
@@ -335,7 +335,7 @@ Full reference: [Pulse Score Reference →](/apps/pulse-ai-jira/pulse-score-refe
 
 ## Severity Levels
 
-| Severity | Meaning |
+| **Severity** | Meaning |
 |---|---|
 | **High** | Affects governance, delivery, security, or causes cleanup risk. Act promptly. |
 | **Medium** | Should be reviewed and cleaned up when possible. |
@@ -346,16 +346,16 @@ Full reference: [Pulse Score Reference →](/apps/pulse-ai-jira/pulse-score-refe
 
 ## Stale Thresholds Quick Reference
 
-| Entity | Threshold |
+| **Entity** | Threshold |
 |---|---|
-| Project activity | Last issue update ≥ 90 days |
-| User - Dormant | Last activity > 90 days |
-| User - Inactive Admin | No activity ≥ 60 days |
-| Workflow | Zero projects + last modified ≥ 90 days |
-| Stale Backlog | Stale issues ÷ total issues > 30% |
-| Screen (Bloated) | > 50 available fields |
-| Custom Field (unused) | Zero issues with a value |
-| Filter (dead owner) | Owner account deactivated in Atlassian |
+| **Project activity** | Last issue update ≥ 90 days |
+| **User - Dormant** | Last activity > 90 days |
+| **User - Inactive Admin** | No activity ≥ 60 days |
+| **Workflow** | Zero projects + last modified ≥ 90 days |
+| **Stale Backlog** | Stale issues ÷ total issues > 30% |
+| **Screen (Bloated)** | > 50 available fields |
+| **Custom Field (unused)** | Zero issues with a value |
+| **Filter (dead owner)** | Owner account deactivated in Atlassian |
 
 Full reference: [Stale / Threshold Reference →](/apps/pulse-ai-jira/pulse-score-reference)
 
@@ -363,7 +363,7 @@ Full reference: [Stale / Threshold Reference →](/apps/pulse-ai-jira/pulse-scor
 
 ## Settings Tabs Quick Reference
 
-| Tab | What It Does | Docs |
+| **Tab** | What It Does | Docs |
 |---|---|---|
 | **General Settings** | Connected instance URL and logged-in account | [Settings →](/apps/pulse-ai-jira/settings-overview) |
 | **Chat History** | Last 10 Pulse AI Assistant queries for current user | [Settings →](/apps/pulse-ai-jira/settings-overview) |
@@ -434,11 +434,11 @@ Make sure:
 
 Navigate to **Governance** - even one overpermissioned account or empty permission scheme is a High finding.
 
-| Finding | Where to Fix | Docs |
+| **Finding** | Where to Fix | Docs |
 |---|---|---|
-| Dormant / Inactive Admin users | Atlassian Admin Console (admin.atlassian.com) | [Users →](/apps/pulse-ai-jira/users) |
-| Empty groups | Jira Settings → User Management → Groups | [Groups →](/apps/pulse-ai-jira/groups) |
-| Orphaned permission schemes | Jira Settings → Issues → Permission Schemes | [Permissions →](/apps/pulse-ai-jira/permissions) |
+| **Dormant / Inactive Admin users** | Atlassian Admin Console (admin.atlassian.com) | [Users →](/apps/pulse-ai-jira/users) |
+| **Empty groups** | Jira Settings → User Management → Groups | [Groups →](/apps/pulse-ai-jira/groups) |
+| **Orphaned permission schemes** | Jira Settings → Issues → Permission Schemes | [Permissions →](/apps/pulse-ai-jira/permissions) |
 
 ---
 
@@ -446,12 +446,12 @@ Navigate to **Governance** - even one overpermissioned account or empty permissi
 
 Navigate to **Workflows & Schemes** - orphaned workflows and dead-end statuses are common High findings.
 
-| Finding | Action |
+| **Finding** | Action |
 |---|---|
-| Orphaned workflow | Assign to a project or delete via Jira Settings → Workflows |
-| Dead-End Status | Add an outgoing transition in the workflow editor |
-| Orphaned Screen | Assign to a screen scheme or delete |
-| No Security Levels | Add at least one level in the Work Item Security scheme |
+| **Orphaned workflow** | Assign to a project or delete via Jira Settings → Workflows |
+| **Dead-End Status** | Add an outgoing transition in the workflow editor |
+| **Orphaned Screen** | Assign to a screen scheme or delete |
+| **No Security Levels** | Add at least one level in the Work Item Security scheme |
 
 See [Workflows →](/apps/pulse-ai-jira/workflows) and [All Schemes →](/apps/pulse-ai-jira/all-schemes).
 
@@ -461,12 +461,12 @@ See [Workflows →](/apps/pulse-ai-jira/workflows) and [All Schemes →](/apps/p
 
 Navigate to **Configurations** - unused custom fields are common High findings.
 
-| Finding | Action | Docs |
+| **Finding** | Action | Docs |
 |---|---|---|
-| Unused custom field | Remove from all screens, then delete in Jira Settings → Custom Fields | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
-| Risky Deletion field | Remove from screens first before deleting | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
-| Orphaned work type scheme | Assign to a project or delete | [Work Types & Schemes →](/apps/pulse-ai-jira/work-types-schemes) |
-| Filter with dead owner | Transfer ownership before deleting the user account | [Global Config →](/apps/pulse-ai-jira/global-config) |
+| **Unused custom field** | Remove from all screens, then delete in Jira Settings → Custom Fields | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
+| **Risky Deletion field** | Remove from screens first before deleting | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
+| **Orphaned work type scheme** | Assign to a project or delete | [Work Types & Schemes →](/apps/pulse-ai-jira/work-types-schemes) |
+| **Filter with dead owner** | Transfer ownership before deleting the user account | [Global Config →](/apps/pulse-ai-jira/global-config) |
 
 ---
 
@@ -474,11 +474,11 @@ Navigate to **Configurations** - unused custom fields are common High findings.
 
 Navigate to **Project & Data Integrity**.
 
-| Finding | Action | Docs |
+| **Finding** | Action | Docs |
 |---|---|---|
-| Project with no lead | Assign a lead in the project settings | [Projects →](/apps/pulse-ai-jira/projects) |
-| Done issues with no resolution | Bulk update resolutions via Jira Admin | [Issue Integrity →](/apps/pulse-ai-jira/issue-integrity) |
-| Missing mandatory fields | Update field configuration schemes | [Data Accuracy →](/apps/pulse-ai-jira/data-accuracy) |
+| **Project with no lead** | Assign a lead in the project settings | [Projects →](/apps/pulse-ai-jira/projects) |
+| **Done issues with no resolution** | Bulk update resolutions via Jira Admin | [Issue Integrity →](/apps/pulse-ai-jira/issue-integrity) |
+| **Missing mandatory fields** | Update field configuration schemes | [Data Accuracy →](/apps/pulse-ai-jira/data-accuracy) |
 
 ---
 
@@ -486,11 +486,11 @@ Navigate to **Project & Data Integrity**.
 
 Navigate to **Sprints & Delivery**.
 
-| Finding | Action | Docs |
+| **Finding** | Action | Docs |
 |---|---|---|
-| Overcommitted sprint (≥150%) | Defer lower-priority items to the next sprint | [Sprint Risk Thresholds →](/apps/pulse-ai-jira/sprint-risk-thresholds) |
-| High carryover rate (>20%) | Reduce sprint commitment; review estimation practices | [Sprints & Delivery →](/apps/pulse-ai-jira/sprints-delivery-overview) |
-| Active blockers | Resolve or de-link blocker issues | [Sprints & Delivery →](/apps/pulse-ai-jira/sprints-delivery-overview) |
+| **Overcommitted sprint (≥150%)** | Defer lower-priority items to the next sprint | [Sprint Risk Thresholds →](/apps/pulse-ai-jira/sprint-risk-thresholds) |
+| **High carryover rate (>20%)** | Reduce sprint commitment; review estimation practices | [Sprints & Delivery →](/apps/pulse-ai-jira/sprints-delivery-overview) |
+| **Active blockers** | Resolve or de-link blocker issues | [Sprints & Delivery →](/apps/pulse-ai-jira/sprints-delivery-overview) |
 
 ---
 
@@ -514,7 +514,7 @@ After fixing issues:
 
 A full governance audit in Pulse AI spans three areas:
 
-| Area | Sections | Primary Concern |
+| **Area** | Sections | Primary Concern |
 |---|---|---|
 | **People & Access** | Users, Permissions, Groups | Who has access and whether it's appropriate |
 | **Workflow & Config** | Workflows, Schemes, Configurations | Configuration debt and cleanup risk |
@@ -537,7 +537,7 @@ Navigate to [Governance → Users](/apps/pulse-ai-jira/users).
 
 Check each risk category:
 
-| Risk | Condition | Recommended Action |
+| **Risk** | Condition | Recommended Action |
 |---|---|---|
 | **Dormant** | Active account, last activity > 90 days | Deactivate in Atlassian Admin Console |
 | **Inactive Admin** | Admin, no activity ≥ 60 days | Remove from admin group |
@@ -575,14 +575,14 @@ Check for:
 
 Navigate to [Workflows & Schemes](/apps/pulse-ai-jira/workflows).
 
-| Section | What to Look For | Docs |
+| **Section** | What to Look For | Docs |
 |---|---|---|
-| Workflows | Orphaned, dead-end, duplicate workflows | [Workflows →](/apps/pulse-ai-jira/workflows) |
-| Workflow Schemes | Orphaned, draft, missing default | [Workflow Schemes →](/apps/pulse-ai-jira/workflow-schemes) |
-| Statuses | Orphaned statuses, missing category | [States & Outcomes →](/apps/pulse-ai-jira/states-outcomes) |
-| Resolutions | No default set, overloaded resolutions | [States & Outcomes →](/apps/pulse-ai-jira/states-outcomes) |
-| Screens | Bloated (50+ fields), duplicate, orphaned | [Transition Screens →](/apps/pulse-ai-jira/transition-screens) |
-| Work Item Security | No security levels defined | [All Schemes →](/apps/pulse-ai-jira/all-schemes) |
+| **Workflows** | Orphaned, dead-end, duplicate workflows | [Workflows →](/apps/pulse-ai-jira/workflows) |
+| **Workflow Schemes** | Orphaned, draft, missing default | [Workflow Schemes →](/apps/pulse-ai-jira/workflow-schemes) |
+| **Statuses** | Orphaned statuses, missing category | [States & Outcomes →](/apps/pulse-ai-jira/states-outcomes) |
+| **Resolutions** | No default set, overloaded resolutions | [States & Outcomes →](/apps/pulse-ai-jira/states-outcomes) |
+| **Screens** | Bloated (50+ fields), duplicate, orphaned | [Transition Screens →](/apps/pulse-ai-jira/transition-screens) |
+| **Work Item Security** | No security levels defined | [All Schemes →](/apps/pulse-ai-jira/all-schemes) |
 
 ---
 
@@ -590,11 +590,11 @@ Navigate to [Workflows & Schemes](/apps/pulse-ai-jira/workflows).
 
 Navigate to [Configurations](/apps/pulse-ai-jira/custom-fields).
 
-| Section | What to Look For | Docs |
+| **Section** | What to Look For | Docs |
 |---|---|---|
-| Custom Fields | Unused (High), Risky Deletion (High), Global Bloat (Low) | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
-| Work Types | Unused issue types, duplicates | [Work Types & Schemes →](/apps/pulse-ai-jira/work-types-schemes) |
-| Filters | Dead owner, invalid JQL, publicly shared | [Global Config →](/apps/pulse-ai-jira/global-config) |
+| **Custom Fields** | Unused (High), Risky Deletion (High), Global Bloat (Low) | [Custom Fields →](/apps/pulse-ai-jira/custom-fields) |
+| **Work Types** | Unused issue types, duplicates | [Work Types & Schemes →](/apps/pulse-ai-jira/work-types-schemes) |
+| **Filters** | Dead owner, invalid JQL, publicly shared | [Global Config →](/apps/pulse-ai-jira/global-config) |
 
 ---
 
@@ -615,7 +615,7 @@ Navigate to [Configurations](/apps/pulse-ai-jira/custom-fields).
 
 Navigate to [Sprints & Delivery Overview](/apps/pulse-ai-jira/sprints-delivery-overview) for a full view of all active Scrum boards.
 
-| Metric | What It Means |
+| **Metric** | What It Means |
 |---|---|
 | **Active Sprints** | All currently running sprints across the org |
 | **At Risk** | Sprints at 115–149% utilisation - scope reduction recommended |
@@ -632,12 +632,12 @@ Navigate to [Sprints & Delivery Overview](/apps/pulse-ai-jira/sprints-delivery-o
 
 **Risk badges:**
 
-| Badge | Utilisation | Action |
+| **Badge** | Utilisation | Action |
 |---|---|---|
-| On Track | < 100% | No action needed |
-| Tight | 100–114% | Monitor daily, defer low-priority items |
-| At Risk | 115–149% | Reduce scope, review blockers |
-| Overcommitted | ≥ 150% | Immediate scope reduction required |
+| **On Track** | < 100% | No action needed |
+| **Tight** | 100–114% | Monitor daily, defer low-priority items |
+| **At Risk** | 115–149% | Reduce scope, review blockers |
+| **Overcommitted** | ≥ 150% | Immediate scope reduction required |
 
 See [Sprint Risk Thresholds →](/apps/pulse-ai-jira/sprint-risk-thresholds) for the full reference.
 
@@ -883,7 +883,7 @@ The Dashboard is the default landing page after login and scan. It shows the ove
 
 ## What You See on the Dashboard
 
-| Element | Description |
+| **Element** | Description |
 |---|---|
 | **Pulse Score ring** | Composite 0–100 score with grade (A–F) and colour |
 | **Five pillar cards** | Individual scores for Sprint & Delivery, Project & Data Integrity, Governance, Workflows & Schemes, and Configurations |
@@ -902,7 +902,7 @@ The Pulse Score ring displays the overall composite score (0–100) computed as 
 
 ## Five Pillar Cards
 
-| Pillar | Sub-Sections Averaged | Weight |
+| **Pillar** | Sub-Sections Averaged | Weight |
 |---|---|---|
 | **Sprint & Delivery** | Sprints, Boards | 20% |
 | **Project & Data Integrity** | Projects, Issue Integrity, Data Accuracy | 20% |
@@ -914,13 +914,13 @@ The Pulse Score ring displays the overall composite score (0–100) computed as 
 
 ## Grade & Score Reference
 
-| Grade | Score Range | Label | Colour |
+| **Grade** | Score Range | Label | Colour |
 |---|---|---|---|
-| A | 90 – 100 | Excellent | Green |
-| B | 80 – 89 | Good | Blue |
-| C | 70 – 79 | Needs Attention | Yellow |
-| D | 55 – 69 | Poor | Orange |
-| F | 0 – 54 | Critical | Red |
+| **A** | 90 – 100 | Excellent | Green |
+| **B** | 80 – 89 | Good | Blue |
+| **C** | 70 – 79 | Needs Attention | Yellow |
+| **D** | 55 – 69 | Poor | Orange |
+| **F** | 0 – 54 | Critical | Red |
 `,
         },
         {
@@ -931,7 +931,7 @@ The Top Findings Table lists the highest-severity findings detected in the last 
 
 ## Columns
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
 | **Pulse Summary** | Short description of the finding. |
 | **Report** | Which section produced this finding. |
@@ -940,7 +940,7 @@ The Top Findings Table lists the highest-severity findings detected in the last 
 
 ## Severity Levels
 
-| Severity | Meaning |
+| **Severity** | Meaning |
 |---|---|
 | **High** | Important risks that can affect governance, delivery, security, or cleanup decisions. |
 | **Medium** | Issues that should be reviewed and cleaned up when possible. |
@@ -1000,7 +1000,7 @@ Provides a Pulse Score per project with stale backlog, lead coverage, and activi
 
 ## Project Table Columns
 
-| Column | Description |
+| **Column** | Description |
 |---|---|
 | **Project** | Project display name. |
 | **Key** | Jira project key (e.g., AD, PO). |
@@ -1013,7 +1013,7 @@ Provides a Pulse Score per project with stale backlog, lead coverage, and activi
 
 ## Key Terms
 
-| Term | Definition |
+| **Term** | Definition |
 |---|---|
 | **Stale Backlog** | Stale issues ÷ total issues > 30%. |
 | **Inactive** | Project with no issue activity for ≥ 90 days. |
@@ -1036,7 +1036,7 @@ Navigate to **Project & Data Integrity → Issue Integrity**. Monitors instance-
 
 ## Issue Integrity Categories
 
-| Category | What It Monitors |
+| **Category** | What It Monitors |
 |---|---|
 | **Resolution & Status Mismatches** | Done issues with no resolution set; open issues with a resolution already set. |
 | **Reopen Patterns** | Issues transitioned back to open after being resolved - indicating quality gaps. |
@@ -1061,7 +1061,7 @@ Navigate to **Project & Data Integrity → Data Accuracy**. Monitors mandatory f
 
 ## Data Accuracy Checks
 
-| Check | What It Flags |
+| **Check** | What It Flags |
 |---|---|
 | **Mandatory field completion** | Issues missing required fields - breaks downstream reporting. |
 | **Resolution–status alignment** | Mismatches between the resolution value set and the workflow status category. |
@@ -1092,7 +1092,7 @@ Navigate to **Governance → Users** for a security and access risk audit of eve
 
 ## Risk Categories
 
-| Risk Category | Condition | Notes |
+| **Risk Category** | Condition | Notes |
 |---|---|---|
 | **Dormant** | Active account with last activity older than 90 days. | Active = true but not recently used. |
 | **Inactive Admin** | Admin with no activity for ≥ 60 days. | Review and remove from admin group. |
@@ -1116,7 +1116,7 @@ Navigate to **Governance → Permissions** for a permission scheme audit. Key me
 
 ## Key Metrics
 
-| Metric | Description |
+| **Metric** | Description |
 |---|---|
 | **Total Schemes** | All permission schemes in the instance. |
 | **Healthy Schemes** | Schemes with no findings. |
@@ -1141,7 +1141,7 @@ Navigate to **Governance → Groups** for Jira group directory hygiene.
 
 ## Summary Cards
 
-| Summary Card | Description |
+| **Summary Card** | Description |
 |---|---|
 | **Total Groups** | All Jira groups synced, including system groups. |
 | **Empty Groups** | Groups with zero members. Candidates for cleanup. |
@@ -1176,7 +1176,7 @@ Navigate to **Workflows & Schemes → Workflows**. Jira's workflow and scheme la
 
 ## Workflow Findings
 
-| Finding | Description |
+| **Finding** | Description |
 |---|---|
 | **Unused / Orphaned** | Workflows not assigned to any project via a scheme. Primary cleanup target. |
 | **Dead-End Status** | Workflow has at least one status with no outgoing transitions - tickets in that status can never move forward. |
@@ -1198,7 +1198,7 @@ Navigate to **Workflows & Schemes → Workflows → Workflow Schemes**. Workflow
 
 ## Key Metrics
 
-| Metric | Description |
+| **Metric** | Description |
 |---|---|
 | **Total Schemes** | All workflow schemes in the instance. |
 | **Orphaned Schemes** | Schemes with zero projects assigned. |
@@ -1221,7 +1221,7 @@ Navigate to **Workflows & Schemes → States & Outcomes**. The States & Outcomes
   style="border-radius:12px; width:100%; max-width:800px; height:auto; display:block; margin:24px auto;"
 />
 
-| Finding | Description |
+| **Finding** | Description |
 |---|---|
 | **Orphaned** | Status not used in any workflow. |
 | **No Category** | Status has no valid category (To Do / In Progress / Done). |
@@ -1235,7 +1235,7 @@ Navigate to **Workflows & Schemes → States & Outcomes**. The States & Outcomes
   style="border-radius:12px; width:100%; max-width:800px; height:auto; display:block; margin:24px auto;"
 />
 
-| Finding | Severity | Description |
+| **Finding** | Severity | Description |
 |---|---|---|
 | **Unused** | Medium | Resolution not applied to any issue. |
 | **Overloaded** | High | Too many issues mapping to one resolution. |
@@ -1257,7 +1257,7 @@ Navigate to **Workflows & Schemes → Transition Screens**. The group expands to
   style="border-radius:12px; width:100%; max-width:800px; height:auto; display:block; margin:24px auto;"
 />
 
-| Finding | Severity | Condition |
+| **Finding** | Severity | Condition |
 |---|---|---|
 | **Duplicate Screen** | High | Two or more screens with identical field configurations. |
 | **Bloated Screen** | Medium | Screen has more than 50 available fields. |
@@ -1271,7 +1271,7 @@ Navigate to **Workflows & Schemes → Transition Screens**. The group expands to
   style="border-radius:12px; width:100%; max-width:800px; height:auto; display:block; margin:24px auto;"
 />
 
-| Finding | Severity | Condition |
+| **Finding** | Severity | Condition |
 |---|---|---|
 | **Orphaned Screen Scheme** | Medium | Screen scheme not referenced by any issue type screen scheme. |
 `,
@@ -1314,7 +1314,7 @@ Navigate to **Workflows & Schemes → All Schemes**. Expands to **Notification S
 
 ## Scheme Type Summary
 
-| Scheme Type | Key Metrics |
+| **Scheme Type** | Key Metrics |
 |---|---|
 | **Notification Schemes** | Total · Orphaned · Duplicates (same event-rule signature across 16 events). |
 | **Work Item Security** | Total · Orphaned (zero projects) · No Security Levels · Missing Default level. |
@@ -1345,7 +1345,7 @@ Navigate to **Sprint & Delivery → Sprints & Delivery**. Surfaces sprint intell
 
 ## Sprint Summary Cards
 
-| Card | Description |
+| **Card** | Description |
 |---|---|
 | **Active Sprints** | Total number of currently active sprints across all Scrum boards. |
 | **At Risk** | Sprints flagged as at-risk or overcommitted based on utilisation thresholds. |
@@ -1361,7 +1361,7 @@ Pulse AI applies risk thresholds based on sprint utilisation percentage to flag 
 
 ## Risk Threshold Bands
 
-| Badge | Utilisation % | Colour | Recommended Action |
+| **Badge** | Utilisation % | Colour | Recommended Action |
 |---|---|---|---|
 | **On Track** | < 100% | Teal / Green | No action needed. |
 | **Tight** | 100–114% | Amber | Monitor daily. Consider deferring lower-priority items. |
@@ -1408,7 +1408,7 @@ Navigate to **Configurations → Fields**. The Configurations pillar audits the 
 
 ## Custom Field Findings
 
-| Finding | Severity | Condition |
+| **Finding** | Severity | Condition |
 |---|---|---|
 | **Unused** | High | Zero issues have a value in this field. |
 | **Duplicate** | Medium | Same name and type pattern as another field. |
@@ -1444,7 +1444,7 @@ Navigate to **Configurations → Work Types**. The Work Types group expands to *
 
 ## Summary
 
-| Sub-View | Key Metrics |
+| **Sub-View** | Key Metrics |
 |---|---|
 | **Work Types** | Total issue types · Unused (not in any project scheme) · Duplicates (same name). |
 | **Work Type Schemes** | Total schemes · Orphaned (zero projects) · Duplicates (identical issue type signatures) · Missing Default issue type. |
@@ -1474,7 +1474,7 @@ Navigate to **Configurations → Global Config**. The group expands to **Priorit
   style="border-radius:12px; width:100%; max-width:800px; height:auto; display:block; margin:24px auto;"
 />
 
-| Finding | Description |
+| **Finding** | Description |
 |---|---|
 | **Invalid JQL** | Silently failing filters. |
 | **Dead Owner** | Filter owned by a deactivated user. |
@@ -1508,7 +1508,7 @@ Navigate to **Settings** in the sidebar. Settings uses a vertical tab navigation
 
 ## Settings Tabs
 
-| Tab | Description |
+| **Tab** | Description |
 |---|---|
 | **General Settings** | Displays the connected Jira instance URL and the currently logged-in Atlassian account (read-only). |
 | **Chat History** | Last 10 successful Pulse AI Assistant queries for the current user. Includes query text, user avatar, and timestamp. A **Clear History** button removes all stored entries. |
@@ -1534,17 +1534,17 @@ Navigate to **Settings** in the sidebar. Settings uses a vertical tab navigation
           content: `
 ## Grade & Score Reference
 
-| Grade | Score Range | Label | Colour |
+| **Grade** | Score Range | Label | Colour |
 |---|---|---|---|
-| A | 90 – 100 | Excellent | Green |
-| B | 80 – 89 | Good | Blue |
-| C | 70 – 79 | Needs Attention | Yellow |
-| D | 55 – 69 | Poor | Orange |
-| F | 0 – 54 | Critical | Red |
+| **A** | 90 – 100 | Excellent | Green |
+| **B** | 80 – 89 | Good | Blue |
+| **C** | 70 – 79 | Needs Attention | Yellow |
+| **D** | 55 – 69 | Poor | Orange |
+| **F** | 0 – 54 | Critical | Red |
 
 ## Pillar Deduction Signals
 
-| Pillar | Key Deduction Signals |
+| **Pillar** | Key Deduction Signals |
 |---|---|
 | **Sprint & Delivery** | Overcommitment > 115% · Carryover rate > 15% · Active blocker issues · Stale backlog |
 | **Project & Data Integrity** | Projects with no lead · Inactive projects (90+ days) · Done issues with no resolution · Missing mandatory fields |
@@ -1554,25 +1554,25 @@ Navigate to **Settings** in the sidebar. Settings uses a vertical tab navigation
 
 ## Stale / Threshold Reference
 
-| Entity | Stale Threshold |
+| **Entity** | Stale Threshold |
 |---|---|
-| Workflow | Zero projects + last modified ≥ 90 days |
-| Project activity | Last issue update ≥ 90 days |
-| User - Dormant | Active account, last activity > 90 days |
-| User - Inactive Admin | Admin account, no activity ≥ 60 days |
-| Group (empty) | Zero members |
-| Custom field (unused) | Zero issues with a value in this field |
-| Custom field (global bloat) | Global context + used in < 2 projects |
-| Filter (dead owner) | Owner account is deactivated in Atlassian |
-| Stale backlog (project) | Stale issues / total issues > 30% |
-| Screen (bloated) | More than 50 available fields |
+| **Workflow** | Zero projects + last modified ≥ 90 days |
+| **Project activity** | Last issue update ≥ 90 days |
+| **User - Dormant** | Active account, last activity > 90 days |
+| **User - Inactive Admin** | Admin account, no activity ≥ 60 days |
+| **Group (empty)** | Zero members |
+| **Custom field (unused)** | Zero issues with a value in this field |
+| **Custom field (global bloat)** | Global context + used in < 2 projects |
+| **Filter (dead owner)** | Owner account is deactivated in Atlassian |
+| **Stale backlog (project)** | Stale issues / total issues > 30% |
+| **Screen (bloated)** | More than 50 available fields |
 `,
         },
         {
           slug: "glossary",
           title: "Glossary",
           content: `
-| Term | Definition |
+| **Term** | Definition |
 |---|---|
 | **Pulse Score** | A health score from 0 to 100 summarising the condition of a section, item, or overall Jira environment. |
 | **Grade** | A letter rating (A–F) based on the Pulse Score. |
@@ -1601,12 +1601,12 @@ Navigate to **Settings** in the sidebar. Settings uses a vertical tab navigation
           content: `
 ## Required Permissions by Action
 
-| Action | Required Permission |
+| **Action** | Required Permission |
 |---|---|
-| View all reports | Any Jira user |
-| Run a scan | Any Jira user |
-| Confirm write actions (where available) | Administer Jira (org admin) |
-| Install the app | Jira site administrator |
+| **View all reports** | Any Jira user |
+| **Run a scan** | Any Jira user |
+| **Confirm write actions (where available)** | Administer Jira (org admin) |
+| **Install the app** | Jira site administrator |
 
 ## Notes
 
@@ -1640,7 +1640,7 @@ Navigate to **Help & Support** in the sidebar. The page provides three quick-act
 
 ## Support Resources
 
-| Resource | Description |
+| **Resource** | Description |
 |---|---|
 | **Documentation** | Full feature guides, API reference, and setup walkthroughs. |
 | **Contact Support** | Raise a support ticket at [support@clovity.com](mailto:support@clovity.com). Enterprise SLA: 4-hour initial response. |
@@ -1671,7 +1671,7 @@ For Enterprise plan customers, Clovity provides:
           content: `
 ## Common Issues & Resolutions
 
-| Issue | Resolution |
+| **Issue** | Resolution |
 |---|---|
 | **Dashboard shows no data after OAuth** | Click Run Scan. Verify OAuth status indicator shows 'Connected'. |
 | **Pulse Score not updated after fixing findings** | Score updates after the next scan. Click Run Scan to trigger immediately. |
@@ -1684,7 +1684,7 @@ For Enterprise plan customers, Clovity provides:
 
 ## Getting Further Help
 
-| Resource | Description |
+| **Resource** | Description |
 |---|---|
 | **Documentation** | Full feature guides, API reference, Forge storage model, and setup walkthroughs - available in this Help Center |
 | **Contact Support** | Raise a ticket at [support.clovity.com](https://support.clovity.com). Enterprise SLA: 4-hour initial response. |

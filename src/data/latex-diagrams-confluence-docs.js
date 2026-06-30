@@ -34,7 +34,7 @@ All of this runs natively inside Confluence Cloud using macros - no external ser
 
 ## Three Macros, One App
 
-| Macro | Best For |
+| **Macro** | Best For |
 |---|---|
 | **UML Diagrams** | Flowcharts, sequences, ERDs, Gantt, mindmaps |
 | **LaTeX Block** | Display equations, matrices, multi-line aligned math |
@@ -134,16 +134,16 @@ Before installing, confirm:
 
 ## Installation Steps
 
-| Step | Action |
+| **Step** | Action |
 |---|---|
-| 1 | Log in to your Confluence Cloud site as an administrator |
-| 2 | Click the **gear icon** (Settings) → select **Apps** |
-| 3 | Click **Find new apps** in the left sidebar |
-| 4 | Search for **"UML Diagrams Math LaTeX"** |
-| 5 | Click the app in the search results |
-| 6 | Click **Try it free** (30-day trial) or **Buy now** |
-| 7 | Review the requested permissions |
-| 8 | Click **Accept** - the app installs immediately, no restart required |
+| **1** | Log in to your Confluence Cloud site as an administrator |
+| **2** | Click the **gear icon** (Settings) → select **Apps** |
+| **3** | Click **Find new apps** in the left sidebar |
+| **4** | Search for **"UML Diagrams Math LaTeX"** |
+| **5** | Click the app in the search results |
+| **6** | Click **Try it free** (30-day trial) or **Buy now** |
+| **7** | Review the requested permissions |
+| **8** | Click **Accept** - the app installs immediately, no restart required |
 
 ## Verify Installation
 
@@ -162,12 +162,12 @@ If all three macros appear, installation is complete and working.
 
 ## Permissions Requested During Install
 
-| Permission | Why It's Needed |
+| **Permission** | Why It's Needed |
 |---|---|
-| Read Confluence pages and spaces | Render macros when pages are viewed |
-| Store macro body content | Persist your Mermaid/LaTeX source between edits |
-| Read user information | Associate macros with page authors |
-| Access Confluence storage format | Read and write macro markup within page content |
+| **Read Confluence pages and spaces** | Render macros when pages are viewed |
+| **Store macro body content** | Persist your Mermaid/LaTeX source between edits |
+| **Read user information** | Associate macros with page authors |
+| **Access Confluence storage format** | Read and write macro markup within page content |
 
 ## First Steps After Install
 
@@ -194,15 +194,15 @@ Get up and running with your first diagram or equation in under 5 minutes.
 
 ## Quick Checklist
 
-| Step | Action |
+| **Step** | Action |
 |---|---|
-| 1 | Admin installs the app from the Atlassian Marketplace |
-| 2 | Open a Confluence page in edit mode |
-| 3 | Type \`/\` and search for the macro you want |
-| 4 | Click the macro - the editor opens automatically |
-| 5 | Write or paste your content in the Source panel |
-| 6 | Check the Preview panel to confirm rendering |
-| 7 | Click **Save** in the editor, then **Publish** the page |
+| **1** | Admin installs the app from the Atlassian Marketplace |
+| **2** | Open a Confluence page in edit mode |
+| **3** | Type \`/\` and search for the macro you want |
+| **4** | Click the macro - the editor opens automatically |
+| **5** | Write or paste your content in the Source panel |
+| **6** | Check the Preview panel to confirm rendering |
+| **7** | Click **Save** in the editor, then **Publish** the page |
 
 ## Inserting Your First Diagram
 
@@ -214,14 +214,14 @@ Get up and running with your first diagram or equation in under 5 minutes.
 3. The split-view editor opens - the Source panel is on the left
 4. Paste a sample diagram or type your own Mermaid code, for example:
 
-\`\`\`
-flowchart TD
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Do it]
-    B -->|No| D[Skip it]
-    C --> E[End]
-    D --> E
-\`\`\`
+   \`\`\`
+   flowchart TD
+       A[Start] --> B{Decision}
+       B -->|Yes| C[Do it]
+       B -->|No| D[Skip it]
+       C --> E[End]
+       D --> E
+   \`\`\`
 
 5. The Preview panel on the right renders the diagram live
 
@@ -292,7 +292,7 @@ When making large changes:
 
 LaTeX Formulas & Diagrams does not introduce its own user roles or permission system. It relies entirely on standard Confluence permissions:
 
-| Role | How It's Determined | What They Can Do |
+| **Role** | How It's Determined | What They Can Do |
 |---|---|---|
 | **Space Admin / Site Admin** | Confluence space or site administrator | Install and manage the app from the Marketplace |
 | **Page Editor** | Any Confluence user with Edit permission on a page | Insert, edit, and save macros on that page |
@@ -334,12 +334,12 @@ Viewers do not need any special permissions beyond standard page access.
 
 ## Space-Level Considerations
 
-| Scenario | What Happens |
+| **Scenario** | What Happens |
 |---|---|
-| User has Edit on the page | Can insert and edit macros |
-| User has View only | Can see rendered content but cannot edit macros |
-| User has no page access | Cannot see macros or rendered content |
-| Admin restricts a space | App macros respect Confluence space restrictions |
+| **User has Edit on the page** | Can insert and edit macros |
+| **User has View only** | Can see rendered content but cannot edit macros |
+| **User has no page access** | Cannot see macros or rendered content |
+| **Admin restricts a space** | App macros respect Confluence space restrictions |
 
 ## Checking App Permissions
 
@@ -421,7 +421,7 @@ A single-page reference for all three macros, supported diagram types, and commo
 
 ## Three Macros at a Glance
 
-| Macro | Language | Best For | Reference |
+| **Macro** | Language | Best For | Reference |
 |---|---|---|---|
 | **UML Diagrams** | Mermaid | Flowcharts, sequence diagrams, ERDs, Gantt charts, mindmaps | [Diagrams Macro](/apps/latex-diagrams-confluence/diagrams-macro) |
 | **LaTeX Block** | LaTeX | Standalone centred equations, matrices, multi-line derivations | [LaTeX Block](/apps/latex-diagrams-confluence/latex-block-equations) |
@@ -429,31 +429,31 @@ A single-page reference for all three macros, supported diagram types, and commo
 
 ## Supported Mermaid Diagram Types
 
-| Type | Opening Keyword | Best For |
+| **Type** | Opening Keyword | Best For |
 |---|---|---|
-| Flowchart | \`flowchart TD\` or \`flowchart LR\` | Process flows, decision trees |
-| Sequence Diagram | \`sequenceDiagram\` | API calls, system interactions |
-| Entity Relationship | \`erDiagram\` | Database schemas, data models |
-| Gantt Chart | \`gantt\` | Project timelines, sprint planning |
-| Mindmap | \`mindmap\` | Topic breakdown, brainstorming |
-| Class Diagram | \`classDiagram\` | OOP class structures |
-| State Diagram | \`stateDiagram-v2\` | State machine flows |
-| Pie Chart | \`pie\` | Simple proportional data |
+| **Flowchart** | \`flowchart TD\` or \`flowchart LR\` | Process flows, decision trees |
+| **Sequence Diagram** | \`sequenceDiagram\` | API calls, system interactions |
+| **Entity Relationship** | \`erDiagram\` | Database schemas, data models |
+| **Gantt Chart** | \`gantt\` | Project timelines, sprint planning |
+| **Mindmap** | \`mindmap\` | Topic breakdown, brainstorming |
+| **Class Diagram** | \`classDiagram\` | OOP class structures |
+| **State Diagram** | \`stateDiagram-v2\` | State machine flows |
+| **Pie Chart** | \`pie\` | Simple proportional data |
 
 → [Diagram Types Reference](/apps/latex-diagrams-confluence/diagram-types-reference)
 
 ## Common LaTeX Patterns
 
-| Formula | LaTeX |
+| **Formula** | LaTeX |
 |---|---|
-| Fraction | \`\\frac{a}{b}\` |
-| Square root | \`\\sqrt{x}\` |
-| Power / subscript | \`x^{2}\`, \`x_{i}\` |
-| Greek letters | \`\\alpha\`, \`\\beta\`, \`\\pi\` |
-| Summation | \`\\sum_{i=1}^{n} x_i\` |
-| Integral | \`\\int_{a}^{b} f(x)\\,dx\` |
-| Matrix (2×2) | \`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\` |
-| Aligned equations | \`\\begin{aligned} ... \\end{aligned}\` |
+| **Fraction** | \`\\frac{a}{b}\` |
+| **Square root** | \`\\sqrt{x}\` |
+| **Power / subscript** | \`x^{2}\`, \`x_{i}\` |
+| **Greek letters** | \`\\alpha\`, \`\\beta\`, \`\\pi\` |
+| **Summation** | \`\\sum_{i=1}^{n} x_i\` |
+| **Integral** | \`\\int_{a}^{b} f(x)\\,dx\` |
+| **Matrix (2×2)** | \`\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}\` |
+| **Aligned equations** | \`\\begin{aligned} ... \\end{aligned}\` |
 
 → [Formula Library Reference](/apps/latex-diagrams-confluence/formula-library-reference)
 
@@ -490,23 +490,23 @@ Architecture Page
 1. Edit the Confluence page, type \`/\` → **UML Diagrams** → insert
 2. In the Source panel, write a top-down flowchart:
 
-\`\`\`
-flowchart TD
-    Client([Web / Mobile Client])
-    API[API Gateway]
-    Auth[Auth Service]
-    DB[(Primary Database)]
-    Cache[(Redis Cache)]
-
-    Client --> API
-    API --> Auth
-    Auth -->|valid| API
-    API --> Cache
-    Cache -->|miss| DB
-    DB --> Cache
-    Cache --> API
-    API --> Client
-\`\`\`
+   \`\`\`
+   flowchart TD
+       Client([Web / Mobile Client])
+       API[API Gateway]
+       Auth[Auth Service]
+       DB[(Primary Database)]
+       Cache[(Redis Cache)]
+   
+       Client --> API
+       API --> Auth
+       Auth -->|valid| API
+       API --> Cache
+       Cache -->|miss| DB
+       DB --> Cache
+       Cache --> API
+       API --> Client
+   \`\`\`
 
 3. Verify preview, click **Save**, then add a heading above it: **"System Overview"**
 
@@ -517,22 +517,22 @@ flowchart TD
 1. Below the flowchart section, insert another **UML Diagrams** macro
 2. Write the sequence diagram:
 
-\`\`\`
-sequenceDiagram
-    participant Client
-    participant Gateway as API Gateway
-    participant Auth as Auth Service
-    participant DB as Database
-
-    Client->>Gateway: POST /api/resource
-    activate Gateway
-    Gateway->>Auth: Validate token
-    Auth-->>Gateway: 200 OK
-    Gateway->>DB: INSERT resource
-    DB-->>Gateway: resource_id
-    Gateway-->>Client: 201 Created {id}
-    deactivate Gateway
-\`\`\`
+   \`\`\`
+   sequenceDiagram
+       participant Client
+       participant Gateway as API Gateway
+       participant Auth as Auth Service
+       participant DB as Database
+   
+       Client->>Gateway: POST /api/resource
+       activate Gateway
+       Gateway->>Auth: Validate token
+       Auth-->>Gateway: 200 OK
+       Gateway->>DB: INSERT resource
+       DB-->>Gateway: resource_id
+       Gateway-->>Client: 201 Created {id}
+       deactivate Gateway
+   \`\`\`
 
 3. Save, add heading: **"Request Flow"**
 
@@ -541,30 +541,30 @@ sequenceDiagram
 1. Insert another **UML Diagrams** macro
 2. Write the ERD:
 
-\`\`\`
-erDiagram
-    USER {
-        int id PK
-        string email
-        string name
-        datetime created_at
-    }
-    PROJECT {
-        int id PK
-        string name
-        int owner_id FK
-    }
-    RESOURCE {
-        int id PK
-        string title
-        int project_id FK
-        int created_by FK
-    }
-
-    USER ||--o{ PROJECT : "owns"
-    PROJECT ||--o{ RESOURCE : "contains"
-    USER ||--o{ RESOURCE : "creates"
-\`\`\`
+   \`\`\`
+   erDiagram
+       USER {
+           int id PK
+           string email
+           string name
+           datetime created_at
+       }
+       PROJECT {
+           int id PK
+           string name
+           int owner_id FK
+       }
+       RESOURCE {
+           int id PK
+           string title
+           int project_id FK
+           int created_by FK
+       }
+   
+       USER ||--o{ PROJECT : "owns"
+       PROJECT ||--o{ RESOURCE : "contains"
+       USER ||--o{ RESOURCE : "creates"
+   \`\`\`
 
 3. Save, add heading: **"Data Model"**
 
@@ -587,20 +587,20 @@ A workflow for embedding mathematical notation in Confluence pages - both standa
 
 ## When to Use Block vs Inline
 
-| Scenario | Use |
+| **Scenario** | Use |
 |---|---|
-| A key formula that needs to stand alone and be read clearly | LaTeX Block |
-| A formula referenced inside a sentence | LaTeX Inline |
-| A derivation with multiple aligned steps | LaTeX Block (with \`aligned\`) |
-| A variable defined within a sentence like "where x is ..." | LaTeX Inline |
+| **A key formula that needs to stand alone and be read clearly** | LaTeX Block |
+| **A formula referenced inside a sentence** | LaTeX Inline |
+| **A derivation with multiple aligned steps** | LaTeX Block (with \`aligned\`) |
+| **A variable defined within a sentence like "where x is ..."** | LaTeX Inline |
 
 ## Step 1 - Insert a Display Equation (LaTeX Block)
 
 1. Edit the Confluence page, type \`/\` → **LaTeX Block Equations** → insert
 2. In the Source panel, write raw LaTeX:
-\`\`\`
-\\hat{y} = \\sigma\\left(\\sum_{i=1}^{n} w_i x_i + b\\right)
-\`\`\`
+   \`\`\`
+   \\hat{y} = \\sigma\\left(\\sum_{i=1}^{n} w_i x_i + b\\right)
+   \`\`\`
 3. Preview shows the rendered equation centred on the page
 4. Click **Save**
 
@@ -608,9 +608,9 @@ A workflow for embedding mathematical notation in Confluence pages - both standa
 
 1. Type \`/\` → **LaTeX Inline Equations** → insert
 2. In the Source panel, write normal paragraph text with math:
-\`\`\`
-The mean squared error is defined as \\text{MSE} = \\frac{1}{n}\\sum_{i=1}^{n}(y_i - \\hat{y}_i)^2, where n is the number of observations.
-\`\`\`
+   \`\`\`
+   The mean squared error is defined as \\text{MSE} = \\frac{1}{n}\\sum_{i=1}^{n}(y_i - \\hat{y}_i)^2, where n is the number of observations.
+   \`\`\`
 3. Preview shows the paragraph with rendered inline formulas
 4. Click **Save**
 
@@ -635,10 +635,10 @@ Mix LaTeX macros with standard Confluence elements:
 
 ## Common Debugging Tips
 
-| Problem | Likely Cause | Fix |
+| **Problem** | Likely Cause | Fix |
 |---|---|---|
-| Red error panel | Syntax error in LaTeX | Check for unmatched \`{}\`, missing \`\\\\\` in aligned, typos in command names |
-| Blank preview | Empty source panel | Type or paste LaTeX into Source panel |
+| **Red error panel** | Syntax error in LaTeX | Check for unmatched \`{}\`, missing \`\\\\\` in aligned, typos in command names |
+| **Blank preview** | Empty source panel | Type or paste LaTeX into Source panel |
 
 → [Formula Library Reference](/apps/latex-diagrams-confluence/formula-library-reference)
 `,
@@ -680,7 +680,7 @@ Non-obvious tips that save time and prevent common rendering issues.
   <div style="font-size:15px;font-weight:700;color:#111827;margin-bottom:6px;">User Guide - Full PDF</div>
   <div style="font-size:13px;color:#6b7280;margin-bottom:18px;">Download the complete User Guide or open it in your browser.</div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_User_Guide_0d463f08ef.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
+    <a href="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_User_Guide_1_698b8bd2eb.pdf" target="_blank" rel="noopener noreferrer" style="background:#0052CC;color:white;padding:10px 22px;border-radius:7px;text-decoration:none;font-size:13px;font-weight:600;display:inline-block;">Download PDF</a>
   </div>
 </div>
 `,
@@ -708,7 +708,7 @@ Non-obvious tips that save time and prevent common rendering issues.
 
 ## Choose the Right Macro
 
-| Macro | Use When |
+| **Macro** | Use When |
 |---|---|
 | **UML Diagrams** | You need a visual diagram - flowchart, sequence, ERD, Gantt, mindmap |
 | **LaTeX Block** | You need a standalone display equation centered on its own line |
@@ -1370,13 +1370,13 @@ gantt
 
 ## Tips for Using Examples
 
-| Tip | Detail |
+| **Tip** | Detail |
 |---|---|
-| Start with a sample | Use the Samples dropdown in the editor to load a base example |
-| Copy from this library | Paste any source above into the editor Source panel |
-| Customize incrementally | Change one thing at a time and save to verify rendering |
-| Use the error panel | If something breaks, the red error panel shows what failed |
-| Fullscreen for large diagrams | Use the fullscreen viewer control for complex Mermaid charts |`,
+| **Start with a sample** | Use the Samples dropdown in the editor to load a base example |
+| **Copy from this library** | Paste any source above into the editor Source panel |
+| **Customize incrementally** | Change one thing at a time and save to verify rendering |
+| **Use the error panel** | If something breaks, the red error panel shows what failed |
+| **Fullscreen for large diagrams** | Use the fullscreen viewer control for complex Mermaid charts |`,
         },
         {
           slug: "formula-library-reference",
@@ -1604,14 +1604,14 @@ D_{KL}(P \\| Q) = \\sum_{x} P(x) \\log \\frac{P(x)}{Q(x)}
 
 ## Category 10: Greek Letters & Symbols Reference
 
-| Symbol | LaTeX | Symbol | LaTeX |
+| **Symbol** | LaTeX | Symbol | LaTeX |
 |---|---|---|---|
-| α (alpha) | \`\\alpha\` | Σ (Sigma) | \`\\Sigma\` |
-| β (beta) | \`\\beta\` | π (pi) | \`\\pi\` |
-| γ (gamma) | \`\\gamma\` | θ (theta) | \`\\theta\` |
-| δ (delta) | \`\\delta\` | λ (lambda) | \`\\lambda\` |
-| μ (mu) | \`\\mu\` | ∞ (infinity) | \`\\infty\` |
-| σ (sigma) | \`\\sigma\` | ± (plus-minus) | \`\\pm\` |
+| **α (alpha)** | \`\\alpha\` | Σ (Sigma) | \`\\Sigma\` |
+| **β (beta)** | \`\\beta\` | π (pi) | \`\\pi\` |
+| **γ (gamma)** | \`\\gamma\` | θ (theta) | \`\\theta\` |
+| **δ (delta)** | \`\\delta\` | λ (lambda) | \`\\lambda\` |
+| **μ (mu)** | \`\\mu\` | ∞ (infinity) | \`\\infty\` |
+| **σ (sigma)** | \`\\sigma\` | ± (plus-minus) | \`\\pm\` |
 
 ---
 
@@ -1915,20 +1915,20 @@ quadrantChart
 
 ## Choosing the Right Diagram Type
 
-| Goal | Recommended Type |
+| **Goal** | Recommended Type |
 |---|---|
-| Show a process with decisions | Flowchart |
-| Show how systems communicate | Sequence Diagram |
-| Document a database schema | ERD |
-| Show a project timeline | Gantt Chart |
-| Document class relationships | Class Diagram |
-| Show status transitions | State Diagram |
-| Show distribution / composition | Pie Chart |
-| Brainstorm or map topics | Mindmap |
-| Document milestones over time | Timeline |
-| Document a Git branching model | Git Graph |
-| Map system components | Block Diagram |
-| Prioritize features or risks | Quadrant Chart |`,
+| **Show a process with decisions** | Flowchart |
+| **Show how systems communicate** | Sequence Diagram |
+| **Document a database schema** | ERD |
+| **Show a project timeline** | Gantt Chart |
+| **Document class relationships** | Class Diagram |
+| **Show status transitions** | State Diagram |
+| **Show distribution / composition** | Pie Chart |
+| **Brainstorm or map topics** | Mindmap |
+| **Document milestones over time** | Timeline |
+| **Document a Git branching model** | Git Graph |
+| **Map system components** | Block Diagram |
+| **Prioritize features or risks** | Quadrant Chart |`,
         },
         {
           slug: "engineering-use-cases",
@@ -2115,7 +2115,7 @@ gantt
 
 ## Tips for Engineering Teams
 
-| Tip | Detail |
+| **Tip** | Detail |
 |---|---|
 | **Embed diagrams in ADRs** | Sequence and ERD diagrams belong directly in the spec - no separate diagram files to maintain |
 | **Use LaTeX for formal definitions** | When defining metrics or algorithms, use LaTeX Block to show the formula alongside the prose |
@@ -2153,7 +2153,7 @@ The app is built as a native Confluence Cloud macro. This means:
 
 ### Fully Versioned with Page History
 
-| Feature | Detail |
+| **Feature** | Detail |
 |---|---|
 | **Page version history** | Every time you publish a page, Confluence saves a new version - including your macro source |
 | **Restore previous versions** | You can restore any previous version of a page via Confluence's built-in page history, which also restores the macro source from that version |
@@ -2175,18 +2175,18 @@ The Diagrams macro renders visual diagrams using **Mermaid**, a JavaScript-based
 
 ### Supported Diagram Types
 
-| Diagram Type | Mermaid Header | Use Case |
+| **Diagram Type** | Mermaid Header | Use Case |
 |---|---|---|
-| Flowchart | \`flowchart TD\` / \`graph TD\` | Process flows, decision trees |
-| Sequence | \`sequenceDiagram\` | API flows, system interactions |
-| Class | \`classDiagram\` | Object-oriented design |
-| Entity Relationship | \`erDiagram\` | Database schemas |
-| Gantt | \`gantt\` | Project timelines |
-| Pie Chart | \`pie\` | Proportional data |
-| Mindmap | \`mindmap\` | Topic hierarchies |
-| State Machine | \`stateDiagram-v2\` | State transitions |
-| Timeline | \`timeline\` | Chronological events |
-| Block Diagram | \`block-beta\` | System architecture blocks |
+| **Flowchart** | \`flowchart TD\` / \`graph TD\` | Process flows, decision trees |
+| **Sequence** | \`sequenceDiagram\` | API flows, system interactions |
+| **Class** | \`classDiagram\` | Object-oriented design |
+| **Entity Relationship** | \`erDiagram\` | Database schemas |
+| **Gantt** | \`gantt\` | Project timelines |
+| **Pie Chart** | \`pie\` | Proportional data |
+| **Mindmap** | \`mindmap\` | Topic hierarchies |
+| **State Machine** | \`stateDiagram-v2\` | State transitions |
+| **Timeline** | \`timeline\` | Chronological events |
+| **Block Diagram** | \`block-beta\` | System architecture blocks |
 
 ---
 
@@ -2194,7 +2194,7 @@ The Diagrams macro renders visual diagrams using **Mermaid**, a JavaScript-based
 
 It is important to understand the scope of data access:
 
-| Data Source | Accessed? | Notes |
+| **Data Source** | Accessed? | Notes |
 |---|---|---|
 | **Jira issues or projects** | No | The app has no Jira integration and does not read or write Jira data |
 | **External APIs or services** | No | All rendering runs entirely client-side in the browser |
@@ -2261,7 +2261,7 @@ Because macro content is stored in the Confluence page storage format:
 
 When a Confluence administrator uninstalls LaTeX Formulas & Diagrams:
 
-| Scenario | What Happens |
+| **Scenario** | What Happens |
 |---|---|
 | **Macro content on pages** | The raw Mermaid/LaTeX source remains in the page storage format - it is not deleted |
 | **Rendering** | Macros will no longer render - the macro body will appear as an unrecognized macro placeholder |
@@ -2278,12 +2278,12 @@ When a Confluence administrator uninstalls LaTeX Formulas & Diagrams:
 
 PlantUML and Mermaid are different diagramming languages. Direct syntax conversion is not automatic.
 
-| PlantUML Diagram | Mermaid Equivalent | Migration Notes |
+| **PlantUML Diagram** | Mermaid Equivalent | Migration Notes |
 |---|---|---|
-| \`@startuml ... @enduml\` sequence | \`sequenceDiagram\` | Arrow syntax differs: \`->\` vs \`->>\`; participant declaration is optional in Mermaid |
-| \`@startuml ... @enduml\` class | \`classDiagram\` | Attribute and method syntax differs |
-| \`@startuml ... @enduml\` activity | \`flowchart TD\` | PlantUML activity maps to Mermaid flowchart with decision nodes |
-| \`@startuml ... @enduml\` component | \`block-beta\` or \`flowchart\` | No direct equivalent - use flowchart nodes for components |
+| **\`@startuml ... @enduml\` sequence** | \`sequenceDiagram\` | Arrow syntax differs: \`->\` vs \`->>\`; participant declaration is optional in Mermaid |
+| **\`@startuml ... @enduml\` class** | \`classDiagram\` | Attribute and method syntax differs |
+| **\`@startuml ... @enduml\` activity** | \`flowchart TD\` | PlantUML activity maps to Mermaid flowchart with decision nodes |
+| **\`@startuml ... @enduml\` component** | \`block-beta\` or \`flowchart\` | No direct equivalent - use flowchart nodes for components |
 
 **Migration approach for PlantUML:**
 1. Export or copy the PlantUML source from your existing tool
@@ -2293,7 +2293,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
 
 ### Comparison with draw.io (diagrams.net)
 
-| Feature | LaTeX Formulas & Diagrams | draw.io for Confluence |
+| **Feature** | LaTeX Formulas & Diagrams | draw.io for Confluence |
 |---|---|---|
 | **Diagram input method** | Code-based (Mermaid text) | GUI drag-and-drop |
 | **Math/formula support** | Native | Limited (via text boxes) |
@@ -2336,7 +2336,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
           slug: "sales-doc",
           title: "Sales Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Sales_Doc_b21e95bf4d.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Formulas_and_Diagrams_Gantt_Charts_ER_Ds_and_Flowcharts_b040e0fc27.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
@@ -2352,7 +2352,7 @@ PlantUML and Mermaid are different diagramming languages. Direct syntax conversi
           slug: "competitor-comparison",
           title: "Competitor Comparison",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/latex_competitor_doc_f1e635e671.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/La_Te_X_Math_Formulas_and_UML_Diagrams_ERD_and_Flowcharts_Competitor_Doc_1_647d50cc35.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],

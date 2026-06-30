@@ -3290,7 +3290,7 @@ App configuration data (report setups, templates, portfolios, scoring) is stored
           slug: "sales-doc",
           title: "Sales Doc",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Sales_Doc_1_006662e607.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Time_Tracking_Resource_Planning_and_Project_Management_Sales_Doc_1_64303cc32a.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
