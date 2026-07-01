@@ -239,11 +239,12 @@ Before installing, confirm:
 
 | **Step** | Action |
 |---|---|
-| **1** | Go to **Confluence Settings** → **Find new apps** (requires Confluence Admin role) |
-| **2** | Search for **"Content Formatting Macros: Tabs Navigation Visibility CSS"** |
+| **1** | Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Content Formatting Macros: Tabs Navigation Visibility CSS"** |
+| **2** | On the app listing, confirm **Hosting → Cloud** is supported |
 | **3** | Click **Try it free** (30-day trial) or **Buy now** |
-| **4** | Accept the requested permissions |
-| **5** | The app activates immediately - no restart required |
+| **4** | Select your **Atlassian Cloud site** when prompted and choose **Confluence** |
+| **5** | Review the permissions the app requires and click **Accept** to proceed |
+| **6** | The app installs automatically - no restart required |
 
 ## Permission Scopes Requested
 
@@ -273,7 +274,7 @@ After installation:
 
 ## Uninstalling
 
-To uninstall: **Confluence Settings** → **Manage apps** → find Content Formatting Macros → click **Uninstall**. Macro placeholders will remain on pages but will no longer render until the app is re-installed.`,
+To uninstall: Go to **admin.atlassian.com** → **Apps** → **Manage Apps** → click **Content Formatting Macros** → **Uninstall**. Macro placeholders will remain on pages but will no longer render until the app is re-installed.`,
         },
         {
           slug: "quick-start",

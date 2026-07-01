@@ -131,14 +131,13 @@ Before installing, confirm:
 
 ## Installation Steps
 
-1. Log in to your Jira Cloud site as an administrator
-2. Click the **gear icon** (Settings) in the top-right corner → select **Apps**
-3. Click **Find new apps** in the left sidebar
-4. Search for **"Time Tracking Resource Planning Clovity"**
-5. Click the app in the search results
-6. Click **Try it free** (30-day trial) or **Buy now**
-7. Review and accept the requested permissions
-8. Click **Accept** - the app installs immediately, no restart required
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Time Tracking Resource Planning Clovity"**
+2. On the app listing, confirm **Hosting → Cloud** is supported
+3. Click **Try it free** (30-day trial) or **Buy now**
+4. Select your **Atlassian Cloud site** when prompted
+5. Choose **Jira** as the product
+6. Review the permissions the app requires and click **Accept** to proceed
+7. The app installs automatically - no restart required
 
 ## Verify Installation
 
@@ -173,7 +172,7 @@ The app requests the following permissions during Marketplace install:
 
 ## Uninstalling
 
-To uninstall: Jira Settings → Apps → Manage apps → find the app → click **Uninstall**. All app-stored configurations (reports, templates, portfolios) will be permanently deleted.`,
+To uninstall: Go to **admin.atlassian.com** → **Apps** → **Manage Apps** → click the app name → **Uninstall**. All app-stored configurations (reports, templates, portfolios) will be permanently deleted.`,
         },
         {
           slug: "quick-start",

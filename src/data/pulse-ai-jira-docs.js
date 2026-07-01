@@ -55,11 +55,13 @@ Only a Jira site administrator can install Pulse AI.
 
 ## Installation Steps
 
-1. Log in to your **Jira Cloud** site as a site administrator.
-2. Click **Apps** in the top navigation bar, then select **Find new apps** (Atlassian Marketplace).
-3. Search for **'Pulse AI'** on the Atlassian Marketplace.
-4. Click **Get it now** and confirm the installation prompt.
-5. After installation, navigate to **Apps → Pulse AI** in the Jira top nav to launch the app.
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Pulse AI for Jira"**
+2. On the app listing, confirm **Hosting → Cloud** is supported
+3. Click **Try it free** or **Buy now**
+4. Select your **Atlassian Cloud site** when prompted
+5. Choose **Jira** as the product
+6. Review the permissions the app requires and click **Accept** to proceed
+7. The app installs automatically - no restart required. Navigate to **Apps → Pulse AI** in the Jira top nav to launch it.
 
 > **Note:** After installation the app appears as Pulse AI under the Apps top-nav item in Jira. If it does not appear within 5 minutes, refresh the page or clear your browser cache.
 
@@ -82,7 +84,7 @@ After installation:
 
 ## Uninstalling
 
-To uninstall: **Jira Settings → Apps → Manage apps** → find Pulse AI → click **Uninstall**.
+To uninstall: Go to **admin.atlassian.com** → **Apps** → **Manage Apps** → click **Pulse AI** → **Uninstall**.
 `,
         },
         {

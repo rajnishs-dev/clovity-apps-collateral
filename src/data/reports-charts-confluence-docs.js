@@ -105,26 +105,21 @@ Before installing, confirm you have:
 
 ## Step-by-Step Installation
 
-### Step 1 - Open Confluence Apps
+### Step 1 - Find the App on the Marketplace
 
-1. Log in to your Confluence Cloud site.
-2. Click the **Apps** menu in the top navigation bar.
-3. Select **Find new apps** from the dropdown.
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** in your browser.
+2. Search for **Reports, Charts, Templates, CQL & Export for Confluence**.
+3. On the app listing, confirm **Hosting → Cloud** is supported.
+4. Click **Try it free** or **Buy now**.
 
-### Step 2 - Search for the App
+### Step 2 - Connect to Your Site
 
-1. In the Atlassian Marketplace search bar, type: \`Reports, Charts, Templates, CQL & Export for Confluence\`
-2. Locate the app published by **Clovity** in the search results.
-3. Click the app listing to open the detail page.
+1. Select your **Atlassian Cloud site** when prompted.
+2. Choose **Confluence** as the product.
+3. Review the app permissions - the app requires read access to Confluence content (spaces, pages, attachments, users) to build reports.
+4. Click **Accept** to proceed. The app installs automatically - no restart required.
 
-### Step 3 - Install the App
-
-1. Click the **Try it free** or **Buy now** button on the Marketplace listing.
-2. Review the app permissions - the app requires read access to Confluence content (spaces, pages, attachments, users) to build reports.
-3. Click **Accept & install** to confirm.
-4. Wait for the installation to complete - this typically takes under 30 seconds.
-
-### Step 4 - Verify Installation
+### Step 3 - Verify Installation
 
 1. Open any Confluence page and click **Edit**.
 2. In the editor, type \`/\` to open the macro insert menu.

@@ -14,7 +14,7 @@
           slug: "what-is-latex-diagrams",
           title: "What is LaTeX Formulas & Diagrams?",
           sideVideo: {
-            src: "https://www.youtube.com/embed/w0bm_sKp6mE",
+            src: "https://www.youtube.com/embed/FI6ayEkkEPc",
             title:
               "LaTeX Formulas & Diagrams for Confluence - Product Overview",
           },
@@ -136,14 +136,12 @@ Before installing, confirm:
 
 | **Step** | Action |
 |---|---|
-| **1** | Log in to your Confluence Cloud site as an administrator |
-| **2** | Click the **gear icon** (Settings) → select **Apps** |
-| **3** | Click **Find new apps** in the left sidebar |
-| **4** | Search for **"UML Diagrams Math LaTeX"** |
-| **5** | Click the app in the search results |
-| **6** | Click **Try it free** (30-day trial) or **Buy now** |
-| **7** | Review the requested permissions |
-| **8** | Click **Accept** - the app installs immediately, no restart required |
+| **1** | Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"UML Diagrams Math LaTeX"** |
+| **2** | On the app listing, confirm **Hosting → Cloud** is supported |
+| **3** | Click **Try it free** (30-day trial) or **Buy now** |
+| **4** | Select your **Atlassian Cloud site** when prompted and choose **Confluence** |
+| **5** | Review the permissions the app requires and click **Accept** to proceed |
+| **6** | The app installs automatically - no restart required |
 
 ## Verify Installation
 
@@ -179,7 +177,7 @@ Once installed, share the following with your team:
 
 ## Uninstalling
 
-To uninstall: Confluence Settings → Apps → Manage apps → find the app → click **Uninstall**. Macro content already saved on pages will no longer render after uninstallation.`,
+To uninstall: Go to **admin.atlassian.com** → **Apps** → **Manage Apps** → click the app name → **Uninstall**. Macro content already saved on pages will no longer render after uninstallation.`,
         },
         {
           slug: "quick-start",

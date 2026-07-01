@@ -57,7 +57,7 @@ Only supported on **Jira Cloud**. Jira Data Center and Server are not supported 
 
 ## Installation
 
-Install via the **Atlassian Marketplace** or deploy through **Forge**.
+Install from the **Atlassian Marketplace** - visit [marketplace.atlassian.com](https://marketplace.atlassian.com), select your Cloud site, and the app installs automatically.
 
 ## Browser
 
@@ -87,14 +87,13 @@ For meaningful audits, you must have visibility of **project fields** (system an
           content: `
 ## Installation Steps
 
-1. Log in to your Jira Cloud site as a **site administrator**
-2. Click the **gear icon** (Settings) in the top-right corner → select **Apps**
-3. Click **Find new apps** in the left sidebar
-4. Search for **"Backlog Auditor & Export"**
-5. Click the app in the search results
-6. Click **Try it free** or **Buy now**
-7. Review and accept the requested permissions
-8. Click **Accept** - the app installs immediately, no restart required
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Backlog Auditor & Export"**
+2. On the app listing, confirm **Hosting → Cloud** is supported
+3. Click **Try it free** or **Buy now**
+4. Select your **Atlassian Cloud site** when prompted
+5. Choose **Jira** as the product
+6. Review the permissions the app requires and click **Accept** to proceed
+7. The app installs automatically - no restart required
 
 ## Verify Installation
 
