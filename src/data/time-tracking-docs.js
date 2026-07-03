@@ -131,7 +131,7 @@ Before installing, confirm:
 
 ## Installation Steps
 
-1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Time Tracking Resource Planning Clovity"**
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["Time Tracking Resource Planning Clovity"](https://marketplace.atlassian.com/apps/877949909/time-tracking-resource-planning-project-management)**
 2. On the app listing, confirm **Hosting → Cloud** is supported
 3. Click **Try it free** (30-day trial) or **Buy now**
 4. Select your **Atlassian Cloud site** when prompted

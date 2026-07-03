@@ -87,7 +87,7 @@ For meaningful audits, you must have visibility of **project fields** (system an
           content: `
 ## Installation Steps
 
-1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Backlog Auditor & Export"**
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["Backlog Auditor & Export"](https://marketplace.atlassian.com/apps/2421185342/backlog-auditor-export)**
 2. On the app listing, confirm **Hosting → Cloud** is supported
 3. Click **Try it free** or **Buy now**
 4. Select your **Atlassian Cloud site** when prompted

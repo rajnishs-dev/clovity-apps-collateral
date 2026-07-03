@@ -117,7 +117,7 @@ Before installing, confirm:
 
 ## Installation Steps
 
-1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Dashboard Templates Charts Graphs Reports Clovity"**
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["Dashboard Templates Charts Graphs Reports Clovity"](https://marketplace.atlassian.com/apps/359777765/dashboard-templates-charts-graphs-reports-for-jira)**
 2. On the app listing, confirm **Hosting → Cloud** is supported
 3. Click **Try it free** (30-day trial) or **Buy now**
 4. Select your **Atlassian Cloud site** when prompted

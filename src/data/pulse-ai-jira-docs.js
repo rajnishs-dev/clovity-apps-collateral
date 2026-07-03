@@ -55,7 +55,7 @@ Only a Jira site administrator can install Pulse AI.
 
 ## Installation Steps
 
-1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"Pulse AI for Jira"**
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["Pulse AI for Jira"](https://marketplace.atlassian.com/apps/3640865514/pulse-ai-the-ai-that-finds-problems-agents-that-fix-them)**
 2. On the app listing, confirm **Hosting → Cloud** is supported
 3. Click **Try it free** or **Buy now**
 4. Select your **Atlassian Cloud site** when prompted

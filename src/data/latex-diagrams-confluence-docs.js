@@ -136,7 +136,7 @@ Before installing, confirm:
 
 | **Step** | Action |
 |---|---|
-| **1** | Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"UML Diagrams Math LaTeX"** |
+| **1** | Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["UML Diagrams Math LaTeX"](https://marketplace.atlassian.com/apps/138412229/latex-formulas-diagrams-gantt-charts-erds-flowcharts)** |
 | **2** | On the app listing, confirm **Hosting → Cloud** is supported |
 | **3** | Click **Try it free** (30-day trial) or **Buy now** |
 | **4** | Select your **Atlassian Cloud site** when prompted and choose **Confluence** |

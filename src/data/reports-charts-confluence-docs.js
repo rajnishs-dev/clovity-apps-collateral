@@ -108,7 +108,7 @@ Before installing, confirm you have:
 ### Step 1 - Find the App on the Marketplace
 
 1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** in your browser.
-2. Search for **Reports, Charts, Templates, CQL & Export for Confluence**.
+2. Search for **[Reports, Charts, Templates, CQL & Export for Confluence](https://marketplace.atlassian.com/apps/4125307933/reports-charts-templates-cql-export-for-confluence)**.
 3. On the app listing, confirm **Hosting → Cloud** is supported.
 4. Click **Try it free** or **Buy now**.
 

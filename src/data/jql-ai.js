@@ -60,7 +60,7 @@ Before installing, confirm:
 
 ## Installation Steps
 
-1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **"JQL AI"**
+1. Go to **[marketplace.atlassian.com](https://marketplace.atlassian.com)** and search for **["JQL AI"](https://marketplace.atlassian.com/apps/1237395/jql-ai)**
 2. On the app listing, confirm **Hosting → Cloud** is supported
 3. Click **Try it free** or **Buy now**
 4. Select your **Atlassian Cloud site** when prompted
