@@ -4081,7 +4081,7 @@ If you plan to uninstall and reinstall the app:
           slug: "competitor-comparison",
           title: "Competitor Comparison",
           content: `
-<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Competitor_Doc_479c80e80b.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
+<iframe src="https://clovity-website.s3.ap-south-1.amazonaws.com/Dashboard_Competitor_Doc_1_b566b0654b.pdf" width="100%" height="900" style="border:1px solid #e2e8f0;border-radius:10px;display:block;" title="PDF"></iframe>
 `,
         },
       ],
