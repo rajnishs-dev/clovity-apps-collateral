@@ -13,7 +13,7 @@
           title:
             "What is Dashboard Templates, Charts, Graphs & Reports for Jira?",
           sideVideo: {
-            src: "https://www.youtube.com/embed/cD2Kdxp59qA",
+            src: "https://www.youtube.com/embed/nQyLKWUAf6c",
             title:
               "Dashboard Templates, Charts, Graphs & Reports for Jira - Product Overview",
           },
